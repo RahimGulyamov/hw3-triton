@@ -1,0 +1,11 @@
+name: "mobilenet"
+backend: "python"
+max_batch_size: 8
+input [
+  { name: "IMAGE" data_type: TYPE_FP32 dims: [3, 224, 224] }
+]
+output [
+  { name: "LOGITS" data_type: TYPE_FP32 dims: [1000] }
+]
+instance_group [ { count: 1 kind: KIND_CPU } ]
+# Baseline: no dynamic batching. Model Analyzer adds and tunes it.

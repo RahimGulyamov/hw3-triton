@@ -1,0 +1,47 @@
+services:
+  triton:
+    image: hw3-triton:23.12
+    platform: linux/amd64
+    build:
+      context: .
+      target: runtime
+    shm_size: 1gb
+    ports:
+      - "8000:8000"
+      - "8001:8001"
+      - "8002:8002"
+  client:
+    image: hw3-triton:23.12
+    platform: linux/amd64
+    profiles: [tools]
+    entrypoint: [python3]
+    volumes:
+      - ./results:/results
+      - ./examples:/examples:ro
+    depends_on:
+      triton:
+        condition: service_healthy
+  perf:
+    image: nvcr.io/nvidia/tritonserver:23.12-py3-sdk
+    platform: linux/amd64
+    profiles: [tools]
+    working_dir: /workspace
+    entrypoint: [bash, /workspace/scripts/perf_analyzer.sh]
+    environment:
+      TRITON_URL: triton:8000
+    volumes:
+      - ./scripts:/workspace/scripts:ro
+      - ./results:/results
+    depends_on:
+      triton:
+        condition: service_healthy
+  analyzer:
+    image: hw3-analyzer:23.12
+    platform: linux/amd64
+    profiles: [tools]
+    build:
+      context: .
+      target: analyzer
+    shm_size: 1gb
+    volumes:
+      - ./results:/results

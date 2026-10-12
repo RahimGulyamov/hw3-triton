@@ -1,0 +1,16 @@
+.idea/
+.venv/
+__pycache__/
+*.pyc
+.DS_Store
+results/**/checkpoints/
+results/**/model_repository/
+model_repository/**/*.pt
+# Local environment diagnostics are separate from the homework measurements.
+results/vm_preflight.txt
+results/registry_check.txt
+results/registry_diagnostics.txt
+results/vm_run_*/preparation.log
+results/vm_run_*/remote_directory.txt
+results/source.zip
+profiling-results.tar.gz

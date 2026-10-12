@@ -1,0 +1,11 @@
+--extra-index-url https://download.pytorch.org/whl/cpu
+numpy==1.26.4
+torch==2.1.2+cpu
+torchvision==0.16.2+cpu
+Pillow==10.4.0
+tritonclient[http,grpc]==2.41.0
+grpcio==1.60.0
+protobuf==3.20.3
+gevent==23.9.1
+greenlet==3.0.3
+python-rapidjson==1.14
