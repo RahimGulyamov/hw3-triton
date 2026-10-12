@@ -1,6 +1,8 @@
 #!/usr/bin/env bash
 set -euo pipefail
 mkdir -p /results/model_analyzer
+python3 /workspace/scripts/validate_analyzer_config.py \
+  2>&1 | tee /results/model_analyzer/validation.log
 python3 -m pip freeze > /results/model_analyzer/environment.txt
 uname -a > /results/model_analyzer/system.txt
 if command -v lscpu >/dev/null; then

@@ -54,6 +54,7 @@ jobs:
         run: bash scripts/run_all.sh 2>&1 | tee results/run.log
 
       - name: Render Performance Analyzer table
+        if: ${{ always() && hashFiles('results/perf_analyzer/baseline/*.log') != '' }}
         shell: bash
         run: |
           python3 scripts/perf_report.py results/perf_analyzer/baseline > results/performance.md

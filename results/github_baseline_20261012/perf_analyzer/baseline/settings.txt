@@ -1,0 +1,4 @@
+measurement_interval_ms=15000
+stability_percentage=10
+max_trials=20
+stability_latency=average

@@ -1,0 +1,2391 @@
+#1 [internal] load local bake definitions
+#1 reading from stdin 462B done
+#1 DONE 0.0s
+
+#2 [internal] load build definition from Dockerfile
+#2 transferring dockerfile: 30B
+#2 transferring dockerfile: 1.54kB done
+#2 DONE 0.0s
+
+#3 [internal] load metadata for nvcr.io/nvidia/tritonserver:23.12-py3
+#3 DONE 0.3s
+
+#4 [internal] load .dockerignore
+#4 transferring context: 92B done
+#4 DONE 0.0s
+
+#5 [internal] load build context
+#5 transferring context: 31.96kB done
+#5 DONE 0.0s
+
+#6 [server 1/9] FROM nvcr.io/nvidia/tritonserver:23.12-py3@sha256:363924e9f3b39154bf2075586145b5d15b20f6d695bd7e8de4448c3299064af0
+#6 resolve nvcr.io/nvidia/tritonserver:23.12-py3@sha256:363924e9f3b39154bf2075586145b5d15b20f6d695bd7e8de4448c3299064af0 done
+#6 sha256:5e8117c0bd28aecad06f7e76d4d3b64734d59c1a0a44541d18060cd8fba30c50 5.24MB / 29.55MB 0.1s
+#6 sha256:093eb0f6e20b6dd56381988fcd18b10b23c6c5aafa2378aa7fc2ec0ad7d4298a 31.79kB / 31.79kB done
+#6 sha256:4556d080d0f277a115414e4e2bd8989f3af0b1140f06a330ead6cebc0945b26c 5.58kB / 5.58kB done
+#6 sha256:4f4fb700ef54461cfa02571ae0db9a0dc1e0cdb5577484a6d75e68dc38e8acc1 32B / 32B 0.1s done
+#6 sha256:363924e9f3b39154bf2075586145b5d15b20f6d695bd7e8de4448c3299064af0 743B / 743B done
+#6 sha256:8847e45c417e982fe294a928fde99ace98327fea8338bf9b5a212090217fc655 1.05MB / 155.15MB 0.1s
+#6 sha256:9075b8c4201a4d6dea7bbcbd610225804a66f25d51aaddb1a43e61dc105ff23d 18.87MB / 132.34MB 0.1s
+#6 sha256:5e8117c0bd28aecad06f7e76d4d3b64734d59c1a0a44541d18060cd8fba30c50 12.58MB / 29.55MB 0.2s
+#6 sha256:5e8117c0bd28aecad06f7e76d4d3b64734d59c1a0a44541d18060cd8fba30c50 29.55MB / 29.55MB 0.3s done
+#6 sha256:8847e45c417e982fe294a928fde99ace98327fea8338bf9b5a212090217fc655 18.87MB / 155.15MB 0.3s
+#6 sha256:9075b8c4201a4d6dea7bbcbd610225804a66f25d51aaddb1a43e61dc105ff23d 104.86MB / 132.34MB 0.3s
+#6 sha256:8a98aa4df5f4649df9ebb59b40df8761bc988448a81a3deafd0c42f915f4f521 0B / 15.09kB 0.3s
+#6 sha256:8847e45c417e982fe294a928fde99ace98327fea8338bf9b5a212090217fc655 49.22MB / 155.15MB 0.4s
+#6 sha256:9075b8c4201a4d6dea7bbcbd610225804a66f25d51aaddb1a43e61dc105ff23d 132.34MB / 132.34MB 0.4s
+#6 sha256:8a98aa4df5f4649df9ebb59b40df8761bc988448a81a3deafd0c42f915f4f521 15.09kB / 15.09kB 0.3s done
+#6 extracting sha256:5e8117c0bd28aecad06f7e76d4d3b64734d59c1a0a44541d18060cd8fba30c50 0.1s
+#6 sha256:ebf2a8efd95be62a38b543798221c98a1bfcb91988640c031dd00c648c24df92 3.15MB / 2.96GB 0.4s
+#6 sha256:8847e45c417e982fe294a928fde99ace98327fea8338bf9b5a212090217fc655 114.40MB / 155.15MB 0.6s
+#6 sha256:9075b8c4201a4d6dea7bbcbd610225804a66f25d51aaddb1a43e61dc105ff23d 132.34MB / 132.34MB 0.4s done
+#6 sha256:cfc7cea7e0d5d1a44cae87fac92496ff8900e7a17ffbf87727c7fb2125f309c3 11.53kB / 11.53kB 0.4s done
+#6 sha256:eb738c4cfff7cf61cb24b239b9fb0e26de4627e909e20d9d173474f99d50fa7d 179B / 179B 0.4s done
+#6 sha256:51f661f07a8d57d9d766a456052e7777ea5ad8e20e3326073da9a628d38194b6 5.72kB / 5.72kB 0.5s done
+#6 sha256:6f339f292aaf67cc206a94a6ad0479e8e4cd9d2ec3f393ebb4cdb7990606cf58 139.29kB / 139.29kB 0.5s done
+#6 sha256:c3e11100b2de786305a4abe33c6440d3ce485564605c5d163baee835ccca2148 28.54MB / 31.36MB 0.6s
+#6 sha256:8847e45c417e982fe294a928fde99ace98327fea8338bf9b5a212090217fc655 143.93MB / 155.15MB 0.7s
+#6 sha256:c3e11100b2de786305a4abe33c6440d3ce485564605c5d163baee835ccca2148 31.36MB / 31.36MB 0.6s done
+#6 sha256:a1f7f0db8a6e69f6c5865eccde5c6faf2420b04eb0c9a1893fa957d00608f851 13.63MB / 86.90MB 0.7s
+#6 sha256:8847e45c417e982fe294a928fde99ace98327fea8338bf9b5a212090217fc655 155.15MB / 155.15MB 0.8s
+#6 sha256:a1f7f0db8a6e69f6c5865eccde5c6faf2420b04eb0c9a1893fa957d00608f851 48.45MB / 86.90MB 0.8s
+#6 sha256:8847e45c417e982fe294a928fde99ace98327fea8338bf9b5a212090217fc655 155.15MB / 155.15MB 0.8s done
+#6 sha256:a1f7f0db8a6e69f6c5865eccde5c6faf2420b04eb0c9a1893fa957d00608f851 77.78MB / 86.90MB 0.9s
+#6 sha256:bf42b4f115584363bf9852510a05d614b4f34b83681d3ad108d85f0a0f308bd4 503B / 503B 0.9s done
+#6 sha256:38586602088ce1282758fce1a67a5ece5da1e08214675e6a7fb94540918e4007 0B / 476.39MB 0.9s
+#6 sha256:ebf2a8efd95be62a38b543798221c98a1bfcb91988640c031dd00c648c24df92 165.68MB / 2.96GB 1.0s
+#6 sha256:a1f7f0db8a6e69f6c5865eccde5c6faf2420b04eb0c9a1893fa957d00608f851 86.90MB / 86.90MB 1.0s
+#6 sha256:a1f7f0db8a6e69f6c5865eccde5c6faf2420b04eb0c9a1893fa957d00608f851 86.90MB / 86.90MB 1.1s done
+#6 sha256:27c59f8617073448309eb0681bfec8365936a3a5c40cda5ac49fdcd8bc8c0bcf 0B / 1.85kB 1.1s
+#6 sha256:38586602088ce1282758fce1a67a5ece5da1e08214675e6a7fb94540918e4007 41.61MB / 476.39MB 1.2s
+#6 sha256:27c59f8617073448309eb0681bfec8365936a3a5c40cda5ac49fdcd8bc8c0bcf 1.85kB / 1.85kB 1.1s done
+#6 sha256:dca03ad7b026cebbe935c07ed579415f68316958519641c310c950a57c90192c 0B / 133.94MB 1.2s
+#6 sha256:38586602088ce1282758fce1a67a5ece5da1e08214675e6a7fb94540918e4007 73.74MB / 476.39MB 1.3s
+#6 sha256:dca03ad7b026cebbe935c07ed579415f68316958519641c310c950a57c90192c 13.63MB / 133.94MB 1.3s
+#6 sha256:38586602088ce1282758fce1a67a5ece5da1e08214675e6a7fb94540918e4007 103.78MB / 476.39MB 1.4s
+#6 sha256:dca03ad7b026cebbe935c07ed579415f68316958519641c310c950a57c90192c 25.17MB / 133.94MB 1.4s
+#6 sha256:ebf2a8efd95be62a38b543798221c98a1bfcb91988640c031dd00c648c24df92 370.93MB / 2.96GB 1.6s
+#6 sha256:38586602088ce1282758fce1a67a5ece5da1e08214675e6a7fb94540918e4007 171.24MB / 476.39MB 1.6s
+#6 sha256:dca03ad7b026cebbe935c07ed579415f68316958519641c310c950a57c90192c 36.70MB / 133.94MB 1.6s
+#6 sha256:38586602088ce1282758fce1a67a5ece5da1e08214675e6a7fb94540918e4007 208.67MB / 476.39MB 1.7s
+#6 sha256:dca03ad7b026cebbe935c07ed579415f68316958519641c310c950a57c90192c 52.43MB / 133.94MB 1.7s
+#6 sha256:38586602088ce1282758fce1a67a5ece5da1e08214675e6a7fb94540918e4007 240.12MB / 476.39MB 1.8s
+#6 sha256:dca03ad7b026cebbe935c07ed579415f68316958519641c310c950a57c90192c 61.87MB / 133.94MB 1.8s
+#6 sha256:38586602088ce1282758fce1a67a5ece5da1e08214675e6a7fb94540918e4007 274.73MB / 476.39MB 1.9s
+#6 sha256:ebf2a8efd95be62a38b543798221c98a1bfcb91988640c031dd00c648c24df92 535.82MB / 2.96GB 2.1s
+#6 sha256:38586602088ce1282758fce1a67a5ece5da1e08214675e6a7fb94540918e4007 339.74MB / 476.39MB 2.1s
+#6 sha256:dca03ad7b026cebbe935c07ed579415f68316958519641c310c950a57c90192c 92.27MB / 133.94MB 2.1s
+#6 sha256:38586602088ce1282758fce1a67a5ece5da1e08214675e6a7fb94540918e4007 375.39MB / 476.39MB 2.2s
+#6 sha256:dca03ad7b026cebbe935c07ed579415f68316958519641c310c950a57c90192c 100.66MB / 133.94MB 2.2s
+#6 sha256:38586602088ce1282758fce1a67a5ece5da1e08214675e6a7fb94540918e4007 407.90MB / 476.39MB 2.3s
+#6 sha256:dca03ad7b026cebbe935c07ed579415f68316958519641c310c950a57c90192c 115.34MB / 133.94MB 2.3s
+#6 extracting sha256:5e8117c0bd28aecad06f7e76d4d3b64734d59c1a0a44541d18060cd8fba30c50 2.0s done
+#6 sha256:38586602088ce1282758fce1a67a5ece5da1e08214675e6a7fb94540918e4007 476.39MB / 476.39MB 2.5s
+#6 sha256:dca03ad7b026cebbe935c07ed579415f68316958519641c310c950a57c90192c 133.94MB / 133.94MB 2.5s
+#6 sha256:ebf2a8efd95be62a38b543798221c98a1bfcb91988640c031dd00c648c24df92 685.57MB / 2.96GB 2.8s
+#6 sha256:dca03ad7b026cebbe935c07ed579415f68316958519641c310c950a57c90192c 133.94MB / 133.94MB 2.8s done
+#6 sha256:b67dd33a127f9eba0c97d4be0aea5e99173246bab110fd43163d994feda1b2e4 0B / 24.33MB 3.0s
+#6 sha256:b67dd33a127f9eba0c97d4be0aea5e99173246bab110fd43163d994feda1b2e4 4.19MB / 24.33MB 3.2s
+#6 sha256:b67dd33a127f9eba0c97d4be0aea5e99173246bab110fd43163d994feda1b2e4 17.83MB / 24.33MB 3.3s
+#6 extracting sha256:9075b8c4201a4d6dea7bbcbd610225804a66f25d51aaddb1a43e61dc105ff23d
+#6 sha256:b67dd33a127f9eba0c97d4be0aea5e99173246bab110fd43163d994feda1b2e4 24.33MB / 24.33MB 3.4s
+#6 sha256:ebf2a8efd95be62a38b543798221c98a1bfcb91988640c031dd00c648c24df92 846.20MB / 2.96GB 3.5s
+#6 sha256:38586602088ce1282758fce1a67a5ece5da1e08214675e6a7fb94540918e4007 476.39MB / 476.39MB 3.7s done
+#6 sha256:b67dd33a127f9eba0c97d4be0aea5e99173246bab110fd43163d994feda1b2e4 24.33MB / 24.33MB 3.7s done
+#6 sha256:40b5ce26da1be9865ba58dfc1b3344488c8f36597ba0c72174f3f0b9abc0b19e 8.39MB / 958.88MB 3.9s
+#6 sha256:b8ca7c6add4fe814fec38857b65537f119ecda8e31dadc186eb22529eef3cf7d 13.78kB / 13.78kB 3.8s done
+#6 sha256:3c7cde7ec041a755b331e04651549e3a30837440037527a9b383c1171bee43a3 0B / 59.66MB 3.9s
+#6 sha256:ebf2a8efd95be62a38b543798221c98a1bfcb91988640c031dd00c648c24df92 1.01GB / 2.96GB 4.0s
+#6 sha256:3c7cde7ec041a755b331e04651549e3a30837440037527a9b383c1171bee43a3 6.29MB / 59.66MB 4.0s
+#6 sha256:3c7cde7ec041a755b331e04651549e3a30837440037527a9b383c1171bee43a3 13.63MB / 59.66MB 4.1s
+#6 sha256:3c7cde7ec041a755b331e04651549e3a30837440037527a9b383c1171bee43a3 33.55MB / 59.66MB 4.2s
+#6 sha256:40b5ce26da1be9865ba58dfc1b3344488c8f36597ba0c72174f3f0b9abc0b19e 58.72MB / 958.88MB 4.4s
+#6 sha256:3c7cde7ec041a755b331e04651549e3a30837440037527a9b383c1171bee43a3 55.57MB / 59.66MB 4.4s
+#6 sha256:ebf2a8efd95be62a38b543798221c98a1bfcb91988640c031dd00c648c24df92 1.19GB / 2.96GB 4.5s
+#6 sha256:3c7cde7ec041a755b331e04651549e3a30837440037527a9b383c1171bee43a3 59.66MB / 59.66MB 4.5s done
+#6 sha256:86fdfb99a71f1fc8cb95407d65f10d44f81f6d1db3aeca81833a289261430e16 762B / 762B 4.6s done
+#6 sha256:1a49215b9ef8a54da167b8a4bed67dbbe6a9386a36e2c1e5d166ed60ec9b0c66 121B / 121B 4.5s done
+#6 sha256:1eb60036af632658508c5c0ea15fff0e212409f5721ab0c02b5a65b455b00931 0B / 2.67GB 4.6s
+#6 sha256:40b5ce26da1be9865ba58dfc1b3344488c8f36597ba0c72174f3f0b9abc0b19e 111.15MB / 958.88MB 4.9s
+#6 sha256:ebf2a8efd95be62a38b543798221c98a1bfcb91988640c031dd00c648c24df92 1.37GB / 2.96GB 5.0s
+#6 sha256:40b5ce26da1be9865ba58dfc1b3344488c8f36597ba0c72174f3f0b9abc0b19e 159.38MB / 958.88MB 5.4s
+#6 sha256:ebf2a8efd95be62a38b543798221c98a1bfcb91988640c031dd00c648c24df92 1.54GB / 2.96GB 5.5s
+#6 sha256:40b5ce26da1be9865ba58dfc1b3344488c8f36597ba0c72174f3f0b9abc0b19e 209.22MB / 958.88MB 5.9s
+#6 sha256:ebf2a8efd95be62a38b543798221c98a1bfcb91988640c031dd00c648c24df92 1.73GB / 2.96GB 6.0s
+#6 sha256:1eb60036af632658508c5c0ea15fff0e212409f5721ab0c02b5a65b455b00931 135.27MB / 2.67GB 6.0s
+#6 sha256:ebf2a8efd95be62a38b543798221c98a1bfcb91988640c031dd00c648c24df92 1.89GB / 2.96GB 6.5s
+#6 sha256:40b5ce26da1be9865ba58dfc1b3344488c8f36597ba0c72174f3f0b9abc0b19e 268.44MB / 958.88MB 6.5s
+#6 sha256:ebf2a8efd95be62a38b543798221c98a1bfcb91988640c031dd00c648c24df92 2.06GB / 2.96GB 7.0s
+#6 sha256:40b5ce26da1be9865ba58dfc1b3344488c8f36597ba0c72174f3f0b9abc0b19e 321.91MB / 958.88MB 7.0s
+#6 sha256:ebf2a8efd95be62a38b543798221c98a1bfcb91988640c031dd00c648c24df92 2.24GB / 2.96GB 7.5s
+#6 sha256:1eb60036af632658508c5c0ea15fff0e212409f5721ab0c02b5a65b455b00931 290.46MB / 2.67GB 7.5s
+#6 sha256:40b5ce26da1be9865ba58dfc1b3344488c8f36597ba0c72174f3f0b9abc0b19e 380.63MB / 958.88MB 7.6s
+#6 sha256:ebf2a8efd95be62a38b543798221c98a1bfcb91988640c031dd00c648c24df92 2.46GB / 2.96GB 8.1s
+#6 sha256:40b5ce26da1be9865ba58dfc1b3344488c8f36597ba0c72174f3f0b9abc0b19e 436.21MB / 958.88MB 8.2s
+#6 extracting sha256:9075b8c4201a4d6dea7bbcbd610225804a66f25d51aaddb1a43e61dc105ff23d 4.9s done
+#6 sha256:ebf2a8efd95be62a38b543798221c98a1bfcb91988640c031dd00c648c24df92 2.61GB / 2.96GB 8.5s
+#6 sha256:40b5ce26da1be9865ba58dfc1b3344488c8f36597ba0c72174f3f0b9abc0b19e 499.94MB / 958.88MB 8.8s
+#6 sha256:ebf2a8efd95be62a38b543798221c98a1bfcb91988640c031dd00c648c24df92 2.76GB / 2.96GB 8.9s
+#6 sha256:1eb60036af632658508c5c0ea15fff0e212409f5721ab0c02b5a65b455b00931 429.93MB / 2.67GB 8.9s
+#6 sha256:40b5ce26da1be9865ba58dfc1b3344488c8f36597ba0c72174f3f0b9abc0b19e 551.55MB / 958.88MB 9.3s
+#6 sha256:ebf2a8efd95be62a38b543798221c98a1bfcb91988640c031dd00c648c24df92 2.92GB / 2.96GB 9.4s
+#6 sha256:40b5ce26da1be9865ba58dfc1b3344488c8f36597ba0c72174f3f0b9abc0b19e 599.79MB / 958.88MB 9.8s
+#6 sha256:40b5ce26da1be9865ba58dfc1b3344488c8f36597ba0c72174f3f0b9abc0b19e 651.17MB / 958.88MB 10.3s
+#6 sha256:1eb60036af632658508c5c0ea15fff0e212409f5721ab0c02b5a65b455b00931 570.43MB / 2.67GB 10.3s
+#6 sha256:40b5ce26da1be9865ba58dfc1b3344488c8f36597ba0c72174f3f0b9abc0b19e 716.18MB / 958.88MB 11.0s
+#6 sha256:40b5ce26da1be9865ba58dfc1b3344488c8f36597ba0c72174f3f0b9abc0b19e 771.75MB / 958.88MB 11.5s
+#6 sha256:1eb60036af632658508c5c0ea15fff0e212409f5721ab0c02b5a65b455b00931 719.32MB / 2.67GB 11.8s
+#6 sha256:40b5ce26da1be9865ba58dfc1b3344488c8f36597ba0c72174f3f0b9abc0b19e 830.47MB / 958.88MB 12.1s
+#6 sha256:40b5ce26da1be9865ba58dfc1b3344488c8f36597ba0c72174f3f0b9abc0b19e 880.80MB / 958.88MB 12.6s
+#6 sha256:40b5ce26da1be9865ba58dfc1b3344488c8f36597ba0c72174f3f0b9abc0b19e 929.04MB / 958.88MB 13.1s
+#6 sha256:1eb60036af632658508c5c0ea15fff0e212409f5721ab0c02b5a65b455b00931 870.32MB / 2.67GB 13.3s
+#6 sha256:ebf2a8efd95be62a38b543798221c98a1bfcb91988640c031dd00c648c24df92 2.96GB / 2.96GB 14.6s
+#6 sha256:1eb60036af632658508c5c0ea15fff0e212409f5721ab0c02b5a65b455b00931 1.02GB / 2.67GB 14.8s
+#6 sha256:1eb60036af632658508c5c0ea15fff0e212409f5721ab0c02b5a65b455b00931 1.16GB / 2.67GB 16.2s
+#6 sha256:ebf2a8efd95be62a38b543798221c98a1bfcb91988640c031dd00c648c24df92 2.96GB / 2.96GB 16.3s done
+#6 sha256:40b5ce26da1be9865ba58dfc1b3344488c8f36597ba0c72174f3f0b9abc0b19e 958.88MB / 958.88MB 16.3s done
+#6 sha256:0d0b11a563c6de6f060178b7f7ef76f2ce0df6c0e842f333e768cc8484e80b0f 0B / 2.80MB 16.4s
+#6 sha256:32abe07a4887c88d530ce7e9d9eee6447fc6e722bb613ed6c11f6c4eea5baddf 0B / 2.85kB 16.4s
+#6 sha256:32abe07a4887c88d530ce7e9d9eee6447fc6e722bb613ed6c11f6c4eea5baddf 2.85kB / 2.85kB 16.5s
+#6 sha256:0d0b11a563c6de6f060178b7f7ef76f2ce0df6c0e842f333e768cc8484e80b0f 2.80MB / 2.80MB 16.7s
+#6 sha256:32abe07a4887c88d530ce7e9d9eee6447fc6e722bb613ed6c11f6c4eea5baddf 2.85kB / 2.85kB 16.5s done
+#6 sha256:1eb60036af632658508c5c0ea15fff0e212409f5721ab0c02b5a65b455b00931 1.30GB / 2.67GB 17.6s
+#6 sha256:0d0b11a563c6de6f060178b7f7ef76f2ce0df6c0e842f333e768cc8484e80b0f 2.80MB / 2.80MB 17.1s done
+#6 extracting sha256:4f4fb700ef54461cfa02571ae0db9a0dc1e0cdb5577484a6d75e68dc38e8acc1 done
+#6 extracting sha256:8847e45c417e982fe294a928fde99ace98327fea8338bf9b5a212090217fc655 0.1s
+#6 sha256:1eb60036af632658508c5c0ea15fff0e212409f5721ab0c02b5a65b455b00931 1.44GB / 2.67GB 19.0s
+#6 sha256:1eb60036af632658508c5c0ea15fff0e212409f5721ab0c02b5a65b455b00931 1.58GB / 2.67GB 20.4s
+#6 extracting sha256:8847e45c417e982fe294a928fde99ace98327fea8338bf9b5a212090217fc655 2.6s done
+#6 sha256:1eb60036af632658508c5c0ea15fff0e212409f5721ab0c02b5a65b455b00931 1.72GB / 2.67GB 21.8s
+#6 extracting sha256:8a98aa4df5f4649df9ebb59b40df8761bc988448a81a3deafd0c42f915f4f521 done
+#6 extracting sha256:ebf2a8efd95be62a38b543798221c98a1bfcb91988640c031dd00c648c24df92
+#6 sha256:1eb60036af632658508c5c0ea15fff0e212409f5721ab0c02b5a65b455b00931 1.86GB / 2.67GB 23.2s
+#6 sha256:1eb60036af632658508c5c0ea15fff0e212409f5721ab0c02b5a65b455b00931 2.00GB / 2.67GB 24.6s
+#6 sha256:1eb60036af632658508c5c0ea15fff0e212409f5721ab0c02b5a65b455b00931 2.14GB / 2.67GB 26.0s
+#6 sha256:1eb60036af632658508c5c0ea15fff0e212409f5721ab0c02b5a65b455b00931 2.28GB / 2.67GB 27.4s
+#6 extracting sha256:ebf2a8efd95be62a38b543798221c98a1bfcb91988640c031dd00c648c24df92 5.0s
+#6 sha256:1eb60036af632658508c5c0ea15fff0e212409f5721ab0c02b5a65b455b00931 2.41GB / 2.67GB 28.7s
+#6 sha256:1eb60036af632658508c5c0ea15fff0e212409f5721ab0c02b5a65b455b00931 2.55GB / 2.67GB 30.2s
+#6 sha256:1eb60036af632658508c5c0ea15fff0e212409f5721ab0c02b5a65b455b00931 2.67GB / 2.67GB 32.6s done
+#6 extracting sha256:ebf2a8efd95be62a38b543798221c98a1bfcb91988640c031dd00c648c24df92 10.1s
+#6 extracting sha256:ebf2a8efd95be62a38b543798221c98a1bfcb91988640c031dd00c648c24df92 15.1s
+#6 extracting sha256:ebf2a8efd95be62a38b543798221c98a1bfcb91988640c031dd00c648c24df92 20.1s
+#6 extracting sha256:ebf2a8efd95be62a38b543798221c98a1bfcb91988640c031dd00c648c24df92 25.1s
+#6 extracting sha256:ebf2a8efd95be62a38b543798221c98a1bfcb91988640c031dd00c648c24df92 27.0s done
+#6 extracting sha256:cfc7cea7e0d5d1a44cae87fac92496ff8900e7a17ffbf87727c7fb2125f309c3
+#6 extracting sha256:cfc7cea7e0d5d1a44cae87fac92496ff8900e7a17ffbf87727c7fb2125f309c3 done
+#6 extracting sha256:eb738c4cfff7cf61cb24b239b9fb0e26de4627e909e20d9d173474f99d50fa7d done
+#6 extracting sha256:51f661f07a8d57d9d766a456052e7777ea5ad8e20e3326073da9a628d38194b6 done
+#6 extracting sha256:6f339f292aaf67cc206a94a6ad0479e8e4cd9d2ec3f393ebb4cdb7990606cf58 done
+#6 extracting sha256:c3e11100b2de786305a4abe33c6440d3ce485564605c5d163baee835ccca2148 0.1s
+#6 extracting sha256:c3e11100b2de786305a4abe33c6440d3ce485564605c5d163baee835ccca2148 1.1s done
+#6 extracting sha256:a1f7f0db8a6e69f6c5865eccde5c6faf2420b04eb0c9a1893fa957d00608f851
+#6 extracting sha256:a1f7f0db8a6e69f6c5865eccde5c6faf2420b04eb0c9a1893fa957d00608f851 1.5s done
+#6 extracting sha256:bf42b4f115584363bf9852510a05d614b4f34b83681d3ad108d85f0a0f308bd4
+#6 extracting sha256:bf42b4f115584363bf9852510a05d614b4f34b83681d3ad108d85f0a0f308bd4 done
+#6 extracting sha256:38586602088ce1282758fce1a67a5ece5da1e08214675e6a7fb94540918e4007 0.1s
+#6 extracting sha256:38586602088ce1282758fce1a67a5ece5da1e08214675e6a7fb94540918e4007 4.2s done
+#6 extracting sha256:27c59f8617073448309eb0681bfec8365936a3a5c40cda5ac49fdcd8bc8c0bcf
+#6 extracting sha256:27c59f8617073448309eb0681bfec8365936a3a5c40cda5ac49fdcd8bc8c0bcf done
+#6 extracting sha256:dca03ad7b026cebbe935c07ed579415f68316958519641c310c950a57c90192c
+#6 extracting sha256:dca03ad7b026cebbe935c07ed579415f68316958519641c310c950a57c90192c 2.9s done
+#6 extracting sha256:b67dd33a127f9eba0c97d4be0aea5e99173246bab110fd43163d994feda1b2e4
+#6 extracting sha256:b67dd33a127f9eba0c97d4be0aea5e99173246bab110fd43163d994feda1b2e4 4.5s done
+#6 extracting sha256:40b5ce26da1be9865ba58dfc1b3344488c8f36597ba0c72174f3f0b9abc0b19e
+#6 extracting sha256:40b5ce26da1be9865ba58dfc1b3344488c8f36597ba0c72174f3f0b9abc0b19e 5.1s
+#6 extracting sha256:40b5ce26da1be9865ba58dfc1b3344488c8f36597ba0c72174f3f0b9abc0b19e 8.8s done
+#6 extracting sha256:b8ca7c6add4fe814fec38857b65537f119ecda8e31dadc186eb22529eef3cf7d
+#6 extracting sha256:b8ca7c6add4fe814fec38857b65537f119ecda8e31dadc186eb22529eef3cf7d done
+#6 extracting sha256:3c7cde7ec041a755b331e04651549e3a30837440037527a9b383c1171bee43a3 0.1s
+#6 extracting sha256:3c7cde7ec041a755b331e04651549e3a30837440037527a9b383c1171bee43a3 1.8s done
+#6 extracting sha256:1a49215b9ef8a54da167b8a4bed67dbbe6a9386a36e2c1e5d166ed60ec9b0c66
+#6 extracting sha256:1a49215b9ef8a54da167b8a4bed67dbbe6a9386a36e2c1e5d166ed60ec9b0c66 done
+#6 extracting sha256:86fdfb99a71f1fc8cb95407d65f10d44f81f6d1db3aeca81833a289261430e16 done
+#6 extracting sha256:1eb60036af632658508c5c0ea15fff0e212409f5721ab0c02b5a65b455b00931 0.1s
+#6 extracting sha256:1eb60036af632658508c5c0ea15fff0e212409f5721ab0c02b5a65b455b00931 5.8s
+#6 extracting sha256:1eb60036af632658508c5c0ea15fff0e212409f5721ab0c02b5a65b455b00931 10.9s
+#6 extracting sha256:1eb60036af632658508c5c0ea15fff0e212409f5721ab0c02b5a65b455b00931 16.0s
+#6 extracting sha256:1eb60036af632658508c5c0ea15fff0e212409f5721ab0c02b5a65b455b00931 21.0s
+#6 extracting sha256:1eb60036af632658508c5c0ea15fff0e212409f5721ab0c02b5a65b455b00931 26.1s
+#6 extracting sha256:1eb60036af632658508c5c0ea15fff0e212409f5721ab0c02b5a65b455b00931 29.0s done
+#6 extracting sha256:0d0b11a563c6de6f060178b7f7ef76f2ce0df6c0e842f333e768cc8484e80b0f
+#6 extracting sha256:0d0b11a563c6de6f060178b7f7ef76f2ce0df6c0e842f333e768cc8484e80b0f 0.0s done
+#6 extracting sha256:32abe07a4887c88d530ce7e9d9eee6447fc6e722bb613ed6c11f6c4eea5baddf done
+#6 DONE 117.9s
+
+#7 [server 2/9] WORKDIR /workspace
+#7 DONE 0.0s
+
+#8 [server 3/9] COPY requirements.txt /workspace/requirements.txt
+#8 DONE 0.0s
+
+#9 [server 4/9] RUN python3 -m pip install --no-cache-dir -r requirements.txt
+#9 0.653 Looking in indexes: https://pypi.org/simple, https://download.pytorch.org/whl/cpu
+#9 1.470 Collecting numpy==1.26.4 (from -r requirements.txt (line 2))
+#9 1.517   Downloading numpy-1.26.4-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata (61 kB)
+#9 1.537      ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 61.0/61.0 kB 3.2 MB/s eta 0:00:00
+#9 1.716 Collecting torch==2.1.2+cpu (from -r requirements.txt (line 3))
+#9 1.849   Downloading https://download-r2.pytorch.org/whl/cpu/torch-2.1.2%2Bcpu-cp310-cp310-linux_x86_64.whl (184.9 MB)
+#9 4.068      ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 184.9/184.9 MB 50.6 MB/s eta 0:00:00
+#9 4.471 Collecting torchvision==0.16.2+cpu (from -r requirements.txt (line 4))
+#9 4.537   Downloading https://download-r2.pytorch.org/whl/cpu/torchvision-0.16.2%2Bcpu-cp310-cp310-linux_x86_64.whl (1.5 MB)
+#9 4.544      ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 1.5/1.5 MB 302.0 MB/s eta 0:00:00
+#9 5.111 Collecting Pillow==10.4.0 (from -r requirements.txt (line 5))
+#9 5.116   Downloading pillow-10.4.0-cp310-cp310-manylinux_2_28_x86_64.whl.metadata (9.2 kB)
+#9 5.338 Collecting tritonclient==2.41.0 (from tritonclient[grpc,http]==2.41.0->-r requirements.txt (line 6))
+#9 5.343   Downloading tritonclient-2.41.0-py3-none-manylinux1_x86_64.whl.metadata (2.7 kB)
+#9 6.299 Collecting grpcio==1.60.0 (from -r requirements.txt (line 7))
+#9 6.303   Downloading grpcio-1.60.0-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata (4.0 kB)
+#9 6.585 Collecting protobuf==3.20.3 (from -r requirements.txt (line 8))
+#9 6.589   Downloading protobuf-3.20.3-cp310-cp310-manylinux_2_12_x86_64.manylinux2010_x86_64.whl.metadata (679 bytes)
+#9 6.887 Collecting gevent==23.9.1 (from -r requirements.txt (line 9))
+#9 6.892   Downloading gevent-23.9.1-cp310-cp310-manylinux_2_28_x86_64.whl.metadata (13 kB)
+#9 7.161 Collecting greenlet==3.0.3 (from -r requirements.txt (line 10))
+#9 7.165   Downloading greenlet-3.0.3-cp310-cp310-manylinux_2_24_x86_64.manylinux_2_28_x86_64.whl.metadata (3.8 kB)
+#9 7.492 Collecting python-rapidjson==1.14 (from -r requirements.txt (line 11))
+#9 7.558   Downloading python_rapidjson-1.14-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata (21 kB)
+#9 7.647 Collecting filelock (from torch==2.1.2+cpu->-r requirements.txt (line 3))
+#9 7.650   Downloading filelock-4.1.0-py3-none-any.whl.metadata (2.0 kB)
+#9 7.694 Collecting typing-extensions (from torch==2.1.2+cpu->-r requirements.txt (line 3))
+#9 7.697   Downloading typing_extensions-4.16.0-py3-none-any.whl.metadata (3.3 kB)
+#9 7.740 Collecting sympy (from torch==2.1.2+cpu->-r requirements.txt (line 3))
+#9 7.743   Downloading sympy-1.14.0-py3-none-any.whl.metadata (12 kB)
+#9 7.805 Collecting networkx (from torch==2.1.2+cpu->-r requirements.txt (line 3))
+#9 7.808   Downloading networkx-3.4.2-py3-none-any.whl.metadata (6.3 kB)
+#9 7.832 Collecting jinja2 (from torch==2.1.2+cpu->-r requirements.txt (line 3))
+#9 7.835   Downloading https://download.pytorch.org/whl/jinja2-3.1.6-py3-none-any.whl.metadata (2.9 kB)
+#9 7.902 Collecting fsspec (from torch==2.1.2+cpu->-r requirements.txt (line 3))
+#9 7.905   Downloading fsspec-2026.9.0-py3-none-any.whl.metadata (10 kB)
+#9 7.950 Collecting requests (from torchvision==0.16.2+cpu->-r requirements.txt (line 4))
+#9 7.954   Downloading requests-2.34.2-py3-none-any.whl.metadata (4.8 kB)
+#9 8.126 Collecting zope.event (from gevent==23.9.1->-r requirements.txt (line 9))
+#9 8.129   Downloading zope_event-6.2-py3-none-any.whl.metadata (5.4 kB)
+#9 8.353 Collecting zope.interface (from gevent==23.9.1->-r requirements.txt (line 9))
+#9 8.358   Downloading zope_interface-8.6-cp310-cp310-manylinux1_x86_64.manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_5_x86_64.whl.metadata (47 kB)
+#9 8.360      ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 47.3/47.3 kB 234.7 MB/s eta 0:00:00
+#9 8.517 Collecting packaging>=14.1 (from tritonclient[grpc,http]==2.41.0->-r requirements.txt (line 6))
+#9 8.520   Downloading packaging-26.3-py3-none-any.whl.metadata (3.5 kB)
+#9 9.248 Collecting aiohttp<4.0.0,>=3.8.1 (from tritonclient[grpc,http]==2.41.0->-r requirements.txt (line 6))
+#9 9.251   Downloading aiohttp-3.14.5-cp310-cp310-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl.metadata (8.3 kB)
+#9 9.622 Collecting geventhttpclient<=2.0.2,>=1.4.4 (from tritonclient[grpc,http]==2.41.0->-r requirements.txt (line 6))
+#9 9.694   Downloading geventhttpclient-2.0.2-cp310-cp310-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata (1.3 kB)
+#9 9.809 Collecting aiohappyeyeballs>=2.5.0 (from aiohttp<4.0.0,>=3.8.1->tritonclient[grpc,http]==2.41.0->-r requirements.txt (line 6))
+#9 9.813   Downloading aiohappyeyeballs-2.7.1-py3-none-any.whl.metadata (5.9 kB)
+#9 9.899 Collecting aiosignal>=1.4.0 (from aiohttp<4.0.0,>=3.8.1->tritonclient[grpc,http]==2.41.0->-r requirements.txt (line 6))
+#9 9.902   Downloading aiosignal-1.4.0-py3-none-any.whl.metadata (3.7 kB)
+#9 9.994 Collecting async-timeout<6.0,>=4.0 (from aiohttp<4.0.0,>=3.8.1->tritonclient[grpc,http]==2.41.0->-r requirements.txt (line 6))
+#9 9.998   Downloading async_timeout-5.0.1-py3-none-any.whl.metadata (5.1 kB)
+#9 10.10 Collecting attrs>=17.3.0 (from aiohttp<4.0.0,>=3.8.1->tritonclient[grpc,http]==2.41.0->-r requirements.txt (line 6))
+#9 10.11   Downloading attrs-26.1.0-py3-none-any.whl.metadata (8.8 kB)
+#9 10.40 Collecting frozenlist>=1.1.1 (from aiohttp<4.0.0,>=3.8.1->tritonclient[grpc,http]==2.41.0->-r requirements.txt (line 6))
+#9 10.40   Downloading frozenlist-1.8.0-cp310-cp310-manylinux1_x86_64.manylinux_2_28_x86_64.manylinux_2_5_x86_64.whl.metadata (20 kB)
+#9 10.81 Collecting multidict<8.0,>=4.5 (from aiohttp<4.0.0,>=3.8.1->tritonclient[grpc,http]==2.41.0->-r requirements.txt (line 6))
+#9 10.81   Downloading multidict-7.1.0-cp310-cp310-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl.metadata (6.2 kB)
+#9 11.10 Collecting propcache>=0.2.0 (from aiohttp<4.0.0,>=3.8.1->tritonclient[grpc,http]==2.41.0->-r requirements.txt (line 6))
+#9 11.10   Downloading propcache-0.5.4-cp310-cp310-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl.metadata (25 kB)
+#9 11.53 Collecting yarl<2.0,>=1.25.1 (from aiohttp<4.0.0,>=3.8.1->tritonclient[grpc,http]==2.41.0->-r requirements.txt (line 6))
+#9 11.54   Downloading yarl-1.25.1-cp310-cp310-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl.metadata (111 kB)
+#9 11.54      ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 111.6/111.6 kB 228.2 MB/s eta 0:00:00
+#9 11.58 Collecting certifi (from geventhttpclient<=2.0.2,>=1.4.4->tritonclient[grpc,http]==2.41.0->-r requirements.txt (line 6))
+#9 11.58   Downloading certifi-2026.7.22-py3-none-any.whl.metadata (2.5 kB)
+#9 11.58 Requirement already satisfied: six in /usr/lib/python3/dist-packages (from geventhttpclient<=2.0.2,>=1.4.4->tritonclient[grpc,http]==2.41.0->-r requirements.txt (line 6)) (1.16.0)
+#9 11.96 Collecting brotli (from geventhttpclient<=2.0.2,>=1.4.4->tritonclient[grpc,http]==2.41.0->-r requirements.txt (line 6))
+#9 11.97   Downloading brotli-1.2.0-cp310-cp310-manylinux2014_x86_64.manylinux_2_17_x86_64.whl.metadata (6.1 kB)
+#9 12.15 Collecting MarkupSafe>=2.0 (from jinja2->torch==2.1.2+cpu->-r requirements.txt (line 3))
+#9 12.15   Downloading markupsafe-3.0.4-cp310-cp310-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl.metadata (2.7 kB)
+#9 12.35 Collecting charset_normalizer<4,>=2 (from requests->torchvision==0.16.2+cpu->-r requirements.txt (line 4))
+#9 12.36   Downloading charset_normalizer-3.5.2-cp310-cp310-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl.metadata (46 kB)
+#9 12.36      ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 46.4/46.4 kB 233.9 MB/s eta 0:00:00
+#9 12.38 Collecting idna<4,>=2.5 (from requests->torchvision==0.16.2+cpu->-r requirements.txt (line 4))
+#9 12.39   Downloading idna-3.20-py3-none-any.whl.metadata (7.2 kB)
+#9 12.44 Collecting urllib3<3,>=1.26 (from requests->torchvision==0.16.2+cpu->-r requirements.txt (line 4))
+#9 12.44   Downloading urllib3-2.8.0-py3-none-any.whl.metadata (7.4 kB)
+#9 12.48 Collecting mpmath<1.4,>=1.1.0 (from sympy->torch==2.1.2+cpu->-r requirements.txt (line 3))
+#9 12.48   Downloading mpmath-1.3.0-py3-none-any.whl.metadata (8.6 kB)
+#9 12.63 Downloading numpy-1.26.4-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (18.2 MB)
+#9 12.73    ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 18.2/18.2 MB 233.8 MB/s eta 0:00:00
+#9 12.74 Downloading pillow-10.4.0-cp310-cp310-manylinux_2_28_x86_64.whl (4.5 MB)
+#9 12.76    ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 4.5/4.5 MB 256.3 MB/s eta 0:00:00
+#9 12.76 Downloading tritonclient-2.41.0-py3-none-manylinux1_x86_64.whl (12.4 MB)
+#9 12.81    ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 12.4/12.4 MB 254.2 MB/s eta 0:00:00
+#9 12.82 Downloading grpcio-1.60.0-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (5.4 MB)
+#9 12.91    ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 5.4/5.4 MB 57.9 MB/s eta 0:00:00
+#9 12.92 Downloading protobuf-3.20.3-cp310-cp310-manylinux_2_12_x86_64.manylinux2010_x86_64.whl (1.1 MB)
+#9 12.93    ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 1.1/1.1 MB 293.5 MB/s eta 0:00:00
+#9 12.93 Downloading gevent-23.9.1-cp310-cp310-manylinux_2_28_x86_64.whl (6.4 MB)
+#9 12.96    ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 6.4/6.4 MB 242.4 MB/s eta 0:00:00
+#9 12.96 Downloading greenlet-3.0.3-cp310-cp310-manylinux_2_24_x86_64.manylinux_2_28_x86_64.whl (616 kB)
+#9 12.97    ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 616.0/616.0 kB 307.0 MB/s eta 0:00:00
+#9 13.06 Downloading python_rapidjson-1.14-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (1.7 MB)
+#9 13.14    ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 1.7/1.7 MB 20.4 MB/s eta 0:00:00
+#9 13.15 Downloading aiohttp-3.14.5-cp310-cp310-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl (1.9 MB)
+#9 13.15    ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 1.9/1.9 MB 286.1 MB/s eta 0:00:00
+#9 13.16 Downloading geventhttpclient-2.0.2-cp310-cp310-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl (100 kB)
+#9 13.16    ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 100.3/100.3 kB 280.5 MB/s eta 0:00:00
+#9 13.16 Downloading packaging-26.3-py3-none-any.whl (129 kB)
+#9 13.17    ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 130.0/130.0 kB 258.7 MB/s eta 0:00:00
+#9 13.17 Downloading typing_extensions-4.16.0-py3-none-any.whl (45 kB)
+#9 13.17    ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 45.6/45.6 kB 219.4 MB/s eta 0:00:00
+#9 13.18 Downloading filelock-4.1.0-py3-none-any.whl (133 kB)
+#9 13.18    ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 133.0/133.0 kB 282.7 MB/s eta 0:00:00
+#9 13.18 Downloading fsspec-2026.9.0-py3-none-any.whl (221 kB)
+#9 13.18    ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 221.7/221.7 kB 289.6 MB/s eta 0:00:00
+#9 13.19 Downloading https://download.pytorch.org/whl/jinja2-3.1.6-py3-none-any.whl (134 kB)
+#9 13.19    ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 134.9/134.9 kB 278.2 MB/s eta 0:00:00
+#9 13.19 Downloading networkx-3.4.2-py3-none-any.whl (1.7 MB)
+#9 13.20    ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 1.7/1.7 MB 283.2 MB/s eta 0:00:00
+#9 13.20 Downloading requests-2.34.2-py3-none-any.whl (73 kB)
+#9 13.21    ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 73.1/73.1 kB 264.9 MB/s eta 0:00:00
+#9 13.21 Downloading sympy-1.14.0-py3-none-any.whl (6.3 MB)
+#9 13.24    ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 6.3/6.3 MB 256.9 MB/s eta 0:00:00
+#9 13.24 Downloading zope_event-6.2-py3-none-any.whl (6.5 kB)
+#9 13.24 Downloading zope_interface-8.6-cp310-cp310-manylinux1_x86_64.manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_5_x86_64.whl (259 kB)
+#9 13.25    ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 259.8/259.8 kB 290.0 MB/s eta 0:00:00
+#9 13.25 Downloading aiohappyeyeballs-2.7.1-py3-none-any.whl (15 kB)
+#9 13.25 Downloading aiosignal-1.4.0-py3-none-any.whl (7.5 kB)
+#9 13.25 Downloading async_timeout-5.0.1-py3-none-any.whl (6.2 kB)
+#9 13.26 Downloading attrs-26.1.0-py3-none-any.whl (67 kB)
+#9 13.26    ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 67.5/67.5 kB 267.2 MB/s eta 0:00:00
+#9 13.26 Downloading certifi-2026.7.22-py3-none-any.whl (136 kB)
+#9 13.26    ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 137.0/137.0 kB 193.6 MB/s eta 0:00:00
+#9 13.27 Downloading charset_normalizer-3.5.2-cp310-cp310-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl (271 kB)
+#9 13.27    ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 271.1/271.1 kB 299.1 MB/s eta 0:00:00
+#9 13.28 Downloading frozenlist-1.8.0-cp310-cp310-manylinux1_x86_64.manylinux_2_28_x86_64.manylinux_2_5_x86_64.whl (219 kB)
+#9 13.28    ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 219.5/219.5 kB 321.5 MB/s eta 0:00:00
+#9 13.28 Downloading idna-3.20-py3-none-any.whl (69 kB)
+#9 13.28    ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 69.6/69.6 kB 277.4 MB/s eta 0:00:00
+#9 13.29 Downloading markupsafe-3.0.4-cp310-cp310-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl (20 kB)
+#9 13.29 Downloading mpmath-1.3.0-py3-none-any.whl (536 kB)
+#9 13.29    ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 536.2/536.2 kB 335.7 MB/s eta 0:00:00
+#9 13.30 Downloading multidict-7.1.0-cp310-cp310-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl (464 kB)
+#9 13.30    ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 464.4/464.4 kB 293.0 MB/s eta 0:00:00
+#9 13.30 Downloading propcache-0.5.4-cp310-cp310-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl (224 kB)
+#9 13.31    ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 224.3/224.3 kB 327.2 MB/s eta 0:00:00
+#9 13.31 Downloading urllib3-2.8.0-py3-none-any.whl (135 kB)
+#9 13.31    ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 135.7/135.7 kB 237.9 MB/s eta 0:00:00
+#9 13.31 Downloading yarl-1.25.1-cp310-cp310-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl (118 kB)
+#9 13.32    ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 118.1/118.1 kB 299.0 MB/s eta 0:00:00
+#9 13.32 Downloading brotli-1.2.0-cp310-cp310-manylinux2014_x86_64.manylinux_2_17_x86_64.whl (1.4 MB)
+#9 13.33    ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 1.4/1.4 MB 282.0 MB/s eta 0:00:00
+#9 13.83 Installing collected packages: mpmath, brotli, zope.interface, zope.event, urllib3, typing-extensions, sympy, python-rapidjson, protobuf, propcache, Pillow, packaging, numpy, networkx, MarkupSafe, idna, grpcio, greenlet, fsspec, frozenlist, filelock, charset_normalizer, certifi, attrs, async-timeout, aiohappyeyeballs, tritonclient, requests, multidict, jinja2, gevent, aiosignal, yarl, torch, geventhttpclient, torchvision, aiohttp
+#9 18.84   Attempting uninstall: numpy
+#9 18.84     Found existing installation: numpy 1.26.2
+#9 18.91     Uninstalling numpy-1.26.2:
+#9 18.93       Successfully uninstalled numpy-1.26.2
+#9 31.03 Successfully installed MarkupSafe-3.0.4 Pillow-10.4.0 aiohappyeyeballs-2.7.1 aiohttp-3.14.5 aiosignal-1.4.0 async-timeout-5.0.1 attrs-26.1.0 brotli-1.2.0 certifi-2026.7.22 charset_normalizer-3.5.2 filelock-4.1.0 frozenlist-1.8.0 fsspec-2026.9.0 gevent-23.9.1 geventhttpclient-2.0.2 greenlet-3.0.3 grpcio-1.60.0 idna-3.20 jinja2-3.1.6 mpmath-1.3.0 multidict-7.1.0 networkx-3.4.2 numpy-1.26.4 packaging-26.3 propcache-0.5.4 protobuf-3.20.3 python-rapidjson-1.14 requests-2.34.2 sympy-1.14.0 torch-2.1.2+cpu torchvision-0.16.2+cpu tritonclient-2.41.0 typing-extensions-4.16.0 urllib3-2.8.0 yarl-1.25.1 zope.event-6.2 zope.interface-8.6
+#9 31.03 WARNING: Running pip as the 'root' user can result in broken permissions and conflicting behaviour with the system package manager. It is recommended to use a virtual environment instead: https://pip.pypa.io/warnings/venv
+#9 31.15 
+#9 31.15 [notice] A new release of pip is available: 23.3.1 -> 26.2.1
+#9 31.15 [notice] To update, run: python3 -m pip install --upgrade pip
+#9 DONE 34.7s
+
+#10 [server 5/9] COPY model_repository /models
+#10 DONE 0.0s
+
+#11 [server 6/9] COPY scripts /workspace/scripts
+#11 DONE 0.0s
+
+#12 [server 7/9] COPY clients /workspace/clients
+#12 DONE 0.0s
+
+#13 [server 8/9] COPY profiling /workspace/profiling
+#13 DONE 0.0s
+
+#14 [server 9/9] RUN python3 scripts/export_model.py
+#14 1.743 Downloading: "https://download.pytorch.org/models/mobilenet_v3_small-047dcff4.pth" to /root/.cache/torch/hub/checkpoints/mobilenet_v3_small-047dcff4.pth
+#14 1.916 0.1%0.2%0.2%0.3%0.4%0.5%0.6%0.6%0.7%0.8%0.9%1.0%1.0%1.1%1.2%1.3%1.4%1.4%1.5%1.6%1.7%1.7%1.8%1.9%2.0%2.1%2.1%2.2%2.3%2.4%2.5%2.5%2.6%2.7%2.8%2.9%2.9%3.0%3.1%3.2%3.3%3.3%3.4%3.5%3.6%3.7%3.7%3.8%3.9%4.0%4.1%4.1%4.2%4.3%4.4%4.5%4.5%4.6%4.7%4.8%4.8%4.9%5.0%5.1%5.2%5.2%5.3%5.4%5.5%5.6%5.6%5.7%5.8%5.9%6.0%6.0%6.1%6.2%6.3%6.4%6.4%6.5%6.6%6.7%6.8%6.8%6.9%7.0%7.1%7.2%7.2%7.3%7.4%7.5%7.6%7.6%7.7%7.8%7.9%7.9%8.0%8.1%8.2%8.3%8.3%8.4%8.5%8.6%8.7%8.7%8.8%8.9%9.0%9.1%9.1%9.2%9.3%9.4%9.5%9.5%9.6%9.7%9.8%9.9%9.9%10.0%10.1%10.2%10.3%10.3%10.4%10.5%10.6%10.7%10.7%10.8%10.9%11.0%11.0%11.1%11.2%11.3%11.4%11.4%11.5%11.6%11.7%11.8%11.8%11.9%12.0%12.1%12.2%12.2%12.3%12.4%12.5%12.6%12.6%12.7%12.8%12.9%13.0%13.0%13.1%13.2%13.3%13.4%13.4%13.5%13.6%13.7%13.8%13.8%13.9%14.0%14.1%14.1%14.2%14.3%14.4%14.5%14.5%14.6%14.7%14.8%14.9%14.9%15.0%15.1%15.2%15.3%15.3%15.4%15.5%15.6%15.7%15.7%15.8%15.9%16.0%16.1%16.1%16.2%16.3%16.4%16.5%16.5%16.6%16.7%16.8%16.9%16.9%17.0%17.1%17.2%17.2%17.3%17.4%17.5%17.6%17.6%17.7%17.8%17.9%18.0%18.0%18.1%18.2%18.3%18.4%18.4%18.5%18.6%18.7%18.8%18.8%18.9%19.0%19.1%19.2%19.2%19.3%19.4%19.5%19.6%19.6%19.7%19.8%19.9%20.0%20.0%20.1%20.2%20.3%20.3%20.4%20.5%20.6%20.7%20.7%20.8%20.9%21.0%21.1%21.1%21.2%21.3%21.4%21.5%21.5%21.6%21.7%21.8%21.9%21.9%22.0%22.1%22.2%22.3%22.3%22.4%22.5%22.6%22.7%22.7%22.8%22.9%23.0%23.1%23.1%23.2%23.3%23.4%23.4%23.5%23.6%23.7%23.8%23.8%23.9%24.0%24.1%24.2%24.2%24.3%24.4%24.5%24.6%24.6%24.7%24.8%24.9%25.0%25.0%25.1%25.2%25.3%25.4%25.4%25.5%25.6%25.7%25.8%25.8%25.9%26.0%26.1%26.2%26.2%26.3%26.4%26.5%26.5%26.6%26.7%26.8%26.9%26.9%27.0%27.1%27.2%27.3%27.3%27.4%27.5%27.6%27.7%27.7%27.8%27.9%28.0%28.1%28.1%28.2%28.3%28.4%28.5%28.5%28.6%28.7%28.8%28.9%28.9%29.0%29.1%29.2%29.2%29.3%29.4%29.5%29.6%29.6%29.7%29.8%29.9%30.0%30.0%30.1%30.2%30.3%30.4%30.4%30.5%30.6%30.7%30.8%30.8%30.9%31.0%31.1%31.2%31.2%31.3%31.4%31.5%31.6%31.6%31.7%31.8%31.9%32.0%32.0%32.1%32.2%32.3%32.3%32.4%32.5%32.6%32.7%32.7%32.8%32.9%33.0%33.1%33.1%33.2%33.3%33.4%33.5%33.5%33.6%33.7%33.8%33.9%33.9%34.0%34.1%34.2%34.3%34.3%34.4%34.5%34.6%34.7%34.7%34.8%34.9%35.0%35.1%35.1%35.2%35.3%35.4%35.4%35.5%35.6%35.7%35.8%35.8%35.9%36.0%36.1%36.2%36.2%36.3%36.4%36.5%36.6%36.6%36.7%36.8%36.9%37.0%37.0%37.1%37.2%37.3%37.4%37.4%37.5%37.6%37.7%37.8%37.8%37.9%38.0%38.1%38.2%38.2%38.3%38.4%38.5%38.5%38.6%38.7%38.8%38.9%38.9%39.0%39.1%39.2%39.3%39.3%39.4%39.5%39.6%39.7%39.7%39.8%39.9%40.0%40.1%40.1%40.2%40.3%40.4%40.5%40.5%40.6%40.7%40.8%40.9%40.9%41.0%41.1%41.2%41.3%41.3%41.4%41.5%41.6%41.6%41.7%41.8%41.9%42.0%42.0%42.1%42.2%42.3%42.4%42.4%42.5%42.6%42.7%42.8%42.8%42.9%43.0%43.1%43.2%43.2%43.3%43.4%43.5%43.6%43.6%43.7%43.8%43.9%44.0%44.0%44.1%44.2%44.3%44.4%44.4%44.5%44.6%44.7%44.7%44.8%44.9%45.0%45.1%45.1%45.2%45.3%45.4%45.5%45.5%45.6%45.7%45.8%45.9%45.9%46.0%46.1%46.2%46.3%46.3%46.4%46.5%46.6%46.7%46.7%46.8%46.9%47.0%47.1%47.1%47.2%47.3%47.4%47.5%47.5%47.6%47.7%47.8%47.8%47.9%48.0%48.1%48.2%48.2%48.3%48.4%48.5%48.6%48.6%48.7%48.8%48.9%49.0%49.0%49.1%49.2%49.3%49.4%49.4%49.5%49.6%49.7%49.8%49.8%49.9%50.0%50.1%50.2%50.2%50.3%50.4%50.5%50.6%50.6%50.7%50.8%50.9%50.9%51.0%51.1%51.2%51.3%51.3%51.4%51.5%51.6%51.7%51.7%51.8%51.9%52.0%52.1%52.1%52.2%52.3%52.4%52.5%52.5%52.6%52.7%52.8%52.9%52.9%53.0%53.1%53.2%53.3%53.3%53.4%53.5%53.6%53.7%53.7%53.8%53.9%54.0%54.0%54.1%54.2%54.3%54.4%54.4%54.5%54.6%54.7%54.8%54.8%54.9%55.0%55.1%55.2%55.2%55.3%55.4%55.5%55.6%55.6%55.7%55.8%55.9%56.0%56.0%56.1%56.2%56.3%56.4%56.4%56.5%56.6%56.7%56.8%56.8%56.9%57.0%57.1%57.1%57.2%57.3%57.4%57.5%57.5%57.6%57.7%57.8%57.9%57.9%58.0%58.1%58.2%58.3%58.3%58.4%58.5%58.6%58.7%58.7%58.8%58.9%59.0%59.1%59.1%59.2%59.3%59.4%59.5%59.5%59.6%59.7%59.8%59.9%59.9%60.0%60.1%60.2%60.2%60.3%60.4%60.5%60.6%60.6%60.7%60.8%60.9%61.0%61.0%61.1%61.2%61.3%61.4%61.4%61.5%61.6%61.7%61.8%61.8%61.9%62.0%62.1%62.2%62.2%62.3%62.4%62.5%62.6%62.6%62.7%62.8%62.9%63.0%63.0%63.1%63.2%63.3%63.3%63.4%63.5%63.6%63.7%63.7%63.8%63.9%64.0%64.1%64.1%64.2%64.3%64.4%64.5%64.5%64.6%64.7%64.8%64.9%64.9%65.0%65.1%65.2%65.3%65.3%65.4%65.5%65.6%65.7%65.7%65.8%65.9%66.0%66.1%66.1%66.2%66.3%66.4%66.4%66.5%66.6%66.7%66.8%66.8%66.9%67.0%67.1%67.2%67.2%67.3%67.4%67.5%67.6%67.6%67.7%67.8%67.9%68.0%68.0%68.1%68.2%68.3%68.4%68.4%68.5%68.6%68.7%68.8%68.8%68.9%69.0%69.1%69.2%69.2%69.3%69.4%69.5%69.5%69.6%69.7%69.8%69.9%69.9%70.0%70.1%70.2%70.3%70.3%70.4%70.5%70.6%70.7%70.7%70.8%70.9%71.0%71.1%71.1%71.2%71.3%71.4%71.5%71.5%71.6%71.7%71.8%71.9%71.9%72.0%72.1%72.2%72.3%72.3%72.4%72.5%72.6%72.6%72.7%72.8%72.9%73.0%73.0%73.1%73.2%73.3%73.4%73.4%73.5%73.6%73.7%73.8%73.8%73.9%74.0%74.1%74.2%74.2%74.3%74.4%74.5%74.6%74.6%74.7%74.8%74.9%75.0%75.0%75.1%75.2%75.3%75.4%75.4%75.5%75.6%75.7%75.7%75.8%75.9%76.0%76.1%76.1%76.2%76.3%76.4%76.5%76.5%76.6%76.7%76.8%76.9%76.9%77.0%77.1%77.2%77.3%77.3%77.4%77.5%77.6%77.7%77.7%77.8%77.9%78.0%78.1%78.1%78.2%78.3%78.4%78.5%78.5%78.6%78.7%78.8%78.8%78.9%79.0%79.1%79.2%79.2%79.3%79.4%79.5%79.6%79.6%79.7%79.8%79.9%80.0%80.0%80.1%80.2%80.3%80.4%80.4%80.5%80.6%80.7%80.8%80.8%80.9%81.0%81.1%81.2%81.2%81.3%81.4%81.5%81.5%81.6%81.7%81.8%81.9%81.9%82.0%82.1%82.2%82.3%82.3%82.4%82.5%82.6%82.7%82.7%82.8%82.9%83.0%83.1%83.1%83.2%83.3%83.4%83.5%83.5%83.6%83.7%83.8%83.9%83.9%84.0%84.1%84.2%84.3%84.3%84.4%84.5%84.6%84.6%84.7%84.8%84.9%85.0%85.0%85.1%85.2%85.3%85.4%85.4%85.5%85.6%85.7%85.8%85.8%85.9%86.0%86.1%86.2%86.2%86.3%86.4%86.5%86.6%86.6%86.7%86.8%86.9%87.0%87.0%87.1%87.2%87.3%87.4%87.4%87.5%87.6%87.7%87.7%87.8%87.9%88.0%88.1%88.1%88.2%88.3%88.4%88.5%88.5%88.6%88.7%88.8%88.9%88.9%89.0%89.1%89.2%89.3%89.3%89.4%89.5%89.6%89.7%89.7%89.8%89.9%90.0%90.1%90.1%90.2%90.3%90.4%90.5%90.5%90.6%90.7%90.8%90.8%90.9%91.0%91.1%91.2%91.2%91.3%91.4%91.5%91.6%91.6%91.7%91.8%91.9%92.0%92.0%92.1%92.2%92.3%92.4%92.4%92.5%92.6%92.7%92.8%92.8%92.9%93.0%93.1%93.2%93.2%93.3%93.4%93.5%93.6%93.6%93.7%93.8%93.9%93.9%94.0%94.1%94.2%94.3%94.3%94.4%94.5%94.6%94.7%94.7%94.8%94.9%95.0%95.1%95.1%95.2%95.3%95.4%95.5%95.5%95.6%95.7%95.8%95.9%95.9%96.0%96.1%96.2%96.3%96.3%96.4%96.5%96.6%96.7%96.7%96.8%96.9%97.0%97.0%97.1%97.2%97.3%97.4%97.4%97.5%97.6%97.7%97.8%97.8%97.9%98.0%98.1%98.2%98.2%98.3%98.4%98.5%98.6%98.6%98.7%98.8%98.9%99.0%99.0%99.1%99.2%99.3%99.4%99.4%99.5%99.6%99.7%99.8%99.8%99.9%100.0%100.0%
+#14 2.877 Exported pretrained MobileNetV3 Small to /models/mobilenet/1
+#14 DONE 3.3s
+
+#15 exporting to image
+#15 exporting layers
+#15 exporting layers 15.1s done
+#15 writing image sha256:9de7575deb7629461da96c82e6887aca3cb3a697035fa38f527ab89312ce5d2d done
+#15 naming to docker.io/library/hw3-triton:23.12 done
+#15 DONE 15.1s
+
+#16 resolving provenance for metadata file
+#16 DONE 0.0s
+ triton  Built
+ Network hw3-ci_default  Creating
+ Network hw3-ci_default  Created
+ Container hw3-ci-triton-1  Creating
+ Container hw3-ci-triton-1  Created
+ Container hw3-ci-triton-1  Starting
+ Container hw3-ci-triton-1  Started
+ Container hw3-ci-triton-1  Waiting
+ Container hw3-ci-triton-1  Healthy
+ Container hw3-ci-triton-1  Recreate
+ Container hw3-ci-triton-1  Recreated
+ Container hw3-ci-triton-1  Starting
+ Container hw3-ci-triton-1  Started
+PASS http batch=1: remote/local logits match
+PASS http batch=4: remote/local logits match
+PASS http batch=8: remote/local logits match
+PASS http: malformed shape rejected
+PASS http: inference still works after invalid request
+PASS grpc batch=1: remote/local logits match
+PASS grpc batch=4: remote/local logits match
+PASS grpc batch=8: remote/local logits match
+PASS grpc: malformed shape rejected
+PASS grpc: inference still works after invalid request
+ Container hw3-ci-triton-1  Running
+Remote/local logits match
+{"item": 0, "top5": [{"label": "bee eater", "probability": 0.06287070363759995}, {"label": "kite", "probability": 0.0561380498111248}, {"label": "envelope", "probability": 0.03255009651184082}, {"label": "white stork", "probability": 0.023917434737086296}, {"label": "bald eagle", "probability": 0.022808674722909927}]}
+Synthetic input verifies the protocol; it does not measure classification accuracy.
+ Container hw3-ci-triton-1  Running
+Remote/local logits match
+/workspace/clients/infer.py:56: UserWarning: The given NumPy array is not writable, and PyTorch does not support non-writable tensors. This means writing to this tensor will result in undefined behavior. You may want to copy the array to protect its data or make it writable before converting it to a tensor. This type of warning will be suppressed for the rest of this program. (Triggered internally at ../torch/csrc/utils/tensor_numpy.cpp:206.)
+  probabilities = torch.softmax(torch.from_numpy(logits), dim=-1).numpy()
+{"item": 0, "top5": [{"label": "bee eater", "probability": 0.06287074834108353}, {"label": "kite", "probability": 0.056138087064027786}, {"label": "envelope", "probability": 0.03255007416009903}, {"label": "white stork", "probability": 0.02391745150089264}, {"label": "bald eagle", "probability": 0.022808680310845375}]}
+{"item": 1, "top5": [{"label": "kite", "probability": 0.089132159948349}, {"label": "bee eater", "probability": 0.0659252256155014}, {"label": "bald eagle", "probability": 0.03550942987203598}, {"label": "white stork", "probability": 0.027956578880548477}, {"label": "jellyfish", "probability": 0.024186672642827034}]}
+{"item": 2, "top5": [{"label": "envelope", "probability": 0.0495229996740818}, {"label": "golf ball", "probability": 0.030765296891331673}, {"label": "kite", "probability": 0.026810958981513977}, {"label": "jellyfish", "probability": 0.02238452434539795}, {"label": "lacewing", "probability": 0.020706644281744957}]}
+{"item": 3, "top5": [{"label": "golf ball", "probability": 0.054780710488557816}, {"label": "envelope", "probability": 0.03342660143971443}, {"label": "kite", "probability": 0.025545133277773857}, {"label": "wall clock", "probability": 0.0244384054094553}, {"label": "doormat", "probability": 0.021823162212967873}]}
+Synthetic input verifies the protocol; it does not measure classification accuracy.
+ Container hw3-ci-triton-1  Running
+{
+  "counter_increase_seconds": 1.756555077000087,
+  "gauge_max_observed": 1.0,
+  "gauge_after_load": 0.0,
+  "successful_requests": 320
+}
+ Container hw3-ci-triton-1  Running
+ perf Pulling 
+ 5e8117c0bd28 Already exists 
+ 9075b8c4201a Already exists 
+ 4f4fb700ef54 Already exists 
+ 8847e45c417e Already exists 
+ 8a98aa4df5f4 Already exists 
+ ebf2a8efd95b Already exists 
+ cfc7cea7e0d5 Already exists 
+ eb738c4cfff7 Already exists 
+ 51f661f07a8d Already exists 
+ 6f339f292aaf Already exists 
+ c3e11100b2de Already exists 
+ a1f7f0db8a6e Already exists 
+ bf42b4f11558 Already exists 
+ 38586602088c Already exists 
+ 4a77819a5c61 Pulling fs layer 
+ 4f4fb700ef54 Pulling fs layer 
+ a5e173c56f44 Pulling fs layer 
+ fae9ce387ff3 Pulling fs layer 
+ 8fd4021128ea Pulling fs layer 
+ efb800da7a28 Pulling fs layer 
+ 1dc2d0e7339d Pulling fs layer 
+ cef9c021335b Pulling fs layer 
+ a3db45b56d23 Pulling fs layer 
+ 72801ac55da3 Pulling fs layer 
+ 283f8b84d103 Pulling fs layer 
+ dbfd0ea39fb6 Pulling fs layer 
+ 4a8a8d5b7665 Pulling fs layer 
+ dbf5a8f54117 Pulling fs layer 
+ 830d6f38f898 Pulling fs layer 
+ 10391ea4edbc Pulling fs layer 
+ 0a0c19ceb78c Pulling fs layer 
+ e6c1189c9e30 Pulling fs layer 
+ b06eff96f3d0 Pulling fs layer 
+ 283f8b84d103 Waiting 
+ dbfd0ea39fb6 Waiting 
+ 4a8a8d5b7665 Waiting 
+ dbf5a8f54117 Waiting 
+ 830d6f38f898 Waiting 
+ 10391ea4edbc Waiting 
+ 0a0c19ceb78c Waiting 
+ e6c1189c9e30 Waiting 
+ b06eff96f3d0 Waiting 
+ fae9ce387ff3 Waiting 
+ efb800da7a28 Waiting 
+ 1dc2d0e7339d Waiting 
+ cef9c021335b Waiting 
+ 8fd4021128ea Waiting 
+ a3db45b56d23 Waiting 
+ 72801ac55da3 Waiting 
+ 4f4fb700ef54 Downloading [==================================================>]      32B/32B
+ 4f4fb700ef54 Verifying Checksum 
+ 4f4fb700ef54 Download complete 
+ a5e173c56f44 Downloading [==================================================>]     159B/159B
+ a5e173c56f44 Verifying Checksum 
+ a5e173c56f44 Download complete 
+ 4a77819a5c61 Downloading [>                                                  ]  537.1kB/564.2MB
+ fae9ce387ff3 Downloading [>                                                  ]  33.23kB/2.799MB
+ fae9ce387ff3 Verifying Checksum 
+ fae9ce387ff3 Download complete 
+ 8fd4021128ea Downloading [>                                                  ]  239.7kB/22.71MB
+ 4a77819a5c61 Downloading [=>                                                 ]  17.51MB/564.2MB
+ 8fd4021128ea Downloading [====================================>              ]  16.69MB/22.71MB
+ efb800da7a28 Downloading [>                                                  ]  530.4kB/157.7MB
+ 8fd4021128ea Download complete 
+ 4a77819a5c61 Downloading [==>                                                ]   29.2MB/564.2MB
+ efb800da7a28 Downloading [====>                                              ]  12.67MB/157.7MB
+ 4a77819a5c61 Downloading [===>                                               ]     34MB/564.2MB
+ 1dc2d0e7339d Downloading [>                                                  ]    534kB/154.5MB
+ efb800da7a28 Downloading [=======>                                           ]  24.86MB/157.7MB
+ 4a77819a5c61 Downloading [====>                                              ]  50.54MB/564.2MB
+ 1dc2d0e7339d Downloading [====>                                              ]  13.78MB/154.5MB
+ efb800da7a28 Downloading [==========>                                        ]  31.82MB/157.7MB
+ 1dc2d0e7339d Downloading [========>                                          ]  26.52MB/154.5MB
+ 4a77819a5c61 Downloading [=====>                                             ]  59.59MB/564.2MB
+ efb800da7a28 Downloading [==========>                                        ]   34.5MB/157.7MB
+ efb800da7a28 Downloading [==============>                                    ]  46.75MB/157.7MB
+ 1dc2d0e7339d Downloading [==========>                                        ]     34MB/154.5MB
+ 4a77819a5c61 Downloading [=====>                                             ]  67.59MB/564.2MB
+ efb800da7a28 Downloading [==================>                                ]     59MB/157.7MB
+ 4a77819a5c61 Downloading [=======>                                           ]  84.08MB/564.2MB
+ 1dc2d0e7339d Downloading [===============>                                   ]  47.31MB/154.5MB
+ efb800da7a28 Downloading [=====================>                             ]  66.47MB/157.7MB
+ 4a77819a5c61 Downloading [========>                                          ]  94.18MB/564.2MB
+ 1dc2d0e7339d Downloading [===================>                               ]  59.61MB/154.5MB
+ efb800da7a28 Downloading [=====================>                             ]  69.16MB/157.7MB
+ 4a77819a5c61 Downloading [========>                                          ]  101.1MB/564.2MB
+ 1dc2d0e7339d Downloading [=====================>                             ]   67.6MB/154.5MB
+ efb800da7a28 Downloading [=========================>                         ]  80.37MB/157.7MB
+ 4a77819a5c61 Downloading [==========>                                        ]  117.6MB/564.2MB
+ 1dc2d0e7339d Downloading [==========================>                        ]  81.47MB/154.5MB
+ efb800da7a28 Downloading [=============================>                     ]  92.63MB/157.7MB
+ 4a77819a5c61 Downloading [===========>                                       ]  130.4MB/564.2MB
+ efb800da7a28 Downloading [===============================>                   ]  99.57MB/157.7MB
+ 1dc2d0e7339d Downloading [==============================>                    ]  93.23MB/154.5MB
+ 4a77819a5c61 Downloading [===========>                                       ]  134.6MB/564.2MB
+ efb800da7a28 Downloading [================================>                  ]  103.3MB/157.7MB
+ 1dc2d0e7339d Downloading [================================>                  ]  100.7MB/154.5MB
+ 4a77819a5c61 Downloading [=============>                                     ]  152.3MB/564.2MB
+ efb800da7a28 Downloading [====================================>              ]  115.6MB/157.7MB
+ 1dc2d0e7339d Downloading [====================================>              ]    114MB/154.5MB
+ 4a77819a5c61 Downloading [==============>                                    ]  161.9MB/564.2MB
+ efb800da7a28 Downloading [========================================>          ]  126.8MB/157.7MB
+ 4a77819a5c61 Downloading [==============>                                    ]  168.2MB/564.2MB
+ 1dc2d0e7339d Downloading [=========================================>         ]  126.8MB/154.5MB
+ efb800da7a28 Downloading [==========================================>        ]  134.7MB/157.7MB
+ 4a77819a5c61 Downloading [================>                                  ]  184.8MB/564.2MB
+ 1dc2d0e7339d Downloading [===========================================>       ]  134.2MB/154.5MB
+ efb800da7a28 Downloading [==============================================>    ]  146.5MB/157.7MB
+ 4a77819a5c61 Downloading [=================>                                 ]  194.9MB/564.2MB
+ 1dc2d0e7339d Downloading [===============================================>   ]  148.1MB/154.5MB
+ efb800da7a28 Verifying Checksum 
+ efb800da7a28 Download complete 
+ 1dc2d0e7339d Verifying Checksum 
+ 1dc2d0e7339d Download complete 
+ 4a77819a5c61 Downloading [=================>                                 ]  201.9MB/564.2MB
+ cef9c021335b Downloading [==================================================>]     117B/117B
+ cef9c021335b Download complete 
+ a3db45b56d23 Downloading [==================================================>]  2.941kB/2.941kB
+ a3db45b56d23 Verifying Checksum 
+ a3db45b56d23 Download complete 
+ 72801ac55da3 Downloading [==================================================>]  2.067kB/2.067kB
+ 72801ac55da3 Verifying Checksum 
+ 72801ac55da3 Download complete 
+ 4a77819a5c61 Downloading [===================>                               ]  217.3MB/564.2MB
+ 283f8b84d103 Downloading [==================================================>]     152B/152B
+ 283f8b84d103 Verifying Checksum 
+ 283f8b84d103 Download complete 
+ dbfd0ea39fb6 Downloading [==================================================>]  2.813kB/2.813kB
+ dbfd0ea39fb6 Verifying Checksum 
+ dbfd0ea39fb6 Download complete 
+ 4a8a8d5b7665 Downloading [>                                                  ]  15.75kB/987.7kB
+ 4a8a8d5b7665 Verifying Checksum 
+ 4a8a8d5b7665 Download complete 
+ dbf5a8f54117 Downloading [>                                                  ]  526.1kB/138.4MB
+ 4a77819a5c61 Downloading [====================>                              ]  227.4MB/564.2MB
+ 830d6f38f898 Downloading [>                                                  ]  525.8kB/926.1MB
+ dbf5a8f54117 Downloading [=======>                                           ]   19.7MB/138.4MB
+ 4a77819a5c61 Downloading [====================>                              ]  234.9MB/564.2MB
+ 830d6f38f898 Downloading [>                                                  ]   18.5MB/926.1MB
+ dbf5a8f54117 Downloading [==========>                                        ]  28.79MB/138.4MB
+ 4a77819a5c61 Downloading [======================>                            ]  250.9MB/564.2MB
+ 830d6f38f898 Downloading [=>                                                 ]  26.43MB/926.1MB
+ dbf5a8f54117 Downloading [============>                                      ]  33.59MB/138.4MB
+ 4a77819a5c61 Downloading [=======================>                           ]    262MB/564.2MB
+ 830d6f38f898 Downloading [=>                                                 ]   33.9MB/926.1MB
+ dbf5a8f54117 Downloading [==================>                                ]  51.72MB/138.4MB
+ 4a77819a5c61 Downloading [=======================>                           ]  268.9MB/564.2MB
+ 830d6f38f898 Downloading [==>                                                ]  54.65MB/926.1MB
+ dbf5a8f54117 Downloading [======================>                            ]  61.84MB/138.4MB
+ 4a77819a5c61 Downloading [=========================>                         ]    286MB/564.2MB
+ 830d6f38f898 Downloading [===>                                               ]  64.77MB/926.1MB
+ dbf5a8f54117 Downloading [========================>                          ]  67.16MB/138.4MB
+ 4a77819a5c61 Downloading [==========================>                        ]  294.5MB/564.2MB
+ 830d6f38f898 Downloading [===>                                               ]   71.7MB/926.1MB
+ dbf5a8f54117 Downloading [=============================>                     ]   82.6MB/138.4MB
+ 4a77819a5c61 Downloading [==========================>                        ]    302MB/564.2MB
+ 830d6f38f898 Downloading [====>                                              ]  85.03MB/926.1MB
+ dbf5a8f54117 Downloading [=================================>                 ]  92.74MB/138.4MB
+ 4a77819a5c61 Downloading [============================>                      ]  318.6MB/564.2MB
+ 830d6f38f898 Downloading [=====>                                             ]  93.59MB/926.1MB
+ 4a77819a5c61 Downloading [=============================>                     ]  329.8MB/564.2MB
+ dbf5a8f54117 Downloading [====================================>              ]  100.7MB/138.4MB
+ 830d6f38f898 Downloading [=====>                                             ]  104.3MB/926.1MB
+ dbf5a8f54117 Downloading [==========================================>        ]  118.8MB/138.4MB
+ 4a77819a5c61 Downloading [=============================>                     ]  335.6MB/564.2MB
+ 830d6f38f898 Downloading [======>                                            ]  119.7MB/926.1MB
+ dbf5a8f54117 Downloading [=============================================>     ]  126.8MB/138.4MB
+ 4a77819a5c61 Downloading [===============================>                   ]  352.2MB/564.2MB
+ 830d6f38f898 Downloading [======>                                            ]  128.2MB/926.1MB
+ dbf5a8f54117 Downloading [================================================>  ]  134.8MB/138.4MB
+ 4a77819a5c61 Downloading [================================>                  ]  361.7MB/564.2MB
+ dbf5a8f54117 Verifying Checksum 
+ dbf5a8f54117 Download complete 
+ 830d6f38f898 Downloading [=======>                                           ]  134.6MB/926.1MB
+ 10391ea4edbc Download complete 
+ 4a77819a5c61 Downloading [================================>                  ]  369.2MB/564.2MB
+ 830d6f38f898 Downloading [========>                                          ]  155.3MB/926.1MB
+ 4a77819a5c61 Downloading [==================================>                ]  384.6MB/564.2MB
+ 0a0c19ceb78c Downloading [>                                                  ]  526.1kB/144.8MB
+ 830d6f38f898 Downloading [========>                                          ]  160.7MB/926.1MB
+ 4a77819a5c61 Downloading [===================================>               ]  395.3MB/564.2MB
+ 0a0c19ceb78c Downloading [======>                                            ]  17.62MB/144.8MB
+ 4a77819a5c61 Downloading [===================================>               ]  402.7MB/564.2MB
+ 830d6f38f898 Downloading [=========>                                         ]  168.2MB/926.1MB
+ 0a0c19ceb78c Downloading [=========>                                         ]  26.14MB/144.8MB
+ 4a77819a5c61 Downloading [=====================================>             ]  419.2MB/564.2MB
+ 830d6f38f898 Downloading [==========>                                        ]  190.6MB/926.1MB
+ 0a0c19ceb78c Downloading [===========>                                       ]   33.6MB/144.8MB
+ 830d6f38f898 Downloading [==========>                                        ]  194.3MB/926.1MB
+ 4a77819a5c61 Downloading [======================================>            ]  428.8MB/564.2MB
+ 0a0c19ceb78c Downloading [=================>                                 ]  50.11MB/144.8MB
+ 830d6f38f898 Downloading [==========>                                        ]  201.8MB/926.1MB
+ 4a77819a5c61 Downloading [======================================>            ]  436.3MB/564.2MB
+ 0a0c19ceb78c Downloading [====================>                              ]  59.72MB/144.8MB
+ 830d6f38f898 Downloading [============>                                      ]  223.1MB/926.1MB
+ 4a77819a5c61 Downloading [========================================>          ]  452.8MB/564.2MB
+ 0a0c19ceb78c Downloading [=======================>                           ]  67.16MB/144.8MB
+ 830d6f38f898 Downloading [============>                                      ]  233.2MB/926.1MB
+ 4a77819a5c61 Downloading [========================================>          ]  462.4MB/564.2MB
+ 0a0c19ceb78c Downloading [=============================>                     ]  84.24MB/144.8MB
+ 830d6f38f898 Downloading [============>                                      ]    238MB/926.1MB
+ 4a77819a5c61 Downloading [=========================================>         ]  469.9MB/564.2MB
+ 0a0c19ceb78c Downloading [=================================>                 ]  96.49MB/144.8MB
+ 830d6f38f898 Downloading [=============>                                     ]  253.4MB/926.1MB
+ 4a77819a5c61 Downloading [===========================================>       ]  486.3MB/564.2MB
+ 0a0c19ceb78c Downloading [====================================>              ]    105MB/144.8MB
+ 830d6f38f898 Downloading [==============>                                    ]  261.4MB/926.1MB
+ 4a77819a5c61 Downloading [===========================================>       ]  495.9MB/564.2MB
+ 0a0c19ceb78c Downloading [=========================================>         ]    120MB/144.8MB
+ 830d6f38f898 Downloading [==============>                                    ]    271MB/926.1MB
+ 0a0c19ceb78c Downloading [===========================================>       ]  126.9MB/144.8MB
+ 4a77819a5c61 Downloading [============================================>      ]  503.4MB/564.2MB
+ 830d6f38f898 Downloading [===============>                                   ]  285.9MB/926.1MB
+ 4a77819a5c61 Downloading [==============================================>    ]  519.5MB/564.2MB
+ 0a0c19ceb78c Downloading [==============================================>    ]  134.3MB/144.8MB
+ 830d6f38f898 Downloading [===============>                                   ]  294.9MB/926.1MB
+ 0a0c19ceb78c Verifying Checksum 
+ 0a0c19ceb78c Download complete 
+ 4a77819a5c61 Downloading [==============================================>    ]  529.6MB/564.2MB
+ e6c1189c9e30 Downloading [==================================================>]     753B/753B
+ e6c1189c9e30 Verifying Checksum 
+ e6c1189c9e30 Download complete 
+ 830d6f38f898 Downloading [================>                                  ]  303.5MB/926.1MB
+ 4a77819a5c61 Downloading [===============================================>   ]    537MB/564.2MB
+ b06eff96f3d0 Downloading [==================================================>]     235B/235B
+ b06eff96f3d0 Verifying Checksum 
+ b06eff96f3d0 Download complete 
+ 830d6f38f898 Downloading [=================>                                 ]  318.9MB/926.1MB
+ 4a77819a5c61 Downloading [=================================================> ]  553.6MB/564.2MB
+ 830d6f38f898 Downloading [=================>                                 ]  328.5MB/926.1MB
+ 4a77819a5c61 Downloading [=================================================> ]  563.1MB/564.2MB
+ 4a77819a5c61 Downloading [==================================================>]  564.2MB/564.2MB
+ 4a77819a5c61 Download complete 
+ 4a77819a5c61 Extracting [>                                                  ]  557.1kB/564.2MB
+ 830d6f38f898 Downloading [==================>                                ]    336MB/926.1MB
+ 4a77819a5c61 Extracting [=>                                                 ]  14.48MB/564.2MB
+ 830d6f38f898 Downloading [===================>                               ]  356.8MB/926.1MB
+ 830d6f38f898 Downloading [===================>                               ]  365.8MB/926.1MB
+ 4a77819a5c61 Extracting [=>                                                 ]  21.17MB/564.2MB
+ 830d6f38f898 Downloading [====================>                              ]  373.8MB/926.1MB
+ 830d6f38f898 Downloading [====================>                              ]  387.1MB/926.1MB
+ 4a77819a5c61 Extracting [=>                                                 ]  22.28MB/564.2MB
+ 830d6f38f898 Downloading [=====================>                             ]  395.6MB/926.1MB
+ 4a77819a5c61 Extracting [==>                                                ]   23.4MB/564.2MB
+ 830d6f38f898 Downloading [=====================>                             ]    403MB/926.1MB
+ 4a77819a5c61 Extracting [==>                                                ]  23.95MB/564.2MB
+ 830d6f38f898 Downloading [======================>                            ]    419MB/926.1MB
+ 4a77819a5c61 Extracting [==>                                                ]  33.42MB/564.2MB
+ 830d6f38f898 Downloading [=======================>                           ]  429.1MB/926.1MB
+ 4a77819a5c61 Extracting [====>                                              ]  52.92MB/564.2MB
+ 830d6f38f898 Downloading [=======================>                           ]  437.1MB/926.1MB
+ 4a77819a5c61 Extracting [======>                                            ]  69.63MB/564.2MB
+ 830d6f38f898 Downloading [========================>                          ]  453.1MB/926.1MB
+ 4a77819a5c61 Extracting [=======>                                           ]  85.79MB/564.2MB
+ 830d6f38f898 Downloading [========================>                          ]  462.7MB/926.1MB
+ 4a77819a5c61 Extracting [========>                                          ]  100.3MB/564.2MB
+ 830d6f38f898 Downloading [=========================>                         ]  470.2MB/926.1MB
+ 4a77819a5c61 Extracting [=========>                                         ]  109.2MB/564.2MB
+ 830d6f38f898 Downloading [==========================>                        ]  486.7MB/926.1MB
+ 4a77819a5c61 Extracting [==========>                                        ]  115.3MB/564.2MB
+ 830d6f38f898 Downloading [==========================>                        ]  496.3MB/926.1MB
+ 4a77819a5c61 Extracting [==========>                                        ]  123.1MB/564.2MB
+ 4a77819a5c61 Extracting [===========>                                       ]  129.2MB/564.2MB
+ 830d6f38f898 Downloading [===========================>                       ]  503.8MB/926.1MB
+ 4a77819a5c61 Extracting [============>                                      ]  135.9MB/564.2MB
+ 830d6f38f898 Downloading [============================>                      ]  520.3MB/926.1MB
+ 4a77819a5c61 Extracting [============>                                      ]  142.6MB/564.2MB
+ 830d6f38f898 Downloading [============================>                      ]  529.4MB/926.1MB
+ 4a77819a5c61 Extracting [=============>                                     ]  149.8MB/564.2MB
+ 830d6f38f898 Downloading [=============================>                     ]  537.4MB/926.1MB
+ 4a77819a5c61 Extracting [=============>                                     ]  156.5MB/564.2MB
+ 830d6f38f898 Downloading [=============================>                     ]  555.1MB/926.1MB
+ 4a77819a5c61 Extracting [==============>                                    ]  163.8MB/564.2MB
+ 830d6f38f898 Downloading [==============================>                    ]  563.1MB/926.1MB
+ 4a77819a5c61 Extracting [===============>                                   ]  170.5MB/564.2MB
+ 830d6f38f898 Downloading [==============================>                    ]  570.6MB/926.1MB
+ 4a77819a5c61 Extracting [===============>                                   ]    176MB/564.2MB
+ 830d6f38f898 Downloading [===============================>                   ]  587.2MB/926.1MB
+ 4a77819a5c61 Extracting [===============>                                   ]  177.1MB/564.2MB
+ 830d6f38f898 Downloading [================================>                  ]  596.8MB/926.1MB
+ 830d6f38f898 Downloading [================================>                  ]  605.3MB/926.1MB
+ 4a77819a5c61 Extracting [===============>                                   ]  178.3MB/564.2MB
+ 830d6f38f898 Downloading [=================================>                 ]  621.3MB/926.1MB
+ 4a77819a5c61 Extracting [===============>                                   ]  179.4MB/564.2MB
+ 830d6f38f898 Downloading [==================================>                ]  630.4MB/926.1MB
+ 4a77819a5c61 Extracting [================>                                  ]    181MB/564.2MB
+ 830d6f38f898 Downloading [==================================>                ]    638MB/926.1MB
+ 4a77819a5c61 Extracting [================>                                  ]  182.2MB/564.2MB
+ 830d6f38f898 Downloading [===================================>               ]  657.3MB/926.1MB
+ 4a77819a5c61 Extracting [================>                                  ]  184.4MB/564.2MB
+ 830d6f38f898 Downloading [===================================>               ]  664.8MB/926.1MB
+ 4a77819a5c61 Extracting [================>                                  ]  189.4MB/564.2MB
+ 830d6f38f898 Downloading [====================================>              ]  671.2MB/926.1MB
+ 4a77819a5c61 Extracting [================>                                  ]  191.1MB/564.2MB
+ 830d6f38f898 Downloading [=====================================>             ]  689.4MB/926.1MB
+ 830d6f38f898 Downloading [=====================================>             ]  697.4MB/926.1MB
+ 4a77819a5c61 Extracting [=================>                                 ]  193.3MB/564.2MB
+ 830d6f38f898 Downloading [======================================>            ]  705.9MB/926.1MB
+ 4a77819a5c61 Extracting [=================>                                 ]  198.3MB/564.2MB
+ 830d6f38f898 Downloading [======================================>            ]  721.9MB/926.1MB
+ 4a77819a5c61 Extracting [==================>                                ]  204.4MB/564.2MB
+ 830d6f38f898 Downloading [=======================================>           ]    731MB/926.1MB
+ 4a77819a5c61 Extracting [==================>                                ]  210.6MB/564.2MB
+ 4a77819a5c61 Extracting [===================>                               ]  216.7MB/564.2MB
+ 830d6f38f898 Downloading [=======================================>           ]  738.5MB/926.1MB
+ 4a77819a5c61 Extracting [===================>                               ]  225.1MB/564.2MB
+ 830d6f38f898 Downloading [========================================>          ]  756.2MB/926.1MB
+ 4a77819a5c61 Extracting [====================>                              ]  231.2MB/564.2MB
+ 830d6f38f898 Downloading [=========================================>         ]  764.7MB/926.1MB
+ 4a77819a5c61 Extracting [=====================>                             ]  239.5MB/564.2MB
+ 830d6f38f898 Downloading [=========================================>         ]  775.4MB/926.1MB
+ 4a77819a5c61 Extracting [=====================>                             ]  242.9MB/564.2MB
+ 830d6f38f898 Downloading [==========================================>        ]  789.2MB/926.1MB
+ 4a77819a5c61 Extracting [=====================>                             ]  247.3MB/564.2MB
+ 830d6f38f898 Downloading [===========================================>       ]  798.3MB/926.1MB
+ 4a77819a5c61 Extracting [======================>                            ]  254.6MB/564.2MB
+ 830d6f38f898 Downloading [===========================================>       ]  805.8MB/926.1MB
+ 4a77819a5c61 Extracting [=======================>                           ]  261.8MB/564.2MB
+ 830d6f38f898 Downloading [============================================>      ]    824MB/926.1MB
+ 4a77819a5c61 Extracting [=======================>                           ]  267.9MB/564.2MB
+ 830d6f38f898 Downloading [============================================>      ]  831.5MB/926.1MB
+ 4a77819a5c61 Extracting [========================>                          ]  275.2MB/564.2MB
+ 830d6f38f898 Downloading [=============================================>     ]  841.2MB/926.1MB
+ 4a77819a5c61 Extracting [========================>                          ]  281.9MB/564.2MB
+ 830d6f38f898 Downloading [==============================================>    ]  855.6MB/926.1MB
+ 4a77819a5c61 Extracting [=========================>                         ]  288.6MB/564.2MB
+ 830d6f38f898 Downloading [==============================================>    ]  865.2MB/926.1MB
+ 4a77819a5c61 Extracting [==========================>                        ]  295.8MB/564.2MB
+ 4a77819a5c61 Extracting [==========================>                        ]    303MB/564.2MB
+ 830d6f38f898 Downloading [===============================================>   ]  872.7MB/926.1MB
+ 4a77819a5c61 Extracting [===========================>                       ]  311.4MB/564.2MB
+ 830d6f38f898 Downloading [================================================>  ]  891.9MB/926.1MB
+ 4a77819a5c61 Extracting [============================>                      ]  318.6MB/564.2MB
+ 830d6f38f898 Downloading [================================================>  ]  898.9MB/926.1MB
+ 4a77819a5c61 Extracting [============================>                      ]  324.8MB/564.2MB
+ 830d6f38f898 Downloading [================================================>  ]  906.3MB/926.1MB
+ 4a77819a5c61 Extracting [=============================>                     ]  329.8MB/564.2MB
+ 830d6f38f898 Downloading [=================================================> ]  924.5MB/926.1MB
+ 830d6f38f898 Verifying Checksum 
+ 830d6f38f898 Download complete 
+ 4a77819a5c61 Extracting [=============================>                     ]  338.1MB/564.2MB
+ 4a77819a5c61 Extracting [==============================>                    ]  348.2MB/564.2MB
+ 4a77819a5c61 Extracting [===============================>                   ]  355.4MB/564.2MB
+ 4a77819a5c61 Extracting [================================>                  ]  362.1MB/564.2MB
+ 4a77819a5c61 Extracting [================================>                  ]  369.3MB/564.2MB
+ 4a77819a5c61 Extracting [=================================>                 ]  376.6MB/564.2MB
+ 4a77819a5c61 Extracting [==================================>                ]  383.8MB/564.2MB
+ 4a77819a5c61 Extracting [==================================>                ]  390.5MB/564.2MB
+ 4a77819a5c61 Extracting [===================================>               ]  397.7MB/564.2MB
+ 4a77819a5c61 Extracting [===================================>               ]  406.1MB/564.2MB
+ 4a77819a5c61 Extracting [====================================>              ]  413.9MB/564.2MB
+ 4a77819a5c61 Extracting [=====================================>             ]  422.8MB/564.2MB
+ 4a77819a5c61 Extracting [======================================>            ]  429.5MB/564.2MB
+ 4a77819a5c61 Extracting [======================================>            ]  436.2MB/564.2MB
+ 4a77819a5c61 Extracting [=======================================>           ]  442.9MB/564.2MB
+ 4a77819a5c61 Extracting [=======================================>           ]  450.7MB/564.2MB
+ 4a77819a5c61 Extracting [========================================>          ]  455.7MB/564.2MB
+ 4a77819a5c61 Extracting [========================================>          ]  461.2MB/564.2MB
+ 4a77819a5c61 Extracting [=========================================>         ]  465.1MB/564.2MB
+ 4a77819a5c61 Extracting [=========================================>         ]  468.5MB/564.2MB
+ 4a77819a5c61 Extracting [==========================================>        ]  474.6MB/564.2MB
+ 4a77819a5c61 Extracting [==========================================>        ]  476.3MB/564.2MB
+ 4a77819a5c61 Extracting [==========================================>        ]  478.5MB/564.2MB
+ 4a77819a5c61 Extracting [==========================================>        ]  479.6MB/564.2MB
+ 4a77819a5c61 Extracting [==========================================>        ]  480.7MB/564.2MB
+ 4a77819a5c61 Extracting [==========================================>        ]  481.9MB/564.2MB
+ 4a77819a5c61 Extracting [==========================================>        ]  482.4MB/564.2MB
+ 4a77819a5c61 Extracting [==========================================>        ]    483MB/564.2MB
+ 4a77819a5c61 Extracting [===========================================>       ]  485.8MB/564.2MB
+ 4a77819a5c61 Extracting [===========================================>       ]  488.5MB/564.2MB
+ 4a77819a5c61 Extracting [===========================================>       ]  489.1MB/564.2MB
+ 4a77819a5c61 Extracting [===========================================>       ]  489.7MB/564.2MB
+ 4a77819a5c61 Extracting [===========================================>       ]  490.2MB/564.2MB
+ 4a77819a5c61 Extracting [===========================================>       ]  490.8MB/564.2MB
+ 4a77819a5c61 Extracting [===========================================>       ]  491.3MB/564.2MB
+ 4a77819a5c61 Extracting [===========================================>       ]  491.9MB/564.2MB
+ 4a77819a5c61 Extracting [===========================================>       ]  492.4MB/564.2MB
+ 4a77819a5c61 Extracting [============================================>      ]  503.6MB/564.2MB
+ 4a77819a5c61 Extracting [=============================================>     ]  508.6MB/564.2MB
+ 4a77819a5c61 Extracting [=============================================>     ]  517.5MB/564.2MB
+ 4a77819a5c61 Extracting [==============================================>    ]  519.7MB/564.2MB
+ 4a77819a5c61 Extracting [==============================================>    ]  520.8MB/564.2MB
+ 4a77819a5c61 Extracting [==============================================>    ]  523.6MB/564.2MB
+ 4a77819a5c61 Extracting [==============================================>    ]  526.4MB/564.2MB
+ 4a77819a5c61 Extracting [==============================================>    ]  527.5MB/564.2MB
+ 4a77819a5c61 Extracting [==============================================>    ]  528.6MB/564.2MB
+ 4a77819a5c61 Extracting [===============================================>   ]    537MB/564.2MB
+ 4a77819a5c61 Extracting [================================================>  ]  548.1MB/564.2MB
+ 4a77819a5c61 Extracting [=================================================> ]  559.8MB/564.2MB
+ 4a77819a5c61 Extracting [=================================================> ]  562.6MB/564.2MB
+ 4a77819a5c61 Extracting [=================================================> ]  563.2MB/564.2MB
+ 4a77819a5c61 Extracting [=================================================> ]  563.7MB/564.2MB
+ 4a77819a5c61 Extracting [==================================================>]  564.2MB/564.2MB
+ 4a77819a5c61 Pull complete 
+ 4f4fb700ef54 Extracting [==================================================>]      32B/32B
+ 4f4fb700ef54 Extracting [==================================================>]      32B/32B
+ 4f4fb700ef54 Pull complete 
+ a5e173c56f44 Extracting [==================================================>]     159B/159B
+ a5e173c56f44 Extracting [==================================================>]     159B/159B
+ a5e173c56f44 Pull complete 
+ fae9ce387ff3 Extracting [>                                                  ]  32.77kB/2.799MB
+ fae9ce387ff3 Extracting [==================================================>]  2.799MB/2.799MB
+ fae9ce387ff3 Pull complete 
+ 8fd4021128ea Extracting [>                                                  ]  229.4kB/22.71MB
+ 8fd4021128ea Extracting [=====>                                             ]  2.523MB/22.71MB
+ 8fd4021128ea Extracting [==================================================>]  22.71MB/22.71MB
+ 8fd4021128ea Pull complete 
+ efb800da7a28 Extracting [>                                                  ]  557.1kB/157.7MB
+ efb800da7a28 Extracting [==>                                                ]  8.913MB/157.7MB
+ efb800da7a28 Extracting [=====>                                             ]  17.83MB/157.7MB
+ efb800da7a28 Extracting [========>                                          ]  26.18MB/157.7MB
+ efb800da7a28 Extracting [==========>                                        ]  34.54MB/157.7MB
+ efb800da7a28 Extracting [=============>                                     ]  43.45MB/157.7MB
+ efb800da7a28 Extracting [================>                                  ]  51.81MB/157.7MB
+ efb800da7a28 Extracting [===================>                               ]  60.16MB/157.7MB
+ efb800da7a28 Extracting [=====================>                             ]  68.52MB/157.7MB
+ efb800da7a28 Extracting [========================>                          ]  76.87MB/157.7MB
+ efb800da7a28 Extracting [===========================>                       ]  85.23MB/157.7MB
+ efb800da7a28 Extracting [=============================>                     ]  94.14MB/157.7MB
+ efb800da7a28 Extracting [================================>                  ]  102.5MB/157.7MB
+ efb800da7a28 Extracting [================================>                  ]  103.6MB/157.7MB
+ efb800da7a28 Extracting [======================================>            ]  122.6MB/157.7MB
+ efb800da7a28 Extracting [=========================================>         ]  130.4MB/157.7MB
+ efb800da7a28 Extracting [===========================================>       ]  138.1MB/157.7MB
+ efb800da7a28 Extracting [=============================================>     ]  144.8MB/157.7MB
+ efb800da7a28 Extracting [==================================================>]  157.7MB/157.7MB
+ efb800da7a28 Pull complete 
+ 1dc2d0e7339d Extracting [>                                                  ]  557.1kB/154.5MB
+ 1dc2d0e7339d Extracting [=========>                                         ]  29.52MB/154.5MB
+ 1dc2d0e7339d Extracting [===================>                               ]  59.05MB/154.5MB
+ 1dc2d0e7339d Extracting [============================>                      ]  88.57MB/154.5MB
+ 1dc2d0e7339d Extracting [======================================>            ]  117.5MB/154.5MB
+ 1dc2d0e7339d Extracting [=============================================>     ]  141.5MB/154.5MB
+ 1dc2d0e7339d Extracting [==================================================>]  154.5MB/154.5MB
+ 1dc2d0e7339d Pull complete 
+ cef9c021335b Extracting [==================================================>]     117B/117B
+ cef9c021335b Extracting [==================================================>]     117B/117B
+ cef9c021335b Pull complete 
+ a3db45b56d23 Extracting [==================================================>]  2.941kB/2.941kB
+ a3db45b56d23 Extracting [==================================================>]  2.941kB/2.941kB
+ a3db45b56d23 Pull complete 
+ 72801ac55da3 Extracting [==================================================>]  2.067kB/2.067kB
+ 72801ac55da3 Extracting [==================================================>]  2.067kB/2.067kB
+ 72801ac55da3 Pull complete 
+ 283f8b84d103 Extracting [==================================================>]     152B/152B
+ 283f8b84d103 Extracting [==================================================>]     152B/152B
+ 283f8b84d103 Pull complete 
+ dbfd0ea39fb6 Extracting [==================================================>]  2.813kB/2.813kB
+ dbfd0ea39fb6 Extracting [==================================================>]  2.813kB/2.813kB
+ dbfd0ea39fb6 Pull complete 
+ 4a8a8d5b7665 Extracting [=>                                                 ]  32.77kB/987.7kB
+ 4a8a8d5b7665 Extracting [==================================================>]  987.7kB/987.7kB
+ 4a8a8d5b7665 Pull complete 
+ dbf5a8f54117 Extracting [>                                                  ]  557.1kB/138.4MB
+ dbf5a8f54117 Extracting [========>                                          ]  24.51MB/138.4MB
+ dbf5a8f54117 Extracting [===============>                                   ]  42.34MB/138.4MB
+ dbf5a8f54117 Extracting [======================>                            ]  62.39MB/138.4MB
+ dbf5a8f54117 Extracting [=========================>                         ]  70.75MB/138.4MB
+ dbf5a8f54117 Extracting [===========================>                       ]   75.2MB/138.4MB
+ dbf5a8f54117 Extracting [=============================>                     ]  81.89MB/138.4MB
+ dbf5a8f54117 Extracting [==============================>                    ]  84.67MB/138.4MB
+ dbf5a8f54117 Extracting [===============================>                   ]  88.01MB/138.4MB
+ dbf5a8f54117 Extracting [==================================>                ]   94.7MB/138.4MB
+ dbf5a8f54117 Extracting [===================================>               ]   98.6MB/138.4MB
+ dbf5a8f54117 Extracting [======================================>            ]  105.3MB/138.4MB
+ dbf5a8f54117 Extracting [=======================================>           ]  110.3MB/138.4MB
+ dbf5a8f54117 Extracting [=========================================>         ]  114.2MB/138.4MB
+ dbf5a8f54117 Extracting [=========================================>         ]  115.9MB/138.4MB
+ dbf5a8f54117 Extracting [===========================================>       ]  120.3MB/138.4MB
+ dbf5a8f54117 Extracting [===========================================>       ]  121.4MB/138.4MB
+ dbf5a8f54117 Extracting [============================================>      ]  124.2MB/138.4MB
+ dbf5a8f54117 Extracting [=============================================>     ]    127MB/138.4MB
+ dbf5a8f54117 Extracting [================================================>  ]  134.8MB/138.4MB
+ dbf5a8f54117 Extracting [==================================================>]  138.4MB/138.4MB
+ dbf5a8f54117 Pull complete 
+ 830d6f38f898 Extracting [>                                                  ]  557.1kB/926.1MB
+ 830d6f38f898 Extracting [>                                                  ]   9.47MB/926.1MB
+ 830d6f38f898 Extracting [=>                                                 ]  21.17MB/926.1MB
+ 830d6f38f898 Extracting [=>                                                 ]  25.62MB/926.1MB
+ 830d6f38f898 Extracting [=>                                                 ]  30.08MB/926.1MB
+ 830d6f38f898 Extracting [=>                                                 ]  35.09MB/926.1MB
+ 830d6f38f898 Extracting [==>                                                ]  47.35MB/926.1MB
+ 830d6f38f898 Extracting [===>                                               ]   59.6MB/926.1MB
+ 830d6f38f898 Extracting [===>                                               ]  72.97MB/926.1MB
+ 830d6f38f898 Extracting [====>                                              ]  86.34MB/926.1MB
+ 830d6f38f898 Extracting [=====>                                             ]  99.16MB/926.1MB
+ 830d6f38f898 Extracting [======>                                            ]  111.4MB/926.1MB
+ 830d6f38f898 Extracting [======>                                            ]  124.2MB/926.1MB
+ 830d6f38f898 Extracting [=======>                                           ]    137MB/926.1MB
+ 830d6f38f898 Extracting [========>                                          ]  149.8MB/926.1MB
+ 830d6f38f898 Extracting [========>                                          ]  162.1MB/926.1MB
+ 830d6f38f898 Extracting [=========>                                         ]  174.9MB/926.1MB
+ 830d6f38f898 Extracting [==========>                                        ]  187.7MB/926.1MB
+ 830d6f38f898 Extracting [==========>                                        ]  200.5MB/926.1MB
+ 830d6f38f898 Extracting [===========>                                       ]  211.7MB/926.1MB
+ 830d6f38f898 Extracting [============>                                      ]  223.4MB/926.1MB
+ 830d6f38f898 Extracting [============>                                      ]  235.6MB/926.1MB
+ 830d6f38f898 Extracting [=============>                                     ]  247.9MB/926.1MB
+ 830d6f38f898 Extracting [==============>                                    ]  259.6MB/926.1MB
+ 830d6f38f898 Extracting [==============>                                    ]  271.3MB/926.1MB
+ 830d6f38f898 Extracting [===============>                                   ]  284.1MB/926.1MB
+ 830d6f38f898 Extracting [================>                                  ]  296.9MB/926.1MB
+ 830d6f38f898 Extracting [================>                                  ]  309.7MB/926.1MB
+ 830d6f38f898 Extracting [=================>                                 ]  322.5MB/926.1MB
+ 830d6f38f898 Extracting [==================>                                ]  334.8MB/926.1MB
+ 830d6f38f898 Extracting [==================>                                ]  347.6MB/926.1MB
+ 830d6f38f898 Extracting [===================>                               ]  360.4MB/926.1MB
+ 830d6f38f898 Extracting [===================>                               ]  369.9MB/926.1MB
+ 830d6f38f898 Extracting [====================>                              ]  378.8MB/926.1MB
+ 830d6f38f898 Extracting [====================>                              ]  383.3MB/926.1MB
+ 830d6f38f898 Extracting [====================>                              ]  388.3MB/926.1MB
+ 830d6f38f898 Extracting [=====================>                             ]  396.1MB/926.1MB
+ 830d6f38f898 Extracting [======================>                            ]  408.3MB/926.1MB
+ 830d6f38f898 Extracting [======================>                            ]  420.6MB/926.1MB
+ 830d6f38f898 Extracting [=======================>                           ]  433.9MB/926.1MB
+ 830d6f38f898 Extracting [========================>                          ]  446.8MB/926.1MB
+ 830d6f38f898 Extracting [========================>                          ]    459MB/926.1MB
+ 830d6f38f898 Extracting [=========================>                         ]  471.3MB/926.1MB
+ 830d6f38f898 Extracting [==========================>                        ]  484.1MB/926.1MB
+ 830d6f38f898 Extracting [==========================>                        ]  496.3MB/926.1MB
+ 830d6f38f898 Extracting [===========================>                       ]  508.6MB/926.1MB
+ 830d6f38f898 Extracting [============================>                      ]  520.8MB/926.1MB
+ 830d6f38f898 Extracting [============================>                      ]  533.1MB/926.1MB
+ 830d6f38f898 Extracting [=============================>                     ]  545.9MB/926.1MB
+ 830d6f38f898 Extracting [==============================>                    ]  558.7MB/926.1MB
+ 830d6f38f898 Extracting [==============================>                    ]    571MB/926.1MB
+ 830d6f38f898 Extracting [===============================>                   ]  583.2MB/926.1MB
+ 830d6f38f898 Extracting [================================>                  ]  594.4MB/926.1MB
+ 830d6f38f898 Extracting [================================>                  ]  606.1MB/926.1MB
+ 830d6f38f898 Extracting [=================================>                 ]  617.2MB/926.1MB
+ 830d6f38f898 Extracting [==================================>                ]    630MB/926.1MB
+ 830d6f38f898 Extracting [==================================>                ]  642.3MB/926.1MB
+ 830d6f38f898 Extracting [===================================>               ]  654.5MB/926.1MB
+ 830d6f38f898 Extracting [====================================>              ]  666.8MB/926.1MB
+ 830d6f38f898 Extracting [====================================>              ]  679.6MB/926.1MB
+ 830d6f38f898 Extracting [=====================================>             ]  687.4MB/926.1MB
+ 830d6f38f898 Extracting [=====================================>             ]  696.3MB/926.1MB
+ 830d6f38f898 Extracting [======================================>            ]  704.1MB/926.1MB
+ 830d6f38f898 Extracting [======================================>            ]  712.5MB/926.1MB
+ 830d6f38f898 Extracting [======================================>            ]  720.8MB/926.1MB
+ 830d6f38f898 Extracting [========================================>          ]  744.2MB/926.1MB
+ 830d6f38f898 Extracting [========================================>          ]  754.3MB/926.1MB
+ 830d6f38f898 Extracting [=========================================>         ]  770.4MB/926.1MB
+ 830d6f38f898 Extracting [==========================================>        ]  781.5MB/926.1MB
+ 830d6f38f898 Extracting [==========================================>        ]  787.1MB/926.1MB
+ 830d6f38f898 Extracting [==========================================>        ]  794.4MB/926.1MB
+ 830d6f38f898 Extracting [===========================================>       ]  803.8MB/926.1MB
+ 830d6f38f898 Extracting [===========================================>       ]  813.3MB/926.1MB
+ 830d6f38f898 Extracting [============================================>      ]    820MB/926.1MB
+ 830d6f38f898 Extracting [============================================>      ]  827.2MB/926.1MB
+ 830d6f38f898 Extracting [=============================================>     ]  837.8MB/926.1MB
+ 830d6f38f898 Extracting [==============================================>    ]  856.8MB/926.1MB
+ 830d6f38f898 Extracting [==============================================>    ]  866.2MB/926.1MB
+ 830d6f38f898 Extracting [===============================================>   ]  882.4MB/926.1MB
+ 830d6f38f898 Extracting [================================================>  ]  895.2MB/926.1MB
+ 830d6f38f898 Extracting [================================================>  ]  905.2MB/926.1MB
+ 830d6f38f898 Extracting [=================================================> ]  915.2MB/926.1MB
+ 830d6f38f898 Extracting [=================================================> ]  922.5MB/926.1MB
+ 830d6f38f898 Extracting [==================================================>]  926.1MB/926.1MB
+ 830d6f38f898 Pull complete 
+ 10391ea4edbc Extracting [==================================================>]     148B/148B
+ 10391ea4edbc Extracting [==================================================>]     148B/148B
+ 10391ea4edbc Pull complete 
+ 0a0c19ceb78c Extracting [>                                                  ]  557.1kB/144.8MB
+ 0a0c19ceb78c Extracting [======>                                            ]  18.38MB/144.8MB
+ 0a0c19ceb78c Extracting [================>                                  ]  46.79MB/144.8MB
+ 0a0c19ceb78c Extracting [=======================>                           ]  67.96MB/144.8MB
+ 0a0c19ceb78c Extracting [========================>                          ]  70.19MB/144.8MB
+ 0a0c19ceb78c Extracting [=========================>                         ]  73.53MB/144.8MB
+ 0a0c19ceb78c Extracting [=========================>                         ]   75.2MB/144.8MB
+ 0a0c19ceb78c Extracting [============================>                      ]  81.33MB/144.8MB
+ 0a0c19ceb78c Extracting [===============================>                   ]   90.8MB/144.8MB
+ 0a0c19ceb78c Extracting [==================================>                ]  100.8MB/144.8MB
+ 0a0c19ceb78c Extracting [=====================================>             ]  109.2MB/144.8MB
+ 0a0c19ceb78c Extracting [=======================================>           ]  114.8MB/144.8MB
+ 0a0c19ceb78c Extracting [==========================================>        ]    122MB/144.8MB
+ 0a0c19ceb78c Extracting [===========================================>       ]  126.5MB/144.8MB
+ 0a0c19ceb78c Extracting [=============================================>     ]  131.5MB/144.8MB
+ 0a0c19ceb78c Extracting [==============================================>    ]  135.4MB/144.8MB
+ 0a0c19ceb78c Extracting [===============================================>   ]  136.5MB/144.8MB
+ 0a0c19ceb78c Extracting [===============================================>   ]  138.7MB/144.8MB
+ 0a0c19ceb78c Extracting [================================================>  ]  139.8MB/144.8MB
+ 0a0c19ceb78c Extracting [=================================================> ]  142.6MB/144.8MB
+ 0a0c19ceb78c Extracting [=================================================> ]  144.3MB/144.8MB
+ 0a0c19ceb78c Extracting [==================================================>]  144.8MB/144.8MB
+ 0a0c19ceb78c Extracting [==================================================>]  144.8MB/144.8MB
+ 0a0c19ceb78c Pull complete 
+ e6c1189c9e30 Extracting [==================================================>]     753B/753B
+ e6c1189c9e30 Extracting [==================================================>]     753B/753B
+ e6c1189c9e30 Pull complete 
+ b06eff96f3d0 Extracting [==================================================>]     235B/235B
+ b06eff96f3d0 Extracting [==================================================>]     235B/235B
+ b06eff96f3d0 Pull complete 
+ perf Pulled 
+*** Measurement Settings ***
+  Batch size: 1
+  Service Kind: Triton
+  Using "time_windows" mode for stabilization
+  Measurement window: 15000 msec
+  Using synchronous calls for inference
+  Stabilizing using average latency
+
+Request concurrency: 1
+  Client: 
+    Request count: 8310
+    Throughput: 153.875 infer/sec
+    Avg latency: 6497 usec (standard deviation 281 usec)
+    p50 latency: 6441 usec
+    p90 latency: 6686 usec
+    p95 latency: 6814 usec
+    p99 latency: 7771 usec
+    Avg HTTP time: 6492 usec (send/recv 93 usec + response wait 6399 usec)
+  Server: 
+    Inference count: 8310
+    Execution count: 8310
+    Successful request count: 8310
+    Avg request latency: 5324 usec (overhead 4 usec + queue 25 usec + compute input 52 usec + compute infer 5211 usec + compute output 31 usec)
+
+Inferences/Second vs. Client Average Batch Latency
+Concurrency: 1, throughput: 153.875 infer/sec, latency 6497 usec
+*** Measurement Settings ***
+  Batch size: 1
+  Service Kind: Triton
+  Using "time_windows" mode for stabilization
+  Measurement window: 15000 msec
+  Using synchronous calls for inference
+  Stabilizing using average latency
+
+Request concurrency: 2
+  Client: 
+    Request count: 9781
+    Throughput: 181.109 infer/sec
+    Avg latency: 11040 usec (standard deviation 503 usec)
+    p50 latency: 10962 usec
+    p90 latency: 11394 usec
+    p95 latency: 11605 usec
+    p99 latency: 13462 usec
+    Avg HTTP time: 11034 usec (send/recv 102 usec + response wait 10932 usec)
+  Server: 
+    Inference count: 9781
+    Execution count: 9781
+    Successful request count: 9781
+    Avg request latency: 9828 usec (overhead 4 usec + queue 4323 usec + compute input 126 usec + compute infer 5342 usec + compute output 32 usec)
+
+Inferences/Second vs. Client Average Batch Latency
+Concurrency: 2, throughput: 181.109 infer/sec, latency 11040 usec
+*** Measurement Settings ***
+  Batch size: 1
+  Service Kind: Triton
+  Using "time_windows" mode for stabilization
+  Measurement window: 15000 msec
+  Using synchronous calls for inference
+  Stabilizing using average latency
+
+Request concurrency: 4
+  Client: 
+    Request count: 9611
+    Throughput: 177.954 infer/sec
+    Avg latency: 22470 usec (standard deviation 1065 usec)
+    p50 latency: 22305 usec
+    p90 latency: 23427 usec
+    p95 latency: 23954 usec
+    p99 latency: 26921 usec
+    Avg HTTP time: 22464 usec (send/recv 115 usec + response wait 22349 usec)
+  Server: 
+    Inference count: 9611
+    Execution count: 9611
+    Successful request count: 9611
+    Avg request latency: 21226 usec (overhead 4 usec + queue 15623 usec + compute input 88 usec + compute infer 5478 usec + compute output 32 usec)
+
+Inferences/Second vs. Client Average Batch Latency
+Concurrency: 4, throughput: 177.954 infer/sec, latency 22470 usec
+*** Measurement Settings ***
+  Batch size: 1
+  Service Kind: Triton
+  Using "time_windows" mode for stabilization
+  Measurement window: 15000 msec
+  Using synchronous calls for inference
+  Stabilizing using average latency
+
+Request concurrency: 8
+  Client: 
+    Request count: 9722
+    Throughput: 180.011 infer/sec
+    Avg latency: 44421 usec (standard deviation 2122 usec)
+    p50 latency: 43984 usec
+    p90 latency: 46461 usec
+    p95 latency: 47342 usec
+    p99 latency: 53674 usec
+    Avg HTTP time: 44414 usec (send/recv 121 usec + response wait 44293 usec)
+  Server: 
+    Inference count: 9722
+    Execution count: 9722
+    Successful request count: 9722
+    Avg request latency: 43243 usec (overhead 4 usec + queue 37706 usec + compute input 52 usec + compute infer 5448 usec + compute output 33 usec)
+
+Inferences/Second vs. Client Average Batch Latency
+Concurrency: 8, throughput: 180.011 infer/sec, latency 44421 usec
+*** Measurement Settings ***
+  Batch size: 1
+  Service Kind: Triton
+  Using "time_windows" mode for stabilization
+  Measurement window: 15000 msec
+  Using synchronous calls for inference
+  Stabilizing using average latency
+
+Request concurrency: 16
+  Client: 
+    Request count: 9639
+    Throughput: 178.476 infer/sec
+    Avg latency: 89575 usec (standard deviation 3591 usec)
+    p50 latency: 89229 usec
+    p90 latency: 92871 usec
+    p95 latency: 94812 usec
+    p99 latency: 102591 usec
+    Avg HTTP time: 89568 usec (send/recv 134 usec + response wait 89434 usec)
+  Server: 
+    Inference count: 9639
+    Execution count: 9639
+    Successful request count: 9639
+    Avg request latency: 88357 usec (overhead 5 usec + queue 82772 usec + compute input 53 usec + compute infer 5494 usec + compute output 33 usec)
+
+Inferences/Second vs. Client Average Batch Latency
+Concurrency: 16, throughput: 178.476 infer/sec, latency 89575 usec
+*** Measurement Settings ***
+  Batch size: 1
+  Service Kind: Triton
+  Using "time_windows" mode for stabilization
+  Measurement window: 15000 msec
+  Using synchronous calls for inference
+  Stabilizing using average latency
+
+Request concurrency: 32
+  Client: 
+    Request count: 9709
+    Throughput: 179.732 infer/sec
+    Avg latency: 177736 usec (standard deviation 7324 usec)
+    p50 latency: 176726 usec
+    p90 latency: 184251 usec
+    p95 latency: 187360 usec
+    p99 latency: 198510 usec
+    Avg HTTP time: 177729 usec (send/recv 198 usec + response wait 177531 usec)
+  Server: 
+    Inference count: 9709
+    Execution count: 9709
+    Successful request count: 9709
+    Avg request latency: 176475 usec (overhead 4 usec + queue 170930 usec + compute input 64 usec + compute infer 5444 usec + compute output 33 usec)
+
+Inferences/Second vs. Client Average Batch Latency
+Concurrency: 32, throughput: 179.732 infer/sec, latency 177736 usec
+ Container hw3-ci-triton-1  Stopping
+ Container hw3-ci-triton-1  Stopped
+#1 [internal] load local bake definitions
+#1 reading from stdin 469B done
+#1 DONE 0.0s
+
+#2 [internal] load build definition from Dockerfile
+#2 transferring dockerfile: 1.54kB done
+#2 DONE 0.0s
+
+#3 [internal] load metadata for nvcr.io/nvidia/tritonserver:23.12-py3-sdk
+#3 DONE 0.0s
+
+#4 [internal] load metadata for nvcr.io/nvidia/tritonserver:23.12-py3
+#4 DONE 0.1s
+
+#5 [internal] load .dockerignore
+#5 transferring context: 92B done
+#5 DONE 0.0s
+
+#6 [server 1/9] FROM nvcr.io/nvidia/tritonserver:23.12-py3@sha256:363924e9f3b39154bf2075586145b5d15b20f6d695bd7e8de4448c3299064af0
+#6 DONE 0.0s
+
+#7 [internal] load build context
+#7 transferring context: 1.28kB done
+#7 DONE 0.0s
+
+#8 [server 2/9] WORKDIR /workspace
+#8 CACHED
+
+#9 [server 8/9] COPY profiling /workspace/profiling
+#9 CACHED
+
+#10 [server 7/9] COPY clients /workspace/clients
+#10 CACHED
+
+#11 [server 6/9] COPY scripts /workspace/scripts
+#11 CACHED
+
+#12 [server 3/9] COPY requirements.txt /workspace/requirements.txt
+#12 CACHED
+
+#13 [server 4/9] RUN python3 -m pip install --no-cache-dir -r requirements.txt
+#13 CACHED
+
+#14 [server 5/9] COPY model_repository /models
+#14 CACHED
+
+#15 [server 9/9] RUN python3 scripts/export_model.py
+#15 CACHED
+
+#16 [sdk 1/1] FROM nvcr.io/nvidia/tritonserver:23.12-py3-sdk
+#16 DONE 0.1s
+
+#17 [analyzer 1/4] COPY --from=sdk /workspace/install /opt/triton-sdk
+#17 DONE 1.2s
+
+#18 [analyzer 2/4] COPY requirements-analyzer.txt /workspace/requirements-analyzer.txt
+#18 DONE 0.0s
+
+#19 [analyzer 3/4] RUN apt-get update && apt-get install -y --no-install-recommends wkhtmltopdf libb64-0d     && rm -rf /var/lib/apt/lists/*     && python3 -m pip install --no-cache-dir -r requirements-analyzer.txt
+#19 0.209 Get:1 https://developer.download.nvidia.com/compute/cuda/repos/ubuntu2204/x86_64  InRelease [1578 B]
+#19 0.314 Get:2 https://developer.download.nvidia.com/compute/cuda/repos/ubuntu2204/x86_64  Packages [3072 kB]
+#19 0.332 Get:3 http://archive.ubuntu.com/ubuntu jammy InRelease [270 kB]
+#19 0.631 Get:4 http://security.ubuntu.com/ubuntu jammy-security InRelease [129 kB]
+#19 0.751 Get:5 http://archive.ubuntu.com/ubuntu jammy-updates InRelease [128 kB]
+#19 0.851 Get:6 http://archive.ubuntu.com/ubuntu jammy-backports InRelease [127 kB]
+#19 0.953 Get:7 http://archive.ubuntu.com/ubuntu jammy/universe amd64 Packages [17.5 MB]
+#19 1.440 Get:8 http://security.ubuntu.com/ubuntu jammy-security/restricted amd64 Packages [7955 kB]
+#19 1.521 Get:9 http://archive.ubuntu.com/ubuntu jammy/main amd64 Packages [1792 kB]
+#19 1.550 Get:10 http://archive.ubuntu.com/ubuntu jammy/multiverse amd64 Packages [266 kB]
+#19 1.552 Get:11 http://archive.ubuntu.com/ubuntu jammy/restricted amd64 Packages [164 kB]
+#19 1.598 Get:12 http://archive.ubuntu.com/ubuntu jammy-updates/universe amd64 Packages [1624 kB]
+#19 1.607 Get:13 http://archive.ubuntu.com/ubuntu jammy-updates/restricted amd64 Packages [8243 kB]
+#19 1.779 Get:14 http://archive.ubuntu.com/ubuntu jammy-updates/main amd64 Packages [4757 kB]
+#19 1.863 Get:15 http://archive.ubuntu.com/ubuntu jammy-updates/multiverse amd64 Packages [104 kB]
+#19 1.865 Get:16 http://archive.ubuntu.com/ubuntu jammy-backports/universe amd64 Packages [35.6 kB]
+#19 1.867 Get:17 http://archive.ubuntu.com/ubuntu jammy-backports/main amd64 Packages [82.9 kB]
+#19 2.723 Get:18 http://security.ubuntu.com/ubuntu jammy-security/multiverse amd64 Packages [96.8 kB]
+#19 3.371 Get:19 http://security.ubuntu.com/ubuntu jammy-security/main amd64 Packages [4429 kB]
+#19 4.499 Get:20 http://security.ubuntu.com/ubuntu jammy-security/universe amd64 Packages [1323 kB]
+#19 4.619 Fetched 52.1 MB in 4s (11.8 MB/s)
+#19 4.619 Reading package lists...
+#19 5.760 Reading package lists...
+#19 6.868 Building dependency tree...
+#19 7.114 Reading state information...
+#19 7.277 libb64-0d is already the newest version (1.2-5).
+#19 7.277 The following additional packages will be installed:
+#19 7.277   fontconfig fontconfig-config fonts-dejavu-core libavahi-client3
+#19 7.277   libavahi-common-data libavahi-common3 libcups2 libdouble-conversion3
+#19 7.277   libdrm-amdgpu1 libdrm-common libdrm-intel1 libdrm-nouveau2 libdrm-radeon1
+#19 7.277   libdrm2 libegl-mesa0 libegl1 libevdev2 libfontconfig1 libfreetype6 libgbm1
+#19 7.277   libgl1 libgl1-mesa-dri libglapi-mesa libglvnd0 libglx-mesa0 libglx0
+#19 7.277   libgraphite2-3 libgstreamer-plugins-base1.0-0 libgudev-1.0-0 libharfbuzz0b
+#19 7.277   libhyphen0 libice6 libinput-bin libinput10 libjpeg-turbo8 libjpeg8 libllvm15
+#19 7.277   libmd4c0 libmtdev1 liborc-0.4-0 libpciaccess0 libpcre2-16-0 libpng16-16
+#19 7.277   libqt5core5a libqt5dbus5 libqt5gui5 libqt5network5 libqt5positioning5
+#19 7.277   libqt5printsupport5 libqt5qml5 libqt5qmlmodels5 libqt5quick5 libqt5sensors5
+#19 7.277   libqt5svg5 libqt5webchannel5 libqt5webkit5 libqt5widgets5 libsensors-config
+#19 7.278   libsensors5 libsm6 libwacom-common libwacom9 libwayland-client0
+#19 7.278   libwayland-server0 libwebp7 libwoff1 libx11-6 libx11-data libx11-xcb1
+#19 7.278   libxau6 libxcb-dri2-0 libxcb-dri3-0 libxcb-glx0 libxcb-icccm4 libxcb-image0
+#19 7.278   libxcb-keysyms1 libxcb-present0 libxcb-randr0 libxcb-render-util0
+#19 7.278   libxcb-render0 libxcb-shape0 libxcb-shm0 libxcb-sync1 libxcb-util1
+#19 7.278   libxcb-xfixes0 libxcb-xinerama0 libxcb-xinput0 libxcb-xkb1 libxcb1 libxdmcp6
+#19 7.278   libxext6 libxfixes3 libxkbcommon-x11-0 libxkbcommon0 libxrender1
+#19 7.278   libxshmfence1 libxslt1.1 libxxf86vm1 shared-mime-info ucf x11-common
+#19 7.278   xkb-data
+#19 7.279 Suggested packages:
+#19 7.279   cups-common libvisual-0.4-plugins pciutils libthai0
+#19 7.279   qt5-image-formats-plugins qtwayland5 qt5-qmltooling-plugins lm-sensors
+#19 7.279 Recommended packages:
+#19 7.279   libgl1-amber-dri gstreamer1.0-plugins-base qttranslations5-l10n
+#19 7.279   qt5-gtk-platformtheme geoclue-2.0 libwacom-bin xserver | xvfb
+#19 7.418 The following NEW packages will be installed:
+#19 7.418   fontconfig fontconfig-config fonts-dejavu-core libavahi-client3
+#19 7.419   libavahi-common-data libavahi-common3 libcups2 libdouble-conversion3
+#19 7.419   libdrm-amdgpu1 libdrm-common libdrm-intel1 libdrm-nouveau2 libdrm-radeon1
+#19 7.419   libdrm2 libegl-mesa0 libegl1 libevdev2 libfontconfig1 libfreetype6 libgbm1
+#19 7.419   libgl1 libgl1-mesa-dri libglapi-mesa libglvnd0 libglx-mesa0 libglx0
+#19 7.419   libgraphite2-3 libgstreamer-plugins-base1.0-0 libgudev-1.0-0 libharfbuzz0b
+#19 7.419   libhyphen0 libice6 libinput-bin libinput10 libjpeg-turbo8 libjpeg8 libllvm15
+#19 7.419   libmd4c0 libmtdev1 liborc-0.4-0 libpciaccess0 libpcre2-16-0 libpng16-16
+#19 7.419   libqt5core5a libqt5dbus5 libqt5gui5 libqt5network5 libqt5positioning5
+#19 7.419   libqt5printsupport5 libqt5qml5 libqt5qmlmodels5 libqt5quick5 libqt5sensors5
+#19 7.419   libqt5svg5 libqt5webchannel5 libqt5webkit5 libqt5widgets5 libsensors-config
+#19 7.419   libsensors5 libsm6 libwacom-common libwacom9 libwayland-client0
+#19 7.419   libwayland-server0 libwebp7 libwoff1 libx11-6 libx11-data libx11-xcb1
+#19 7.419   libxau6 libxcb-dri2-0 libxcb-dri3-0 libxcb-glx0 libxcb-icccm4 libxcb-image0
+#19 7.419   libxcb-keysyms1 libxcb-present0 libxcb-randr0 libxcb-render-util0
+#19 7.419   libxcb-render0 libxcb-shape0 libxcb-shm0 libxcb-sync1 libxcb-util1
+#19 7.419   libxcb-xfixes0 libxcb-xinerama0 libxcb-xinput0 libxcb-xkb1 libxcb1 libxdmcp6
+#19 7.419   libxext6 libxfixes3 libxkbcommon-x11-0 libxkbcommon0 libxrender1
+#19 7.420   libxshmfence1 libxslt1.1 libxxf86vm1 shared-mime-info ucf wkhtmltopdf
+#19 7.420   x11-common xkb-data
+#19 7.905 0 upgraded, 103 newly installed, 0 to remove and 202 not upgraded.
+#19 7.905 Need to get 68.8 MB of archives.
+#19 7.905 After this operation, 276 MB of additional disk space will be used.
+#19 7.905 Get:1 http://archive.ubuntu.com/ubuntu jammy/main amd64 shared-mime-info amd64 2.1-2 [454 kB]
+#19 8.927 Get:2 http://archive.ubuntu.com/ubuntu jammy/universe amd64 libdouble-conversion3 amd64 3.1.7-4 [39.0 kB]
+#19 8.936 Get:3 http://archive.ubuntu.com/ubuntu jammy-updates/main amd64 libpcre2-16-0 amd64 10.39-3ubuntu0.1 [203 kB]
+#19 8.988 Get:4 http://archive.ubuntu.com/ubuntu jammy-updates/universe amd64 libqt5core5a amd64 5.15.3+dfsg-2ubuntu0.2 [2006 kB]
+#19 9.376 Get:5 http://archive.ubuntu.com/ubuntu jammy-updates/main amd64 libpng16-16 amd64 1.6.37-3ubuntu0.7 [192 kB]
+#19 9.396 Get:6 http://archive.ubuntu.com/ubuntu jammy-updates/main amd64 libfreetype6 amd64 2.11.1+dfsg-1ubuntu0.4 [388 kB]
+#19 9.430 Get:7 http://archive.ubuntu.com/ubuntu jammy/main amd64 ucf all 3.0043 [56.1 kB]
+#19 9.434 Get:8 http://archive.ubuntu.com/ubuntu jammy/main amd64 fonts-dejavu-core all 2.37-2build1 [1041 kB]
+#19 9.496 Get:9 http://archive.ubuntu.com/ubuntu jammy/main amd64 fontconfig-config all 2.13.1-4.2ubuntu5 [29.1 kB]
+#19 9.498 Get:10 http://archive.ubuntu.com/ubuntu jammy/main amd64 libfontconfig1 amd64 2.13.1-4.2ubuntu5 [131 kB]
+#19 9.504 Get:11 http://archive.ubuntu.com/ubuntu jammy/main amd64 fontconfig amd64 2.13.1-4.2ubuntu5 [177 kB]
+#19 9.513 Get:12 http://archive.ubuntu.com/ubuntu jammy-updates/main amd64 libdrm-common all 2.4.113-2~ubuntu0.22.04.1 [5450 B]
+#19 9.514 Get:13 http://archive.ubuntu.com/ubuntu jammy-updates/main amd64 libdrm2 amd64 2.4.113-2~ubuntu0.22.04.1 [38.1 kB]
+#19 9.536 Get:14 http://archive.ubuntu.com/ubuntu jammy/main amd64 libglvnd0 amd64 1.4.0-1 [73.6 kB]
+#19 9.696 Get:15 http://archive.ubuntu.com/ubuntu jammy-updates/main amd64 libwayland-server0 amd64 1.20.0-1ubuntu0.1 [34.3 kB]
+#19 9.696 Get:16 http://archive.ubuntu.com/ubuntu jammy/main amd64 libxau6 amd64 1:1.0.9-1build5 [7634 B]
+#19 9.697 Get:17 http://archive.ubuntu.com/ubuntu jammy/main amd64 libxdmcp6 amd64 1:1.1.3-0ubuntu5 [10.9 kB]
+#19 9.697 Get:18 http://archive.ubuntu.com/ubuntu jammy/main amd64 libxcb1 amd64 1.14-3ubuntu3 [49.0 kB]
+#19 9.698 Get:19 http://archive.ubuntu.com/ubuntu jammy/main amd64 libxcb-randr0 amd64 1.14-3ubuntu3 [18.3 kB]
+#19 9.699 Get:20 http://archive.ubuntu.com/ubuntu jammy-updates/main amd64 libgbm1 amd64 23.2.1-1ubuntu3.1~22.04.4 [33.7 kB]
+#19 9.699 Get:21 http://archive.ubuntu.com/ubuntu jammy-updates/main amd64 libglapi-mesa amd64 23.2.1-1ubuntu3.1~22.04.4 [35.6 kB]
+#19 9.700 Get:22 http://archive.ubuntu.com/ubuntu jammy-updates/main amd64 libwayland-client0 amd64 1.20.0-1ubuntu0.1 [25.9 kB]
+#19 9.700 Get:23 http://archive.ubuntu.com/ubuntu jammy-updates/main amd64 libx11-data all 2:1.7.5-1ubuntu0.3 [120 kB]
+#19 9.855 Get:24 http://archive.ubuntu.com/ubuntu jammy-updates/main amd64 libx11-6 amd64 2:1.7.5-1ubuntu0.3 [667 kB]
+#19 10.01 Get:25 http://archive.ubuntu.com/ubuntu jammy-updates/main amd64 libx11-xcb1 amd64 2:1.7.5-1ubuntu0.3 [7802 B]
+#19 10.02 Get:26 http://archive.ubuntu.com/ubuntu jammy/main amd64 libxcb-dri2-0 amd64 1.14-3ubuntu3 [7206 B]
+#19 10.02 Get:27 http://archive.ubuntu.com/ubuntu jammy/main amd64 libxcb-dri3-0 amd64 1.14-3ubuntu3 [6968 B]
+#19 10.02 Get:28 http://archive.ubuntu.com/ubuntu jammy/main amd64 libxcb-present0 amd64 1.14-3ubuntu3 [5734 B]
+#19 10.02 Get:29 http://archive.ubuntu.com/ubuntu jammy/main amd64 libxcb-sync1 amd64 1.14-3ubuntu3 [9416 B]
+#19 10.02 Get:30 http://archive.ubuntu.com/ubuntu jammy/main amd64 libxcb-xfixes0 amd64 1.14-3ubuntu3 [9996 B]
+#19 10.02 Get:31 http://archive.ubuntu.com/ubuntu jammy/main amd64 libxshmfence1 amd64 1.3-1build4 [5394 B]
+#19 10.02 Get:32 http://archive.ubuntu.com/ubuntu jammy-updates/main amd64 libegl-mesa0 amd64 23.2.1-1ubuntu3.1~22.04.4 [118 kB]
+#19 10.02 Get:33 http://archive.ubuntu.com/ubuntu jammy/main amd64 libegl1 amd64 1.4.0-1 [28.6 kB]
+#19 10.17 Get:34 http://archive.ubuntu.com/ubuntu jammy/main amd64 libxcb-glx0 amd64 1.14-3ubuntu3 [25.9 kB]
+#19 10.33 Get:35 http://archive.ubuntu.com/ubuntu jammy/main amd64 libxcb-shm0 amd64 1.14-3ubuntu3 [5780 B]
+#19 10.33 Get:36 http://archive.ubuntu.com/ubuntu jammy/main amd64 libxext6 amd64 2:1.3.4-1build1 [31.8 kB]
+#19 10.34 Get:37 http://archive.ubuntu.com/ubuntu jammy/main amd64 libxfixes3 amd64 1:6.0.0-1 [11.7 kB]
+#19 10.34 Get:38 http://archive.ubuntu.com/ubuntu jammy/main amd64 libxxf86vm1 amd64 1:1.1.4-1build3 [10.4 kB]
+#19 10.34 Get:39 http://archive.ubuntu.com/ubuntu jammy-updates/main amd64 libdrm-amdgpu1 amd64 2.4.113-2~ubuntu0.22.04.1 [19.9 kB]
+#19 10.34 Get:40 http://archive.ubuntu.com/ubuntu jammy/main amd64 libpciaccess0 amd64 0.16-3 [19.1 kB]
+#19 10.34 Get:41 http://archive.ubuntu.com/ubuntu jammy-updates/main amd64 libdrm-intel1 amd64 2.4.113-2~ubuntu0.22.04.1 [66.7 kB]
+#19 10.34 Get:42 http://archive.ubuntu.com/ubuntu jammy-updates/main amd64 libdrm-nouveau2 amd64 2.4.113-2~ubuntu0.22.04.1 [17.5 kB]
+#19 10.34 Get:43 http://archive.ubuntu.com/ubuntu jammy-updates/main amd64 libdrm-radeon1 amd64 2.4.113-2~ubuntu0.22.04.1 [21.6 kB]
+#19 10.49 Get:44 http://archive.ubuntu.com/ubuntu jammy-updates/main amd64 libllvm15 amd64 1:15.0.7-0ubuntu0.22.04.3 [25.4 MB]
+#19 11.38 Get:45 http://archive.ubuntu.com/ubuntu jammy/main amd64 libsensors-config all 1:3.6.0-7ubuntu1 [5274 B]
+#19 11.38 Get:46 http://archive.ubuntu.com/ubuntu jammy/main amd64 libsensors5 amd64 1:3.6.0-7ubuntu1 [26.3 kB]
+#19 11.39 Get:47 http://archive.ubuntu.com/ubuntu jammy-updates/main amd64 libgl1-mesa-dri amd64 23.2.1-1ubuntu3.1~22.04.4 [8860 kB]
+#19 11.72 Get:48 http://archive.ubuntu.com/ubuntu jammy-updates/main amd64 libglx-mesa0 amd64 23.2.1-1ubuntu3.1~22.04.4 [158 kB]
+#19 11.72 Get:49 http://archive.ubuntu.com/ubuntu jammy/main amd64 libglx0 amd64 1.4.0-1 [41.0 kB]
+#19 11.72 Get:50 http://archive.ubuntu.com/ubuntu jammy/main amd64 libgl1 amd64 1.4.0-1 [110 kB]
+#19 11.73 Get:51 http://archive.ubuntu.com/ubuntu jammy-updates/main amd64 libgraphite2-3 amd64 1.3.14-1ubuntu0.1 [71.6 kB]
+#19 11.73 Get:52 http://archive.ubuntu.com/ubuntu jammy-updates/main amd64 libharfbuzz0b amd64 2.7.4-1ubuntu3.2 [353 kB]
+#19 11.77 Get:53 http://archive.ubuntu.com/ubuntu jammy/main amd64 x11-common all 1:7.7+23ubuntu2 [23.4 kB]
+#19 11.77 Get:54 http://archive.ubuntu.com/ubuntu jammy/main amd64 libice6 amd64 2:1.0.10-1build2 [42.6 kB]
+#19 11.77 Get:55 http://archive.ubuntu.com/ubuntu jammy/main amd64 libevdev2 amd64 1.12.1+dfsg-1 [39.5 kB]
+#19 11.77 Get:56 http://archive.ubuntu.com/ubuntu jammy/main amd64 libmtdev1 amd64 1.1.6-1build4 [14.5 kB]
+#19 11.88 Get:57 http://archive.ubuntu.com/ubuntu jammy/main amd64 libgudev-1.0-0 amd64 1:237-2build1 [16.3 kB]
+#19 12.04 Get:58 http://archive.ubuntu.com/ubuntu jammy/main amd64 libwacom-common all 2.2.0-1 [54.3 kB]
+#19 12.04 Get:59 http://archive.ubuntu.com/ubuntu jammy/main amd64 libwacom9 amd64 2.2.0-1 [22.0 kB]
+#19 12.04 Get:60 http://archive.ubuntu.com/ubuntu jammy-updates/main amd64 libinput-bin amd64 1.20.0-1ubuntu0.4 [20.4 kB]
+#19 12.04 Get:61 http://archive.ubuntu.com/ubuntu jammy-updates/main amd64 libinput10 amd64 1.20.0-1ubuntu0.4 [131 kB]
+#19 12.05 Get:62 http://archive.ubuntu.com/ubuntu jammy/main amd64 libjpeg-turbo8 amd64 2.1.2-0ubuntu1 [134 kB]
+#19 12.05 Get:63 http://archive.ubuntu.com/ubuntu jammy/main amd64 libjpeg8 amd64 8c-2ubuntu10 [2264 B]
+#19 12.05 Get:64 http://archive.ubuntu.com/ubuntu jammy/universe amd64 libmd4c0 amd64 0.4.8-1 [42.0 kB]
+#19 12.05 Get:65 http://archive.ubuntu.com/ubuntu jammy-updates/universe amd64 libqt5dbus5 amd64 5.15.3+dfsg-2ubuntu0.2 [222 kB]
+#19 12.06 Get:66 http://archive.ubuntu.com/ubuntu jammy-updates/universe amd64 libqt5network5 amd64 5.15.3+dfsg-2ubuntu0.2 [731 kB]
+#19 12.20 Get:67 http://archive.ubuntu.com/ubuntu jammy/main amd64 libsm6 amd64 2:1.2.3-1build2 [16.7 kB]
+#19 12.36 Get:68 http://archive.ubuntu.com/ubuntu jammy/main amd64 libxcb-icccm4 amd64 0.4.1-1.1build2 [11.5 kB]
+#19 12.36 Get:69 http://archive.ubuntu.com/ubuntu jammy/main amd64 libxcb-util1 amd64 0.4.0-1build2 [11.4 kB]
+#19 12.36 Get:70 http://archive.ubuntu.com/ubuntu jammy/main amd64 libxcb-image0 amd64 0.4.0-2 [11.5 kB]
+#19 12.36 Get:71 http://archive.ubuntu.com/ubuntu jammy/main amd64 libxcb-keysyms1 amd64 0.4.0-1build3 [8746 B]
+#19 12.36 Get:72 http://archive.ubuntu.com/ubuntu jammy/main amd64 libxcb-render0 amd64 1.14-3ubuntu3 [16.4 kB]
+#19 12.36 Get:73 http://archive.ubuntu.com/ubuntu jammy/main amd64 libxcb-render-util0 amd64 0.3.9-1build3 [10.3 kB]
+#19 12.36 Get:74 http://archive.ubuntu.com/ubuntu jammy/main amd64 libxcb-shape0 amd64 1.14-3ubuntu3 [6158 B]
+#19 12.36 Get:75 http://archive.ubuntu.com/ubuntu jammy/main amd64 libxcb-xinerama0 amd64 1.14-3ubuntu3 [5414 B]
+#19 12.36 Get:76 http://archive.ubuntu.com/ubuntu jammy/main amd64 libxcb-xinput0 amd64 1.14-3ubuntu3 [34.3 kB]
+#19 12.52 Get:77 http://archive.ubuntu.com/ubuntu jammy/main amd64 libxcb-xkb1 amd64 1.14-3ubuntu3 [32.8 kB]
+#19 12.52 Get:78 http://archive.ubuntu.com/ubuntu jammy/main amd64 xkb-data all 2.33-1 [394 kB]
+#19 12.53 Get:79 http://archive.ubuntu.com/ubuntu jammy/main amd64 libxkbcommon0 amd64 1.4.0-1 [125 kB]
+#19 12.54 Get:80 http://archive.ubuntu.com/ubuntu jammy/main amd64 libxkbcommon-x11-0 amd64 1.4.0-1 [14.4 kB]
+#19 12.54 Get:81 http://archive.ubuntu.com/ubuntu jammy/main amd64 libxrender1 amd64 1:0.9.10-1build4 [19.7 kB]
+#19 12.54 Get:82 http://archive.ubuntu.com/ubuntu jammy-updates/universe amd64 libqt5gui5 amd64 5.15.3+dfsg-2ubuntu0.2 [3722 kB]
+#19 12.65 Get:83 http://archive.ubuntu.com/ubuntu jammy-updates/universe amd64 libqt5widgets5 amd64 5.15.3+dfsg-2ubuntu0.2 [2561 kB]
+#19 12.75 Get:84 http://archive.ubuntu.com/ubuntu jammy/universe amd64 libqt5svg5 amd64 5.15.3-1 [149 kB]
+#19 12.76 Get:85 http://archive.ubuntu.com/ubuntu jammy-updates/main amd64 liborc-0.4-0 amd64 1:0.4.32-2ubuntu0.1 [228 kB]
+#19 12.76 Get:86 http://archive.ubuntu.com/ubuntu jammy-updates/main amd64 libgstreamer-plugins-base1.0-0 amd64 1.20.1-1ubuntu0.7 [848 kB]
+#19 12.84 Get:87 http://archive.ubuntu.com/ubuntu jammy/main amd64 libhyphen0 amd64 2.8.8-7build2 [28.2 kB]
+#19 12.84 Get:88 http://archive.ubuntu.com/ubuntu jammy/universe amd64 libqt5positioning5 amd64 5.15.3+dfsg-3 [223 kB]
+#19 12.84 Get:89 http://archive.ubuntu.com/ubuntu jammy-updates/main amd64 libavahi-common-data amd64 0.8-5ubuntu5.5 [24.0 kB]
+#19 12.84 Get:90 http://archive.ubuntu.com/ubuntu jammy-updates/main amd64 libavahi-common3 amd64 0.8-5ubuntu5.5 [23.9 kB]
+#19 12.84 Get:91 http://archive.ubuntu.com/ubuntu jammy-updates/main amd64 libavahi-client3 amd64 0.8-5ubuntu5.5 [28.1 kB]
+#19 12.84 Get:92 http://archive.ubuntu.com/ubuntu jammy-updates/main amd64 libcups2 amd64 2.4.1op1-1ubuntu4.21 [266 kB]
+#19 13.00 Get:93 http://archive.ubuntu.com/ubuntu jammy-updates/universe amd64 libqt5printsupport5 amd64 5.15.3+dfsg-2ubuntu0.2 [214 kB]
+#19 13.00 Get:94 http://archive.ubuntu.com/ubuntu jammy/universe amd64 libqt5qml5 amd64 5.15.3+dfsg-1 [1472 kB]
+#19 13.04 Get:95 http://archive.ubuntu.com/ubuntu jammy/universe amd64 libqt5qmlmodels5 amd64 5.15.3+dfsg-1 [205 kB]
+#19 13.05 Get:96 http://archive.ubuntu.com/ubuntu jammy/universe amd64 libqt5quick5 amd64 5.15.3+dfsg-1 [1748 kB]
+#19 13.16 Get:97 http://archive.ubuntu.com/ubuntu jammy/universe amd64 libqt5sensors5 amd64 5.15.3-1 [123 kB]
+#19 13.16 Get:98 http://archive.ubuntu.com/ubuntu jammy/universe amd64 libqt5webchannel5 amd64 5.15.3-1 [62.9 kB]
+#19 13.16 Get:99 http://archive.ubuntu.com/ubuntu jammy-updates/main amd64 libwebp7 amd64 1.2.2-2ubuntu0.22.04.2 [206 kB]
+#19 13.17 Get:100 http://archive.ubuntu.com/ubuntu jammy/main amd64 libwoff1 amd64 1.0.2-1build4 [45.2 kB]
+#19 13.17 Get:101 http://archive.ubuntu.com/ubuntu jammy-updates/main amd64 libxslt1.1 amd64 1.1.34-4ubuntu0.22.04.5 [165 kB]
+#19 13.50 Get:102 http://archive.ubuntu.com/ubuntu jammy/universe amd64 libqt5webkit5 amd64 5.212.0~alpha4-15ubuntu1 [12.8 MB]
+#19 15.37 Get:103 http://archive.ubuntu.com/ubuntu jammy/universe amd64 wkhtmltopdf amd64 0.12.6-2 [173 kB]
+#19 20.00 Preconfiguring packages ...
+#19 20.05 Fetched 68.8 MB in 8s (8660 kB/s)
+#19 20.08 Selecting previously unselected package shared-mime-info.
+#19 20.08 (Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 26617 files and directories currently installed.)
+#19 20.16 Preparing to unpack .../000-shared-mime-info_2.1-2_amd64.deb ...
+#19 20.16 Unpacking shared-mime-info (2.1-2) ...
+#19 20.19 Selecting previously unselected package libdouble-conversion3:amd64.
+#19 20.19 Preparing to unpack .../001-libdouble-conversion3_3.1.7-4_amd64.deb ...
+#19 20.19 Unpacking libdouble-conversion3:amd64 (3.1.7-4) ...
+#19 20.21 Selecting previously unselected package libpcre2-16-0:amd64.
+#19 20.21 Preparing to unpack .../002-libpcre2-16-0_10.39-3ubuntu0.1_amd64.deb ...
+#19 20.22 Unpacking libpcre2-16-0:amd64 (10.39-3ubuntu0.1) ...
+#19 20.24 Selecting previously unselected package libqt5core5a:amd64.
+#19 20.24 Preparing to unpack .../003-libqt5core5a_5.15.3+dfsg-2ubuntu0.2_amd64.deb ...
+#19 20.27 Unpacking libqt5core5a:amd64 (5.15.3+dfsg-2ubuntu0.2) ...
+#19 20.31 Selecting previously unselected package libpng16-16:amd64.
+#19 20.31 Preparing to unpack .../004-libpng16-16_1.6.37-3ubuntu0.7_amd64.deb ...
+#19 20.31 Unpacking libpng16-16:amd64 (1.6.37-3ubuntu0.7) ...
+#19 20.33 Selecting previously unselected package libfreetype6:amd64.
+#19 20.33 Preparing to unpack .../005-libfreetype6_2.11.1+dfsg-1ubuntu0.4_amd64.deb ...
+#19 20.33 Unpacking libfreetype6:amd64 (2.11.1+dfsg-1ubuntu0.4) ...
+#19 20.35 Selecting previously unselected package ucf.
+#19 20.36 Preparing to unpack .../006-ucf_3.0043_all.deb ...
+#19 20.37 Moving old data out of the way
+#19 20.37 Unpacking ucf (3.0043) ...
+#19 20.39 Selecting previously unselected package fonts-dejavu-core.
+#19 20.39 Preparing to unpack .../007-fonts-dejavu-core_2.37-2build1_all.deb ...
+#19 20.39 Unpacking fonts-dejavu-core (2.37-2build1) ...
+#19 20.48 Selecting previously unselected package fontconfig-config.
+#19 20.48 Preparing to unpack .../008-fontconfig-config_2.13.1-4.2ubuntu5_all.deb ...
+#19 20.48 Unpacking fontconfig-config (2.13.1-4.2ubuntu5) ...
+#19 20.51 Selecting previously unselected package libfontconfig1:amd64.
+#19 20.51 Preparing to unpack .../009-libfontconfig1_2.13.1-4.2ubuntu5_amd64.deb ...
+#19 20.51 Unpacking libfontconfig1:amd64 (2.13.1-4.2ubuntu5) ...
+#19 20.53 Selecting previously unselected package fontconfig.
+#19 20.53 Preparing to unpack .../010-fontconfig_2.13.1-4.2ubuntu5_amd64.deb ...
+#19 20.53 Unpacking fontconfig (2.13.1-4.2ubuntu5) ...
+#19 20.56 Selecting previously unselected package libdrm-common.
+#19 20.56 Preparing to unpack .../011-libdrm-common_2.4.113-2~ubuntu0.22.04.1_all.deb ...
+#19 20.56 Unpacking libdrm-common (2.4.113-2~ubuntu0.22.04.1) ...
+#19 20.57 Selecting previously unselected package libdrm2:amd64.
+#19 20.58 Preparing to unpack .../012-libdrm2_2.4.113-2~ubuntu0.22.04.1_amd64.deb ...
+#19 20.58 Unpacking libdrm2:amd64 (2.4.113-2~ubuntu0.22.04.1) ...
+#19 20.60 Selecting previously unselected package libglvnd0:amd64.
+#19 20.60 Preparing to unpack .../013-libglvnd0_1.4.0-1_amd64.deb ...
+#19 20.60 Unpacking libglvnd0:amd64 (1.4.0-1) ...
+#19 20.62 Selecting previously unselected package libwayland-server0:amd64.
+#19 20.62 Preparing to unpack .../014-libwayland-server0_1.20.0-1ubuntu0.1_amd64.deb ...
+#19 20.62 Unpacking libwayland-server0:amd64 (1.20.0-1ubuntu0.1) ...
+#19 20.64 Selecting previously unselected package libxau6:amd64.
+#19 20.64 Preparing to unpack .../015-libxau6_1%3a1.0.9-1build5_amd64.deb ...
+#19 20.64 Unpacking libxau6:amd64 (1:1.0.9-1build5) ...
+#19 20.66 Selecting previously unselected package libxdmcp6:amd64.
+#19 20.66 Preparing to unpack .../016-libxdmcp6_1%3a1.1.3-0ubuntu5_amd64.deb ...
+#19 20.66 Unpacking libxdmcp6:amd64 (1:1.1.3-0ubuntu5) ...
+#19 20.68 Selecting previously unselected package libxcb1:amd64.
+#19 20.68 Preparing to unpack .../017-libxcb1_1.14-3ubuntu3_amd64.deb ...
+#19 20.68 Unpacking libxcb1:amd64 (1.14-3ubuntu3) ...
+#19 20.70 Selecting previously unselected package libxcb-randr0:amd64.
+#19 20.70 Preparing to unpack .../018-libxcb-randr0_1.14-3ubuntu3_amd64.deb ...
+#19 20.70 Unpacking libxcb-randr0:amd64 (1.14-3ubuntu3) ...
+#19 20.72 Selecting previously unselected package libgbm1:amd64.
+#19 20.73 Preparing to unpack .../019-libgbm1_23.2.1-1ubuntu3.1~22.04.4_amd64.deb ...
+#19 20.73 Unpacking libgbm1:amd64 (23.2.1-1ubuntu3.1~22.04.4) ...
+#19 20.74 Selecting previously unselected package libglapi-mesa:amd64.
+#19 20.75 Preparing to unpack .../020-libglapi-mesa_23.2.1-1ubuntu3.1~22.04.4_amd64.deb ...
+#19 20.75 Unpacking libglapi-mesa:amd64 (23.2.1-1ubuntu3.1~22.04.4) ...
+#19 20.77 Selecting previously unselected package libwayland-client0:amd64.
+#19 20.77 Preparing to unpack .../021-libwayland-client0_1.20.0-1ubuntu0.1_amd64.deb ...
+#19 20.77 Unpacking libwayland-client0:amd64 (1.20.0-1ubuntu0.1) ...
+#19 20.79 Selecting previously unselected package libx11-data.
+#19 20.79 Preparing to unpack .../022-libx11-data_2%3a1.7.5-1ubuntu0.3_all.deb ...
+#19 20.79 Unpacking libx11-data (2:1.7.5-1ubuntu0.3) ...
+#19 20.85 Selecting previously unselected package libx11-6:amd64.
+#19 20.86 Preparing to unpack .../023-libx11-6_2%3a1.7.5-1ubuntu0.3_amd64.deb ...
+#19 20.86 Unpacking libx11-6:amd64 (2:1.7.5-1ubuntu0.3) ...
+#19 20.88 Selecting previously unselected package libx11-xcb1:amd64.
+#19 20.88 Preparing to unpack .../024-libx11-xcb1_2%3a1.7.5-1ubuntu0.3_amd64.deb ...
+#19 20.88 Unpacking libx11-xcb1:amd64 (2:1.7.5-1ubuntu0.3) ...
+#19 20.90 Selecting previously unselected package libxcb-dri2-0:amd64.
+#19 20.90 Preparing to unpack .../025-libxcb-dri2-0_1.14-3ubuntu3_amd64.deb ...
+#19 20.90 Unpacking libxcb-dri2-0:amd64 (1.14-3ubuntu3) ...
+#19 20.92 Selecting previously unselected package libxcb-dri3-0:amd64.
+#19 20.92 Preparing to unpack .../026-libxcb-dri3-0_1.14-3ubuntu3_amd64.deb ...
+#19 20.93 Unpacking libxcb-dri3-0:amd64 (1.14-3ubuntu3) ...
+#19 20.94 Selecting previously unselected package libxcb-present0:amd64.
+#19 20.95 Preparing to unpack .../027-libxcb-present0_1.14-3ubuntu3_amd64.deb ...
+#19 20.95 Unpacking libxcb-present0:amd64 (1.14-3ubuntu3) ...
+#19 20.96 Selecting previously unselected package libxcb-sync1:amd64.
+#19 20.97 Preparing to unpack .../028-libxcb-sync1_1.14-3ubuntu3_amd64.deb ...
+#19 20.97 Unpacking libxcb-sync1:amd64 (1.14-3ubuntu3) ...
+#19 20.98 Selecting previously unselected package libxcb-xfixes0:amd64.
+#19 20.99 Preparing to unpack .../029-libxcb-xfixes0_1.14-3ubuntu3_amd64.deb ...
+#19 20.99 Unpacking libxcb-xfixes0:amd64 (1.14-3ubuntu3) ...
+#19 21.00 Selecting previously unselected package libxshmfence1:amd64.
+#19 21.01 Preparing to unpack .../030-libxshmfence1_1.3-1build4_amd64.deb ...
+#19 21.01 Unpacking libxshmfence1:amd64 (1.3-1build4) ...
+#19 21.03 Selecting previously unselected package libegl-mesa0:amd64.
+#19 21.03 Preparing to unpack .../031-libegl-mesa0_23.2.1-1ubuntu3.1~22.04.4_amd64.deb ...
+#19 21.03 Unpacking libegl-mesa0:amd64 (23.2.1-1ubuntu3.1~22.04.4) ...
+#19 21.05 Selecting previously unselected package libegl1:amd64.
+#19 21.05 Preparing to unpack .../032-libegl1_1.4.0-1_amd64.deb ...
+#19 21.05 Unpacking libegl1:amd64 (1.4.0-1) ...
+#19 21.07 Selecting previously unselected package libxcb-glx0:amd64.
+#19 21.07 Preparing to unpack .../033-libxcb-glx0_1.14-3ubuntu3_amd64.deb ...
+#19 21.07 Unpacking libxcb-glx0:amd64 (1.14-3ubuntu3) ...
+#19 21.09 Selecting previously unselected package libxcb-shm0:amd64.
+#19 21.10 Preparing to unpack .../034-libxcb-shm0_1.14-3ubuntu3_amd64.deb ...
+#19 21.10 Unpacking libxcb-shm0:amd64 (1.14-3ubuntu3) ...
+#19 21.11 Selecting previously unselected package libxext6:amd64.
+#19 21.12 Preparing to unpack .../035-libxext6_2%3a1.3.4-1build1_amd64.deb ...
+#19 21.12 Unpacking libxext6:amd64 (2:1.3.4-1build1) ...
+#19 21.14 Selecting previously unselected package libxfixes3:amd64.
+#19 21.14 Preparing to unpack .../036-libxfixes3_1%3a6.0.0-1_amd64.deb ...
+#19 21.14 Unpacking libxfixes3:amd64 (1:6.0.0-1) ...
+#19 21.16 Selecting previously unselected package libxxf86vm1:amd64.
+#19 21.16 Preparing to unpack .../037-libxxf86vm1_1%3a1.1.4-1build3_amd64.deb ...
+#19 21.16 Unpacking libxxf86vm1:amd64 (1:1.1.4-1build3) ...
+#19 21.18 Selecting previously unselected package libdrm-amdgpu1:amd64.
+#19 21.18 Preparing to unpack .../038-libdrm-amdgpu1_2.4.113-2~ubuntu0.22.04.1_amd64.deb ...
+#19 21.18 Unpacking libdrm-amdgpu1:amd64 (2.4.113-2~ubuntu0.22.04.1) ...
+#19 21.20 Selecting previously unselected package libpciaccess0:amd64.
+#19 21.20 Preparing to unpack .../039-libpciaccess0_0.16-3_amd64.deb ...
+#19 21.20 Unpacking libpciaccess0:amd64 (0.16-3) ...
+#19 21.22 Selecting previously unselected package libdrm-intel1:amd64.
+#19 21.22 Preparing to unpack .../040-libdrm-intel1_2.4.113-2~ubuntu0.22.04.1_amd64.deb ...
+#19 21.22 Unpacking libdrm-intel1:amd64 (2.4.113-2~ubuntu0.22.04.1) ...
+#19 21.24 Selecting previously unselected package libdrm-nouveau2:amd64.
+#19 21.24 Preparing to unpack .../041-libdrm-nouveau2_2.4.113-2~ubuntu0.22.04.1_amd64.deb ...
+#19 21.24 Unpacking libdrm-nouveau2:amd64 (2.4.113-2~ubuntu0.22.04.1) ...
+#19 21.26 Selecting previously unselected package libdrm-radeon1:amd64.
+#19 21.27 Preparing to unpack .../042-libdrm-radeon1_2.4.113-2~ubuntu0.22.04.1_amd64.deb ...
+#19 21.27 Unpacking libdrm-radeon1:amd64 (2.4.113-2~ubuntu0.22.04.1) ...
+#19 21.28 Selecting previously unselected package libllvm15:amd64.
+#19 21.29 Preparing to unpack .../043-libllvm15_1%3a15.0.7-0ubuntu0.22.04.3_amd64.deb ...
+#19 21.29 Unpacking libllvm15:amd64 (1:15.0.7-0ubuntu0.22.04.3) ...
+#19 21.68 Selecting previously unselected package libsensors-config.
+#19 21.68 Preparing to unpack .../044-libsensors-config_1%3a3.6.0-7ubuntu1_all.deb ...
+#19 21.68 Unpacking libsensors-config (1:3.6.0-7ubuntu1) ...
+#19 21.70 Selecting previously unselected package libsensors5:amd64.
+#19 21.70 Preparing to unpack .../045-libsensors5_1%3a3.6.0-7ubuntu1_amd64.deb ...
+#19 21.75 Unpacking libsensors5:amd64 (1:3.6.0-7ubuntu1) ...
+#19 21.77 Selecting previously unselected package libgl1-mesa-dri:amd64.
+#19 21.77 Preparing to unpack .../046-libgl1-mesa-dri_23.2.1-1ubuntu3.1~22.04.4_amd64.deb ...
+#19 21.79 Unpacking libgl1-mesa-dri:amd64 (23.2.1-1ubuntu3.1~22.04.4) ...
+#19 21.92 Selecting previously unselected package libglx-mesa0:amd64.
+#19 21.92 Preparing to unpack .../047-libglx-mesa0_23.2.1-1ubuntu3.1~22.04.4_amd64.deb ...
+#19 21.92 Unpacking libglx-mesa0:amd64 (23.2.1-1ubuntu3.1~22.04.4) ...
+#19 21.94 Selecting previously unselected package libglx0:amd64.
+#19 21.95 Preparing to unpack .../048-libglx0_1.4.0-1_amd64.deb ...
+#19 21.95 Unpacking libglx0:amd64 (1.4.0-1) ...
+#19 21.97 Selecting previously unselected package libgl1:amd64.
+#19 21.97 Preparing to unpack .../049-libgl1_1.4.0-1_amd64.deb ...
+#19 21.97 Unpacking libgl1:amd64 (1.4.0-1) ...
+#19 21.99 Selecting previously unselected package libgraphite2-3:amd64.
+#19 21.99 Preparing to unpack .../050-libgraphite2-3_1.3.14-1ubuntu0.1_amd64.deb ...
+#19 21.99 Unpacking libgraphite2-3:amd64 (1.3.14-1ubuntu0.1) ...
+#19 22.01 Selecting previously unselected package libharfbuzz0b:amd64.
+#19 22.01 Preparing to unpack .../051-libharfbuzz0b_2.7.4-1ubuntu3.2_amd64.deb ...
+#19 22.02 Unpacking libharfbuzz0b:amd64 (2.7.4-1ubuntu3.2) ...
+#19 22.04 Selecting previously unselected package x11-common.
+#19 22.04 Preparing to unpack .../052-x11-common_1%3a7.7+23ubuntu2_all.deb ...
+#19 22.04 Unpacking x11-common (1:7.7+23ubuntu2) ...
+#19 22.06 Selecting previously unselected package libice6:amd64.
+#19 22.07 Preparing to unpack .../053-libice6_2%3a1.0.10-1build2_amd64.deb ...
+#19 22.07 Unpacking libice6:amd64 (2:1.0.10-1build2) ...
+#19 22.09 Selecting previously unselected package libevdev2:amd64.
+#19 22.09 Preparing to unpack .../054-libevdev2_1.12.1+dfsg-1_amd64.deb ...
+#19 22.09 Unpacking libevdev2:amd64 (1.12.1+dfsg-1) ...
+#19 22.11 Selecting previously unselected package libmtdev1:amd64.
+#19 22.11 Preparing to unpack .../055-libmtdev1_1.1.6-1build4_amd64.deb ...
+#19 22.11 Unpacking libmtdev1:amd64 (1.1.6-1build4) ...
+#19 22.13 Selecting previously unselected package libgudev-1.0-0:amd64.
+#19 22.13 Preparing to unpack .../056-libgudev-1.0-0_1%3a237-2build1_amd64.deb ...
+#19 22.13 Unpacking libgudev-1.0-0:amd64 (1:237-2build1) ...
+#19 22.15 Selecting previously unselected package libwacom-common.
+#19 22.15 Preparing to unpack .../057-libwacom-common_2.2.0-1_all.deb ...
+#19 22.15 Unpacking libwacom-common (2.2.0-1) ...
+#19 22.24 Selecting previously unselected package libwacom9:amd64.
+#19 22.24 Preparing to unpack .../058-libwacom9_2.2.0-1_amd64.deb ...
+#19 22.24 Unpacking libwacom9:amd64 (2.2.0-1) ...
+#19 22.26 Selecting previously unselected package libinput-bin.
+#19 22.26 Preparing to unpack .../059-libinput-bin_1.20.0-1ubuntu0.4_amd64.deb ...
+#19 22.26 Unpacking libinput-bin (1.20.0-1ubuntu0.4) ...
+#19 22.29 Selecting previously unselected package libinput10:amd64.
+#19 22.29 Preparing to unpack .../060-libinput10_1.20.0-1ubuntu0.4_amd64.deb ...
+#19 22.29 Unpacking libinput10:amd64 (1.20.0-1ubuntu0.4) ...
+#19 22.31 Selecting previously unselected package libjpeg-turbo8:amd64.
+#19 22.32 Preparing to unpack .../061-libjpeg-turbo8_2.1.2-0ubuntu1_amd64.deb ...
+#19 22.32 Unpacking libjpeg-turbo8:amd64 (2.1.2-0ubuntu1) ...
+#19 22.34 Selecting previously unselected package libjpeg8:amd64.
+#19 22.34 Preparing to unpack .../062-libjpeg8_8c-2ubuntu10_amd64.deb ...
+#19 22.34 Unpacking libjpeg8:amd64 (8c-2ubuntu10) ...
+#19 22.36 Selecting previously unselected package libmd4c0:amd64.
+#19 22.36 Preparing to unpack .../063-libmd4c0_0.4.8-1_amd64.deb ...
+#19 22.36 Unpacking libmd4c0:amd64 (0.4.8-1) ...
+#19 22.38 Selecting previously unselected package libqt5dbus5:amd64.
+#19 22.38 Preparing to unpack .../064-libqt5dbus5_5.15.3+dfsg-2ubuntu0.2_amd64.deb ...
+#19 22.38 Unpacking libqt5dbus5:amd64 (5.15.3+dfsg-2ubuntu0.2) ...
+#19 22.40 Selecting previously unselected package libqt5network5:amd64.
+#19 22.41 Preparing to unpack .../065-libqt5network5_5.15.3+dfsg-2ubuntu0.2_amd64.deb ...
+#19 22.41 Unpacking libqt5network5:amd64 (5.15.3+dfsg-2ubuntu0.2) ...
+#19 22.44 Selecting previously unselected package libsm6:amd64.
+#19 22.44 Preparing to unpack .../066-libsm6_2%3a1.2.3-1build2_amd64.deb ...
+#19 22.44 Unpacking libsm6:amd64 (2:1.2.3-1build2) ...
+#19 22.46 Selecting previously unselected package libxcb-icccm4:amd64.
+#19 22.46 Preparing to unpack .../067-libxcb-icccm4_0.4.1-1.1build2_amd64.deb ...
+#19 22.46 Unpacking libxcb-icccm4:amd64 (0.4.1-1.1build2) ...
+#19 22.48 Selecting previously unselected package libxcb-util1:amd64.
+#19 22.48 Preparing to unpack .../068-libxcb-util1_0.4.0-1build2_amd64.deb ...
+#19 22.49 Unpacking libxcb-util1:amd64 (0.4.0-1build2) ...
+#19 22.50 Selecting previously unselected package libxcb-image0:amd64.
+#19 22.51 Preparing to unpack .../069-libxcb-image0_0.4.0-2_amd64.deb ...
+#19 22.51 Unpacking libxcb-image0:amd64 (0.4.0-2) ...
+#19 22.52 Selecting previously unselected package libxcb-keysyms1:amd64.
+#19 22.53 Preparing to unpack .../070-libxcb-keysyms1_0.4.0-1build3_amd64.deb ...
+#19 22.53 Unpacking libxcb-keysyms1:amd64 (0.4.0-1build3) ...
+#19 22.54 Selecting previously unselected package libxcb-render0:amd64.
+#19 22.55 Preparing to unpack .../071-libxcb-render0_1.14-3ubuntu3_amd64.deb ...
+#19 22.55 Unpacking libxcb-render0:amd64 (1.14-3ubuntu3) ...
+#19 22.57 Selecting previously unselected package libxcb-render-util0:amd64.
+#19 22.57 Preparing to unpack .../072-libxcb-render-util0_0.3.9-1build3_amd64.deb ...
+#19 22.57 Unpacking libxcb-render-util0:amd64 (0.3.9-1build3) ...
+#19 22.59 Selecting previously unselected package libxcb-shape0:amd64.
+#19 22.59 Preparing to unpack .../073-libxcb-shape0_1.14-3ubuntu3_amd64.deb ...
+#19 22.59 Unpacking libxcb-shape0:amd64 (1.14-3ubuntu3) ...
+#19 22.61 Selecting previously unselected package libxcb-xinerama0:amd64.
+#19 22.62 Preparing to unpack .../074-libxcb-xinerama0_1.14-3ubuntu3_amd64.deb ...
+#19 22.62 Unpacking libxcb-xinerama0:amd64 (1.14-3ubuntu3) ...
+#19 22.63 Selecting previously unselected package libxcb-xinput0:amd64.
+#19 22.64 Preparing to unpack .../075-libxcb-xinput0_1.14-3ubuntu3_amd64.deb ...
+#19 22.64 Unpacking libxcb-xinput0:amd64 (1.14-3ubuntu3) ...
+#19 22.66 Selecting previously unselected package libxcb-xkb1:amd64.
+#19 22.66 Preparing to unpack .../076-libxcb-xkb1_1.14-3ubuntu3_amd64.deb ...
+#19 22.66 Unpacking libxcb-xkb1:amd64 (1.14-3ubuntu3) ...
+#19 22.68 Selecting previously unselected package xkb-data.
+#19 22.68 Preparing to unpack .../077-xkb-data_2.33-1_all.deb ...
+#19 22.68 Unpacking xkb-data (2.33-1) ...
+#19 22.76 Selecting previously unselected package libxkbcommon0:amd64.
+#19 22.76 Preparing to unpack .../078-libxkbcommon0_1.4.0-1_amd64.deb ...
+#19 22.76 Unpacking libxkbcommon0:amd64 (1.4.0-1) ...
+#19 22.78 Selecting previously unselected package libxkbcommon-x11-0:amd64.
+#19 22.79 Preparing to unpack .../079-libxkbcommon-x11-0_1.4.0-1_amd64.deb ...
+#19 22.79 Unpacking libxkbcommon-x11-0:amd64 (1.4.0-1) ...
+#19 22.80 Selecting previously unselected package libxrender1:amd64.
+#19 22.81 Preparing to unpack .../080-libxrender1_1%3a0.9.10-1build4_amd64.deb ...
+#19 22.81 Unpacking libxrender1:amd64 (1:0.9.10-1build4) ...
+#19 22.83 Selecting previously unselected package libqt5gui5:amd64.
+#19 22.83 Preparing to unpack .../081-libqt5gui5_5.15.3+dfsg-2ubuntu0.2_amd64.deb ...
+#19 22.86 Unpacking libqt5gui5:amd64 (5.15.3+dfsg-2ubuntu0.2) ...
+#19 22.93 Selecting previously unselected package libqt5widgets5:amd64.
+#19 22.93 Preparing to unpack .../082-libqt5widgets5_5.15.3+dfsg-2ubuntu0.2_amd64.deb ...
+#19 22.93 Unpacking libqt5widgets5:amd64 (5.15.3+dfsg-2ubuntu0.2) ...
+#19 22.98 Selecting previously unselected package libqt5svg5:amd64.
+#19 22.98 Preparing to unpack .../083-libqt5svg5_5.15.3-1_amd64.deb ...
+#19 23.01 Unpacking libqt5svg5:amd64 (5.15.3-1) ...
+#19 23.03 Selecting previously unselected package liborc-0.4-0:amd64.
+#19 23.03 Preparing to unpack .../084-liborc-0.4-0_1%3a0.4.32-2ubuntu0.1_amd64.deb ...
+#19 23.03 Unpacking liborc-0.4-0:amd64 (1:0.4.32-2ubuntu0.1) ...
+#19 23.05 Selecting previously unselected package libgstreamer-plugins-base1.0-0:amd64.
+#19 23.06 Preparing to unpack .../085-libgstreamer-plugins-base1.0-0_1.20.1-1ubuntu0.7_amd64.deb ...
+#19 23.06 Unpacking libgstreamer-plugins-base1.0-0:amd64 (1.20.1-1ubuntu0.7) ...
+#19 23.09 Selecting previously unselected package libhyphen0:amd64.
+#19 23.09 Preparing to unpack .../086-libhyphen0_2.8.8-7build2_amd64.deb ...
+#19 23.09 Unpacking libhyphen0:amd64 (2.8.8-7build2) ...
+#19 23.11 Selecting previously unselected package libqt5positioning5:amd64.
+#19 23.12 Preparing to unpack .../087-libqt5positioning5_5.15.3+dfsg-3_amd64.deb ...
+#19 23.12 Unpacking libqt5positioning5:amd64 (5.15.3+dfsg-3) ...
+#19 23.14 Selecting previously unselected package libavahi-common-data:amd64.
+#19 23.14 Preparing to unpack .../088-libavahi-common-data_0.8-5ubuntu5.5_amd64.deb ...
+#19 23.14 Unpacking libavahi-common-data:amd64 (0.8-5ubuntu5.5) ...
+#19 23.16 Selecting previously unselected package libavahi-common3:amd64.
+#19 23.16 Preparing to unpack .../089-libavahi-common3_0.8-5ubuntu5.5_amd64.deb ...
+#19 23.16 Unpacking libavahi-common3:amd64 (0.8-5ubuntu5.5) ...
+#19 23.18 Selecting previously unselected package libavahi-client3:amd64.
+#19 23.18 Preparing to unpack .../090-libavahi-client3_0.8-5ubuntu5.5_amd64.deb ...
+#19 23.18 Unpacking libavahi-client3:amd64 (0.8-5ubuntu5.5) ...
+#19 23.20 Selecting previously unselected package libcups2:amd64.
+#19 23.21 Preparing to unpack .../091-libcups2_2.4.1op1-1ubuntu4.21_amd64.deb ...
+#19 23.21 Unpacking libcups2:amd64 (2.4.1op1-1ubuntu4.21) ...
+#19 23.23 Selecting previously unselected package libqt5printsupport5:amd64.
+#19 23.23 Preparing to unpack .../092-libqt5printsupport5_5.15.3+dfsg-2ubuntu0.2_amd64.deb ...
+#19 23.23 Unpacking libqt5printsupport5:amd64 (5.15.3+dfsg-2ubuntu0.2) ...
+#19 23.25 Selecting previously unselected package libqt5qml5:amd64.
+#19 23.26 Preparing to unpack .../093-libqt5qml5_5.15.3+dfsg-1_amd64.deb ...
+#19 23.26 Unpacking libqt5qml5:amd64 (5.15.3+dfsg-1) ...
+#19 23.30 Selecting previously unselected package libqt5qmlmodels5:amd64.
+#19 23.30 Preparing to unpack .../094-libqt5qmlmodels5_5.15.3+dfsg-1_amd64.deb ...
+#19 23.30 Unpacking libqt5qmlmodels5:amd64 (5.15.3+dfsg-1) ...
+#19 23.33 Selecting previously unselected package libqt5quick5:amd64.
+#19 23.33 Preparing to unpack .../095-libqt5quick5_5.15.3+dfsg-1_amd64.deb ...
+#19 23.33 Unpacking libqt5quick5:amd64 (5.15.3+dfsg-1) ...
+#19 23.37 Selecting previously unselected package libqt5sensors5:amd64.
+#19 23.38 Preparing to unpack .../096-libqt5sensors5_5.15.3-1_amd64.deb ...
+#19 23.38 Unpacking libqt5sensors5:amd64 (5.15.3-1) ...
+#19 23.40 Selecting previously unselected package libqt5webchannel5:amd64.
+#19 23.40 Preparing to unpack .../097-libqt5webchannel5_5.15.3-1_amd64.deb ...
+#19 23.40 Unpacking libqt5webchannel5:amd64 (5.15.3-1) ...
+#19 23.42 Selecting previously unselected package libwebp7:amd64.
+#19 23.42 Preparing to unpack .../098-libwebp7_1.2.2-2ubuntu0.22.04.2_amd64.deb ...
+#19 23.43 Unpacking libwebp7:amd64 (1.2.2-2ubuntu0.22.04.2) ...
+#19 23.45 Selecting previously unselected package libwoff1:amd64.
+#19 23.45 Preparing to unpack .../099-libwoff1_1.0.2-1build4_amd64.deb ...
+#19 23.45 Unpacking libwoff1:amd64 (1.0.2-1build4) ...
+#19 23.47 Selecting previously unselected package libxslt1.1:amd64.
+#19 23.47 Preparing to unpack .../100-libxslt1.1_1.1.34-4ubuntu0.22.04.5_amd64.deb ...
+#19 23.47 Unpacking libxslt1.1:amd64 (1.1.34-4ubuntu0.22.04.5) ...
+#19 23.49 Selecting previously unselected package libqt5webkit5:amd64.
+#19 23.50 Preparing to unpack .../101-libqt5webkit5_5.212.0~alpha4-15ubuntu1_amd64.deb ...
+#19 23.50 Unpacking libqt5webkit5:amd64 (5.212.0~alpha4-15ubuntu1) ...
+#19 23.69 Selecting previously unselected package wkhtmltopdf.
+#19 23.70 Preparing to unpack .../102-wkhtmltopdf_0.12.6-2_amd64.deb ...
+#19 23.70 Unpacking wkhtmltopdf (0.12.6-2) ...
+#19 23.73 Setting up libgraphite2-3:amd64 (1.3.14-1ubuntu0.1) ...
+#19 23.74 Setting up libwayland-server0:amd64 (1.20.0-1ubuntu0.1) ...
+#19 23.74 Setting up libpciaccess0:amd64 (0.16-3) ...
+#19 23.74 Setting up libxau6:amd64 (1:1.0.9-1build5) ...
+#19 23.74 Setting up libxdmcp6:amd64 (1:1.1.3-0ubuntu5) ...
+#19 23.74 Setting up libdouble-conversion3:amd64 (3.1.7-4) ...
+#19 23.75 Setting up libxcb1:amd64 (1.14-3ubuntu3) ...
+#19 23.75 Setting up libxcb-xfixes0:amd64 (1.14-3ubuntu3) ...
+#19 23.75 Setting up libxcb-xinput0:amd64 (1.14-3ubuntu3) ...
+#19 23.75 Setting up libwoff1:amd64 (1.0.2-1build4) ...
+#19 23.76 Setting up libhyphen0:amd64 (2.8.8-7build2) ...
+#19 23.76 Setting up libxcb-render0:amd64 (1.14-3ubuntu3) ...
+#19 23.76 Setting up libglvnd0:amd64 (1.4.0-1) ...
+#19 23.76 Setting up libxcb-glx0:amd64 (1.14-3ubuntu3) ...
+#19 23.76 Setting up libxcb-keysyms1:amd64 (0.4.0-1build3) ...
+#19 23.77 Setting up libxcb-shape0:amd64 (1.14-3ubuntu3) ...
+#19 23.77 Setting up x11-common (1:7.7+23ubuntu2) ...
+#19 23.87 invoke-rc.d: could not determine current runlevel
+#19 23.88 invoke-rc.d: policy-rc.d denied execution of start.
+#19 23.88 Setting up libsensors-config (1:3.6.0-7ubuntu1) ...
+#19 23.89 Setting up libxcb-render-util0:amd64 (0.3.9-1build3) ...
+#19 23.89 Setting up xkb-data (2.33-1) ...
+#19 23.89 Setting up libxcb-shm0:amd64 (1.14-3ubuntu3) ...
+#19 23.89 Setting up libxcb-icccm4:amd64 (0.4.1-1.1build2) ...
+#19 23.90 Setting up libpcre2-16-0:amd64 (10.39-3ubuntu0.1) ...
+#19 23.90 Setting up libxcb-util1:amd64 (0.4.0-1build2) ...
+#19 23.90 Setting up libxcb-xkb1:amd64 (1.14-3ubuntu3) ...
+#19 23.90 Setting up libxcb-image0:amd64 (0.4.0-2) ...
+#19 23.91 Setting up libxcb-present0:amd64 (1.14-3ubuntu3) ...
+#19 23.91 Setting up libxcb-xinerama0:amd64 (1.14-3ubuntu3) ...
+#19 23.91 Setting up libx11-data (2:1.7.5-1ubuntu0.3) ...
+#19 23.91 Setting up libxcb-sync1:amd64 (1.14-3ubuntu3) ...
+#19 23.92 Setting up libavahi-common-data:amd64 (0.8-5ubuntu5.5) ...
+#19 23.92 Setting up shared-mime-info (2.1-2) ...
+#19 24.47 Setting up libpng16-16:amd64 (1.6.37-3ubuntu0.7) ...
+#19 24.47 Setting up liborc-0.4-0:amd64 (1:0.4.32-2ubuntu0.1) ...
+#19 24.48 Setting up fonts-dejavu-core (2.37-2build1) ...
+#19 24.49 Setting up ucf (3.0043) ...
+#19 24.57 Setting up libsensors5:amd64 (1:3.6.0-7ubuntu1) ...
+#19 24.57 Setting up libjpeg-turbo8:amd64 (2.1.2-0ubuntu1) ...
+#19 24.57 Setting up libqt5core5a:amd64 (5.15.3+dfsg-2ubuntu0.2) ...
+#19 24.60 Setting up libglapi-mesa:amd64 (23.2.1-1ubuntu3.1~22.04.4) ...
+#19 24.60 Setting up libmtdev1:amd64 (1.1.6-1build4) ...
+#19 24.60 Setting up libwebp7:amd64 (1.2.2-2ubuntu0.22.04.2) ...
+#19 24.60 Setting up libxcb-dri2-0:amd64 (1.14-3ubuntu3) ...
+#19 24.61 Setting up libxshmfence1:amd64 (1.3-1build4) ...
+#19 24.61 Setting up libqt5dbus5:amd64 (5.15.3+dfsg-2ubuntu0.2) ...
+#19 24.61 Setting up libxcb-randr0:amd64 (1.14-3ubuntu3) ...
+#19 24.61 Setting up libllvm15:amd64 (1:15.0.7-0ubuntu0.22.04.3) ...
+#19 24.62 Setting up libxslt1.1:amd64 (1.1.34-4ubuntu0.22.04.5) ...
+#19 24.62 Setting up libmd4c0:amd64 (0.4.8-1) ...
+#19 24.62 Setting up libx11-6:amd64 (2:1.7.5-1ubuntu0.3) ...
+#19 24.62 Setting up libqt5sensors5:amd64 (5.15.3-1) ...
+#19 24.63 Setting up libdrm-common (2.4.113-2~ubuntu0.22.04.1) ...
+#19 24.63 Setting up libevdev2:amd64 (1.12.1+dfsg-1) ...
+#19 24.63 Setting up libgudev-1.0-0:amd64 (1:237-2build1) ...
+#19 24.63 Setting up libwacom-common (2.2.0-1) ...
+#19 24.63 Setting up libxkbcommon0:amd64 (1.4.0-1) ...
+#19 24.64 Setting up libwayland-client0:amd64 (1.20.0-1ubuntu0.1) ...
+#19 24.64 Setting up libjpeg8:amd64 (8c-2ubuntu10) ...
+#19 24.64 Setting up libxcb-dri3-0:amd64 (1.14-3ubuntu3) ...
+#19 24.64 Setting up libx11-xcb1:amd64 (2:1.7.5-1ubuntu0.3) ...
+#19 24.64 Setting up libice6:amd64 (2:1.0.10-1build2) ...
+#19 24.65 Setting up libxrender1:amd64 (1:0.9.10-1build4) ...
+#19 24.65 Setting up libwacom9:amd64 (2.2.0-1) ...
+#19 24.65 Setting up fontconfig-config (2.13.1-4.2ubuntu5) ...
+#19 24.72 Setting up libqt5positioning5:amd64 (5.15.3+dfsg-3) ...
+#19 24.72 Setting up libavahi-common3:amd64 (0.8-5ubuntu5.5) ...
+#19 24.73 Setting up libxext6:amd64 (2:1.3.4-1build1) ...
+#19 24.73 Setting up libgstreamer-plugins-base1.0-0:amd64 (1.20.1-1ubuntu0.7) ...
+#19 24.73 Setting up libqt5network5:amd64 (5.15.3+dfsg-2ubuntu0.2) ...
+#19 24.73 Setting up libxxf86vm1:amd64 (1:1.1.4-1build3) ...
+#19 24.74 Setting up libinput-bin (1.20.0-1ubuntu0.4) ...
+#19 24.74 Setting up libfreetype6:amd64 (2.11.1+dfsg-1ubuntu0.4) ...
+#19 24.74 Setting up libxfixes3:amd64 (1:6.0.0-1) ...
+#19 24.74 Setting up libqt5qml5:amd64 (5.15.3+dfsg-1) ...
+#19 24.74 Setting up libxkbcommon-x11-0:amd64 (1.4.0-1) ...
+#19 24.75 Setting up libqt5webchannel5:amd64 (5.15.3-1) ...
+#19 24.75 Setting up libdrm2:amd64 (2.4.113-2~ubuntu0.22.04.1) ...
+#19 24.75 Setting up libharfbuzz0b:amd64 (2.7.4-1ubuntu3.2) ...
+#19 24.75 Setting up libfontconfig1:amd64 (2.13.1-4.2ubuntu5) ...
+#19 24.75 Setting up libsm6:amd64 (2:1.2.3-1build2) ...
+#19 24.75 Setting up libavahi-client3:amd64 (0.8-5ubuntu5.5) ...
+#19 24.76 Setting up libdrm-amdgpu1:amd64 (2.4.113-2~ubuntu0.22.04.1) ...
+#19 24.76 Setting up libinput10:amd64 (1.20.0-1ubuntu0.4) ...
+#19 24.76 Setting up fontconfig (2.13.1-4.2ubuntu5) ...
+#19 24.77 Regenerating fonts cache... done.
+#19 26.79 Setting up libdrm-nouveau2:amd64 (2.4.113-2~ubuntu0.22.04.1) ...
+#19 26.79 Setting up libqt5qmlmodels5:amd64 (5.15.3+dfsg-1) ...
+#19 26.79 Setting up libgbm1:amd64 (23.2.1-1ubuntu3.1~22.04.4) ...
+#19 26.79 Setting up libdrm-radeon1:amd64 (2.4.113-2~ubuntu0.22.04.1) ...
+#19 26.80 Setting up libdrm-intel1:amd64 (2.4.113-2~ubuntu0.22.04.1) ...
+#19 26.80 Setting up libgl1-mesa-dri:amd64 (23.2.1-1ubuntu3.1~22.04.4) ...
+#19 26.82 Setting up libegl-mesa0:amd64 (23.2.1-1ubuntu3.1~22.04.4) ...
+#19 26.82 Setting up libcups2:amd64 (2.4.1op1-1ubuntu4.21) ...
+#19 26.83 Setting up libegl1:amd64 (1.4.0-1) ...
+#19 26.83 Setting up libglx-mesa0:amd64 (23.2.1-1ubuntu3.1~22.04.4) ...
+#19 26.83 Setting up libglx0:amd64 (1.4.0-1) ...
+#19 26.83 Setting up libgl1:amd64 (1.4.0-1) ...
+#19 26.83 Setting up libqt5gui5:amd64 (5.15.3+dfsg-2ubuntu0.2) ...
+#19 26.86 Setting up libqt5widgets5:amd64 (5.15.3+dfsg-2ubuntu0.2) ...
+#19 26.86 Setting up libqt5printsupport5:amd64 (5.15.3+dfsg-2ubuntu0.2) ...
+#19 26.86 Setting up libqt5quick5:amd64 (5.15.3+dfsg-1) ...
+#19 26.86 Setting up libqt5svg5:amd64 (5.15.3-1) ...
+#19 26.87 Setting up libqt5webkit5:amd64 (5.212.0~alpha4-15ubuntu1) ...
+#19 26.87 Setting up wkhtmltopdf (0.12.6-2) ...
+#19 26.87 Processing triggers for libc-bin (2.35-0ubuntu3.4) ...
+#19 27.57 Looking in indexes: https://pypi.org/simple, https://download.pytorch.org/whl/cpu
+#19 27.57 Requirement already satisfied: numpy==1.26.4 in /usr/local/lib/python3.10/dist-packages (from -r requirements.txt (line 2)) (1.26.4)
+#19 27.57 Requirement already satisfied: torch==2.1.2+cpu in /usr/local/lib/python3.10/dist-packages (from -r requirements.txt (line 3)) (2.1.2+cpu)
+#19 27.57 Requirement already satisfied: torchvision==0.16.2+cpu in /usr/local/lib/python3.10/dist-packages (from -r requirements.txt (line 4)) (0.16.2+cpu)
+#19 27.58 Requirement already satisfied: Pillow==10.4.0 in /usr/local/lib/python3.10/dist-packages (from -r requirements.txt (line 5)) (10.4.0)
+#19 27.58 Requirement already satisfied: tritonclient==2.41.0 in /usr/local/lib/python3.10/dist-packages (from tritonclient[grpc,http]==2.41.0->-r requirements.txt (line 6)) (2.41.0)
+#19 27.58 Requirement already satisfied: grpcio==1.60.0 in /usr/local/lib/python3.10/dist-packages (from -r requirements.txt (line 7)) (1.60.0)
+#19 27.58 Requirement already satisfied: protobuf==3.20.3 in /usr/local/lib/python3.10/dist-packages (from -r requirements.txt (line 8)) (3.20.3)
+#19 27.58 Requirement already satisfied: gevent==23.9.1 in /usr/local/lib/python3.10/dist-packages (from -r requirements.txt (line 9)) (23.9.1)
+#19 27.58 Requirement already satisfied: greenlet==3.0.3 in /usr/local/lib/python3.10/dist-packages (from -r requirements.txt (line 10)) (3.0.3)
+#19 27.58 Requirement already satisfied: python-rapidjson==1.14 in /usr/local/lib/python3.10/dist-packages (from -r requirements.txt (line 11)) (1.14)
+#19 27.96 Collecting triton-model-analyzer==1.35.0 (from -r requirements-analyzer.txt (line 2))
+#19 28.08   Downloading triton_model_analyzer-1.35.0-py3-none-manylinux1_x86_64.whl.metadata (2.1 kB)
+#19 28.37 Collecting matplotlib==3.7.5 (from -r requirements-analyzer.txt (line 3))
+#19 28.37   Downloading matplotlib-3.7.5-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata (5.7 kB)
+#19 28.70 Collecting numba==0.58.1 (from -r requirements-analyzer.txt (line 4))
+#19 28.70   Downloading numba-0.58.1-cp310-cp310-manylinux2014_x86_64.manylinux_2_17_x86_64.whl.metadata (2.7 kB)
+#19 29.09 Collecting scipy==1.11.4 (from -r requirements-analyzer.txt (line 5))
+#19 29.10   Downloading scipy-1.11.4-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata (60 kB)
+#19 29.11      ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 60.4/60.4 kB 5.4 MB/s eta 0:00:00
+#19 29.34 Collecting PyYAML==6.0.1 (from -r requirements-analyzer.txt (line 6))
+#19 29.34   Downloading PyYAML-6.0.1-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata (2.1 kB)
+#19 29.51 Collecting psutil==5.9.8 (from -r requirements-analyzer.txt (line 7))
+#19 29.52   Downloading psutil-5.9.8-cp36-abi3-manylinux_2_12_x86_64.manylinux2010_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata (21 kB)
+#19 29.74 Collecting pdfkit==1.0.0 (from -r requirements-analyzer.txt (line 8))
+#19 29.74   Downloading pdfkit-1.0.0-py3-none-any.whl.metadata (9.3 kB)
+#19 29.75 Requirement already satisfied: filelock in /usr/local/lib/python3.10/dist-packages (from torch==2.1.2+cpu->-r requirements.txt (line 3)) (4.1.0)
+#19 29.75 Requirement already satisfied: typing-extensions in /usr/local/lib/python3.10/dist-packages (from torch==2.1.2+cpu->-r requirements.txt (line 3)) (4.16.0)
+#19 29.75 Requirement already satisfied: sympy in /usr/local/lib/python3.10/dist-packages (from torch==2.1.2+cpu->-r requirements.txt (line 3)) (1.14.0)
+#19 29.75 Requirement already satisfied: networkx in /usr/local/lib/python3.10/dist-packages (from torch==2.1.2+cpu->-r requirements.txt (line 3)) (3.4.2)
+#19 29.75 Requirement already satisfied: jinja2 in /usr/local/lib/python3.10/dist-packages (from torch==2.1.2+cpu->-r requirements.txt (line 3)) (3.1.6)
+#19 29.75 Requirement already satisfied: fsspec in /usr/local/lib/python3.10/dist-packages (from torch==2.1.2+cpu->-r requirements.txt (line 3)) (2026.9.0)
+#19 29.76 Requirement already satisfied: requests in /usr/local/lib/python3.10/dist-packages (from torchvision==0.16.2+cpu->-r requirements.txt (line 4)) (2.34.2)
+#19 29.81 Requirement already satisfied: zope.event in /usr/local/lib/python3.10/dist-packages (from gevent==23.9.1->-r requirements.txt (line 9)) (6.2)
+#19 29.81 Requirement already satisfied: zope.interface in /usr/local/lib/python3.10/dist-packages (from gevent==23.9.1->-r requirements.txt (line 9)) (8.6)
+#19 29.82 Requirement already satisfied: cryptography>=3.3.2 in /usr/lib/python3/dist-packages (from triton-model-analyzer==1.35.0->-r requirements-analyzer.txt (line 2)) (3.4.8)
+#19 29.83 Requirement already satisfied: distro>=1.5.0 in /usr/lib/python3/dist-packages (from triton-model-analyzer==1.35.0->-r requirements-analyzer.txt (line 2)) (1.7.0)
+#19 30.05 Collecting docker>=4.3.1 (from triton-model-analyzer==1.35.0->-r requirements-analyzer.txt (line 2))
+#19 30.05   Downloading docker-7.2.0-py3-none-any.whl.metadata (3.8 kB)
+#19 30.05 Requirement already satisfied: httplib2>=0.19.0 in /usr/lib/python3/dist-packages (from triton-model-analyzer==1.35.0->-r requirements-analyzer.txt (line 2)) (0.20.2)
+#19 30.16 Collecting prometheus-client>=0.9.0 (from triton-model-analyzer==1.35.0->-r requirements-analyzer.txt (line 2))
+#19 30.16   Downloading prometheus_client-0.26.0-py3-none-any.whl.metadata (2.1 kB)
+#19 30.39 Collecting contourpy>=1.0.1 (from matplotlib==3.7.5->-r requirements-analyzer.txt (line 3))
+#19 30.39   Downloading contourpy-1.3.2-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata (5.5 kB)
+#19 30.60 Collecting cycler>=0.10 (from matplotlib==3.7.5->-r requirements-analyzer.txt (line 3))
+#19 30.60   Downloading cycler-0.12.1-py3-none-any.whl.metadata (3.8 kB)
+#19 30.90 Collecting fonttools>=4.22.0 (from matplotlib==3.7.5->-r requirements-analyzer.txt (line 3))
+#19 30.90   Downloading fonttools-4.65.0-cp310-cp310-manylinux2014_x86_64.manylinux_2_17_x86_64.whl.metadata (125 kB)
+#19 30.91      ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 125.0/125.0 kB 43.3 MB/s eta 0:00:00
+#19 31.06 Collecting kiwisolver>=1.0.1 (from matplotlib==3.7.5->-r requirements-analyzer.txt (line 3))
+#19 31.07   Downloading kiwisolver-1.5.1-cp310-cp310-manylinux_2_12_x86_64.manylinux2010_x86_64.whl.metadata (5.2 kB)
+#19 31.07 Requirement already satisfied: packaging>=20.0 in /usr/local/lib/python3.10/dist-packages (from matplotlib==3.7.5->-r requirements-analyzer.txt (line 3)) (26.3)
+#19 31.07 Requirement already satisfied: pyparsing>=2.3.1 in /usr/lib/python3/dist-packages (from matplotlib==3.7.5->-r requirements-analyzer.txt (line 3)) (2.4.7)
+#19 31.16 Collecting python-dateutil>=2.7 (from matplotlib==3.7.5->-r requirements-analyzer.txt (line 3))
+#19 31.16   Downloading python_dateutil-2.9.0.post0-py2.py3-none-any.whl.metadata (8.4 kB)
+#19 31.31 Collecting llvmlite<0.42,>=0.41.0dev0 (from numba==0.58.1->-r requirements-analyzer.txt (line 4))
+#19 31.32   Downloading llvmlite-0.41.1-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata (4.8 kB)
+#19 31.36 Requirement already satisfied: aiohttp<4.0.0,>=3.8.1 in /usr/local/lib/python3.10/dist-packages (from tritonclient[grpc,http]==2.41.0->-r requirements.txt (line 6)) (3.14.5)
+#19 31.36 Requirement already satisfied: geventhttpclient<=2.0.2,>=1.4.4 in /usr/local/lib/python3.10/dist-packages (from tritonclient[grpc,http]==2.41.0->-r requirements.txt (line 6)) (2.0.2)
+#19 31.41 Requirement already satisfied: aiohappyeyeballs>=2.5.0 in /usr/local/lib/python3.10/dist-packages (from aiohttp<4.0.0,>=3.8.1->tritonclient[grpc,http]==2.41.0->-r requirements.txt (line 6)) (2.7.1)
+#19 31.41 Requirement already satisfied: aiosignal>=1.4.0 in /usr/local/lib/python3.10/dist-packages (from aiohttp<4.0.0,>=3.8.1->tritonclient[grpc,http]==2.41.0->-r requirements.txt (line 6)) (1.4.0)
+#19 31.41 Requirement already satisfied: async-timeout<6.0,>=4.0 in /usr/local/lib/python3.10/dist-packages (from aiohttp<4.0.0,>=3.8.1->tritonclient[grpc,http]==2.41.0->-r requirements.txt (line 6)) (5.0.1)
+#19 31.41 Requirement already satisfied: attrs>=17.3.0 in /usr/local/lib/python3.10/dist-packages (from aiohttp<4.0.0,>=3.8.1->tritonclient[grpc,http]==2.41.0->-r requirements.txt (line 6)) (26.1.0)
+#19 31.41 Requirement already satisfied: frozenlist>=1.1.1 in /usr/local/lib/python3.10/dist-packages (from aiohttp<4.0.0,>=3.8.1->tritonclient[grpc,http]==2.41.0->-r requirements.txt (line 6)) (1.8.0)
+#19 31.41 Requirement already satisfied: multidict<8.0,>=4.5 in /usr/local/lib/python3.10/dist-packages (from aiohttp<4.0.0,>=3.8.1->tritonclient[grpc,http]==2.41.0->-r requirements.txt (line 6)) (7.1.0)
+#19 31.41 Requirement already satisfied: propcache>=0.2.0 in /usr/local/lib/python3.10/dist-packages (from aiohttp<4.0.0,>=3.8.1->tritonclient[grpc,http]==2.41.0->-r requirements.txt (line 6)) (0.5.4)
+#19 31.42 Requirement already satisfied: yarl<2.0,>=1.25.1 in /usr/local/lib/python3.10/dist-packages (from aiohttp<4.0.0,>=3.8.1->tritonclient[grpc,http]==2.41.0->-r requirements.txt (line 6)) (1.25.1)
+#19 31.46 Requirement already satisfied: urllib3>=1.26.0 in /usr/local/lib/python3.10/dist-packages (from docker>=4.3.1->triton-model-analyzer==1.35.0->-r requirements-analyzer.txt (line 2)) (2.8.0)
+#19 31.50 Requirement already satisfied: certifi in /usr/local/lib/python3.10/dist-packages (from geventhttpclient<=2.0.2,>=1.4.4->tritonclient[grpc,http]==2.41.0->-r requirements.txt (line 6)) (2026.7.22)
+#19 31.50 Requirement already satisfied: six in /usr/lib/python3/dist-packages (from geventhttpclient<=2.0.2,>=1.4.4->tritonclient[grpc,http]==2.41.0->-r requirements.txt (line 6)) (1.16.0)
+#19 31.50 Requirement already satisfied: brotli in /usr/local/lib/python3.10/dist-packages (from geventhttpclient<=2.0.2,>=1.4.4->tritonclient[grpc,http]==2.41.0->-r requirements.txt (line 6)) (1.2.0)
+#19 31.54 Requirement already satisfied: charset_normalizer<4,>=2 in /usr/local/lib/python3.10/dist-packages (from requests->torchvision==0.16.2+cpu->-r requirements.txt (line 4)) (3.5.2)
+#19 31.54 Requirement already satisfied: idna<4,>=2.5 in /usr/local/lib/python3.10/dist-packages (from requests->torchvision==0.16.2+cpu->-r requirements.txt (line 4)) (3.20)
+#19 31.80 Collecting cuda-python (from tritonclient[all]>=2.4.0->triton-model-analyzer==1.35.0->-r requirements-analyzer.txt (line 2))
+#19 31.80   Downloading cuda_python-13.4.1-py3-none-any.whl.metadata (6.8 kB)
+#19 31.90 Requirement already satisfied: MarkupSafe>=2.0 in /usr/local/lib/python3.10/dist-packages (from jinja2->torch==2.1.2+cpu->-r requirements.txt (line 3)) (3.0.4)
+#19 31.93 Requirement already satisfied: mpmath<1.4,>=1.1.0 in /usr/local/lib/python3.10/dist-packages (from sympy->torch==2.1.2+cpu->-r requirements.txt (line 3)) (1.3.0)
+#19 32.11 Collecting cuda-bindings~=13.4.1 (from cuda-python->tritonclient[all]>=2.4.0->triton-model-analyzer==1.35.0->-r requirements-analyzer.txt (line 2))
+#19 32.11   Downloading cuda_bindings-13.4.3-cp310-cp310-manylinux_2_24_x86_64.manylinux_2_28_x86_64.whl.metadata (2.4 kB)
+#19 32.21 Collecting cuda-core~=1.2.0 (from cuda-python->tritonclient[all]>=2.4.0->triton-model-analyzer==1.35.0->-r requirements-analyzer.txt (line 2))
+#19 32.22   Downloading cuda_core-1.2.1-cp310-cp310-manylinux_2_24_x86_64.manylinux_2_28_x86_64.whl.metadata (3.3 kB)
+#19 32.24 Collecting cuda-pathfinder~=1.1 (from cuda-python->tritonclient[all]>=2.4.0->triton-model-analyzer==1.35.0->-r requirements-analyzer.txt (line 2))
+#19 32.24   Downloading cuda_pathfinder-1.8.3-py3-none-any.whl.metadata (1.9 kB)
+#19 32.35 Collecting backports.strenum (from cuda-core~=1.2.0->cuda-python->tritonclient[all]>=2.4.0->triton-model-analyzer==1.35.0->-r requirements-analyzer.txt (line 2))
+#19 32.35   Downloading backports_strenum-1.3.1-py3-none-any.whl.metadata (3.7 kB)
+#19 32.46 Downloading triton_model_analyzer-1.35.0-py3-none-manylinux1_x86_64.whl (6.6 MB)
+#19 32.93    ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 6.6/6.6 MB 14.0 MB/s eta 0:00:00
+#19 32.93 Downloading matplotlib-3.7.5-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (11.6 MB)
+#19 32.99    ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 11.6/11.6 MB 220.5 MB/s eta 0:00:00
+#19 33.06 Downloading numba-0.58.1-cp310-cp310-manylinux2014_x86_64.manylinux_2_17_x86_64.whl (3.6 MB)
+#19 33.18    ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 3.6/3.6 MB 31.2 MB/s eta 0:00:00
+#19 33.18 Downloading scipy-1.11.4-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (36.4 MB)
+#19 33.45    ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 36.4/36.4 MB 68.7 MB/s eta 0:00:00
+#19 33.46 Downloading PyYAML-6.0.1-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (705 kB)
+#19 33.46    ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 705.5/705.5 kB 306.6 MB/s eta 0:00:00
+#19 33.47 Downloading psutil-5.9.8-cp36-abi3-manylinux_2_12_x86_64.manylinux2010_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl (288 kB)
+#19 33.47    ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 288.2/288.2 kB 282.7 MB/s eta 0:00:00
+#19 33.47 Downloading pdfkit-1.0.0-py3-none-any.whl (12 kB)
+#19 33.47 Downloading contourpy-1.3.2-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (325 kB)
+#19 33.48    ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 325.0/325.0 kB 295.8 MB/s eta 0:00:00
+#19 33.48 Downloading cycler-0.12.1-py3-none-any.whl (8.3 kB)
+#19 33.48 Downloading docker-7.2.0-py3-none-any.whl (148 kB)
+#19 33.49    ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 148.8/148.8 kB 226.0 MB/s eta 0:00:00
+#19 33.49 Downloading fonttools-4.65.0-cp310-cp310-manylinux2014_x86_64.manylinux_2_17_x86_64.whl (5.3 MB)
+#19 33.51    ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 5.3/5.3 MB 275.1 MB/s eta 0:00:00
+#19 33.51 Downloading kiwisolver-1.5.1-cp310-cp310-manylinux_2_12_x86_64.manylinux2010_x86_64.whl (1.6 MB)
+#19 33.52    ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 1.6/1.6 MB 250.7 MB/s eta 0:00:00
+#19 33.53 Downloading llvmlite-0.41.1-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (43.6 MB)
+#19 33.69    ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 43.6/43.6 MB 297.3 MB/s eta 0:00:00
+#19 33.69 Downloading prometheus_client-0.26.0-py3-none-any.whl (64 kB)
+#19 33.69    ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 64.5/64.5 kB 283.1 MB/s eta 0:00:00
+#19 33.69 Downloading python_dateutil-2.9.0.post0-py2.py3-none-any.whl (229 kB)
+#19 33.70    ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 229.9/229.9 kB 276.5 MB/s eta 0:00:00
+#19 33.70 Downloading cuda_python-13.4.1-py3-none-any.whl (7.6 kB)
+#19 33.70 Downloading cuda_bindings-13.4.3-cp310-cp310-manylinux_2_24_x86_64.manylinux_2_28_x86_64.whl (7.2 MB)
+#19 33.73    ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 7.2/7.2 MB 294.8 MB/s eta 0:00:00
+#19 33.73 Downloading cuda_core-1.2.1-cp310-cp310-manylinux_2_24_x86_64.manylinux_2_28_x86_64.whl (6.5 MB)
+#19 33.76    ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 6.5/6.5 MB 283.7 MB/s eta 0:00:00
+#19 33.76 Downloading cuda_pathfinder-1.8.3-py3-none-any.whl (62 kB)
+#19 33.76    ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 62.6/62.6 kB 274.5 MB/s eta 0:00:00
+#19 33.77 Downloading backports_strenum-1.3.1-py3-none-any.whl (8.3 kB)
+#19 34.12 Installing collected packages: pdfkit, scipy, PyYAML, python-dateutil, psutil, prometheus-client, llvmlite, kiwisolver, fonttools, cycler, cuda-pathfinder, contourpy, backports.strenum, numba, matplotlib, docker, cuda-core, cuda-bindings, cuda-python, triton-model-analyzer
+#19 41.91 Successfully installed PyYAML-6.0.1 backports.strenum-1.3.1 contourpy-1.3.2 cuda-bindings-13.4.3 cuda-core-1.2.1 cuda-pathfinder-1.8.3 cuda-python-13.4.1 cycler-0.12.1 docker-7.2.0 fonttools-4.65.0 kiwisolver-1.5.1 llvmlite-0.41.1 matplotlib-3.7.5 numba-0.58.1 pdfkit-1.0.0 prometheus-client-0.26.0 psutil-5.9.8 python-dateutil-2.9.0.post0 scipy-1.11.4 triton-model-analyzer-1.35.0
+#19 41.91 WARNING: Running pip as the 'root' user can result in broken permissions and conflicting behaviour with the system package manager. It is recommended to use a virtual environment instead: https://pip.pypa.io/warnings/venv
+#19 42.01 
+#19 42.01 [notice] A new release of pip is available: 23.3.1 -> 26.2.1
+#19 42.01 [notice] To update, run: python3 -m pip install --upgrade pip
+#19 DONE 43.7s
+
+#20 [analyzer 4/4] RUN /opt/triton-sdk/bin/perf_analyzer --help > /dev/null
+#20 0.142 /opt/triton-sdk/bin/perf_analyzer: unrecognized option '--help'
+#20 0.142 Usage: /opt/triton-sdk/bin/perf_analyzer [options]
+#20 0.142 ==== SYNOPSIS ====
+#20 0.142  
+#20 0.142 	--version 
+#20 0.142 	--service-kind <"triton"|"tfserving"|"torchserve"|"triton_c_api">
+#20 0.142 	-m <model name>
+#20 0.142 	-x <model version>
+#20 0.142 	--bls-composing-models=<string>
+#20 0.142 	--model-signature-name <model signature name>
+#20 0.142 	-v
+#20 0.142 
+#20 0.142 I. MEASUREMENT PARAMETERS: 
+#20 0.142 	--async (-a)
+#20 0.142 	--sync
+#20 0.142 	--measurement-interval (-p) <measurement window (in msec)>
+#20 0.142 	--concurrency-range <start:end:step>
+#20 0.142 	--periodic-concurrency-range <start:end:step>
+#20 0.142 	--request-period <number of responses>
+#20 0.142 	--request-rate-range <start:end:step>
+#20 0.142 	--request-distribution <"poisson"|"constant">
+#20 0.142 	--request-intervals <path to file containing time intervals in microseconds>
+#20 0.142 	--serial-sequences
+#20 0.142 	--binary-search
+#20 0.142 	--num-of-sequences <number of concurrent sequences>
+#20 0.142 	--latency-threshold (-l) <latency threshold (in msec)>
+#20 0.142 	--max-threads <thread counts>
+#20 0.142 	--stability-percentage (-s) <deviation threshold for stable measurement (in percentage)>
+#20 0.142 	--max-trials (-r)  <maximum number of measurements for each profiling>
+#20 0.142 	--percentile <percentile>
+#20 0.142 	DEPRECATED OPTIONS
+#20 0.142 	-t <number of concurrent requests>
+#20 0.142 	-c <maximum concurrency>
+#20 0.142 	-d
+#20 0.142 
+#20 0.142 II. INPUT DATA OPTIONS: 
+#20 0.142 	-b <batch size>
+#20 0.142 	--input-data <"zero"|"random"|<path>>
+#20 0.142 	--shared-memory <"system"|"cuda"|"none">
+#20 0.142 	--output-shared-memory-size <size in bytes>
+#20 0.142 	--shape <name:shape>
+#20 0.142 	--sequence-length <length>
+#20 0.142 	--sequence-length-variation <variation>
+#20 0.142 	--sequence-id-range <start:end>
+#20 0.142 	--string-length <length>
+#20 0.142 	--string-data <string>
+#20 0.142 	--input-tensor-format=[binary|json]
+#20 0.142 	--output-tensor-format=[binary|json]
+#20 0.142 	DEPRECATED OPTIONS
+#20 0.142 	-z
+#20 0.142 	--data-directory <path>
+#20 0.142 
+#20 0.142 III. SERVER DETAILS: 
+#20 0.142 	-u <URL for inference service>
+#20 0.142 	-i <Protocol used to communicate with inference service>
+#20 0.142 	--ssl-grpc-use-ssl <bool>
+#20 0.142 	--ssl-grpc-root-certifications-file <path>
+#20 0.143 	--ssl-grpc-private-key-file <path>
+#20 0.143 	--ssl-grpc-certificate-chain-file <path>
+#20 0.143 	--ssl-https-verify-peer <number>
+#20 0.143 	--ssl-https-verify-host <number>
+#20 0.143 	--ssl-https-ca-certificates-file <path>
+#20 0.143 	--ssl-https-client-certificate-file <path>
+#20 0.143 	--ssl-https-client-certificate-type <string>
+#20 0.143 	--ssl-https-private-key-file <path>
+#20 0.143 	--ssl-https-private-key-type <string>
+#20 0.143 
+#20 0.143 IV. OTHER OPTIONS: 
+#20 0.143 	-f <filename for storing report in csv format>
+#20 0.143 	--profile-export-file <path>
+#20 0.143 	-H <HTTP header>
+#20 0.143 	--streaming
+#20 0.143 	--grpc-compression-algorithm <compression_algorithm>
+#20 0.143 	--trace-file
+#20 0.143 	--trace-level
+#20 0.143 	--trace-rate
+#20 0.143 	--trace-count
+#20 0.143 	--log-frequency
+#20 0.143 	--collect-metrics
+#20 0.143 	--metrics-url
+#20 0.143 	--metrics-interval
+#20 0.143 
+#20 0.143 ==== OPTIONS ==== 
+#20 0.143  
+#20 0.143  --version: print the current version of Perf Analyzer.
+#20 0.143  --service-kind: Describes the kind of service perf_analyzer to generate load
+#20 0.143 	 for. The options are "triton", "triton_c_api", "tfserving" and
+#20 0.143 	 "torchserve". Default value is "triton". Note in order to use
+#20 0.143 	 "torchserve" backend --input-data option must point to a json file holding data
+#20 0.143 	 in the following format {"data" : [{"TORCHSERVE_INPUT" :
+#20 0.143 	 ["<complete path to the content file>"]}, {...}...]}. The type of file here
+#20 0.143 	 will depend on the model. In order to use "triton_c_api" you must
+#20 0.143 	 specify the Triton server install path and the model repository path via
+#20 0.143 	 the --triton-server-directory and --model-repository flags
+#20 0.143  -m:     This is a required argument and is used to specify the model against
+#20 0.144 	 which to run perf_analyzer.
+#20 0.144  -x:     The version of the above model to be used. If not specified the most
+#20 0.144 	 recent version (that is, the highest numbered version) of the model
+#20 0.144 	 will be used.
+#20 0.144  --model-signature-name: The signature name of the saved model to use. Default
+#20 0.144 	 value is "serving_default". This option will be ignored if
+#20 0.144 	 --service-kind is not "tfserving".
+#20 0.144  -v:     Enables verbose mode.
+#20 0.144  -v -v:  Enables extra verbose mode.
+#20 0.144 
+#20 0.144 I. MEASUREMENT PARAMETERS: 
+#20 0.144  --async (-a): Enables asynchronous mode in perf_analyzer. By default,
+#20 0.144 	 perf_analyzer will use synchronous API to request inference. However, if
+#20 0.144 	 the model is sequential then default mode is asynchronous. Specify
+#20 0.144 	 --sync to operate sequential models in synchronous mode. In synchronous
+#20 0.144 	 mode, perf_analyzer will start threads equal to the concurrency
+#20 0.144 	 level. Use asynchronous mode to limit the number of threads, yet
+#20 0.144 	 maintain the concurrency.
+#20 0.144  --sync: Force enables synchronous mode in perf_analyzer. Can be used to
+#20 0.144 	 operate perf_analyzer with sequential model in synchronous mode.
+#20 0.144  --measurement-interval (-p): Indicates the time interval used for each
+#20 0.144 	 measurement in milliseconds. The perf analyzer will sample a time interval
+#20 0.144 	 specified by -p and take measurement over the requests completed
+#20 0.144 	 within that time interval. The default value is 5000 msec.
+#20 0.144  --measurement-mode <"time_windows"|"count_windows">: Indicates the mode used
+#20 0.144 	 for stabilizing measurements. "time_windows" will create windows
+#20 0.144 	 such that the length of each window is equal to --measurement-interval.
+#20 0.144 	 "count_windows" will create windows such that there are at least
+#20 0.144 	 --measurement-request-count requests in each window.
+#20 0.144  --measurement-request-count: Indicates the minimum number of requests to be
+#20 0.144 	 collected in each measurement window when "count_windows" mode is
+#20 0.144 	 used. This mode can be enabled using the --measurement-mode flag.
+#20 0.144  --concurrency-range <start:end:step>: Determines the range of concurrency
+#20 0.144 	 levels covered by the perf_analyzer. The perf_analyzer will start from
+#20 0.144 	 the concurrency level of 'start' and go till 'end' with a stride of
+#20 0.144 	 'step'. The default value of 'end' and 'step' are 1. If 'end' is not
+#20 0.144 	 specified then perf_analyzer will run for a single concurrency
+#20 0.144 	 level determined by 'start'. If 'end' is set as 0, then the concurrency
+#20 0.144 	 limit will be incremented by 'step' till latency threshold is met.
+#20 0.144 	 'end' and --latency-threshold can not be both 0 simultaneously. 'end'
+#20 0.144 	 can not be 0 for sequence models while using asynchronous mode.
+#20 0.144 --periodic-concurrency-range <start:end:step>: Determines the range of
+#20 0.144 	 concurrency levels in the similar but slightly different manner as the
+#20 0.144 	 --concurrency-range. Perf Analyzer will start from the concurrency level
+#20 0.144 	 of 'start' and increase by 'step' each time. Unlike
+#20 0.144 	 --concurrency-range, the 'end' indicates the *total* number of concurrency since
+#20 0.144 	 the 'start' (including) and will stop increasing once the cumulative
+#20 0.144 	 number of concurrent requests has reached the 'end'. The user can
+#20 0.144 	 specify *when* to periodically increase the concurrency level using the
+#20 0.144 	 --request-period option. The concurrency level will periodically
+#20 0.144 	 increase for every n-th response specified by --request-period. Since
+#20 0.144 	 this disables stability check in Perf Analyzer and reports response
+#20 0.144 	 timestamps only, the user must provide --profile-export-file to
+#20 0.144 	 specify where to dump all the measured timestamps. The default values of
+#20 0.144 	 'start', 'end', and 'step' are 1.
+#20 0.144 --request-period <n>: Indicates the number of responses that each request must
+#20 0.144 	 receive before new, concurrent requests are sent when
+#20 0.144 	 --periodic-concurrency-range is specified. Default value is 10.
+#20 0.144 --request-parameter <name:value:type>: Specifies a custom parameter that can
+#20 0.144 	 be sent to a Triton backend as part of the request. For example,
+#20 0.144 	 providing '--request-parameter max_tokens:256:int' to the command line
+#20 0.144 	 will set an additional parameter 'max_tokens' of type 'int' to 256 as
+#20 0.144 	 part of the request. The --request-parameter may be specified
+#20 0.144 	 multiple times for different custom parameters.
+#20 0.144  --request-rate-range <start:end:step>: Determines the range of request rates
+#20 0.144 	 for load generated by analyzer. This option can take floating-point
+#20 0.144 	 values. The search along the request rate range is enabled only when
+#20 0.144 	 using this option. If not specified, then analyzer will search
+#20 0.144 	 along the concurrency-range. The perf_analyzer will start from the
+#20 0.144 	 request rate of 'start' and go till 'end' with a stride of 'step'. The
+#20 0.144 	 default values of 'start', 'end' and 'step' are all 1.0. If 'end' is
+#20 0.144 	 not specified then perf_analyzer will run for a single request rate
+#20 0.144 	 as determined by 'start'. If 'end' is set as 0.0, then the request
+#20 0.144 	 rate will be incremented by 'step' till latency threshold is met.
+#20 0.144 	 'end' and --latency-threshold can not be both 0 simultaneously.
+#20 0.144  --request-distribution <"poisson"|"constant">: Specifies the time interval
+#20 0.144 	 distribution between dispatching inference requests to the server.
+#20 0.144 	 Poisson distribution closely mimics the real-world work load on a
+#20 0.144 	 server. This option is ignored if not using --request-rate-range. By
+#20 0.144 	 default, this option is set to be constant.
+#20 0.144  --request-intervals: Specifies a path to a file containing time intervals in
+#20 0.144 	 microseconds. Each time interval should be in a new line. The
+#20 0.144 	 analyzer will try to maintain time intervals between successive generated
+#20 0.144 	 requests to be as close as possible in this file. This option can be
+#20 0.144 	 used to apply custom load to server with a certain pattern of
+#20 0.144 	 interest. The analyzer will loop around the file if the duration of
+#20 0.144 	 execution exceeds to that accounted for by the intervals. This option can
+#20 0.144 	 not be used with --request-rate-range or --concurrency-range.
+#20 0.144 --binary-search: Enables the binary search on the specified search range. This
+#20 0.144 	 option requires 'start' and 'end' to be expilicitly specified in
+#20 0.144 	 the --concurrency-range or --request-rate-range. When using this
+#20 0.144 	 option, 'step' is more like the precision. Lower the 'step', more the
+#20 0.144 	 number of iterations along the search path to find suitable
+#20 0.144 	 convergence. By default, linear search is used.
+#20 0.144 --num-of-sequences: Sets the number of concurrent sequences for sequence
+#20 0.144 	 models. This option is ignored when --request-rate-range is not
+#20 0.144 	 specified. By default, its value is 4.
+#20 0.144  --latency-threshold (-l): Sets the limit on the observed latency. Analyzer
+#20 0.144 	 will terminate the concurrency search once the measured latency
+#20 0.144 	 exceeds this threshold. By default, latency threshold is set 0 and the
+#20 0.144 	 perf_analyzer will run for entire --concurrency-range.
+#20 0.144  --max-threads: Sets the maximum number of threads that will be created for
+#20 0.144 	 providing desired concurrency or request rate. However, when runningin
+#20 0.144 	 synchronous mode with concurrency-range having explicit 'end'
+#20 0.144 	 specification,this value will be ignored. Default is 4 if
+#20 0.144 	 --request-rate-range is specified otherwise default is 16.
+#20 0.144  --stability-percentage (-s): Indicates the allowed variation in latency
+#20 0.144 	 measurements when determining if a result is stable. The measurement is
+#20 0.144 	 considered as stable if the ratio of max / min from the recent 3
+#20 0.144 	 measurements is within (stability percentage)% in terms of both infer
+#20 0.144 	 per second and latency. Default is 10(%).
+#20 0.144  --max-trials (-r): Indicates the maximum number of measurements for each
+#20 0.144 	 concurrency level visited during search. The perf analyzer will take
+#20 0.144 	 multiple measurements and report the measurement until it is stable.
+#20 0.144 	 The perf analyzer will abort if the measurement is still unstable
+#20 0.144 	 after the maximum number of measurements. The default value is 10.
+#20 0.144  --percentile: Indicates the confidence value as a percentile that will be
+#20 0.144 	 used to determine if a measurement is stable. For example, a value of
+#20 0.144 	 85 indicates that the 85th percentile latency will be used to
+#20 0.144 	 determine stability. The percentile will also be reported in the results.
+#20 0.144 	 The default is -1 indicating that the average latency is used to
+#20 0.144 	 determine stability
+#20 0.144  --serial-sequences: Enables serial sequence mode where a maximum of one
+#20 0.144 	 request is outstanding at a time for any given sequence. The default is
+#20 0.144 	 false.
+#20 0.144 
+#20 0.144 II. INPUT DATA OPTIONS: 
+#20 0.144  -b:     Batch size for each request sent.
+#20 0.144  --input-data: Select the type of data that will be used for input in
+#20 0.144 	 inference requests. The available options are "zero", "random", path to a
+#20 0.144 	 directory or a json file. If the option is path to a directory then
+#20 0.144 	 the directory must contain a binary/text file for each
+#20 0.144 	 non-string/string input respectively, named the same as the input. Each file must
+#20 0.144 	 contain the data required for that input for a batch-1 request. Each
+#20 0.144 	 binary file should contain the raw binary representation of the
+#20 0.144 	 input in row-major order for non-string inputs. The text file should
+#20 0.144 	 contain all strings needed by batch-1, each in a new line, listed in
+#20 0.144 	 row-major order. When pointing to a json file, user must adhere to the
+#20 0.144 	 format described in the Performance Analyzer documentation. By
+#20 0.144 	 specifying json data users can control data used with every request.
+#20 0.144 	 Multiple data streams can be specified for a sequence model and the
+#20 0.144 	 analyzer will select a data stream in a round-robin fashion for every
+#20 0.144 	 new sequence. Multiple json files can also be provided (--input-data
+#20 0.144 	 json_file1 --input-data json-file2 and so on) and the analyzer will
+#20 0.144 	 append data streams from each file. When using
+#20 0.144 	 --service-kind=torchserve make sure this option points to a json file. Default is
+#20 0.144 	 "random".
+#20 0.144  --shared-memory <"system"|"cuda"|"none">: Specifies the type of the shared
+#20 0.144 	 memory to use for input and output data. Default is none.
+#20 0.144  --output-shared-memory-size: The size in bytes of the shared memory region to
+#20 0.144 	 allocate per output tensor. Only needed when one or more of the
+#20 0.144 	 outputs are of string type and/or variable shape. The value should be
+#20 0.144 	 larger than the size of the largest output tensor the model is
+#20 0.144 	 expected to return. The analyzer will use the following formula to
+#20 0.144 	 calculate the total shared memory to allocate: output_shared_memory_size *
+#20 0.144 	 number_of_outputs * batch_size. Defaults to 100KB.
+#20 0.144  --shape: The shape used for the specified input. The argument must be
+#20 0.144 	 specified as 'name:shape' where the shape is a comma-separated list for
+#20 0.144 	 dimension sizes, for example '--shape input_name:1,2,3' indicate tensor
+#20 0.144 	 shape [ 1, 2, 3 ]. --shape may be specified multiple times to
+#20 0.144 	 specify shapes for different inputs.
+#20 0.144  --sequence-length: Indicates the base length of a sequence used for sequence
+#20 0.144 	 models. A sequence with length X will be composed of X requests to
+#20 0.144 	 be sent as the elements in the sequence. The actual length of the
+#20 0.144 	 sequencewill be within +/- Y% of the base length, where Y defaults to
+#20 0.144 	 20% and is customizable via `--sequence-length-variation`. If
+#20 0.144 	 sequence length is unspecified and input data is provided, the sequence
+#20 0.144 	 length will be the number of inputs in the user-provided input data.
+#20 0.144 	 Default is 20.
+#20 0.144  --sequence-length-variation: The percentage variation in length of sequences.
+#20 0.144 	 This flag is only valid when not using user-provided input data or
+#20 0.144 	 when `--sequence-length` is specified while using user-provided
+#20 0.144 	 input data. Default is 20.
+#20 0.144  --sequence-id-range <start:end>: Determines the range of sequence id used by
+#20 0.144 	 the perf_analyzer. The perf_analyzer will start from the sequence id
+#20 0.144 	 of 'start' and go till 'end' (excluded). If 'end' is not specified
+#20 0.144 	 then perf_analyzer will use new sequence id without bounds. If 'end'
+#20 0.144 	 is specified and the concurrency setting may result in maintaining
+#20 0.144 	 a number of sequences more than the range of available sequence id,
+#20 0.144 	 perf analyzer will exit with error due to possible sequence id
+#20 0.144 	 collision. The default setting is start from sequence id 1 and without
+#20 0.144 	 bounds
+#20 0.144  --string-length: Specifies the length of the random strings to be generated
+#20 0.144 	 by the analyzer for string input. This option is ignored if
+#20 0.144 	 --input-data points to a directory. Default is 128.
+#20 0.144  --string-data: If provided, analyzer will use this string to initialize
+#20 0.144 	 string input buffers. The perf analyzer will replicate the given string
+#20 0.144 	 to build tensors of required shape. --string-length will not have any
+#20 0.144 	 effect. This option is ignored if --input-data points to a
+#20 0.144 	 directory.
+#20 0.144  --input-tensor-format=[binary|json]: Specifies Triton inference request input
+#20 0.144 	 tensor format. Only valid when HTTP protocol is used. Default is
+#20 0.144 	 'binary'.
+#20 0.144  --output-tensor-format=[binary|json]: Specifies Triton inference response
+#20 0.144 	 output tensor format. Only valid when HTTP protocol is used. Default is
+#20 0.144 	 'binary'.
+#20 0.144 
+#20 0.144 III. SERVER DETAILS: 
+#20 0.144  -u:                                  Specify URL to the server. When using triton default is "localhost:8000" if using HTTP and
+#20 0.144 	 "localhost:8001" if using gRPC. When using tfserving default is
+#20 0.144 	 "localhost:8500". 
+#20 0.144  -i:                                  The communication protocol to use. The available protocols are gRPC and HTTP. Default is HTTP.
+#20 0.144  --ssl-grpc-use-ssl:                  Bool (true|false) for whether to use encrypted channel to the server. Default false.
+#20 0.144  --ssl-grpc-root-certifications-file: Path to file containing the PEM encoding of the server root certificates.
+#20 0.144  --ssl-grpc-private-key-file:         Path to file containing the PEM encoding of the client's private key.
+#20 0.144  --ssl-grpc-certificate-chain-file:   Path to file containing the PEM encoding of the client's certificate chain.
+#20 0.144  --ssl-https-verify-peer:             Number (0|1) to verify the peer's SSL certificate. See
+#20 0.144 	 https://curl.se/libcurl/c/CURLOPT_SSL_VERIFYPEER.html for the meaning of each value. Default is 1.
+#20 0.144  --ssl-https-verify-host:             Number (0|1|2) to verify the certificate's name against host. See
+#20 0.144 	 https://curl.se/libcurl/c/CURLOPT_SSL_VERIFYHOST.html for the meaning of each value. Default is 2.
+#20 0.144  --ssl-https-ca-certificates-file:    Path to Certificate Authority (CA) bundle.
+#20 0.144  --ssl-https-client-certificate-file: Path to the SSL client certificate.
+#20 0.144  --ssl-https-client-certificate-type: Type (PEM|DER) of the client SSL certificate. Default is PEM.
+#20 0.144  --ssl-https-private-key-file:        Path to the private keyfile for TLS and SSL client cert.
+#20 0.144  --ssl-https-private-key-type:        Type (PEM|DER) of the private key file. Default is PEM.
+#20 0.144 
+#20 0.144 IV. OTHER OPTIONS: 
+#20 0.144  -f:     The latency report will be stored in the file named by this option.
+#20 0.144 	 By default, the result is not recorded in a file.
+#20 0.144  --profile-export-file: Specifies the path that the profile export will be generated at. By
+#20 0.144 	 default, the profile export will not be generated.
+#20 0.144  -H:     The header will be added to HTTP requests (ignored for GRPC
+#20 0.144 	 requests). The header must be specified as 'Header:Value'. -H may be
+#20 0.144 	 specified multiple times to add multiple headers.
+#20 0.144  --streaming: Enables the use of streaming API. This flag is only valid with
+#20 0.144 	 gRPC protocol. By default, it is set false.
+#20 0.144  --grpc-compression-algorithm: The compression algorithm to be used by gRPC
+#20 0.144 	 when sending request. Only supported when grpc protocol is being used.
+#20 0.144 	 The supported values are none, gzip, and deflate. Default value is
+#20 0.144 	 none.
+#20 0.144  --trace-file: Set the file where trace output will be saved. If
+#20 0.144 	 --log-frequency is also specified, this argument value will be the prefix of the
+#20 0.144 	 files to save the trace output. See --log-frequency for details.
+#20 0.144 	 Only used for service-kind of triton. Default value is none.
+#20 0.144  --trace-level: Specify a trace level. OFF to disable tracing, TIMESTAMPS to
+#20 0.144 	 trace timestamps, TENSORS to trace tensors. It may be specified
+#20 0.144 	 multiple times to trace multiple information. Default is OFF.
+#20 0.144  --trace-rate: Set the trace sampling rate. Default is 1000.
+#20 0.144  --trace-count: Set the number of traces to be sampled. If the value is -1,
+#20 0.144 	 the number of traces to be sampled will not be limited. Default is -1.
+#20 0.144  --log-frequency:  Set the trace log frequency. If the value is 0, Triton will
+#20 0.144 	 only log the trace output to <trace-file> when shutting down.
+#20 0.144 	 Otherwise, Triton will log the trace output to <trace-file>.<idx> when it
+#20 0.144 	 collects the specified number of traces. For example, if the log
+#20 0.144 	 frequency is 100, when Triton collects the 100-th trace, it logs the
+#20 0.144 	 traces to file <trace-file>.0, and when it collects the 200-th trace,
+#20 0.144 	 it logs the 101-th to the 200-th traces to file <trace-file>.1.
+#20 0.144 	 Default is 0.
+#20 0.144  --triton-server-directory: The Triton server install path. Required by and
+#20 0.144 	 only used when C API is used (--service-kind=triton_c_api).
+#20 0.144 	 eg:--triton-server-directory=/opt/tritonserver.
+#20 0.144  --model-repository: The model repository of which the model is loaded.
+#20 0.144 	 Required by and only used when C API is used
+#20 0.144 	 (--service-kind=triton_c_api). eg:--model-repository=/tmp/host/docker-data/model_unit_test.
+#20 0.144  --verbose-csv: The csv files generated by perf analyzer will include
+#20 0.144 	 additional information.
+#20 0.144  --collect-metrics: Enables collection of server-side inference server
+#20 0.144 	 metrics. Outputs metrics in the csv file generated with the -f option. Must
+#20 0.144 	 enable `--verbose-csv` option to use the `--collect-metrics`.
+#20 0.144  --metrics-url: The URL to query for server-side inference server metrics.
+#20 0.144 	 Default is 'localhost:8002/metrics'.
+#20 0.144  --metrics-interval: How often in milliseconds, within each measurement
+#20 0.144 	 window, to query for server-side inference server metrics. Default is
+#20 0.144 	 1000.
+#20 0.144  --bls-composing-models: A comma separated list of all BLS composing models
+#20 0.144 	 (with optional model version number after a colon for each) that may
+#20 0.144 	 be called by the input BLS model. For example, 'modelA:3,modelB'
+#20 0.144 	 would specify that modelA and modelB are composing models that may be
+#20 0.144 	 called by the input BLS model, and that modelA will use version 3,
+#20 0.144 	 while modelB's version is unspecified
+#20 ERROR: process "/bin/sh -c /opt/triton-sdk/bin/perf_analyzer --help > /dev/null" did not complete successfully: exit code: 99
+------
+ > [analyzer 4/4] RUN /opt/triton-sdk/bin/perf_analyzer --help > /dev/null:
+0.144 	 Default is 'localhost:8002/metrics'.
+0.144  --metrics-interval: How often in milliseconds, within each measurement
+0.144 	 window, to query for server-side inference server metrics. Default is
+0.144 	 1000.
+0.144  --bls-composing-models: A comma separated list of all BLS composing models
+0.144 	 (with optional model version number after a colon for each) that may
+0.144 	 be called by the input BLS model. For example, 'modelA:3,modelB'
+0.144 	 would specify that modelA and modelB are composing models that may be
+0.144 	 called by the input BLS model, and that modelA will use version 3,
+0.144 	 while modelB's version is unspecified
+------
+Dockerfile:27
+
+--------------------
+
+  25 |         && python3 -m pip install --no-cache-dir -r requirements-analyzer.txt
+
+  26 |     ENV QT_QPA_PLATFORM=offscreen LD_LIBRARY_PATH=/opt/triton-sdk/lib:${LD_LIBRARY_PATH}
+
+  27 | >>> RUN /opt/triton-sdk/bin/perf_analyzer --help > /dev/null
+
+  28 |     ENTRYPOINT ["bash", "/workspace/scripts/model_analyzer.sh"]
+
+  29 |     
+
+--------------------
+
+failed to solve: process "/bin/sh -c /opt/triton-sdk/bin/perf_analyzer --help > /dev/null" did not complete successfully: exit code: 99
+

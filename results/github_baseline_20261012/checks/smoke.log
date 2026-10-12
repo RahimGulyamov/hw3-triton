@@ -1,0 +1,14 @@
+ Container hw3-ci-triton-1  Recreate
+ Container hw3-ci-triton-1  Recreated
+ Container hw3-ci-triton-1  Starting
+ Container hw3-ci-triton-1  Started
+PASS http batch=1: remote/local logits match
+PASS http batch=4: remote/local logits match
+PASS http batch=8: remote/local logits match
+PASS http: malformed shape rejected
+PASS http: inference still works after invalid request
+PASS grpc batch=1: remote/local logits match
+PASS grpc batch=4: remote/local logits match
+PASS grpc batch=8: remote/local logits match
+PASS grpc: malformed shape rejected
+PASS grpc: inference still works after invalid request

@@ -7,7 +7,8 @@ output_model_repository_path: /results/model_analyzer/model_repository
 export_path: /results/model_analyzer
 triton_output_path: /results/model_analyzer/triton.log
 run_config_search_disable: true
-dcgm_disable: true
+# Model Analyzer 1.35.0 uses profile_models.mobilenet.cpu_only for CPU profiling.
+# dcgm_disable belongs to newer releases and is not accepted by this version.
 collect_cpu_metrics: true
 client_protocol: http
 batch_sizes: [1]
