@@ -169,6 +169,8 @@ python3 scripts/perf_report.py results/perf_analyzer/baseline
 
 Отдельный target Dockerfile расширяет **тот же серверный образ**, устанавливает Model Analyzer через pip и содержит Performance Analyzer из SDK того же релиза. `triton_launch_mode: local` запускает `tritonserver` внутри этого контейнера с доступом к PyTorch и весам. Docker socket не нужен.
 
+Для зависимостей `tritonclient[all]`, которые устанавливает Model Analyzer, зафиксирован `cuda-python==12.3.0`: версия 13 удаляет старые пространства имён CUDA API согласно [release notes NVIDIA](https://nvidia.github.io/cuda-python/cuda-bindings/latest/release/13.0.0-notes.html). Это зависимость инструментов; вычисления модели выполняются на CPU. При сборке образ проверяет запуск SDK через `perf_analyzer --version`, импорт CUDA shared-memory модуля клиента и загрузку CLI Model Analyzer. `scripts/run_all.sh` собирает оба образа до начала измерений.
+
 Сначала завершите сервер, чтобы не создавать конкуренцию за CPU:
 
 ```bash

@@ -24,7 +24,9 @@ RUN apt-get update && apt-get install -y --no-install-recommends wkhtmltopdf lib
     && rm -rf /var/lib/apt/lists/* \
     && python3 -m pip install --no-cache-dir -r requirements-analyzer.txt
 ENV QT_QPA_PLATFORM=offscreen LD_LIBRARY_PATH=/opt/triton-sdk/lib:${LD_LIBRARY_PATH}
-RUN /opt/triton-sdk/bin/perf_analyzer --help > /dev/null
+RUN /opt/triton-sdk/bin/perf_analyzer --version \
+    && python3 -c "import tritonclient.utils.cuda_shared_memory" \
+    && model-analyzer --help > /dev/null
 ENTRYPOINT ["bash", "/workspace/scripts/model_analyzer.sh"]
 
 # `docker build .` produces the inference server by default.

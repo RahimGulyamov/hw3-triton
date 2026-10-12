@@ -1,5 +1,7 @@
 -r requirements.txt
 triton-model-analyzer==1.35.0
+# Model Analyzer installs tritonclient[all]; keep its legacy CUDA imports working.
+cuda-python==12.3.0
 matplotlib==3.7.5
 numba==0.58.1
 scipy==1.11.4

@@ -15,7 +15,9 @@ uname -sm > results/host.txt
 docker version >> results/host.txt
 docker compose version >> results/host.txt
 
-docker compose up --build -d --wait triton
+# Validate both images before starting the measurements.
+docker compose --profile tools build triton analyzer
+docker compose up -d --wait triton
 docker compose --profile tools run --rm client clients/smoke.py \
   2>&1 | tee results/checks/smoke.log
 docker compose --profile tools run --rm client clients/infer.py \
@@ -31,6 +33,5 @@ docker compose --profile tools run --rm perf
 docker compose logs --no-color triton > results/checks/triton.log
 
 docker compose stop triton
-docker compose --profile tools build analyzer
 docker compose --profile tools run --rm analyzer
 printf 'Measurements saved to %s/results. Compare configurations before choosing the final one.\n' "$project_directory"
