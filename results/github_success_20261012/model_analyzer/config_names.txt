@@ -1,0 +1,13 @@
+mobilenet_config_0
+mobilenet_config_1
+mobilenet_config_10
+mobilenet_config_11
+mobilenet_config_2
+mobilenet_config_3
+mobilenet_config_4
+mobilenet_config_5
+mobilenet_config_6
+mobilenet_config_7
+mobilenet_config_8
+mobilenet_config_9
+mobilenet_config_default

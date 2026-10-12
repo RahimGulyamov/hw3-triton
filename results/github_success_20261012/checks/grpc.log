@@ -1,0 +1,9 @@
+ Container hw3-ci-triton-1  Running
+Remote/local logits match
+/workspace/clients/infer.py:56: UserWarning: The given NumPy array is not writable, and PyTorch does not support non-writable tensors. This means writing to this tensor will result in undefined behavior. You may want to copy the array to protect its data or make it writable before converting it to a tensor. This type of warning will be suppressed for the rest of this program. (Triggered internally at ../torch/csrc/utils/tensor_numpy.cpp:206.)
+  probabilities = torch.softmax(torch.from_numpy(logits), dim=-1).numpy()
+{"item": 0, "top5": [{"label": "bee eater", "probability": 0.06287074089050293}, {"label": "kite", "probability": 0.05613808333873749}, {"label": "envelope", "probability": 0.03255006670951843}, {"label": "white stork", "probability": 0.02391744777560234}, {"label": "bald eagle", "probability": 0.022808676585555077}]}
+{"item": 1, "top5": [{"label": "kite", "probability": 0.089132159948349}, {"label": "bee eater", "probability": 0.0659252256155014}, {"label": "bald eagle", "probability": 0.03550942987203598}, {"label": "white stork", "probability": 0.027956578880548477}, {"label": "jellyfish", "probability": 0.024186672642827034}]}
+{"item": 2, "top5": [{"label": "envelope", "probability": 0.049522992223501205}, {"label": "golf ball", "probability": 0.030765293166041374}, {"label": "kite", "probability": 0.02681095525622368}, {"label": "jellyfish", "probability": 0.02238452062010765}, {"label": "lacewing", "probability": 0.02070664055645466}]}
+{"item": 3, "top5": [{"label": "golf ball", "probability": 0.054780710488557816}, {"label": "envelope", "probability": 0.03342660143971443}, {"label": "kite", "probability": 0.025545133277773857}, {"label": "wall clock", "probability": 0.0244384054094553}, {"label": "doormat", "probability": 0.021823162212967873}]}
+Synthetic input verifies the protocol; it does not measure classification accuracy.

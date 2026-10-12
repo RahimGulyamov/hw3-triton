@@ -1,0 +1,776 @@
+Warning: '--strict-model-config' has been deprecated! Please use '--disable-auto-complete-config' instead.
+W1012 11:04:25.925370 25 pinned_memory_manager.cc:237] Unable to allocate pinned system memory, pinned memory pool will not be available: CUDA driver version is insufficient for CUDA runtime version
+I1012 11:04:25.925396 25 cuda_memory_manager.cc:117] CUDA memory pool disabled
+E1012 11:04:25.925422 25 server.cc:243] CudaDriverHelper has not been initialized.
+I1012 11:04:25.925570 25 server.cc:606] 
++------------------+------+
+| Repository Agent | Path |
++------------------+------+
++------------------+------+
+
+I1012 11:04:25.925577 25 server.cc:633] 
++---------+------+--------+
+| Backend | Path | Config |
++---------+------+--------+
++---------+------+--------+
+
+I1012 11:04:25.925582 25 server.cc:676] 
++-------+---------+--------+
+| Model | Version | Status |
++-------+---------+--------+
++-------+---------+--------+
+
+I1012 11:04:25.925658 25 metrics.cc:710] Collecting CPU metrics
+I1012 11:04:25.925712 25 tritonserver.cc:2483] 
++----------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| Option                           | Value                                                                                                                                                                                                           |
++----------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| server_id                        | triton                                                                                                                                                                                                          |
+| server_version                   | 2.41.0                                                                                                                                                                                                          |
+| server_extensions                | classification sequence model_repository model_repository(unload_dependents) schedule_policy model_configuration system_shared_memory cuda_shared_memory binary_tensor_data parameters statistics trace logging |
+| model_repository_path[0]         | /models                                                                                                                                                                                                         |
+| model_control_mode               | MODE_EXPLICIT                                                                                                                                                                                                   |
+| strict_model_config              | 0                                                                                                                                                                                                               |
+| rate_limit                       | OFF                                                                                                                                                                                                             |
+| pinned_memory_pool_byte_size     | 268435456                                                                                                                                                                                                       |
+| min_supported_compute_capability | 6.0                                                                                                                                                                                                             |
+| strict_readiness                 | 1                                                                                                                                                                                                               |
+| exit_timeout                     | 30                                                                                                                                                                                                              |
+| cache_enabled                    | 0                                                                                                                                                                                                               |
++----------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+
+I1012 11:04:25.926376 25 grpc_server.cc:2495] Started GRPCInferenceService at 0.0.0.0:8001
+I1012 11:04:25.926517 25 http_server.cc:4619] Started HTTPService at 0.0.0.0:8000
+I1012 11:04:25.967183 25 http_server.cc:282] Started Metrics Service at 0.0.0.0:8002
+Signal (15) received.
+I1012 11:04:30.928261 25 server.cc:307] Waiting for in-flight requests to complete.
+I1012 11:04:30.928274 25 server.cc:323] Timeout 30: Found 0 model versions that have in-flight inferences
+I1012 11:04:30.928278 25 server.cc:338] All models are stopped, unloading models
+I1012 11:04:30.928281 25 server.cc:345] Timeout 30: Found 0 live models and 0 in-flight non-inference requests
+Warning: '--strict-model-config' has been deprecated! Please use '--disable-auto-complete-config' instead.
+W1012 11:04:31.455069 65 pinned_memory_manager.cc:237] Unable to allocate pinned system memory, pinned memory pool will not be available: CUDA driver version is insufficient for CUDA runtime version
+I1012 11:04:31.455093 65 cuda_memory_manager.cc:117] CUDA memory pool disabled
+E1012 11:04:31.455116 65 server.cc:243] CudaDriverHelper has not been initialized.
+I1012 11:04:31.455240 65 server.cc:606] 
++------------------+------+
+| Repository Agent | Path |
++------------------+------+
++------------------+------+
+
+I1012 11:04:31.455248 65 server.cc:633] 
++---------+------+--------+
+| Backend | Path | Config |
++---------+------+--------+
++---------+------+--------+
+
+I1012 11:04:31.455254 65 server.cc:676] 
++-------+---------+--------+
+| Model | Version | Status |
++-------+---------+--------+
++-------+---------+--------+
+
+I1012 11:04:31.455336 65 metrics.cc:710] Collecting CPU metrics
+I1012 11:04:31.455390 65 tritonserver.cc:2483] 
++----------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| Option                           | Value                                                                                                                                                                                                           |
++----------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| server_id                        | triton                                                                                                                                                                                                          |
+| server_version                   | 2.41.0                                                                                                                                                                                                          |
+| server_extensions                | classification sequence model_repository model_repository(unload_dependents) schedule_policy model_configuration system_shared_memory cuda_shared_memory binary_tensor_data parameters statistics trace logging |
+| model_repository_path[0]         | /models                                                                                                                                                                                                         |
+| model_control_mode               | MODE_EXPLICIT                                                                                                                                                                                                   |
+| strict_model_config              | 0                                                                                                                                                                                                               |
+| rate_limit                       | OFF                                                                                                                                                                                                             |
+| pinned_memory_pool_byte_size     | 268435456                                                                                                                                                                                                       |
+| min_supported_compute_capability | 6.0                                                                                                                                                                                                             |
+| strict_readiness                 | 1                                                                                                                                                                                                               |
+| exit_timeout                     | 30                                                                                                                                                                                                              |
+| cache_enabled                    | 0                                                                                                                                                                                                               |
++----------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+
+I1012 11:04:31.456020 65 grpc_server.cc:2495] Started GRPCInferenceService at 0.0.0.0:8001
+I1012 11:04:31.456156 65 http_server.cc:4619] Started HTTPService at 0.0.0.0:8000
+I1012 11:04:31.496780 65 http_server.cc:282] Started Metrics Service at 0.0.0.0:8002
+I1012 11:04:33.453862 65 model_lifecycle.cc:461] loading: mobilenet:1
+I1012 11:04:35.440600 65 python_be.cc:2363] TRITONBACKEND_ModelInstanceInitialize: mobilenet_0_0 (CPU device 0)
+I1012 11:04:36.290657 65 model_lifecycle.cc:818] successfully loaded 'mobilenet'
+Signal (15) received.
+I1012 11:04:56.361226 65 server.cc:307] Waiting for in-flight requests to complete.
+I1012 11:04:56.361242 65 server.cc:323] Timeout 30: Found 0 model versions that have in-flight inferences
+I1012 11:04:56.361282 65 server.cc:338] All models are stopped, unloading models
+I1012 11:04:56.361288 65 server.cc:345] Timeout 30: Found 1 live models and 0 in-flight non-inference requests
+I1012 11:04:57.361354 65 server.cc:345] Timeout 29: Found 1 live models and 0 in-flight non-inference requests
+I1012 11:04:57.563091 65 model_lifecycle.cc:603] successfully unloaded 'mobilenet' version 1
+I1012 11:04:58.361452 65 server.cc:345] Timeout 28: Found 0 live models and 0 in-flight non-inference requests
+Warning: '--strict-model-config' has been deprecated! Please use '--disable-auto-complete-config' instead.
+W1012 11:04:58.483915 305 pinned_memory_manager.cc:237] Unable to allocate pinned system memory, pinned memory pool will not be available: CUDA driver version is insufficient for CUDA runtime version
+I1012 11:04:58.483937 305 cuda_memory_manager.cc:117] CUDA memory pool disabled
+E1012 11:04:58.483960 305 server.cc:243] CudaDriverHelper has not been initialized.
+I1012 11:04:58.484088 305 server.cc:606] 
++------------------+------+
+| Repository Agent | Path |
++------------------+------+
++------------------+------+
+
+I1012 11:04:58.484095 305 server.cc:633] 
++---------+------+--------+
+| Backend | Path | Config |
++---------+------+--------+
++---------+------+--------+
+
+I1012 11:04:58.484100 305 server.cc:676] 
++-------+---------+--------+
+| Model | Version | Status |
++-------+---------+--------+
++-------+---------+--------+
+
+I1012 11:04:58.484163 305 metrics.cc:710] Collecting CPU metrics
+I1012 11:04:58.484215 305 tritonserver.cc:2483] 
++----------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| Option                           | Value                                                                                                                                                                                                           |
++----------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| server_id                        | triton                                                                                                                                                                                                          |
+| server_version                   | 2.41.0                                                                                                                                                                                                          |
+| server_extensions                | classification sequence model_repository model_repository(unload_dependents) schedule_policy model_configuration system_shared_memory cuda_shared_memory binary_tensor_data parameters statistics trace logging |
+| model_repository_path[0]         | /models                                                                                                                                                                                                         |
+| model_control_mode               | MODE_EXPLICIT                                                                                                                                                                                                   |
+| strict_model_config              | 0                                                                                                                                                                                                               |
+| rate_limit                       | OFF                                                                                                                                                                                                             |
+| pinned_memory_pool_byte_size     | 268435456                                                                                                                                                                                                       |
+| min_supported_compute_capability | 6.0                                                                                                                                                                                                             |
+| strict_readiness                 | 1                                                                                                                                                                                                               |
+| exit_timeout                     | 30                                                                                                                                                                                                              |
+| cache_enabled                    | 0                                                                                                                                                                                                               |
++----------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+
+I1012 11:04:58.484817 305 grpc_server.cc:2495] Started GRPCInferenceService at 0.0.0.0:8001
+I1012 11:04:58.484952 305 http_server.cc:4619] Started HTTPService at 0.0.0.0:8000
+I1012 11:04:58.525549 305 http_server.cc:282] Started Metrics Service at 0.0.0.0:8002
+I1012 11:05:00.483147 305 model_lifecycle.cc:461] loading: mobilenet:1
+I1012 11:05:02.497094 305 python_be.cc:2363] TRITONBACKEND_ModelInstanceInitialize: mobilenet_0_0 (CPU device 0)
+I1012 11:05:03.374754 305 model_lifecycle.cc:818] successfully loaded 'mobilenet'
+Signal (15) received.
+I1012 11:05:23.446128 305 server.cc:307] Waiting for in-flight requests to complete.
+I1012 11:05:23.446143 305 server.cc:323] Timeout 30: Found 0 model versions that have in-flight inferences
+I1012 11:05:23.446213 305 server.cc:338] All models are stopped, unloading models
+I1012 11:05:23.446219 305 server.cc:345] Timeout 30: Found 1 live models and 0 in-flight non-inference requests
+I1012 11:05:24.446292 305 server.cc:345] Timeout 29: Found 1 live models and 0 in-flight non-inference requests
+I1012 11:05:24.912292 305 model_lifecycle.cc:603] successfully unloaded 'mobilenet' version 1
+I1012 11:05:25.446414 305 server.cc:345] Timeout 28: Found 0 live models and 0 in-flight non-inference requests
+Warning: '--strict-model-config' has been deprecated! Please use '--disable-auto-complete-config' instead.
+W1012 11:05:25.518539 558 pinned_memory_manager.cc:237] Unable to allocate pinned system memory, pinned memory pool will not be available: CUDA driver version is insufficient for CUDA runtime version
+I1012 11:05:25.518562 558 cuda_memory_manager.cc:117] CUDA memory pool disabled
+E1012 11:05:25.518584 558 server.cc:243] CudaDriverHelper has not been initialized.
+I1012 11:05:25.518702 558 server.cc:606] 
++------------------+------+
+| Repository Agent | Path |
++------------------+------+
++------------------+------+
+
+I1012 11:05:25.518710 558 server.cc:633] 
++---------+------+--------+
+| Backend | Path | Config |
++---------+------+--------+
++---------+------+--------+
+
+I1012 11:05:25.518716 558 server.cc:676] 
++-------+---------+--------+
+| Model | Version | Status |
++-------+---------+--------+
++-------+---------+--------+
+
+I1012 11:05:25.518780 558 metrics.cc:710] Collecting CPU metrics
+I1012 11:05:25.518831 558 tritonserver.cc:2483] 
++----------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| Option                           | Value                                                                                                                                                                                                           |
++----------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| server_id                        | triton                                                                                                                                                                                                          |
+| server_version                   | 2.41.0                                                                                                                                                                                                          |
+| server_extensions                | classification sequence model_repository model_repository(unload_dependents) schedule_policy model_configuration system_shared_memory cuda_shared_memory binary_tensor_data parameters statistics trace logging |
+| model_repository_path[0]         | /models                                                                                                                                                                                                         |
+| model_control_mode               | MODE_EXPLICIT                                                                                                                                                                                                   |
+| strict_model_config              | 0                                                                                                                                                                                                               |
+| rate_limit                       | OFF                                                                                                                                                                                                             |
+| pinned_memory_pool_byte_size     | 268435456                                                                                                                                                                                                       |
+| min_supported_compute_capability | 6.0                                                                                                                                                                                                             |
+| strict_readiness                 | 1                                                                                                                                                                                                               |
+| exit_timeout                     | 30                                                                                                                                                                                                              |
+| cache_enabled                    | 0                                                                                                                                                                                                               |
++----------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+
+I1012 11:05:25.519447 558 grpc_server.cc:2495] Started GRPCInferenceService at 0.0.0.0:8001
+I1012 11:05:25.519584 558 http_server.cc:4619] Started HTTPService at 0.0.0.0:8000
+I1012 11:05:25.560217 558 http_server.cc:282] Started Metrics Service at 0.0.0.0:8002
+I1012 11:05:27.520393 558 model_lifecycle.cc:461] loading: mobilenet:1
+I1012 11:05:29.541549 558 python_be.cc:2363] TRITONBACKEND_ModelInstanceInitialize: mobilenet_0_0 (CPU device 0)
+I1012 11:05:30.398389 558 model_lifecycle.cc:818] successfully loaded 'mobilenet'
+Signal (15) received.
+I1012 11:05:51.482420 558 server.cc:307] Waiting for in-flight requests to complete.
+I1012 11:05:51.482432 558 server.cc:323] Timeout 30: Found 0 model versions that have in-flight inferences
+I1012 11:05:51.482488 558 server.cc:338] All models are stopped, unloading models
+I1012 11:05:51.482495 558 server.cc:345] Timeout 30: Found 1 live models and 0 in-flight non-inference requests
+I1012 11:05:52.482571 558 server.cc:345] Timeout 29: Found 1 live models and 0 in-flight non-inference requests
+I1012 11:05:52.859249 558 model_lifecycle.cc:603] successfully unloaded 'mobilenet' version 1
+I1012 11:05:53.482656 558 server.cc:345] Timeout 28: Found 0 live models and 0 in-flight non-inference requests
+Warning: '--strict-model-config' has been deprecated! Please use '--disable-auto-complete-config' instead.
+W1012 11:05:53.554847 800 pinned_memory_manager.cc:237] Unable to allocate pinned system memory, pinned memory pool will not be available: CUDA driver version is insufficient for CUDA runtime version
+I1012 11:05:53.554871 800 cuda_memory_manager.cc:117] CUDA memory pool disabled
+E1012 11:05:53.554893 800 server.cc:243] CudaDriverHelper has not been initialized.
+I1012 11:05:53.555004 800 server.cc:606] 
++------------------+------+
+| Repository Agent | Path |
++------------------+------+
++------------------+------+
+
+I1012 11:05:53.555011 800 server.cc:633] 
++---------+------+--------+
+| Backend | Path | Config |
++---------+------+--------+
++---------+------+--------+
+
+I1012 11:05:53.555016 800 server.cc:676] 
++-------+---------+--------+
+| Model | Version | Status |
++-------+---------+--------+
++-------+---------+--------+
+
+I1012 11:05:53.555067 800 metrics.cc:710] Collecting CPU metrics
+I1012 11:05:53.555114 800 tritonserver.cc:2483] 
++----------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| Option                           | Value                                                                                                                                                                                                           |
++----------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| server_id                        | triton                                                                                                                                                                                                          |
+| server_version                   | 2.41.0                                                                                                                                                                                                          |
+| server_extensions                | classification sequence model_repository model_repository(unload_dependents) schedule_policy model_configuration system_shared_memory cuda_shared_memory binary_tensor_data parameters statistics trace logging |
+| model_repository_path[0]         | /models                                                                                                                                                                                                         |
+| model_control_mode               | MODE_EXPLICIT                                                                                                                                                                                                   |
+| strict_model_config              | 0                                                                                                                                                                                                               |
+| rate_limit                       | OFF                                                                                                                                                                                                             |
+| pinned_memory_pool_byte_size     | 268435456                                                                                                                                                                                                       |
+| min_supported_compute_capability | 6.0                                                                                                                                                                                                             |
+| strict_readiness                 | 1                                                                                                                                                                                                               |
+| exit_timeout                     | 30                                                                                                                                                                                                              |
+| cache_enabled                    | 0                                                                                                                                                                                                               |
++----------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+
+I1012 11:05:53.555731 800 grpc_server.cc:2495] Started GRPCInferenceService at 0.0.0.0:8001
+I1012 11:05:53.555859 800 http_server.cc:4619] Started HTTPService at 0.0.0.0:8000
+I1012 11:05:53.596485 800 http_server.cc:282] Started Metrics Service at 0.0.0.0:8002
+I1012 11:05:55.554546 800 model_lifecycle.cc:461] loading: mobilenet:1
+I1012 11:05:57.560955 800 python_be.cc:2363] TRITONBACKEND_ModelInstanceInitialize: mobilenet_0_0 (CPU device 0)
+I1012 11:05:58.429051 800 model_lifecycle.cc:818] successfully loaded 'mobilenet'
+Signal (15) received.
+I1012 11:06:18.523023 800 server.cc:307] Waiting for in-flight requests to complete.
+I1012 11:06:18.523035 800 server.cc:323] Timeout 30: Found 0 model versions that have in-flight inferences
+I1012 11:06:18.523097 800 server.cc:338] All models are stopped, unloading models
+I1012 11:06:18.523102 800 server.cc:345] Timeout 30: Found 1 live models and 0 in-flight non-inference requests
+I1012 11:06:19.523166 800 server.cc:345] Timeout 29: Found 1 live models and 0 in-flight non-inference requests
+I1012 11:06:19.974955 800 model_lifecycle.cc:603] successfully unloaded 'mobilenet' version 1
+I1012 11:06:20.523256 800 server.cc:345] Timeout 28: Found 0 live models and 0 in-flight non-inference requests
+Warning: '--strict-model-config' has been deprecated! Please use '--disable-auto-complete-config' instead.
+W1012 11:06:20.595518 1041 pinned_memory_manager.cc:237] Unable to allocate pinned system memory, pinned memory pool will not be available: CUDA driver version is insufficient for CUDA runtime version
+I1012 11:06:20.595538 1041 cuda_memory_manager.cc:117] CUDA memory pool disabled
+E1012 11:06:20.595560 1041 server.cc:243] CudaDriverHelper has not been initialized.
+I1012 11:06:20.595669 1041 server.cc:606] 
++------------------+------+
+| Repository Agent | Path |
++------------------+------+
++------------------+------+
+
+I1012 11:06:20.595677 1041 server.cc:633] 
++---------+------+--------+
+| Backend | Path | Config |
++---------+------+--------+
++---------+------+--------+
+
+I1012 11:06:20.595682 1041 server.cc:676] 
++-------+---------+--------+
+| Model | Version | Status |
++-------+---------+--------+
++-------+---------+--------+
+
+I1012 11:06:20.595734 1041 metrics.cc:710] Collecting CPU metrics
+I1012 11:06:20.595782 1041 tritonserver.cc:2483] 
++----------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| Option                           | Value                                                                                                                                                                                                           |
++----------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| server_id                        | triton                                                                                                                                                                                                          |
+| server_version                   | 2.41.0                                                                                                                                                                                                          |
+| server_extensions                | classification sequence model_repository model_repository(unload_dependents) schedule_policy model_configuration system_shared_memory cuda_shared_memory binary_tensor_data parameters statistics trace logging |
+| model_repository_path[0]         | /models                                                                                                                                                                                                         |
+| model_control_mode               | MODE_EXPLICIT                                                                                                                                                                                                   |
+| strict_model_config              | 0                                                                                                                                                                                                               |
+| rate_limit                       | OFF                                                                                                                                                                                                             |
+| pinned_memory_pool_byte_size     | 268435456                                                                                                                                                                                                       |
+| min_supported_compute_capability | 6.0                                                                                                                                                                                                             |
+| strict_readiness                 | 1                                                                                                                                                                                                               |
+| exit_timeout                     | 30                                                                                                                                                                                                              |
+| cache_enabled                    | 0                                                                                                                                                                                                               |
++----------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+
+I1012 11:06:20.596347 1041 grpc_server.cc:2495] Started GRPCInferenceService at 0.0.0.0:8001
+I1012 11:06:20.596490 1041 http_server.cc:4619] Started HTTPService at 0.0.0.0:8000
+I1012 11:06:20.637113 1041 http_server.cc:282] Started Metrics Service at 0.0.0.0:8002
+I1012 11:06:22.594707 1041 model_lifecycle.cc:461] loading: mobilenet:1
+I1012 11:06:24.581746 1041 python_be.cc:2363] TRITONBACKEND_ModelInstanceInitialize: mobilenet_0_0 (CPU device 0)
+I1012 11:06:24.581768 1041 python_be.cc:2363] TRITONBACKEND_ModelInstanceInitialize: mobilenet_0_1 (CPU device 0)
+I1012 11:06:25.473431 1041 model_lifecycle.cc:818] successfully loaded 'mobilenet'
+Signal (15) received.
+I1012 11:06:46.575679 1041 server.cc:307] Waiting for in-flight requests to complete.
+I1012 11:06:46.575691 1041 server.cc:323] Timeout 30: Found 0 model versions that have in-flight inferences
+I1012 11:06:46.575725 1041 server.cc:338] All models are stopped, unloading models
+I1012 11:06:46.575731 1041 server.cc:345] Timeout 30: Found 1 live models and 0 in-flight non-inference requests
+I1012 11:06:47.575796 1041 server.cc:345] Timeout 29: Found 1 live models and 0 in-flight non-inference requests
+I1012 11:06:48.575888 1041 server.cc:345] Timeout 28: Found 1 live models and 0 in-flight non-inference requests
+I1012 11:06:49.099536 1041 model_lifecycle.cc:603] successfully unloaded 'mobilenet' version 1
+I1012 11:06:49.575978 1041 server.cc:345] Timeout 27: Found 0 live models and 0 in-flight non-inference requests
+Warning: '--strict-model-config' has been deprecated! Please use '--disable-auto-complete-config' instead.
+W1012 11:06:49.649896 1350 pinned_memory_manager.cc:237] Unable to allocate pinned system memory, pinned memory pool will not be available: CUDA driver version is insufficient for CUDA runtime version
+I1012 11:06:49.649915 1350 cuda_memory_manager.cc:117] CUDA memory pool disabled
+E1012 11:06:49.649936 1350 server.cc:243] CudaDriverHelper has not been initialized.
+I1012 11:06:49.650046 1350 server.cc:606] 
++------------------+------+
+| Repository Agent | Path |
++------------------+------+
++------------------+------+
+
+I1012 11:06:49.650053 1350 server.cc:633] 
++---------+------+--------+
+| Backend | Path | Config |
++---------+------+--------+
++---------+------+--------+
+
+I1012 11:06:49.650058 1350 server.cc:676] 
++-------+---------+--------+
+| Model | Version | Status |
++-------+---------+--------+
++-------+---------+--------+
+
+I1012 11:06:49.650110 1350 metrics.cc:710] Collecting CPU metrics
+I1012 11:06:49.650159 1350 tritonserver.cc:2483] 
++----------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| Option                           | Value                                                                                                                                                                                                           |
++----------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| server_id                        | triton                                                                                                                                                                                                          |
+| server_version                   | 2.41.0                                                                                                                                                                                                          |
+| server_extensions                | classification sequence model_repository model_repository(unload_dependents) schedule_policy model_configuration system_shared_memory cuda_shared_memory binary_tensor_data parameters statistics trace logging |
+| model_repository_path[0]         | /models                                                                                                                                                                                                         |
+| model_control_mode               | MODE_EXPLICIT                                                                                                                                                                                                   |
+| strict_model_config              | 0                                                                                                                                                                                                               |
+| rate_limit                       | OFF                                                                                                                                                                                                             |
+| pinned_memory_pool_byte_size     | 268435456                                                                                                                                                                                                       |
+| min_supported_compute_capability | 6.0                                                                                                                                                                                                             |
+| strict_readiness                 | 1                                                                                                                                                                                                               |
+| exit_timeout                     | 30                                                                                                                                                                                                              |
+| cache_enabled                    | 0                                                                                                                                                                                                               |
++----------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+
+I1012 11:06:49.650760 1350 grpc_server.cc:2495] Started GRPCInferenceService at 0.0.0.0:8001
+I1012 11:06:49.650886 1350 http_server.cc:4619] Started HTTPService at 0.0.0.0:8000
+I1012 11:06:49.691478 1350 http_server.cc:282] Started Metrics Service at 0.0.0.0:8002
+I1012 11:06:51.648826 1350 model_lifecycle.cc:461] loading: mobilenet:1
+I1012 11:06:53.631621 1350 python_be.cc:2363] TRITONBACKEND_ModelInstanceInitialize: mobilenet_0_0 (CPU device 0)
+I1012 11:06:53.631656 1350 python_be.cc:2363] TRITONBACKEND_ModelInstanceInitialize: mobilenet_0_1 (CPU device 0)
+I1012 11:06:54.555814 1350 model_lifecycle.cc:818] successfully loaded 'mobilenet'
+Signal (15) received.
+I1012 11:07:22.683220 1350 server.cc:307] Waiting for in-flight requests to complete.
+I1012 11:07:22.683232 1350 server.cc:323] Timeout 30: Found 0 model versions that have in-flight inferences
+I1012 11:07:22.683271 1350 server.cc:338] All models are stopped, unloading models
+I1012 11:07:22.683276 1350 server.cc:345] Timeout 30: Found 1 live models and 0 in-flight non-inference requests
+I1012 11:07:23.683354 1350 server.cc:345] Timeout 29: Found 1 live models and 0 in-flight non-inference requests
+I1012 11:07:24.683448 1350 server.cc:345] Timeout 28: Found 1 live models and 0 in-flight non-inference requests
+I1012 11:07:25.353740 1350 model_lifecycle.cc:603] successfully unloaded 'mobilenet' version 1
+I1012 11:07:25.683553 1350 server.cc:345] Timeout 27: Found 0 live models and 0 in-flight non-inference requests
+Warning: '--strict-model-config' has been deprecated! Please use '--disable-auto-complete-config' instead.
+W1012 11:07:26.208262 1672 pinned_memory_manager.cc:237] Unable to allocate pinned system memory, pinned memory pool will not be available: CUDA driver version is insufficient for CUDA runtime version
+I1012 11:07:26.208282 1672 cuda_memory_manager.cc:117] CUDA memory pool disabled
+E1012 11:07:26.208315 1672 server.cc:243] CudaDriverHelper has not been initialized.
+I1012 11:07:26.208429 1672 server.cc:606] 
++------------------+------+
+| Repository Agent | Path |
++------------------+------+
++------------------+------+
+
+I1012 11:07:26.208436 1672 server.cc:633] 
++---------+------+--------+
+| Backend | Path | Config |
++---------+------+--------+
++---------+------+--------+
+
+I1012 11:07:26.208442 1672 server.cc:676] 
++-------+---------+--------+
+| Model | Version | Status |
++-------+---------+--------+
++-------+---------+--------+
+
+I1012 11:07:26.208495 1672 metrics.cc:710] Collecting CPU metrics
+I1012 11:07:26.208544 1672 tritonserver.cc:2483] 
++----------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| Option                           | Value                                                                                                                                                                                                           |
++----------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| server_id                        | triton                                                                                                                                                                                                          |
+| server_version                   | 2.41.0                                                                                                                                                                                                          |
+| server_extensions                | classification sequence model_repository model_repository(unload_dependents) schedule_policy model_configuration system_shared_memory cuda_shared_memory binary_tensor_data parameters statistics trace logging |
+| model_repository_path[0]         | /models                                                                                                                                                                                                         |
+| model_control_mode               | MODE_EXPLICIT                                                                                                                                                                                                   |
+| strict_model_config              | 0                                                                                                                                                                                                               |
+| rate_limit                       | OFF                                                                                                                                                                                                             |
+| pinned_memory_pool_byte_size     | 268435456                                                                                                                                                                                                       |
+| min_supported_compute_capability | 6.0                                                                                                                                                                                                             |
+| strict_readiness                 | 1                                                                                                                                                                                                               |
+| exit_timeout                     | 30                                                                                                                                                                                                              |
+| cache_enabled                    | 0                                                                                                                                                                                                               |
++----------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+
+I1012 11:07:26.209106 1672 grpc_server.cc:2495] Started GRPCInferenceService at 0.0.0.0:8001
+I1012 11:07:26.209228 1672 http_server.cc:4619] Started HTTPService at 0.0.0.0:8000
+I1012 11:07:26.249866 1672 http_server.cc:282] Started Metrics Service at 0.0.0.0:8002
+I1012 11:07:28.207323 1672 model_lifecycle.cc:461] loading: mobilenet:1
+I1012 11:07:30.197989 1672 python_be.cc:2363] TRITONBACKEND_ModelInstanceInitialize: mobilenet_0_0 (CPU device 0)
+I1012 11:07:30.198022 1672 python_be.cc:2363] TRITONBACKEND_ModelInstanceInitialize: mobilenet_0_1 (CPU device 0)
+I1012 11:07:31.169711 1672 model_lifecycle.cc:818] successfully loaded 'mobilenet'
+Signal (15) received.
+I1012 11:07:52.326706 1672 server.cc:307] Waiting for in-flight requests to complete.
+I1012 11:07:52.326717 1672 server.cc:323] Timeout 30: Found 0 model versions that have in-flight inferences
+I1012 11:07:52.326748 1672 server.cc:338] All models are stopped, unloading models
+I1012 11:07:52.326752 1672 server.cc:345] Timeout 30: Found 1 live models and 0 in-flight non-inference requests
+I1012 11:07:53.326827 1672 server.cc:345] Timeout 29: Found 1 live models and 0 in-flight non-inference requests
+I1012 11:07:54.326913 1672 server.cc:345] Timeout 28: Found 1 live models and 0 in-flight non-inference requests
+I1012 11:07:55.026617 1672 model_lifecycle.cc:603] successfully unloaded 'mobilenet' version 1
+I1012 11:07:55.327002 1672 server.cc:345] Timeout 27: Found 0 live models and 0 in-flight non-inference requests
+Warning: '--strict-model-config' has been deprecated! Please use '--disable-auto-complete-config' instead.
+W1012 11:07:55.751647 1983 pinned_memory_manager.cc:237] Unable to allocate pinned system memory, pinned memory pool will not be available: CUDA driver version is insufficient for CUDA runtime version
+I1012 11:07:55.751667 1983 cuda_memory_manager.cc:117] CUDA memory pool disabled
+E1012 11:07:55.751690 1983 server.cc:243] CudaDriverHelper has not been initialized.
+I1012 11:07:55.751802 1983 server.cc:606] 
++------------------+------+
+| Repository Agent | Path |
++------------------+------+
++------------------+------+
+
+I1012 11:07:55.751810 1983 server.cc:633] 
++---------+------+--------+
+| Backend | Path | Config |
++---------+------+--------+
++---------+------+--------+
+
+I1012 11:07:55.751816 1983 server.cc:676] 
++-------+---------+--------+
+| Model | Version | Status |
++-------+---------+--------+
++-------+---------+--------+
+
+I1012 11:07:55.751871 1983 metrics.cc:710] Collecting CPU metrics
+I1012 11:07:55.751923 1983 tritonserver.cc:2483] 
++----------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| Option                           | Value                                                                                                                                                                                                           |
++----------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| server_id                        | triton                                                                                                                                                                                                          |
+| server_version                   | 2.41.0                                                                                                                                                                                                          |
+| server_extensions                | classification sequence model_repository model_repository(unload_dependents) schedule_policy model_configuration system_shared_memory cuda_shared_memory binary_tensor_data parameters statistics trace logging |
+| model_repository_path[0]         | /models                                                                                                                                                                                                         |
+| model_control_mode               | MODE_EXPLICIT                                                                                                                                                                                                   |
+| strict_model_config              | 0                                                                                                                                                                                                               |
+| rate_limit                       | OFF                                                                                                                                                                                                             |
+| pinned_memory_pool_byte_size     | 268435456                                                                                                                                                                                                       |
+| min_supported_compute_capability | 6.0                                                                                                                                                                                                             |
+| strict_readiness                 | 1                                                                                                                                                                                                               |
+| exit_timeout                     | 30                                                                                                                                                                                                              |
+| cache_enabled                    | 0                                                                                                                                                                                                               |
++----------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+
+I1012 11:07:55.752572 1983 grpc_server.cc:2495] Started GRPCInferenceService at 0.0.0.0:8001
+I1012 11:07:55.752705 1983 http_server.cc:4619] Started HTTPService at 0.0.0.0:8000
+I1012 11:07:55.793347 1983 http_server.cc:282] Started Metrics Service at 0.0.0.0:8002
+I1012 11:07:57.750436 1983 model_lifecycle.cc:461] loading: mobilenet:1
+I1012 11:07:59.742666 1983 python_be.cc:2363] TRITONBACKEND_ModelInstanceInitialize: mobilenet_0_0 (CPU device 0)
+I1012 11:08:00.635589 1983 model_lifecycle.cc:818] successfully loaded 'mobilenet'
+Signal (15) received.
+I1012 11:08:24.773877 1983 server.cc:307] Waiting for in-flight requests to complete.
+I1012 11:08:24.773889 1983 server.cc:323] Timeout 30: Found 0 model versions that have in-flight inferences
+I1012 11:08:24.773956 1983 server.cc:338] All models are stopped, unloading models
+I1012 11:08:24.773961 1983 server.cc:345] Timeout 30: Found 1 live models and 0 in-flight non-inference requests
+I1012 11:08:25.774030 1983 server.cc:345] Timeout 29: Found 1 live models and 0 in-flight non-inference requests
+I1012 11:08:26.066567 1983 model_lifecycle.cc:603] successfully unloaded 'mobilenet' version 1
+I1012 11:08:26.774132 1983 server.cc:345] Timeout 28: Found 0 live models and 0 in-flight non-inference requests
+Warning: '--strict-model-config' has been deprecated! Please use '--disable-auto-complete-config' instead.
+W1012 11:08:27.297778 2237 pinned_memory_manager.cc:237] Unable to allocate pinned system memory, pinned memory pool will not be available: CUDA driver version is insufficient for CUDA runtime version
+I1012 11:08:27.297801 2237 cuda_memory_manager.cc:117] CUDA memory pool disabled
+E1012 11:08:27.297824 2237 server.cc:243] CudaDriverHelper has not been initialized.
+I1012 11:08:27.297942 2237 server.cc:606] 
++------------------+------+
+| Repository Agent | Path |
++------------------+------+
++------------------+------+
+
+I1012 11:08:27.297950 2237 server.cc:633] 
++---------+------+--------+
+| Backend | Path | Config |
++---------+------+--------+
++---------+------+--------+
+
+I1012 11:08:27.297956 2237 server.cc:676] 
++-------+---------+--------+
+| Model | Version | Status |
++-------+---------+--------+
++-------+---------+--------+
+
+I1012 11:08:27.298030 2237 metrics.cc:710] Collecting CPU metrics
+I1012 11:08:27.298081 2237 tritonserver.cc:2483] 
++----------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| Option                           | Value                                                                                                                                                                                                           |
++----------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| server_id                        | triton                                                                                                                                                                                                          |
+| server_version                   | 2.41.0                                                                                                                                                                                                          |
+| server_extensions                | classification sequence model_repository model_repository(unload_dependents) schedule_policy model_configuration system_shared_memory cuda_shared_memory binary_tensor_data parameters statistics trace logging |
+| model_repository_path[0]         | /models                                                                                                                                                                                                         |
+| model_control_mode               | MODE_EXPLICIT                                                                                                                                                                                                   |
+| strict_model_config              | 0                                                                                                                                                                                                               |
+| rate_limit                       | OFF                                                                                                                                                                                                             |
+| pinned_memory_pool_byte_size     | 268435456                                                                                                                                                                                                       |
+| min_supported_compute_capability | 6.0                                                                                                                                                                                                             |
+| strict_readiness                 | 1                                                                                                                                                                                                               |
+| exit_timeout                     | 30                                                                                                                                                                                                              |
+| cache_enabled                    | 0                                                                                                                                                                                                               |
++----------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+
+I1012 11:08:27.298730 2237 grpc_server.cc:2495] Started GRPCInferenceService at 0.0.0.0:8001
+I1012 11:08:27.298863 2237 http_server.cc:4619] Started HTTPService at 0.0.0.0:8000
+I1012 11:08:27.339490 2237 http_server.cc:282] Started Metrics Service at 0.0.0.0:8002
+I1012 11:08:29.296956 2237 model_lifecycle.cc:461] loading: mobilenet:1
+I1012 11:08:31.295633 2237 python_be.cc:2363] TRITONBACKEND_ModelInstanceInitialize: mobilenet_0_0 (CPU device 0)
+I1012 11:08:32.185374 2237 model_lifecycle.cc:818] successfully loaded 'mobilenet'
+Signal (15) received.
+I1012 11:08:56.332288 2237 server.cc:307] Waiting for in-flight requests to complete.
+I1012 11:08:56.332310 2237 server.cc:323] Timeout 30: Found 0 model versions that have in-flight inferences
+I1012 11:08:56.332380 2237 server.cc:338] All models are stopped, unloading models
+I1012 11:08:56.332387 2237 server.cc:345] Timeout 30: Found 1 live models and 0 in-flight non-inference requests
+I1012 11:08:57.332464 2237 server.cc:345] Timeout 29: Found 1 live models and 0 in-flight non-inference requests
+I1012 11:08:57.612975 2237 model_lifecycle.cc:603] successfully unloaded 'mobilenet' version 1
+I1012 11:08:58.332551 2237 server.cc:345] Timeout 28: Found 0 live models and 0 in-flight non-inference requests
+Warning: '--strict-model-config' has been deprecated! Please use '--disable-auto-complete-config' instead.
+W1012 11:08:58.855417 2503 pinned_memory_manager.cc:237] Unable to allocate pinned system memory, pinned memory pool will not be available: CUDA driver version is insufficient for CUDA runtime version
+I1012 11:08:58.855439 2503 cuda_memory_manager.cc:117] CUDA memory pool disabled
+E1012 11:08:58.855460 2503 server.cc:243] CudaDriverHelper has not been initialized.
+I1012 11:08:58.855567 2503 server.cc:606] 
++------------------+------+
+| Repository Agent | Path |
++------------------+------+
++------------------+------+
+
+I1012 11:08:58.855574 2503 server.cc:633] 
++---------+------+--------+
+| Backend | Path | Config |
++---------+------+--------+
++---------+------+--------+
+
+I1012 11:08:58.855580 2503 server.cc:676] 
++-------+---------+--------+
+| Model | Version | Status |
++-------+---------+--------+
++-------+---------+--------+
+
+I1012 11:08:58.855632 2503 metrics.cc:710] Collecting CPU metrics
+I1012 11:08:58.855681 2503 tritonserver.cc:2483] 
++----------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| Option                           | Value                                                                                                                                                                                                           |
++----------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| server_id                        | triton                                                                                                                                                                                                          |
+| server_version                   | 2.41.0                                                                                                                                                                                                          |
+| server_extensions                | classification sequence model_repository model_repository(unload_dependents) schedule_policy model_configuration system_shared_memory cuda_shared_memory binary_tensor_data parameters statistics trace logging |
+| model_repository_path[0]         | /models                                                                                                                                                                                                         |
+| model_control_mode               | MODE_EXPLICIT                                                                                                                                                                                                   |
+| strict_model_config              | 0                                                                                                                                                                                                               |
+| rate_limit                       | OFF                                                                                                                                                                                                             |
+| pinned_memory_pool_byte_size     | 268435456                                                                                                                                                                                                       |
+| min_supported_compute_capability | 6.0                                                                                                                                                                                                             |
+| strict_readiness                 | 1                                                                                                                                                                                                               |
+| exit_timeout                     | 30                                                                                                                                                                                                              |
+| cache_enabled                    | 0                                                                                                                                                                                                               |
++----------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+
+I1012 11:08:58.856245 2503 grpc_server.cc:2495] Started GRPCInferenceService at 0.0.0.0:8001
+I1012 11:08:58.856392 2503 http_server.cc:4619] Started HTTPService at 0.0.0.0:8000
+I1012 11:08:58.897574 2503 http_server.cc:282] Started Metrics Service at 0.0.0.0:8002
+I1012 11:09:00.854696 2503 model_lifecycle.cc:461] loading: mobilenet:1
+I1012 11:09:02.849851 2503 python_be.cc:2363] TRITONBACKEND_ModelInstanceInitialize: mobilenet_0_0 (CPU device 0)
+I1012 11:09:03.708466 2503 model_lifecycle.cc:818] successfully loaded 'mobilenet'
+Signal (15) received.
+I1012 11:09:23.861505 2503 server.cc:307] Waiting for in-flight requests to complete.
+I1012 11:09:23.861517 2503 server.cc:323] Timeout 30: Found 0 model versions that have in-flight inferences
+I1012 11:09:23.861565 2503 server.cc:338] All models are stopped, unloading models
+I1012 11:09:23.861570 2503 server.cc:345] Timeout 30: Found 1 live models and 0 in-flight non-inference requests
+I1012 11:09:24.861649 2503 server.cc:345] Timeout 29: Found 1 live models and 0 in-flight non-inference requests
+I1012 11:09:25.265129 2503 model_lifecycle.cc:603] successfully unloaded 'mobilenet' version 1
+I1012 11:09:25.861733 2503 server.cc:345] Timeout 28: Found 0 live models and 0 in-flight non-inference requests
+Warning: '--strict-model-config' has been deprecated! Please use '--disable-auto-complete-config' instead.
+W1012 11:09:25.883880 2745 pinned_memory_manager.cc:237] Unable to allocate pinned system memory, pinned memory pool will not be available: CUDA driver version is insufficient for CUDA runtime version
+I1012 11:09:25.883900 2745 cuda_memory_manager.cc:117] CUDA memory pool disabled
+E1012 11:09:25.883921 2745 server.cc:243] CudaDriverHelper has not been initialized.
+I1012 11:09:25.884032 2745 server.cc:606] 
++------------------+------+
+| Repository Agent | Path |
++------------------+------+
++------------------+------+
+
+I1012 11:09:25.884046 2745 server.cc:633] 
++---------+------+--------+
+| Backend | Path | Config |
++---------+------+--------+
++---------+------+--------+
+
+I1012 11:09:25.884051 2745 server.cc:676] 
++-------+---------+--------+
+| Model | Version | Status |
++-------+---------+--------+
++-------+---------+--------+
+
+I1012 11:09:25.884103 2745 metrics.cc:710] Collecting CPU metrics
+I1012 11:09:25.884154 2745 tritonserver.cc:2483] 
++----------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| Option                           | Value                                                                                                                                                                                                           |
++----------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| server_id                        | triton                                                                                                                                                                                                          |
+| server_version                   | 2.41.0                                                                                                                                                                                                          |
+| server_extensions                | classification sequence model_repository model_repository(unload_dependents) schedule_policy model_configuration system_shared_memory cuda_shared_memory binary_tensor_data parameters statistics trace logging |
+| model_repository_path[0]         | /models                                                                                                                                                                                                         |
+| model_control_mode               | MODE_EXPLICIT                                                                                                                                                                                                   |
+| strict_model_config              | 0                                                                                                                                                                                                               |
+| rate_limit                       | OFF                                                                                                                                                                                                             |
+| pinned_memory_pool_byte_size     | 268435456                                                                                                                                                                                                       |
+| min_supported_compute_capability | 6.0                                                                                                                                                                                                             |
+| strict_readiness                 | 1                                                                                                                                                                                                               |
+| exit_timeout                     | 30                                                                                                                                                                                                              |
+| cache_enabled                    | 0                                                                                                                                                                                                               |
++----------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+
+I1012 11:09:25.884721 2745 grpc_server.cc:2495] Started GRPCInferenceService at 0.0.0.0:8001
+I1012 11:09:25.884850 2745 http_server.cc:4619] Started HTTPService at 0.0.0.0:8000
+I1012 11:09:25.925473 2745 http_server.cc:282] Started Metrics Service at 0.0.0.0:8002
+I1012 11:09:27.882825 2745 model_lifecycle.cc:461] loading: mobilenet:1
+I1012 11:09:29.867792 2745 python_be.cc:2363] TRITONBACKEND_ModelInstanceInitialize: mobilenet_0_0 (CPU device 0)
+I1012 11:09:29.867822 2745 python_be.cc:2363] TRITONBACKEND_ModelInstanceInitialize: mobilenet_0_1 (CPU device 0)
+I1012 11:09:30.773086 2745 model_lifecycle.cc:818] successfully loaded 'mobilenet'
+Signal (15) received.
+I1012 11:09:50.939571 2745 server.cc:307] Waiting for in-flight requests to complete.
+I1012 11:09:50.939582 2745 server.cc:323] Timeout 30: Found 0 model versions that have in-flight inferences
+I1012 11:09:50.939650 2745 server.cc:338] All models are stopped, unloading models
+I1012 11:09:50.939657 2745 server.cc:345] Timeout 30: Found 1 live models and 0 in-flight non-inference requests
+I1012 11:09:51.939741 2745 server.cc:345] Timeout 29: Found 1 live models and 0 in-flight non-inference requests
+I1012 11:09:52.939838 2745 server.cc:345] Timeout 28: Found 1 live models and 0 in-flight non-inference requests
+I1012 11:09:53.783447 2745 model_lifecycle.cc:603] successfully unloaded 'mobilenet' version 1
+I1012 11:09:53.939935 2745 server.cc:345] Timeout 27: Found 0 live models and 0 in-flight non-inference requests
+Warning: '--strict-model-config' has been deprecated! Please use '--disable-auto-complete-config' instead.
+W1012 11:09:54.414196 3056 pinned_memory_manager.cc:237] Unable to allocate pinned system memory, pinned memory pool will not be available: CUDA driver version is insufficient for CUDA runtime version
+I1012 11:09:54.414216 3056 cuda_memory_manager.cc:117] CUDA memory pool disabled
+E1012 11:09:54.414238 3056 server.cc:243] CudaDriverHelper has not been initialized.
+I1012 11:09:54.414360 3056 server.cc:606] 
++------------------+------+
+| Repository Agent | Path |
++------------------+------+
++------------------+------+
+
+I1012 11:09:54.414369 3056 server.cc:633] 
++---------+------+--------+
+| Backend | Path | Config |
++---------+------+--------+
++---------+------+--------+
+
+I1012 11:09:54.414374 3056 server.cc:676] 
++-------+---------+--------+
+| Model | Version | Status |
++-------+---------+--------+
++-------+---------+--------+
+
+I1012 11:09:54.414428 3056 metrics.cc:710] Collecting CPU metrics
+I1012 11:09:54.414476 3056 tritonserver.cc:2483] 
++----------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| Option                           | Value                                                                                                                                                                                                           |
++----------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| server_id                        | triton                                                                                                                                                                                                          |
+| server_version                   | 2.41.0                                                                                                                                                                                                          |
+| server_extensions                | classification sequence model_repository model_repository(unload_dependents) schedule_policy model_configuration system_shared_memory cuda_shared_memory binary_tensor_data parameters statistics trace logging |
+| model_repository_path[0]         | /models                                                                                                                                                                                                         |
+| model_control_mode               | MODE_EXPLICIT                                                                                                                                                                                                   |
+| strict_model_config              | 0                                                                                                                                                                                                               |
+| rate_limit                       | OFF                                                                                                                                                                                                             |
+| pinned_memory_pool_byte_size     | 268435456                                                                                                                                                                                                       |
+| min_supported_compute_capability | 6.0                                                                                                                                                                                                             |
+| strict_readiness                 | 1                                                                                                                                                                                                               |
+| exit_timeout                     | 30                                                                                                                                                                                                              |
+| cache_enabled                    | 0                                                                                                                                                                                                               |
++----------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+
+I1012 11:09:54.415056 3056 grpc_server.cc:2495] Started GRPCInferenceService at 0.0.0.0:8001
+I1012 11:09:54.415184 3056 http_server.cc:4619] Started HTTPService at 0.0.0.0:8000
+I1012 11:09:54.455884 3056 http_server.cc:282] Started Metrics Service at 0.0.0.0:8002
+I1012 11:09:56.413119 3056 model_lifecycle.cc:461] loading: mobilenet:1
+I1012 11:09:58.398594 3056 python_be.cc:2363] TRITONBACKEND_ModelInstanceInitialize: mobilenet_0_0 (CPU device 0)
+I1012 11:09:58.398624 3056 python_be.cc:2363] TRITONBACKEND_ModelInstanceInitialize: mobilenet_0_1 (CPU device 0)
+I1012 11:09:59.333387 3056 model_lifecycle.cc:818] successfully loaded 'mobilenet'
+Signal (15) received.
+I1012 11:10:21.508925 3056 server.cc:307] Waiting for in-flight requests to complete.
+I1012 11:10:21.508937 3056 server.cc:323] Timeout 30: Found 0 model versions that have in-flight inferences
+I1012 11:10:21.508977 3056 server.cc:338] All models are stopped, unloading models
+I1012 11:10:21.508985 3056 server.cc:345] Timeout 30: Found 1 live models and 0 in-flight non-inference requests
+I1012 11:10:22.509065 3056 server.cc:345] Timeout 29: Found 1 live models and 0 in-flight non-inference requests
+I1012 11:10:23.509168 3056 server.cc:345] Timeout 28: Found 1 live models and 0 in-flight non-inference requests
+I1012 11:10:24.136750 3056 model_lifecycle.cc:603] successfully unloaded 'mobilenet' version 1
+I1012 11:10:24.509278 3056 server.cc:345] Timeout 27: Found 0 live models and 0 in-flight non-inference requests
+Warning: '--strict-model-config' has been deprecated! Please use '--disable-auto-complete-config' instead.
+W1012 11:10:24.933452 3366 pinned_memory_manager.cc:237] Unable to allocate pinned system memory, pinned memory pool will not be available: CUDA driver version is insufficient for CUDA runtime version
+I1012 11:10:24.933473 3366 cuda_memory_manager.cc:117] CUDA memory pool disabled
+E1012 11:10:24.933494 3366 server.cc:243] CudaDriverHelper has not been initialized.
+I1012 11:10:24.933606 3366 server.cc:606] 
++------------------+------+
+| Repository Agent | Path |
++------------------+------+
++------------------+------+
+
+I1012 11:10:24.933613 3366 server.cc:633] 
++---------+------+--------+
+| Backend | Path | Config |
++---------+------+--------+
++---------+------+--------+
+
+I1012 11:10:24.933617 3366 server.cc:676] 
++-------+---------+--------+
+| Model | Version | Status |
++-------+---------+--------+
++-------+---------+--------+
+
+I1012 11:10:24.933671 3366 metrics.cc:710] Collecting CPU metrics
+I1012 11:10:24.933720 3366 tritonserver.cc:2483] 
++----------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| Option                           | Value                                                                                                                                                                                                           |
++----------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| server_id                        | triton                                                                                                                                                                                                          |
+| server_version                   | 2.41.0                                                                                                                                                                                                          |
+| server_extensions                | classification sequence model_repository model_repository(unload_dependents) schedule_policy model_configuration system_shared_memory cuda_shared_memory binary_tensor_data parameters statistics trace logging |
+| model_repository_path[0]         | /models                                                                                                                                                                                                         |
+| model_control_mode               | MODE_EXPLICIT                                                                                                                                                                                                   |
+| strict_model_config              | 0                                                                                                                                                                                                               |
+| rate_limit                       | OFF                                                                                                                                                                                                             |
+| pinned_memory_pool_byte_size     | 268435456                                                                                                                                                                                                       |
+| min_supported_compute_capability | 6.0                                                                                                                                                                                                             |
+| strict_readiness                 | 1                                                                                                                                                                                                               |
+| exit_timeout                     | 30                                                                                                                                                                                                              |
+| cache_enabled                    | 0                                                                                                                                                                                                               |
++----------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+
+I1012 11:10:24.934314 3366 grpc_server.cc:2495] Started GRPCInferenceService at 0.0.0.0:8001
+I1012 11:10:24.934448 3366 http_server.cc:4619] Started HTTPService at 0.0.0.0:8000
+I1012 11:10:24.975124 3366 http_server.cc:282] Started Metrics Service at 0.0.0.0:8002
+I1012 11:10:26.932228 3366 model_lifecycle.cc:461] loading: mobilenet:1
+I1012 11:10:28.918207 3366 python_be.cc:2363] TRITONBACKEND_ModelInstanceInitialize: mobilenet_0_0 (CPU device 0)
+I1012 11:10:28.918229 3366 python_be.cc:2363] TRITONBACKEND_ModelInstanceInitialize: mobilenet_0_1 (CPU device 0)
+I1012 11:10:29.824285 3366 model_lifecycle.cc:818] successfully loaded 'mobilenet'
+Signal (15) received.
+I1012 11:11:12.046402 3366 server.cc:307] Waiting for in-flight requests to complete.
+I1012 11:11:12.046421 3366 server.cc:323] Timeout 30: Found 0 model versions that have in-flight inferences
+I1012 11:11:12.046468 3366 server.cc:338] All models are stopped, unloading models
+I1012 11:11:12.046474 3366 server.cc:345] Timeout 30: Found 1 live models and 0 in-flight non-inference requests
+I1012 11:11:13.046555 3366 server.cc:345] Timeout 29: Found 1 live models and 0 in-flight non-inference requests
+I1012 11:11:14.046655 3366 server.cc:345] Timeout 28: Found 1 live models and 0 in-flight non-inference requests
+I1012 11:11:14.817621 3366 model_lifecycle.cc:603] successfully unloaded 'mobilenet' version 1
+I1012 11:11:15.046767 3366 server.cc:345] Timeout 27: Found 0 live models and 0 in-flight non-inference requests

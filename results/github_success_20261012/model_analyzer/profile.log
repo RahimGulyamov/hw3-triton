@@ -1,0 +1,218 @@
+[Model Analyzer] Starting a local Triton Server
+[Model Analyzer] No checkpoint file found, starting a fresh run.
+[Model Analyzer] Profiling server only metrics...
+[Model Analyzer] 
+[Model Analyzer] Starting manual brute search
+[Model Analyzer] 
+[Model Analyzer] Creating model config: mobilenet_config_default
+[Model Analyzer] 
+[Model Analyzer] Profiling mobilenet_config_default: client batch size=1, concurrency=1
+[Model Analyzer] WARNING: CPU metrics are being collected. This can affect the latency or throughput numbers reported by perf analyzer.
+[Model Analyzer] Saved checkpoint to /results/model_analyzer/checkpoints/0.ckpt
+[Model Analyzer] Profiling mobilenet_config_default: client batch size=1, concurrency=2
+[Model Analyzer] Saved checkpoint to /results/model_analyzer/checkpoints/0.ckpt
+[Model Analyzer] Profiling mobilenet_config_default: client batch size=1, concurrency=4
+[Model Analyzer] Saved checkpoint to /results/model_analyzer/checkpoints/0.ckpt
+[Model Analyzer] Profiling mobilenet_config_default: client batch size=1, concurrency=8
+[Model Analyzer] Saved checkpoint to /results/model_analyzer/checkpoints/0.ckpt
+[Model Analyzer] Profiling mobilenet_config_default: client batch size=1, concurrency=16
+[Model Analyzer] Saved checkpoint to /results/model_analyzer/checkpoints/0.ckpt
+[Model Analyzer] Creating model config: mobilenet_config_0
+[Model Analyzer]   Setting dynamic_batching to {'max_queue_delay_microseconds': 0}
+[Model Analyzer]   Setting instance_group to [{'kind': 'KIND_CPU', 'count': 1}]
+[Model Analyzer]   Setting max_batch_size to 1
+[Model Analyzer] 
+[Model Analyzer] Creating model config: mobilenet_config_1
+[Model Analyzer]   Setting dynamic_batching to {'max_queue_delay_microseconds': 0}
+[Model Analyzer]   Setting instance_group to [{'kind': 'KIND_CPU', 'count': 1}]
+[Model Analyzer]   Setting max_batch_size to 4
+[Model Analyzer] 
+[Model Analyzer] Creating model config: mobilenet_config_2
+[Model Analyzer]   Setting dynamic_batching to {'max_queue_delay_microseconds': 0}
+[Model Analyzer]   Setting instance_group to [{'kind': 'KIND_CPU', 'count': 1}]
+[Model Analyzer]   Setting max_batch_size to 8
+[Model Analyzer] 
+[Model Analyzer] Creating model config: mobilenet_config_3
+[Model Analyzer]   Setting dynamic_batching to {'max_queue_delay_microseconds': 0}
+[Model Analyzer]   Setting instance_group to [{'kind': 'KIND_CPU', 'count': 2}]
+[Model Analyzer]   Setting max_batch_size to 1
+[Model Analyzer] 
+[Model Analyzer] Creating model config: mobilenet_config_4
+[Model Analyzer]   Setting dynamic_batching to {'max_queue_delay_microseconds': 0}
+[Model Analyzer]   Setting instance_group to [{'kind': 'KIND_CPU', 'count': 2}]
+[Model Analyzer]   Setting max_batch_size to 4
+[Model Analyzer] 
+[Model Analyzer] Creating model config: mobilenet_config_5
+[Model Analyzer]   Setting dynamic_batching to {'max_queue_delay_microseconds': 0}
+[Model Analyzer]   Setting instance_group to [{'kind': 'KIND_CPU', 'count': 2}]
+[Model Analyzer]   Setting max_batch_size to 8
+[Model Analyzer] 
+[Model Analyzer] Creating model config: mobilenet_config_6
+[Model Analyzer]   Setting dynamic_batching to {'max_queue_delay_microseconds': 1000}
+[Model Analyzer]   Setting instance_group to [{'kind': 'KIND_CPU', 'count': 1}]
+[Model Analyzer]   Setting max_batch_size to 1
+[Model Analyzer] 
+[Model Analyzer] Creating model config: mobilenet_config_7
+[Model Analyzer]   Setting dynamic_batching to {'max_queue_delay_microseconds': 1000}
+[Model Analyzer]   Setting instance_group to [{'kind': 'KIND_CPU', 'count': 1}]
+[Model Analyzer]   Setting max_batch_size to 4
+[Model Analyzer] 
+[Model Analyzer] Creating model config: mobilenet_config_8
+[Model Analyzer]   Setting dynamic_batching to {'max_queue_delay_microseconds': 1000}
+[Model Analyzer]   Setting instance_group to [{'kind': 'KIND_CPU', 'count': 1}]
+[Model Analyzer]   Setting max_batch_size to 8
+[Model Analyzer] 
+[Model Analyzer] Creating model config: mobilenet_config_9
+[Model Analyzer]   Setting dynamic_batching to {'max_queue_delay_microseconds': 1000}
+[Model Analyzer]   Setting instance_group to [{'kind': 'KIND_CPU', 'count': 2}]
+[Model Analyzer]   Setting max_batch_size to 1
+[Model Analyzer] 
+[Model Analyzer] Creating model config: mobilenet_config_10
+[Model Analyzer]   Setting dynamic_batching to {'max_queue_delay_microseconds': 1000}
+[Model Analyzer]   Setting instance_group to [{'kind': 'KIND_CPU', 'count': 2}]
+[Model Analyzer]   Setting max_batch_size to 4
+[Model Analyzer] 
+[Model Analyzer] Creating model config: mobilenet_config_11
+[Model Analyzer]   Setting dynamic_batching to {'max_queue_delay_microseconds': 1000}
+[Model Analyzer]   Setting instance_group to [{'kind': 'KIND_CPU', 'count': 2}]
+[Model Analyzer]   Setting max_batch_size to 8
+[Model Analyzer] 
+[Model Analyzer] Profiling mobilenet_config_0: client batch size=1, concurrency=1
+[Model Analyzer] Saved checkpoint to /results/model_analyzer/checkpoints/0.ckpt
+[Model Analyzer] Profiling mobilenet_config_0: client batch size=1, concurrency=2
+[Model Analyzer] Saved checkpoint to /results/model_analyzer/checkpoints/0.ckpt
+[Model Analyzer] Profiling mobilenet_config_0: client batch size=1, concurrency=4
+[Model Analyzer] Saved checkpoint to /results/model_analyzer/checkpoints/0.ckpt
+[Model Analyzer] Profiling mobilenet_config_0: client batch size=1, concurrency=8
+[Model Analyzer] Saved checkpoint to /results/model_analyzer/checkpoints/0.ckpt
+[Model Analyzer] Profiling mobilenet_config_0: client batch size=1, concurrency=16
+[Model Analyzer] Saved checkpoint to /results/model_analyzer/checkpoints/0.ckpt
+[Model Analyzer] Profiling mobilenet_config_1: client batch size=1, concurrency=1
+[Model Analyzer] Saved checkpoint to /results/model_analyzer/checkpoints/0.ckpt
+[Model Analyzer] Profiling mobilenet_config_1: client batch size=1, concurrency=2
+[Model Analyzer] Saved checkpoint to /results/model_analyzer/checkpoints/0.ckpt
+[Model Analyzer] Profiling mobilenet_config_1: client batch size=1, concurrency=4
+[Model Analyzer] Saved checkpoint to /results/model_analyzer/checkpoints/0.ckpt
+[Model Analyzer] Profiling mobilenet_config_1: client batch size=1, concurrency=8
+[Model Analyzer] Saved checkpoint to /results/model_analyzer/checkpoints/0.ckpt
+[Model Analyzer] Profiling mobilenet_config_1: client batch size=1, concurrency=16
+[Model Analyzer] Saved checkpoint to /results/model_analyzer/checkpoints/0.ckpt
+[Model Analyzer] Profiling mobilenet_config_2: client batch size=1, concurrency=1
+[Model Analyzer] Saved checkpoint to /results/model_analyzer/checkpoints/0.ckpt
+[Model Analyzer] Profiling mobilenet_config_2: client batch size=1, concurrency=2
+[Model Analyzer] Saved checkpoint to /results/model_analyzer/checkpoints/0.ckpt
+[Model Analyzer] Profiling mobilenet_config_2: client batch size=1, concurrency=4
+[Model Analyzer] Saved checkpoint to /results/model_analyzer/checkpoints/0.ckpt
+[Model Analyzer] Profiling mobilenet_config_2: client batch size=1, concurrency=8
+[Model Analyzer] Saved checkpoint to /results/model_analyzer/checkpoints/0.ckpt
+[Model Analyzer] Profiling mobilenet_config_2: client batch size=1, concurrency=16
+[Model Analyzer] Saved checkpoint to /results/model_analyzer/checkpoints/0.ckpt
+[Model Analyzer] Profiling mobilenet_config_3: client batch size=1, concurrency=1
+[Model Analyzer] Saved checkpoint to /results/model_analyzer/checkpoints/0.ckpt
+[Model Analyzer] Profiling mobilenet_config_3: client batch size=1, concurrency=2
+[Model Analyzer] Saved checkpoint to /results/model_analyzer/checkpoints/0.ckpt
+[Model Analyzer] Profiling mobilenet_config_3: client batch size=1, concurrency=4
+[Model Analyzer] Saved checkpoint to /results/model_analyzer/checkpoints/0.ckpt
+[Model Analyzer] Profiling mobilenet_config_3: client batch size=1, concurrency=8
+[Model Analyzer] Saved checkpoint to /results/model_analyzer/checkpoints/0.ckpt
+[Model Analyzer] Profiling mobilenet_config_3: client batch size=1, concurrency=16
+[Model Analyzer] Saved checkpoint to /results/model_analyzer/checkpoints/0.ckpt
+[Model Analyzer] Profiling mobilenet_config_4: client batch size=1, concurrency=1
+[Model Analyzer] Saved checkpoint to /results/model_analyzer/checkpoints/0.ckpt
+[Model Analyzer] Profiling mobilenet_config_4: client batch size=1, concurrency=2
+[Model Analyzer] Saved checkpoint to /results/model_analyzer/checkpoints/0.ckpt
+[Model Analyzer] Profiling mobilenet_config_4: client batch size=1, concurrency=4
+[Model Analyzer] Saved checkpoint to /results/model_analyzer/checkpoints/0.ckpt
+[Model Analyzer] Profiling mobilenet_config_4: client batch size=1, concurrency=8
+[Model Analyzer] Saved checkpoint to /results/model_analyzer/checkpoints/0.ckpt
+[Model Analyzer] Profiling mobilenet_config_4: client batch size=1, concurrency=16
+[Model Analyzer] Saved checkpoint to /results/model_analyzer/checkpoints/0.ckpt
+[Model Analyzer] Profiling mobilenet_config_5: client batch size=1, concurrency=1
+[Model Analyzer] Saved checkpoint to /results/model_analyzer/checkpoints/0.ckpt
+[Model Analyzer] Profiling mobilenet_config_5: client batch size=1, concurrency=2
+[Model Analyzer] Saved checkpoint to /results/model_analyzer/checkpoints/0.ckpt
+[Model Analyzer] Profiling mobilenet_config_5: client batch size=1, concurrency=4
+[Model Analyzer] Saved checkpoint to /results/model_analyzer/checkpoints/0.ckpt
+[Model Analyzer] Profiling mobilenet_config_5: client batch size=1, concurrency=8
+[Model Analyzer] Saved checkpoint to /results/model_analyzer/checkpoints/0.ckpt
+[Model Analyzer] Profiling mobilenet_config_5: client batch size=1, concurrency=16
+[Model Analyzer] Saved checkpoint to /results/model_analyzer/checkpoints/0.ckpt
+[Model Analyzer] Profiling mobilenet_config_6: client batch size=1, concurrency=1
+[Model Analyzer] Saved checkpoint to /results/model_analyzer/checkpoints/0.ckpt
+[Model Analyzer] Profiling mobilenet_config_6: client batch size=1, concurrency=2
+[Model Analyzer] Saved checkpoint to /results/model_analyzer/checkpoints/0.ckpt
+[Model Analyzer] Profiling mobilenet_config_6: client batch size=1, concurrency=4
+[Model Analyzer] Saved checkpoint to /results/model_analyzer/checkpoints/0.ckpt
+[Model Analyzer] Profiling mobilenet_config_6: client batch size=1, concurrency=8
+[Model Analyzer] Saved checkpoint to /results/model_analyzer/checkpoints/0.ckpt
+[Model Analyzer] Profiling mobilenet_config_6: client batch size=1, concurrency=16
+[Model Analyzer] Saved checkpoint to /results/model_analyzer/checkpoints/0.ckpt
+[Model Analyzer] Profiling mobilenet_config_7: client batch size=1, concurrency=1
+[Model Analyzer] Saved checkpoint to /results/model_analyzer/checkpoints/0.ckpt
+[Model Analyzer] Profiling mobilenet_config_7: client batch size=1, concurrency=2
+[Model Analyzer] Saved checkpoint to /results/model_analyzer/checkpoints/0.ckpt
+[Model Analyzer] Profiling mobilenet_config_7: client batch size=1, concurrency=4
+[Model Analyzer] Saved checkpoint to /results/model_analyzer/checkpoints/0.ckpt
+[Model Analyzer] Profiling mobilenet_config_7: client batch size=1, concurrency=8
+[Model Analyzer] Saved checkpoint to /results/model_analyzer/checkpoints/0.ckpt
+[Model Analyzer] Profiling mobilenet_config_7: client batch size=1, concurrency=16
+[Model Analyzer] Saved checkpoint to /results/model_analyzer/checkpoints/0.ckpt
+[Model Analyzer] Profiling mobilenet_config_8: client batch size=1, concurrency=1
+[Model Analyzer] Saved checkpoint to /results/model_analyzer/checkpoints/0.ckpt
+[Model Analyzer] Profiling mobilenet_config_8: client batch size=1, concurrency=2
+[Model Analyzer] Saved checkpoint to /results/model_analyzer/checkpoints/0.ckpt
+[Model Analyzer] Profiling mobilenet_config_8: client batch size=1, concurrency=4
+[Model Analyzer] Saved checkpoint to /results/model_analyzer/checkpoints/0.ckpt
+[Model Analyzer] Profiling mobilenet_config_8: client batch size=1, concurrency=8
+[Model Analyzer] Saved checkpoint to /results/model_analyzer/checkpoints/0.ckpt
+[Model Analyzer] Profiling mobilenet_config_8: client batch size=1, concurrency=16
+[Model Analyzer] Saved checkpoint to /results/model_analyzer/checkpoints/0.ckpt
+[Model Analyzer] Profiling mobilenet_config_9: client batch size=1, concurrency=1
+[Model Analyzer] Saved checkpoint to /results/model_analyzer/checkpoints/0.ckpt
+[Model Analyzer] Profiling mobilenet_config_9: client batch size=1, concurrency=2
+[Model Analyzer] Saved checkpoint to /results/model_analyzer/checkpoints/0.ckpt
+[Model Analyzer] Profiling mobilenet_config_9: client batch size=1, concurrency=4
+[Model Analyzer] Saved checkpoint to /results/model_analyzer/checkpoints/0.ckpt
+[Model Analyzer] Profiling mobilenet_config_9: client batch size=1, concurrency=8
+[Model Analyzer] Saved checkpoint to /results/model_analyzer/checkpoints/0.ckpt
+[Model Analyzer] Profiling mobilenet_config_9: client batch size=1, concurrency=16
+[Model Analyzer] Saved checkpoint to /results/model_analyzer/checkpoints/0.ckpt
+[Model Analyzer] Profiling mobilenet_config_10: client batch size=1, concurrency=1
+[Model Analyzer] Saved checkpoint to /results/model_analyzer/checkpoints/0.ckpt
+[Model Analyzer] Profiling mobilenet_config_10: client batch size=1, concurrency=2
+[Model Analyzer] Saved checkpoint to /results/model_analyzer/checkpoints/0.ckpt
+[Model Analyzer] Profiling mobilenet_config_10: client batch size=1, concurrency=4
+[Model Analyzer] Saved checkpoint to /results/model_analyzer/checkpoints/0.ckpt
+[Model Analyzer] Profiling mobilenet_config_10: client batch size=1, concurrency=8
+[Model Analyzer] Saved checkpoint to /results/model_analyzer/checkpoints/0.ckpt
+[Model Analyzer] Profiling mobilenet_config_10: client batch size=1, concurrency=16
+[Model Analyzer] Saved checkpoint to /results/model_analyzer/checkpoints/0.ckpt
+[Model Analyzer] Profiling mobilenet_config_11: client batch size=1, concurrency=1
+[Model Analyzer] Saved checkpoint to /results/model_analyzer/checkpoints/0.ckpt
+[Model Analyzer] Profiling mobilenet_config_11: client batch size=1, concurrency=2
+[Model Analyzer] Saved checkpoint to /results/model_analyzer/checkpoints/0.ckpt
+[Model Analyzer] Profiling mobilenet_config_11: client batch size=1, concurrency=4
+[Model Analyzer] Saved checkpoint to /results/model_analyzer/checkpoints/0.ckpt
+[Model Analyzer] Profiling mobilenet_config_11: client batch size=1, concurrency=8
+[Model Analyzer] perf_analyzer's request count is too small, increased to 100.
+[Model Analyzer] Saved checkpoint to /results/model_analyzer/checkpoints/0.ckpt
+[Model Analyzer] Profiling mobilenet_config_11: client batch size=1, concurrency=16
+[Model Analyzer] Saved checkpoint to /results/model_analyzer/checkpoints/0.ckpt
+[Model Analyzer] 
+[Model Analyzer] Done with brute mode search.
+[Model Analyzer] 
+[Model Analyzer] Saved checkpoint to /results/model_analyzer/checkpoints/0.ckpt
+[Model Analyzer] Profile complete. Profiled 13 configurations for models: ['mobilenet']
+[Model Analyzer] 
+[Model Analyzer] WARNING: GPU output field "gpu_used_memory", has no data
+[Model Analyzer] WARNING: GPU output field "gpu_utilization", has no data
+[Model Analyzer] WARNING: GPU output field "gpu_power_usage", has no data
+[Model Analyzer] WARNING: Server output field "gpu_used_memory", has no data
+[Model Analyzer] WARNING: Server output field "gpu_utilization", has no data
+[Model Analyzer] WARNING: Server output field "gpu_power_usage", has no data
+[Model Analyzer] Exporting inference metrics to /results/model_analyzer/results/metrics-model-inference.csv
+[Model Analyzer] Exporting Summary Report to /results/model_analyzer/reports/summaries/mobilenet/result_summary.pdf
+[Model Analyzer] Generating detailed reports for the best configurations mobilenet_config_11,mobilenet_config_5,mobilenet_config_4:
+[Model Analyzer] Exporting Detailed Report to /results/model_analyzer/reports/detailed/mobilenet_config_11/detailed_report.pdf
+[Model Analyzer] Exporting Detailed Report to /results/model_analyzer/reports/detailed/mobilenet_config_5/detailed_report.pdf
+[Model Analyzer] Exporting Detailed Report to /results/model_analyzer/reports/detailed/mobilenet_config_4/detailed_report.pdf

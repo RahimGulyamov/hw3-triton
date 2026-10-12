@@ -1,0 +1,49 @@
+triton-1  | Warning: '--strict-model-config' has been deprecated! Please use '--disable-auto-complete-config' instead.
+triton-1  | W1012 10:57:09.298706 1 pinned_memory_manager.cc:237] Unable to allocate pinned system memory, pinned memory pool will not be available: CUDA driver version is insufficient for CUDA runtime version
+triton-1  | I1012 10:57:09.298742 1 cuda_memory_manager.cc:117] CUDA memory pool disabled
+triton-1  | E1012 10:57:09.298791 1 server.cc:243] CudaDriverHelper has not been initialized.
+triton-1  | I1012 10:57:09.299641 1 model_lifecycle.cc:461] loading: mobilenet:1
+triton-1  | I1012 10:57:09.301827 1 python_be.cc:2363] TRITONBACKEND_ModelInstanceInitialize: mobilenet_0_0 (CPU device 0)
+triton-1  | I1012 10:57:10.515549 1 model_lifecycle.cc:818] successfully loaded 'mobilenet'
+triton-1  | I1012 10:57:10.515630 1 server.cc:606] 
+triton-1  | +------------------+------+
+triton-1  | | Repository Agent | Path |
+triton-1  | +------------------+------+
+triton-1  | +------------------+------+
+triton-1  | 
+triton-1  | I1012 10:57:10.515668 1 server.cc:633] 
+triton-1  | +---------+-------------------------------------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------+
+triton-1  | | Backend | Path                                                  | Config                                                                                                                                                         |
+triton-1  | +---------+-------------------------------------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------+
+triton-1  | | python  | /opt/tritonserver/backends/python/libtriton_python.so | {"cmdline":{"auto-complete-config":"false","backend-directory":"/opt/tritonserver/backends","min-compute-capability":"6.000000","default-max-batch-size":"4"}} |
+triton-1  | +---------+-------------------------------------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------+
+triton-1  | 
+triton-1  | I1012 10:57:10.515689 1 server.cc:676] 
+triton-1  | +-----------+---------+--------+
+triton-1  | | Model     | Version | Status |
+triton-1  | +-----------+---------+--------+
+triton-1  | | mobilenet | 1       | READY  |
+triton-1  | +-----------+---------+--------+
+triton-1  | 
+triton-1  | I1012 10:57:10.515794 1 metrics.cc:710] Collecting CPU metrics
+triton-1  | I1012 10:57:10.515868 1 tritonserver.cc:2483] 
+triton-1  | +----------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+triton-1  | | Option                           | Value                                                                                                                                                                                                           |
+triton-1  | +----------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+triton-1  | | server_id                        | triton                                                                                                                                                                                                          |
+triton-1  | | server_version                   | 2.41.0                                                                                                                                                                                                          |
+triton-1  | | server_extensions                | classification sequence model_repository model_repository(unload_dependents) schedule_policy model_configuration system_shared_memory cuda_shared_memory binary_tensor_data parameters statistics trace logging |
+triton-1  | | model_repository_path[0]         | /models                                                                                                                                                                                                         |
+triton-1  | | model_control_mode               | MODE_NONE                                                                                                                                                                                                       |
+triton-1  | | strict_model_config              | 1                                                                                                                                                                                                               |
+triton-1  | | rate_limit                       | OFF                                                                                                                                                                                                             |
+triton-1  | | pinned_memory_pool_byte_size     | 268435456                                                                                                                                                                                                       |
+triton-1  | | min_supported_compute_capability | 6.0                                                                                                                                                                                                             |
+triton-1  | | strict_readiness                 | 1                                                                                                                                                                                                               |
+triton-1  | | exit_timeout                     | 30                                                                                                                                                                                                              |
+triton-1  | | cache_enabled                    | 0                                                                                                                                                                                                               |
+triton-1  | +----------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+triton-1  | 
+triton-1  | I1012 10:57:10.516562 1 grpc_server.cc:2495] Started GRPCInferenceService at 0.0.0.0:8001
+triton-1  | I1012 10:57:10.516706 1 http_server.cc:4619] Started HTTPService at 0.0.0.0:8000
+triton-1  | I1012 10:57:10.557417 1 http_server.cc:282] Started Metrics Service at 0.0.0.0:8002

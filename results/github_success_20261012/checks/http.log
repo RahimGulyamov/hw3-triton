@@ -1,0 +1,4 @@
+ Container hw3-ci-triton-1  Running
+Remote/local logits match
+{"item": 0, "top5": [{"label": "bee eater", "probability": 0.06287068873643875}, {"label": "kite", "probability": 0.05613803490996361}, {"label": "envelope", "probability": 0.03255008906126022}, {"label": "white stork", "probability": 0.02391742914915085}, {"label": "bald eagle", "probability": 0.02280866913497448}]}
+Synthetic input verifies the protocol; it does not measure classification accuracy.

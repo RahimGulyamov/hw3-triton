@@ -67,6 +67,37 @@ def main():
     for suffix in ("png", "svg"):
         fig.savefig(figures / f"metrics.{suffix}", dpi=160)
     plt.close(fig)
+    if (directory / "model_analyzer/results/metrics-model-inference.csv").is_file():
+        from model_analyzer_report import read_measurements
+        measurements = read_measurements(directory)
+        curves = [
+            ("mobilenet_config_default", "Baseline: 1 instance, no batching"),
+            ("mobilenet_config_4", "2 instances, max batch 4, delay 0"),
+            ("mobilenet_config_5", "2 instances, max batch 8, delay 0"),
+            ("mobilenet_config_11", "2 instances, max batch 8, delay 1 ms"),
+        ]
+        fig, axes = plt.subplots(1, 2, figsize=(12, 5), layout="constrained")
+        fig.suptitle("Model Analyzer: baseline and three highest-throughput configurations")
+        for name, label in curves:
+            rows = sorted((row for row in measurements if row["name"] == name),
+                          key=lambda row: row["concurrency"])
+            if not rows:
+                raise ValueError(f"Missing measurements for {name}")
+            x = [row["concurrency"] for row in rows]
+            axes[0].plot(x, [row["throughput"] for row in rows], "o-", label=label)
+            axes[1].plot(x, [row["p99_ms"] for row in rows], "o-", label=label)
+        axes[0].set(ylabel="Throughput (infer/s)", ylim=(0, None))
+        axes[1].set(ylabel="p99 latency (ms)", ylim=(0, None))
+        handles, labels = axes[0].get_legend_handles_labels()
+        fig.legend(handles, labels, loc="outside lower center", ncols=2, fontsize=9)
+        for ax in axes:
+            ax.set_xscale("log", base=2)
+            ax.set_xticks([1, 2, 4, 8, 16], labels=[1, 2, 4, 8, 16])
+            ax.set_xlabel("Client concurrency")
+            ax.grid(alpha=0.25)
+        for suffix in ("png", "svg"):
+            fig.savefig(figures / f"model_analyzer.{suffix}", dpi=160)
+        plt.close(fig)
     print(f"Figures saved to {figures}")
 
 

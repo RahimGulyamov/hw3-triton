@@ -1,0 +1,1825 @@
+{
+  "source_checkpoint_sha256": "85bd24eed9eb0e65111b1d9b97d3bb2fe49f5d8571cc98b2a48f194075315907",
+  "measurements": [
+    {
+      "configuration": "mobilenet_config_default",
+      "parameters": {
+        "batch-size": 1,
+        "concurrency-range": 1,
+        "request-rate-range": null,
+        "periodic-concurrency-range": null,
+        "max-tokens": 0,
+        "request-period": null,
+        "text-input-length": 0
+      },
+      "command": "mobilenet_config_default -m mobilenet -b 1 -i http -f mobilenet-results.csv --verbose-csv --measurement-interval=15000 --concurrency-range=1 --stability-percentage=10 --max-trials=20 --measurement-mode=count_windows --collect-metrics --metrics-url=http://localhost:8002/metrics --metrics-interval=1000",
+      "metrics": {
+        "perf_latency_avg": 3.532,
+        "perf_latency_p90": 3.688,
+        "perf_latency_p95": 3.79,
+        "perf_latency_p99": 5.467,
+        "perf_throughput": 282.886,
+        "perf_client_send_recv": 0.048,
+        "perf_client_response_wait": 3.481,
+        "perf_server_queue": 0.009,
+        "perf_server_compute_infer": 3.212,
+        "perf_server_compute_input": 0.017,
+        "perf_server_compute_output": 0.017,
+        "cpu_used_ram": 29.0,
+        "cpu_available_ram": 15359.0
+      }
+    },
+    {
+      "configuration": "mobilenet_config_default",
+      "parameters": {
+        "batch-size": 1,
+        "concurrency-range": 2,
+        "request-rate-range": null,
+        "periodic-concurrency-range": null,
+        "max-tokens": 0,
+        "request-period": null,
+        "text-input-length": 0
+      },
+      "command": "mobilenet_config_default -m mobilenet -b 1 -i http -f mobilenet-results.csv --verbose-csv --measurement-interval=15000 --concurrency-range=2 --stability-percentage=10 --max-trials=20 --measurement-mode=count_windows --collect-metrics --metrics-url=http://localhost:8002/metrics --metrics-interval=1000",
+      "metrics": {
+        "perf_latency_avg": 6.583,
+        "perf_latency_p90": 6.921,
+        "perf_latency_p95": 7.033,
+        "perf_latency_p99": 7.367,
+        "perf_throughput": 303.558,
+        "perf_client_send_recv": 0.051,
+        "perf_client_response_wait": 6.528,
+        "perf_server_queue": 2.994,
+        "perf_server_compute_infer": 3.24,
+        "perf_server_compute_input": 0.021,
+        "perf_server_compute_output": 0.019,
+        "cpu_used_ram": 30.0,
+        "cpu_available_ram": 15359.0
+      }
+    },
+    {
+      "configuration": "mobilenet_config_default",
+      "parameters": {
+        "batch-size": 1,
+        "concurrency-range": 4,
+        "request-rate-range": null,
+        "periodic-concurrency-range": null,
+        "max-tokens": 0,
+        "request-period": null,
+        "text-input-length": 0
+      },
+      "command": "mobilenet_config_default -m mobilenet -b 1 -i http -f mobilenet-results.csv --verbose-csv --measurement-interval=15000 --concurrency-range=4 --stability-percentage=10 --max-trials=20 --measurement-mode=count_windows --collect-metrics --metrics-url=http://localhost:8002/metrics --metrics-interval=1000",
+      "metrics": {
+        "perf_latency_avg": 13.739,
+        "perf_latency_p90": 14.48,
+        "perf_latency_p95": 14.9,
+        "perf_latency_p99": 16.552,
+        "perf_throughput": 290.495,
+        "perf_client_send_recv": 0.06,
+        "perf_client_response_wait": 13.674,
+        "perf_server_queue": 9.927,
+        "perf_server_compute_infer": 3.377,
+        "perf_server_compute_input": 0.027,
+        "perf_server_compute_output": 0.021,
+        "cpu_used_ram": 31.0,
+        "cpu_available_ram": 15360.0
+      }
+    },
+    {
+      "configuration": "mobilenet_config_default",
+      "parameters": {
+        "batch-size": 1,
+        "concurrency-range": 8,
+        "request-rate-range": null,
+        "periodic-concurrency-range": null,
+        "max-tokens": 0,
+        "request-period": null,
+        "text-input-length": 0
+      },
+      "command": "mobilenet_config_default -m mobilenet -b 1 -i http -f mobilenet-results.csv --verbose-csv --measurement-interval=15000 --concurrency-range=8 --stability-percentage=10 --max-trials=20 --measurement-mode=count_windows --collect-metrics --metrics-url=http://localhost:8002/metrics --metrics-interval=1000",
+      "metrics": {
+        "perf_latency_avg": 27.519,
+        "perf_latency_p90": 29.09,
+        "perf_latency_p95": 30.252,
+        "perf_latency_p99": 42.12,
+        "perf_throughput": 289.424,
+        "perf_client_send_recv": 0.078,
+        "perf_client_response_wait": 27.436,
+        "perf_server_queue": 23.662,
+        "perf_server_compute_infer": 3.387,
+        "perf_server_compute_input": 0.03,
+        "perf_server_compute_output": 0.022,
+        "cpu_used_ram": 34.0,
+        "cpu_available_ram": 15354.0
+      }
+    },
+    {
+      "configuration": "mobilenet_config_default",
+      "parameters": {
+        "batch-size": 1,
+        "concurrency-range": 16,
+        "request-rate-range": null,
+        "periodic-concurrency-range": null,
+        "max-tokens": 0,
+        "request-period": null,
+        "text-input-length": 0
+      },
+      "command": "mobilenet_config_default -m mobilenet -b 1 -i http -f mobilenet-results.csv --verbose-csv --measurement-interval=15000 --concurrency-range=16 --stability-percentage=10 --max-trials=20 --measurement-mode=count_windows --collect-metrics --metrics-url=http://localhost:8002/metrics --metrics-interval=1000",
+      "metrics": {
+        "perf_latency_avg": 56.548,
+        "perf_latency_p90": 60.655,
+        "perf_latency_p95": 61.886,
+        "perf_latency_p99": 67.056,
+        "perf_throughput": 280.157,
+        "perf_client_send_recv": 0.144,
+        "perf_client_response_wait": 56.398,
+        "perf_server_queue": 52.505,
+        "perf_server_compute_infer": 3.491,
+        "perf_server_compute_input": 0.035,
+        "perf_server_compute_output": 0.025,
+        "cpu_used_ram": 40.0,
+        "cpu_available_ram": 15345.0
+      }
+    },
+    {
+      "configuration": "mobilenet_config_0",
+      "parameters": {
+        "batch-size": 1,
+        "concurrency-range": 1,
+        "request-rate-range": null,
+        "periodic-concurrency-range": null,
+        "max-tokens": 0,
+        "request-period": null,
+        "text-input-length": 0
+      },
+      "command": "mobilenet_config_0 -m mobilenet -b 1 -i http -f mobilenet-results.csv --verbose-csv --measurement-interval=15000 --concurrency-range=1 --stability-percentage=10 --max-trials=20 --measurement-mode=count_windows --collect-metrics --metrics-url=http://localhost:8002/metrics --metrics-interval=1000",
+      "metrics": {
+        "perf_latency_avg": 3.443,
+        "perf_latency_p90": 3.639,
+        "perf_latency_p95": 3.771,
+        "perf_latency_p99": 4.22,
+        "perf_throughput": 290.247,
+        "perf_client_send_recv": 0.049,
+        "perf_client_response_wait": 3.392,
+        "perf_server_queue": 0.02,
+        "perf_server_compute_infer": 3.12,
+        "perf_server_compute_input": 0.017,
+        "perf_server_compute_output": 0.016,
+        "cpu_used_ram": 29.0,
+        "cpu_available_ram": 15360.0
+      }
+    },
+    {
+      "configuration": "mobilenet_config_0",
+      "parameters": {
+        "batch-size": 1,
+        "concurrency-range": 2,
+        "request-rate-range": null,
+        "periodic-concurrency-range": null,
+        "max-tokens": 0,
+        "request-period": null,
+        "text-input-length": 0
+      },
+      "command": "mobilenet_config_0 -m mobilenet -b 1 -i http -f mobilenet-results.csv --verbose-csv --measurement-interval=15000 --concurrency-range=2 --stability-percentage=10 --max-trials=20 --measurement-mode=count_windows --collect-metrics --metrics-url=http://localhost:8002/metrics --metrics-interval=1000",
+      "metrics": {
+        "perf_latency_avg": 6.768,
+        "perf_latency_p90": 7.055,
+        "perf_latency_p95": 8.016,
+        "perf_latency_p99": 13.18,
+        "perf_throughput": 295.232,
+        "perf_client_send_recv": 0.052,
+        "perf_client_response_wait": 6.712,
+        "perf_server_queue": 3.079,
+        "perf_server_compute_infer": 3.318,
+        "perf_server_compute_input": 0.024,
+        "perf_server_compute_output": 0.023,
+        "cpu_used_ram": 31.0,
+        "cpu_available_ram": 15360.0
+      }
+    },
+    {
+      "configuration": "mobilenet_config_0",
+      "parameters": {
+        "batch-size": 1,
+        "concurrency-range": 4,
+        "request-rate-range": null,
+        "periodic-concurrency-range": null,
+        "max-tokens": 0,
+        "request-period": null,
+        "text-input-length": 0
+      },
+      "command": "mobilenet_config_0 -m mobilenet -b 1 -i http -f mobilenet-results.csv --verbose-csv --measurement-interval=15000 --concurrency-range=4 --stability-percentage=10 --max-trials=20 --measurement-mode=count_windows --collect-metrics --metrics-url=http://localhost:8002/metrics --metrics-interval=1000",
+      "metrics": {
+        "perf_latency_avg": 14.121,
+        "perf_latency_p90": 14.916,
+        "perf_latency_p95": 17.522,
+        "perf_latency_p99": 29.403,
+        "perf_throughput": 282.573,
+        "perf_client_send_recv": 0.067,
+        "perf_client_response_wait": 14.049,
+        "perf_server_queue": 10.24,
+        "perf_server_compute_infer": 3.459,
+        "perf_server_compute_input": 0.033,
+        "perf_server_compute_output": 0.024,
+        "cpu_used_ram": 32.0,
+        "cpu_available_ram": 15359.0
+      }
+    },
+    {
+      "configuration": "mobilenet_config_0",
+      "parameters": {
+        "batch-size": 1,
+        "concurrency-range": 8,
+        "request-rate-range": null,
+        "periodic-concurrency-range": null,
+        "max-tokens": 0,
+        "request-period": null,
+        "text-input-length": 0
+      },
+      "command": "mobilenet_config_0 -m mobilenet -b 1 -i http -f mobilenet-results.csv --verbose-csv --measurement-interval=15000 --concurrency-range=8 --stability-percentage=10 --max-trials=20 --measurement-mode=count_windows --collect-metrics --metrics-url=http://localhost:8002/metrics --metrics-interval=1000",
+      "metrics": {
+        "perf_latency_avg": 27.614,
+        "perf_latency_p90": 28.478,
+        "perf_latency_p95": 28.74,
+        "perf_latency_p99": 30.213,
+        "perf_throughput": 288.207,
+        "perf_client_send_recv": 0.086,
+        "perf_client_response_wait": 27.522,
+        "perf_server_queue": 23.761,
+        "perf_server_compute_infer": 3.395,
+        "perf_server_compute_input": 0.03,
+        "perf_server_compute_output": 0.022,
+        "cpu_used_ram": 35.0,
+        "cpu_available_ram": 15351.0
+      }
+    },
+    {
+      "configuration": "mobilenet_config_0",
+      "parameters": {
+        "batch-size": 1,
+        "concurrency-range": 16,
+        "request-rate-range": null,
+        "periodic-concurrency-range": null,
+        "max-tokens": 0,
+        "request-period": null,
+        "text-input-length": 0
+      },
+      "command": "mobilenet_config_0 -m mobilenet -b 1 -i http -f mobilenet-results.csv --verbose-csv --measurement-interval=15000 --concurrency-range=16 --stability-percentage=10 --max-trials=20 --measurement-mode=count_windows --collect-metrics --metrics-url=http://localhost:8002/metrics --metrics-interval=1000",
+      "metrics": {
+        "perf_latency_avg": 53.968,
+        "perf_latency_p90": 56.511,
+        "perf_latency_p95": 56.795,
+        "perf_latency_p99": 62.627,
+        "perf_throughput": 293.468,
+        "perf_client_send_recv": 0.115,
+        "perf_client_response_wait": 53.847,
+        "perf_server_queue": 50.142,
+        "perf_server_compute_infer": 3.33,
+        "perf_server_compute_input": 0.032,
+        "perf_server_compute_output": 0.022,
+        "cpu_used_ram": 40.0,
+        "cpu_available_ram": 15347.0
+      }
+    },
+    {
+      "configuration": "mobilenet_config_1",
+      "parameters": {
+        "batch-size": 1,
+        "concurrency-range": 1,
+        "request-rate-range": null,
+        "periodic-concurrency-range": null,
+        "max-tokens": 0,
+        "request-period": null,
+        "text-input-length": 0
+      },
+      "command": "mobilenet_config_1 -m mobilenet -b 1 -i http -f mobilenet-results.csv --verbose-csv --measurement-interval=15000 --concurrency-range=1 --stability-percentage=10 --max-trials=20 --measurement-mode=count_windows --collect-metrics --metrics-url=http://localhost:8002/metrics --metrics-interval=1000",
+      "metrics": {
+        "perf_latency_avg": 3.488,
+        "perf_latency_p90": 3.675,
+        "perf_latency_p95": 3.722,
+        "perf_latency_p99": 4.571,
+        "perf_throughput": 286.244,
+        "perf_client_send_recv": 0.052,
+        "perf_client_response_wait": 3.434,
+        "perf_server_queue": 0.021,
+        "perf_server_compute_infer": 3.149,
+        "perf_server_compute_input": 0.017,
+        "perf_server_compute_output": 0.014,
+        "cpu_used_ram": 29.0,
+        "cpu_available_ram": 15352.0
+      }
+    },
+    {
+      "configuration": "mobilenet_config_1",
+      "parameters": {
+        "batch-size": 1,
+        "concurrency-range": 2,
+        "request-rate-range": null,
+        "periodic-concurrency-range": null,
+        "max-tokens": 0,
+        "request-period": null,
+        "text-input-length": 0
+      },
+      "command": "mobilenet_config_1 -m mobilenet -b 1 -i http -f mobilenet-results.csv --verbose-csv --measurement-interval=15000 --concurrency-range=2 --stability-percentage=10 --max-trials=20 --measurement-mode=count_windows --collect-metrics --metrics-url=http://localhost:8002/metrics --metrics-interval=1000",
+      "metrics": {
+        "perf_latency_avg": 6.524,
+        "perf_latency_p90": 6.775,
+        "perf_latency_p95": 6.924,
+        "perf_latency_p99": 8.296,
+        "perf_throughput": 306.246,
+        "perf_client_send_recv": 0.048,
+        "perf_client_response_wait": 6.473,
+        "perf_server_queue": 2.98,
+        "perf_server_compute_infer": 3.204,
+        "perf_server_compute_input": 0.022,
+        "perf_server_compute_output": 0.02,
+        "cpu_used_ram": 30.0,
+        "cpu_available_ram": 15356.0
+      }
+    },
+    {
+      "configuration": "mobilenet_config_1",
+      "parameters": {
+        "batch-size": 1,
+        "concurrency-range": 4,
+        "request-rate-range": null,
+        "periodic-concurrency-range": null,
+        "max-tokens": 0,
+        "request-period": null,
+        "text-input-length": 0
+      },
+      "command": "mobilenet_config_1 -m mobilenet -b 1 -i http -f mobilenet-results.csv --verbose-csv --measurement-interval=15000 --concurrency-range=4 --stability-percentage=10 --max-trials=20 --measurement-mode=count_windows --collect-metrics --metrics-url=http://localhost:8002/metrics --metrics-interval=1000",
+      "metrics": {
+        "perf_latency_avg": 11.941,
+        "perf_latency_p90": 12.568,
+        "perf_latency_p95": 12.753,
+        "perf_latency_p99": 13.21,
+        "perf_throughput": 334.545,
+        "perf_client_send_recv": 0.074,
+        "perf_client_response_wait": 11.855,
+        "perf_server_queue": 4.197,
+        "perf_server_compute_infer": 7.004,
+        "perf_server_compute_input": 0.069,
+        "perf_server_compute_output": 0.046,
+        "cpu_used_ram": 33.0,
+        "cpu_available_ram": 15353.0
+      }
+    },
+    {
+      "configuration": "mobilenet_config_1",
+      "parameters": {
+        "batch-size": 1,
+        "concurrency-range": 8,
+        "request-rate-range": null,
+        "periodic-concurrency-range": null,
+        "max-tokens": 0,
+        "request-period": null,
+        "text-input-length": 0
+      },
+      "command": "mobilenet_config_1 -m mobilenet -b 1 -i http -f mobilenet-results.csv --verbose-csv --measurement-interval=15000 --concurrency-range=8 --stability-percentage=10 --max-trials=20 --measurement-mode=count_windows --collect-metrics --metrics-url=http://localhost:8002/metrics --metrics-interval=1000",
+      "metrics": {
+        "perf_latency_avg": 23.649,
+        "perf_latency_p90": 24.614,
+        "perf_latency_p95": 24.952,
+        "perf_latency_p99": 27.142,
+        "perf_throughput": 337.214,
+        "perf_client_send_recv": 0.121,
+        "perf_client_response_wait": 23.521,
+        "perf_server_queue": 10.86,
+        "perf_server_compute_infer": 11.565,
+        "perf_server_compute_input": 0.156,
+        "perf_server_compute_output": 0.064,
+        "cpu_used_ram": 38.0,
+        "cpu_available_ram": 15338.0
+      }
+    },
+    {
+      "configuration": "mobilenet_config_1",
+      "parameters": {
+        "batch-size": 1,
+        "concurrency-range": 16,
+        "request-rate-range": null,
+        "periodic-concurrency-range": null,
+        "max-tokens": 0,
+        "request-period": null,
+        "text-input-length": 0
+      },
+      "command": "mobilenet_config_1 -m mobilenet -b 1 -i http -f mobilenet-results.csv --verbose-csv --measurement-interval=15000 --concurrency-range=16 --stability-percentage=10 --max-trials=20 --measurement-mode=count_windows --collect-metrics --metrics-url=http://localhost:8002/metrics --metrics-interval=1000",
+      "metrics": {
+        "perf_latency_avg": 47.962,
+        "perf_latency_p90": 49.942,
+        "perf_latency_p95": 51.282,
+        "perf_latency_p99": 52.236,
+        "perf_throughput": 330.876,
+        "perf_client_send_recv": 0.164,
+        "perf_client_response_wait": 47.79,
+        "perf_server_queue": 34.869,
+        "perf_server_compute_infer": 11.701,
+        "perf_server_compute_input": 0.219,
+        "perf_server_compute_output": 0.07,
+        "cpu_used_ram": 43.0,
+        "cpu_available_ram": 15337.0
+      }
+    },
+    {
+      "configuration": "mobilenet_config_2",
+      "parameters": {
+        "batch-size": 1,
+        "concurrency-range": 1,
+        "request-rate-range": null,
+        "periodic-concurrency-range": null,
+        "max-tokens": 0,
+        "request-period": null,
+        "text-input-length": 0
+      },
+      "command": "mobilenet_config_2 -m mobilenet -b 1 -i http -f mobilenet-results.csv --verbose-csv --measurement-interval=15000 --concurrency-range=1 --stability-percentage=10 --max-trials=20 --measurement-mode=count_windows --collect-metrics --metrics-url=http://localhost:8002/metrics --metrics-interval=1000",
+      "metrics": {
+        "perf_latency_avg": 3.485,
+        "perf_latency_p90": 3.714,
+        "perf_latency_p95": 3.789,
+        "perf_latency_p99": 4.213,
+        "perf_throughput": 286.577,
+        "perf_client_send_recv": 0.06,
+        "perf_client_response_wait": 3.421,
+        "perf_server_queue": 0.02,
+        "perf_server_compute_infer": 3.137,
+        "perf_server_compute_input": 0.017,
+        "perf_server_compute_output": 0.014,
+        "cpu_used_ram": 29.0,
+        "cpu_available_ram": 15353.0
+      }
+    },
+    {
+      "configuration": "mobilenet_config_2",
+      "parameters": {
+        "batch-size": 1,
+        "concurrency-range": 2,
+        "request-rate-range": null,
+        "periodic-concurrency-range": null,
+        "max-tokens": 0,
+        "request-period": null,
+        "text-input-length": 0
+      },
+      "command": "mobilenet_config_2 -m mobilenet -b 1 -i http -f mobilenet-results.csv --verbose-csv --measurement-interval=15000 --concurrency-range=2 --stability-percentage=10 --max-trials=20 --measurement-mode=count_windows --collect-metrics --metrics-url=http://localhost:8002/metrics --metrics-interval=1000",
+      "metrics": {
+        "perf_latency_avg": 5.608,
+        "perf_latency_p90": 5.786,
+        "perf_latency_p95": 5.862,
+        "perf_latency_p99": 6.094,
+        "perf_throughput": 356.21,
+        "perf_client_send_recv": 0.038,
+        "perf_client_response_wait": 5.567,
+        "perf_server_queue": 2.537,
+        "perf_server_compute_infer": 2.754,
+        "perf_server_compute_input": 0.024,
+        "perf_server_compute_output": 0.022,
+        "cpu_used_ram": 30.0,
+        "cpu_available_ram": 15353.0
+      }
+    },
+    {
+      "configuration": "mobilenet_config_2",
+      "parameters": {
+        "batch-size": 1,
+        "concurrency-range": 4,
+        "request-rate-range": null,
+        "periodic-concurrency-range": null,
+        "max-tokens": 0,
+        "request-period": null,
+        "text-input-length": 0
+      },
+      "command": "mobilenet_config_2 -m mobilenet -b 1 -i http -f mobilenet-results.csv --verbose-csv --measurement-interval=15000 --concurrency-range=4 --stability-percentage=10 --max-trials=20 --measurement-mode=count_windows --collect-metrics --metrics-url=http://localhost:8002/metrics --metrics-interval=1000",
+      "metrics": {
+        "perf_latency_avg": 12.743,
+        "perf_latency_p90": 13.215,
+        "perf_latency_p95": 13.336,
+        "perf_latency_p99": 13.761,
+        "perf_throughput": 313.241,
+        "perf_client_send_recv": 0.077,
+        "perf_client_response_wait": 12.661,
+        "perf_server_queue": 5.92,
+        "perf_server_compute_infer": 6.26,
+        "perf_server_compute_input": 0.055,
+        "perf_server_compute_output": 0.034,
+        "cpu_used_ram": 31.0,
+        "cpu_available_ram": 15350.0
+      }
+    },
+    {
+      "configuration": "mobilenet_config_2",
+      "parameters": {
+        "batch-size": 1,
+        "concurrency-range": 8,
+        "request-rate-range": null,
+        "periodic-concurrency-range": null,
+        "max-tokens": 0,
+        "request-period": null,
+        "text-input-length": 0
+      },
+      "command": "mobilenet_config_2 -m mobilenet -b 1 -i http -f mobilenet-results.csv --verbose-csv --measurement-interval=15000 --concurrency-range=8 --stability-percentage=10 --max-trials=20 --measurement-mode=count_windows --collect-metrics --metrics-url=http://localhost:8002/metrics --metrics-interval=1000",
+      "metrics": {
+        "perf_latency_avg": 23.134,
+        "perf_latency_p90": 23.998,
+        "perf_latency_p95": 24.519,
+        "perf_latency_p99": 26.348,
+        "perf_throughput": 344.719,
+        "perf_client_send_recv": 0.095,
+        "perf_client_response_wait": 23.032,
+        "perf_server_queue": 7.062,
+        "perf_server_compute_infer": 14.379,
+        "perf_server_compute_input": 0.244,
+        "perf_server_compute_output": 0.082,
+        "cpu_used_ram": 34.0,
+        "cpu_available_ram": 15348.0
+      }
+    },
+    {
+      "configuration": "mobilenet_config_2",
+      "parameters": {
+        "batch-size": 1,
+        "concurrency-range": 16,
+        "request-rate-range": null,
+        "periodic-concurrency-range": null,
+        "max-tokens": 0,
+        "request-period": null,
+        "text-input-length": 0
+      },
+      "command": "mobilenet_config_2 -m mobilenet -b 1 -i http -f mobilenet-results.csv --verbose-csv --measurement-interval=15000 --concurrency-range=16 --stability-percentage=10 --max-trials=20 --measurement-mode=count_windows --collect-metrics --metrics-url=http://localhost:8002/metrics --metrics-interval=1000",
+      "metrics": {
+        "perf_latency_avg": 47.996,
+        "perf_latency_p90": 49.997,
+        "perf_latency_p95": 51.072,
+        "perf_latency_p99": 56.259,
+        "perf_throughput": 330.796,
+        "perf_client_send_recv": 0.126,
+        "perf_client_response_wait": 47.864,
+        "perf_server_queue": 22.602,
+        "perf_server_compute_infer": 23.326,
+        "perf_server_compute_input": 0.435,
+        "perf_server_compute_output": 0.146,
+        "cpu_used_ram": 42.0,
+        "cpu_available_ram": 15310.0
+      }
+    },
+    {
+      "configuration": "mobilenet_config_3",
+      "parameters": {
+        "batch-size": 1,
+        "concurrency-range": 1,
+        "request-rate-range": null,
+        "periodic-concurrency-range": null,
+        "max-tokens": 0,
+        "request-period": null,
+        "text-input-length": 0
+      },
+      "command": "mobilenet_config_3 -m mobilenet -b 1 -i http -f mobilenet-results.csv --verbose-csv --measurement-interval=15000 --concurrency-range=1 --stability-percentage=10 --max-trials=20 --measurement-mode=count_windows --collect-metrics --metrics-url=http://localhost:8002/metrics --metrics-interval=1000",
+      "metrics": {
+        "perf_latency_avg": 3.975,
+        "perf_latency_p90": 4.169,
+        "perf_latency_p95": 4.251,
+        "perf_latency_p99": 4.474,
+        "perf_throughput": 251.254,
+        "perf_client_send_recv": 0.054,
+        "perf_client_response_wait": 3.918,
+        "perf_server_queue": 0.021,
+        "perf_server_compute_infer": 3.624,
+        "perf_server_compute_input": 0.02,
+        "perf_server_compute_output": 0.02,
+        "cpu_used_ram": 30.0,
+        "cpu_available_ram": 15174.0
+      }
+    },
+    {
+      "configuration": "mobilenet_config_3",
+      "parameters": {
+        "batch-size": 1,
+        "concurrency-range": 2,
+        "request-rate-range": null,
+        "periodic-concurrency-range": null,
+        "max-tokens": 0,
+        "request-period": null,
+        "text-input-length": 0
+      },
+      "command": "mobilenet_config_3 -m mobilenet -b 1 -i http -f mobilenet-results.csv --verbose-csv --measurement-interval=15000 --concurrency-range=2 --stability-percentage=10 --max-trials=20 --measurement-mode=count_windows --collect-metrics --metrics-url=http://localhost:8002/metrics --metrics-interval=1000",
+      "metrics": {
+        "perf_latency_avg": 4.801,
+        "perf_latency_p90": 5.726,
+        "perf_latency_p95": 5.857,
+        "perf_latency_p99": 6.068,
+        "perf_throughput": 415.85,
+        "perf_client_send_recv": 0.08,
+        "perf_client_response_wait": 4.716,
+        "perf_server_queue": 0.027,
+        "perf_server_compute_infer": 4.297,
+        "perf_server_compute_input": 0.029,
+        "perf_server_compute_output": 0.027,
+        "cpu_used_ram": 31.0,
+        "cpu_available_ram": 15169.0
+      }
+    },
+    {
+      "configuration": "mobilenet_config_3",
+      "parameters": {
+        "batch-size": 1,
+        "concurrency-range": 4,
+        "request-rate-range": null,
+        "periodic-concurrency-range": null,
+        "max-tokens": 0,
+        "request-period": null,
+        "text-input-length": 0
+      },
+      "command": "mobilenet_config_3 -m mobilenet -b 1 -i http -f mobilenet-results.csv --verbose-csv --measurement-interval=15000 --concurrency-range=4 --stability-percentage=10 --max-trials=20 --measurement-mode=count_windows --collect-metrics --metrics-url=http://localhost:8002/metrics --metrics-interval=1000",
+      "metrics": {
+        "perf_latency_avg": 8.618,
+        "perf_latency_p90": 9.602,
+        "perf_latency_p95": 10.369,
+        "perf_latency_p99": 11.437,
+        "perf_throughput": 463.344,
+        "perf_client_send_recv": 0.078,
+        "perf_client_response_wait": 8.534,
+        "perf_server_queue": 3.666,
+        "perf_server_compute_infer": 4.232,
+        "perf_server_compute_input": 0.037,
+        "perf_server_compute_output": 0.026,
+        "cpu_used_ram": 33.0,
+        "cpu_available_ram": 15161.0
+      }
+    },
+    {
+      "configuration": "mobilenet_config_3",
+      "parameters": {
+        "batch-size": 1,
+        "concurrency-range": 8,
+        "request-rate-range": null,
+        "periodic-concurrency-range": null,
+        "max-tokens": 0,
+        "request-period": null,
+        "text-input-length": 0
+      },
+      "command": "mobilenet_config_3 -m mobilenet -b 1 -i http -f mobilenet-results.csv --verbose-csv --measurement-interval=15000 --concurrency-range=8 --stability-percentage=10 --max-trials=20 --measurement-mode=count_windows --collect-metrics --metrics-url=http://localhost:8002/metrics --metrics-interval=1000",
+      "metrics": {
+        "perf_latency_avg": 17.304,
+        "perf_latency_p90": 19.061,
+        "perf_latency_p95": 19.516,
+        "perf_latency_p99": 20.524,
+        "perf_throughput": 460.692,
+        "perf_client_send_recv": 0.083,
+        "perf_client_response_wait": 17.214,
+        "perf_server_queue": 12.345,
+        "perf_server_compute_infer": 4.249,
+        "perf_server_compute_input": 0.04,
+        "perf_server_compute_output": 0.027,
+        "cpu_used_ram": 38.0,
+        "cpu_available_ram": 15160.0
+      }
+    },
+    {
+      "configuration": "mobilenet_config_3",
+      "parameters": {
+        "batch-size": 1,
+        "concurrency-range": 16,
+        "request-rate-range": null,
+        "periodic-concurrency-range": null,
+        "max-tokens": 0,
+        "request-period": null,
+        "text-input-length": 0
+      },
+      "command": "mobilenet_config_3 -m mobilenet -b 1 -i http -f mobilenet-results.csv --verbose-csv --measurement-interval=15000 --concurrency-range=16 --stability-percentage=10 --max-trials=20 --measurement-mode=count_windows --collect-metrics --metrics-url=http://localhost:8002/metrics --metrics-interval=1000",
+      "metrics": {
+        "perf_latency_avg": 34.702,
+        "perf_latency_p90": 37.099,
+        "perf_latency_p95": 37.881,
+        "perf_latency_p99": 39.457,
+        "perf_throughput": 458.009,
+        "perf_client_send_recv": 0.114,
+        "perf_client_response_wait": 34.582,
+        "perf_server_queue": 29.705,
+        "perf_server_compute_infer": 4.28,
+        "perf_server_compute_input": 0.039,
+        "perf_server_compute_output": 0.025,
+        "cpu_used_ram": 45.0,
+        "cpu_available_ram": 15149.0
+      }
+    },
+    {
+      "configuration": "mobilenet_config_4",
+      "parameters": {
+        "batch-size": 1,
+        "concurrency-range": 1,
+        "request-rate-range": null,
+        "periodic-concurrency-range": null,
+        "max-tokens": 0,
+        "request-period": null,
+        "text-input-length": 0
+      },
+      "command": "mobilenet_config_4 -m mobilenet -b 1 -i http -f mobilenet-results.csv --verbose-csv --measurement-interval=15000 --concurrency-range=1 --stability-percentage=10 --max-trials=20 --measurement-mode=count_windows --collect-metrics --metrics-url=http://localhost:8002/metrics --metrics-interval=1000",
+      "metrics": {
+        "perf_latency_avg": 3.884,
+        "perf_latency_p90": 4.077,
+        "perf_latency_p95": 4.201,
+        "perf_latency_p99": 5.123,
+        "perf_throughput": 257.253,
+        "perf_client_send_recv": 0.052,
+        "perf_client_response_wait": 3.83,
+        "perf_server_queue": 0.022,
+        "perf_server_compute_infer": 3.537,
+        "perf_server_compute_input": 0.021,
+        "perf_server_compute_output": 0.017,
+        "cpu_used_ram": 30.0,
+        "cpu_available_ram": 15168.0
+      }
+    },
+    {
+      "configuration": "mobilenet_config_4",
+      "parameters": {
+        "batch-size": 1,
+        "concurrency-range": 2,
+        "request-rate-range": null,
+        "periodic-concurrency-range": null,
+        "max-tokens": 0,
+        "request-period": null,
+        "text-input-length": 0
+      },
+      "command": "mobilenet_config_4 -m mobilenet -b 1 -i http -f mobilenet-results.csv --verbose-csv --measurement-interval=15000 --concurrency-range=2 --stability-percentage=10 --max-trials=20 --measurement-mode=count_windows --collect-metrics --metrics-url=http://localhost:8002/metrics --metrics-interval=1000",
+      "metrics": {
+        "perf_latency_avg": 5.578,
+        "perf_latency_p90": 7.462,
+        "perf_latency_p95": 7.539,
+        "perf_latency_p99": 7.709,
+        "perf_throughput": 358.863,
+        "perf_client_send_recv": 0.075,
+        "perf_client_response_wait": 5.497,
+        "perf_server_queue": 0.03,
+        "perf_server_compute_infer": 5.062,
+        "perf_server_compute_input": 0.035,
+        "perf_server_compute_output": 0.034,
+        "cpu_used_ram": 32.0,
+        "cpu_available_ram": 15168.0
+      }
+    },
+    {
+      "configuration": "mobilenet_config_4",
+      "parameters": {
+        "batch-size": 1,
+        "concurrency-range": 4,
+        "request-rate-range": null,
+        "periodic-concurrency-range": null,
+        "max-tokens": 0,
+        "request-period": null,
+        "text-input-length": 0
+      },
+      "command": "mobilenet_config_4 -m mobilenet -b 1 -i http -f mobilenet-results.csv --verbose-csv --measurement-interval=15000 --concurrency-range=4 --stability-percentage=10 --max-trials=20 --measurement-mode=count_windows --collect-metrics --metrics-url=http://localhost:8002/metrics --metrics-interval=1000",
+      "metrics": {
+        "perf_latency_avg": 7.615,
+        "perf_latency_p90": 10.528,
+        "perf_latency_p95": 11.421,
+        "perf_latency_p99": 13.8,
+        "perf_throughput": 524.729,
+        "perf_client_send_recv": 0.083,
+        "perf_client_response_wait": 7.524,
+        "perf_server_queue": 1.727,
+        "perf_server_compute_infer": 5.143,
+        "perf_server_compute_input": 0.048,
+        "perf_server_compute_output": 0.039,
+        "cpu_used_ram": 34.0,
+        "cpu_available_ram": 15158.0
+      }
+    },
+    {
+      "configuration": "mobilenet_config_4",
+      "parameters": {
+        "batch-size": 1,
+        "concurrency-range": 8,
+        "request-rate-range": null,
+        "periodic-concurrency-range": null,
+        "max-tokens": 0,
+        "request-period": null,
+        "text-input-length": 0
+      },
+      "command": "mobilenet_config_4 -m mobilenet -b 1 -i http -f mobilenet-results.csv --verbose-csv --measurement-interval=15000 --concurrency-range=8 --stability-percentage=10 --max-trials=20 --measurement-mode=count_windows --collect-metrics --metrics-url=http://localhost:8002/metrics --metrics-interval=1000",
+      "metrics": {
+        "perf_latency_avg": 14.882,
+        "perf_latency_p90": 21.037,
+        "perf_latency_p95": 22.466,
+        "perf_latency_p99": 24.84,
+        "perf_throughput": 536.414,
+        "perf_client_send_recv": 0.108,
+        "perf_client_response_wait": 14.762,
+        "perf_server_queue": 3.493,
+        "perf_server_compute_infer": 10.086,
+        "perf_server_compute_input": 0.117,
+        "perf_server_compute_output": 0.077,
+        "cpu_used_ram": 38.0,
+        "cpu_available_ram": 15141.0
+      }
+    },
+    {
+      "configuration": "mobilenet_config_4",
+      "parameters": {
+        "batch-size": 1,
+        "concurrency-range": 16,
+        "request-rate-range": null,
+        "periodic-concurrency-range": null,
+        "max-tokens": 0,
+        "request-period": null,
+        "text-input-length": 0
+      },
+      "command": "mobilenet_config_4 -m mobilenet -b 1 -i http -f mobilenet-results.csv --verbose-csv --measurement-interval=15000 --concurrency-range=16 --stability-percentage=10 --max-trials=20 --measurement-mode=count_windows --collect-metrics --metrics-url=http://localhost:8002/metrics --metrics-interval=1000",
+      "metrics": {
+        "perf_latency_avg": 28.808,
+        "perf_latency_p90": 32.51,
+        "perf_latency_p95": 34.239,
+        "perf_latency_p99": 35.956,
+        "perf_throughput": 551.2,
+        "perf_client_send_recv": 0.119,
+        "perf_client_response_wait": 28.68,
+        "perf_server_queue": 13.231,
+        "perf_server_compute_infer": 14.039,
+        "perf_server_compute_input": 0.188,
+        "perf_server_compute_output": 0.116,
+        "cpu_used_ram": 43.0,
+        "cpu_available_ram": 15137.0
+      }
+    },
+    {
+      "configuration": "mobilenet_config_5",
+      "parameters": {
+        "batch-size": 1,
+        "concurrency-range": 1,
+        "request-rate-range": null,
+        "periodic-concurrency-range": null,
+        "max-tokens": 0,
+        "request-period": null,
+        "text-input-length": 0
+      },
+      "command": "mobilenet_config_5 -m mobilenet -b 1 -i http -f mobilenet-results.csv --verbose-csv --measurement-interval=15000 --concurrency-range=1 --stability-percentage=10 --max-trials=20 --measurement-mode=count_windows --collect-metrics --metrics-url=http://localhost:8002/metrics --metrics-interval=1000",
+      "metrics": {
+        "perf_latency_avg": 3.93,
+        "perf_latency_p90": 4.112,
+        "perf_latency_p95": 4.199,
+        "perf_latency_p99": 4.884,
+        "perf_throughput": 254.251,
+        "perf_client_send_recv": 0.064,
+        "perf_client_response_wait": 3.863,
+        "perf_server_queue": 0.022,
+        "perf_server_compute_infer": 3.562,
+        "perf_server_compute_input": 0.021,
+        "perf_server_compute_output": 0.019,
+        "cpu_used_ram": 30.0,
+        "cpu_available_ram": 15170.0
+      }
+    },
+    {
+      "configuration": "mobilenet_config_5",
+      "parameters": {
+        "batch-size": 1,
+        "concurrency-range": 2,
+        "request-rate-range": null,
+        "periodic-concurrency-range": null,
+        "max-tokens": 0,
+        "request-period": null,
+        "text-input-length": 0
+      },
+      "command": "mobilenet_config_5 -m mobilenet -b 1 -i http -f mobilenet-results.csv --verbose-csv --measurement-interval=15000 --concurrency-range=2 --stability-percentage=10 --max-trials=20 --measurement-mode=count_windows --collect-metrics --metrics-url=http://localhost:8002/metrics --metrics-interval=1000",
+      "metrics": {
+        "perf_latency_avg": 5.294,
+        "perf_latency_p90": 7.077,
+        "perf_latency_p95": 7.339,
+        "perf_latency_p99": 7.647,
+        "perf_throughput": 376.874,
+        "perf_client_send_recv": 0.079,
+        "perf_client_response_wait": 5.21,
+        "perf_server_queue": 0.029,
+        "perf_server_compute_infer": 4.78,
+        "perf_server_compute_input": 0.036,
+        "perf_server_compute_output": 0.031,
+        "cpu_used_ram": 33.0,
+        "cpu_available_ram": 15169.0
+      }
+    },
+    {
+      "configuration": "mobilenet_config_5",
+      "parameters": {
+        "batch-size": 1,
+        "concurrency-range": 4,
+        "request-rate-range": null,
+        "periodic-concurrency-range": null,
+        "max-tokens": 0,
+        "request-period": null,
+        "text-input-length": 0
+      },
+      "command": "mobilenet_config_5 -m mobilenet -b 1 -i http -f mobilenet-results.csv --verbose-csv --measurement-interval=15000 --concurrency-range=4 --stability-percentage=10 --max-trials=20 --measurement-mode=count_windows --collect-metrics --metrics-url=http://localhost:8002/metrics --metrics-interval=1000",
+      "metrics": {
+        "perf_latency_avg": 8.047,
+        "perf_latency_p90": 11.173,
+        "perf_latency_p95": 12.097,
+        "perf_latency_p99": 14.261,
+        "perf_throughput": 496.081,
+        "perf_client_send_recv": 0.086,
+        "perf_client_response_wait": 7.952,
+        "perf_server_queue": 1.74,
+        "perf_server_compute_infer": 5.502,
+        "perf_server_compute_input": 0.048,
+        "perf_server_compute_output": 0.039,
+        "cpu_used_ram": 34.0,
+        "cpu_available_ram": 15143.0
+      }
+    },
+    {
+      "configuration": "mobilenet_config_5",
+      "parameters": {
+        "batch-size": 1,
+        "concurrency-range": 8,
+        "request-rate-range": null,
+        "periodic-concurrency-range": null,
+        "max-tokens": 0,
+        "request-period": null,
+        "text-input-length": 0
+      },
+      "command": "mobilenet_config_5 -m mobilenet -b 1 -i http -f mobilenet-results.csv --verbose-csv --measurement-interval=15000 --concurrency-range=8 --stability-percentage=10 --max-trials=20 --measurement-mode=count_windows --collect-metrics --metrics-url=http://localhost:8002/metrics --metrics-interval=1000",
+      "metrics": {
+        "perf_latency_avg": 14.709,
+        "perf_latency_p90": 24.455,
+        "perf_latency_p95": 26.611,
+        "perf_latency_p99": 29.144,
+        "perf_throughput": 544.349,
+        "perf_client_send_recv": 0.098,
+        "perf_client_response_wait": 14.6,
+        "perf_server_queue": 2.839,
+        "perf_server_compute_infer": 10.481,
+        "perf_server_compute_input": 0.136,
+        "perf_server_compute_output": 0.073,
+        "cpu_used_ram": 36.0,
+        "cpu_available_ram": 15143.0
+      }
+    },
+    {
+      "configuration": "mobilenet_config_5",
+      "parameters": {
+        "batch-size": 1,
+        "concurrency-range": 16,
+        "request-rate-range": null,
+        "periodic-concurrency-range": null,
+        "max-tokens": 0,
+        "request-period": null,
+        "text-input-length": 0
+      },
+      "command": "mobilenet_config_5 -m mobilenet -b 1 -i http -f mobilenet-results.csv --verbose-csv --measurement-interval=15000 --concurrency-range=16 --stability-percentage=10 --max-trials=20 --measurement-mode=count_windows --collect-metrics --metrics-url=http://localhost:8002/metrics --metrics-interval=1000",
+      "metrics": {
+        "perf_latency_avg": 26.168,
+        "perf_latency_p90": 35.64,
+        "perf_latency_p95": 37.888,
+        "perf_latency_p99": 42.825,
+        "perf_throughput": 607.773,
+        "perf_client_send_recv": 0.125,
+        "perf_client_response_wait": 26.034,
+        "perf_server_queue": 6.208,
+        "perf_server_compute_infer": 18.184,
+        "perf_server_compute_input": 0.266,
+        "perf_server_compute_output": 0.143,
+        "cpu_used_ram": 42.0,
+        "cpu_available_ram": 15090.0
+      }
+    },
+    {
+      "configuration": "mobilenet_config_6",
+      "parameters": {
+        "batch-size": 1,
+        "concurrency-range": 1,
+        "request-rate-range": null,
+        "periodic-concurrency-range": null,
+        "max-tokens": 0,
+        "request-period": null,
+        "text-input-length": 0
+      },
+      "command": "mobilenet_config_6 -m mobilenet -b 1 -i http -f mobilenet-results.csv --verbose-csv --measurement-interval=15000 --concurrency-range=1 --stability-percentage=10 --max-trials=20 --measurement-mode=count_windows --collect-metrics --metrics-url=http://localhost:8002/metrics --metrics-interval=1000",
+      "metrics": {
+        "perf_latency_avg": 3.541,
+        "perf_latency_p90": 3.7,
+        "perf_latency_p95": 3.807,
+        "perf_latency_p99": 4.373,
+        "perf_throughput": 282.242,
+        "perf_client_send_recv": 0.057,
+        "perf_client_response_wait": 3.481,
+        "perf_server_queue": 0.021,
+        "perf_server_compute_infer": 3.193,
+        "perf_server_compute_input": 0.018,
+        "perf_server_compute_output": 0.017,
+        "cpu_used_ram": 29.0,
+        "cpu_available_ram": 15356.0
+      }
+    },
+    {
+      "configuration": "mobilenet_config_6",
+      "parameters": {
+        "batch-size": 1,
+        "concurrency-range": 2,
+        "request-rate-range": null,
+        "periodic-concurrency-range": null,
+        "max-tokens": 0,
+        "request-period": null,
+        "text-input-length": 0
+      },
+      "command": "mobilenet_config_6 -m mobilenet -b 1 -i http -f mobilenet-results.csv --verbose-csv --measurement-interval=15000 --concurrency-range=2 --stability-percentage=10 --max-trials=20 --measurement-mode=count_windows --collect-metrics --metrics-url=http://localhost:8002/metrics --metrics-interval=1000",
+      "metrics": {
+        "perf_latency_avg": 6.813,
+        "perf_latency_p90": 7.043,
+        "perf_latency_p95": 7.135,
+        "perf_latency_p99": 7.476,
+        "perf_throughput": 293.568,
+        "perf_client_send_recv": 0.056,
+        "perf_client_response_wait": 6.753,
+        "perf_server_queue": 3.062,
+        "perf_server_compute_infer": 3.35,
+        "perf_server_compute_input": 0.023,
+        "perf_server_compute_output": 0.019,
+        "cpu_used_ram": 30.0,
+        "cpu_available_ram": 15351.0
+      }
+    },
+    {
+      "configuration": "mobilenet_config_6",
+      "parameters": {
+        "batch-size": 1,
+        "concurrency-range": 4,
+        "request-rate-range": null,
+        "periodic-concurrency-range": null,
+        "max-tokens": 0,
+        "request-period": null,
+        "text-input-length": 0
+      },
+      "command": "mobilenet_config_6 -m mobilenet -b 1 -i http -f mobilenet-results.csv --verbose-csv --measurement-interval=15000 --concurrency-range=4 --stability-percentage=10 --max-trials=20 --measurement-mode=count_windows --collect-metrics --metrics-url=http://localhost:8002/metrics --metrics-interval=1000",
+      "metrics": {
+        "perf_latency_avg": 13.566,
+        "perf_latency_p90": 14.046,
+        "perf_latency_p95": 14.27,
+        "perf_latency_p99": 16.103,
+        "perf_throughput": 294.236,
+        "perf_client_send_recv": 0.059,
+        "perf_client_response_wait": 13.503,
+        "perf_server_queue": 9.837,
+        "perf_server_compute_infer": 3.328,
+        "perf_server_compute_input": 0.028,
+        "perf_server_compute_output": 0.024,
+        "cpu_used_ram": 32.0,
+        "cpu_available_ram": 15348.0
+      }
+    },
+    {
+      "configuration": "mobilenet_config_6",
+      "parameters": {
+        "batch-size": 1,
+        "concurrency-range": 8,
+        "request-rate-range": null,
+        "periodic-concurrency-range": null,
+        "max-tokens": 0,
+        "request-period": null,
+        "text-input-length": 0
+      },
+      "command": "mobilenet_config_6 -m mobilenet -b 1 -i http -f mobilenet-results.csv --verbose-csv --measurement-interval=15000 --concurrency-range=8 --stability-percentage=10 --max-trials=20 --measurement-mode=count_windows --collect-metrics --metrics-url=http://localhost:8002/metrics --metrics-interval=1000",
+      "metrics": {
+        "perf_latency_avg": 27.726,
+        "perf_latency_p90": 28.653,
+        "perf_latency_p95": 28.967,
+        "perf_latency_p99": 30.66,
+        "perf_throughput": 287.232,
+        "perf_client_send_recv": 0.076,
+        "perf_client_response_wait": 27.644,
+        "perf_server_queue": 23.865,
+        "perf_server_compute_infer": 3.407,
+        "perf_server_compute_input": 0.031,
+        "perf_server_compute_output": 0.024,
+        "cpu_used_ram": 34.0,
+        "cpu_available_ram": 15343.0
+      }
+    },
+    {
+      "configuration": "mobilenet_config_6",
+      "parameters": {
+        "batch-size": 1,
+        "concurrency-range": 16,
+        "request-rate-range": null,
+        "periodic-concurrency-range": null,
+        "max-tokens": 0,
+        "request-period": null,
+        "text-input-length": 0
+      },
+      "command": "mobilenet_config_6 -m mobilenet -b 1 -i http -f mobilenet-results.csv --verbose-csv --measurement-interval=15000 --concurrency-range=16 --stability-percentage=10 --max-trials=20 --measurement-mode=count_windows --collect-metrics --metrics-url=http://localhost:8002/metrics --metrics-interval=1000",
+      "metrics": {
+        "perf_latency_avg": 56.639,
+        "perf_latency_p90": 57.662,
+        "perf_latency_p95": 64.192,
+        "perf_latency_p99": 90.093,
+        "perf_throughput": 282.526,
+        "perf_client_send_recv": 0.075,
+        "perf_client_response_wait": 56.558,
+        "perf_server_queue": 52.71,
+        "perf_server_compute_infer": 3.46,
+        "perf_server_compute_input": 0.035,
+        "perf_server_compute_output": 0.026,
+        "cpu_used_ram": 40.0,
+        "cpu_available_ram": 15337.0
+      }
+    },
+    {
+      "configuration": "mobilenet_config_7",
+      "parameters": {
+        "batch-size": 1,
+        "concurrency-range": 1,
+        "request-rate-range": null,
+        "periodic-concurrency-range": null,
+        "max-tokens": 0,
+        "request-period": null,
+        "text-input-length": 0
+      },
+      "command": "mobilenet_config_7 -m mobilenet -b 1 -i http -f mobilenet-results.csv --verbose-csv --measurement-interval=15000 --concurrency-range=1 --stability-percentage=10 --max-trials=20 --measurement-mode=count_windows --collect-metrics --metrics-url=http://localhost:8002/metrics --metrics-interval=1000",
+      "metrics": {
+        "perf_latency_avg": 4.703,
+        "perf_latency_p90": 4.906,
+        "perf_latency_p95": 5.043,
+        "perf_latency_p99": 5.362,
+        "perf_throughput": 212.269,
+        "perf_client_send_recv": 0.055,
+        "perf_client_response_wait": 4.644,
+        "perf_server_queue": 1.069,
+        "perf_server_compute_infer": 3.289,
+        "perf_server_compute_input": 0.018,
+        "perf_server_compute_output": 0.017,
+        "cpu_used_ram": 29.0,
+        "cpu_available_ram": 15354.0
+      }
+    },
+    {
+      "configuration": "mobilenet_config_7",
+      "parameters": {
+        "batch-size": 1,
+        "concurrency-range": 2,
+        "request-rate-range": null,
+        "periodic-concurrency-range": null,
+        "max-tokens": 0,
+        "request-period": null,
+        "text-input-length": 0
+      },
+      "command": "mobilenet_config_7 -m mobilenet -b 1 -i http -f mobilenet-results.csv --verbose-csv --measurement-interval=15000 --concurrency-range=2 --stability-percentage=10 --max-trials=20 --measurement-mode=count_windows --collect-metrics --metrics-url=http://localhost:8002/metrics --metrics-interval=1000",
+      "metrics": {
+        "perf_latency_avg": 8.075,
+        "perf_latency_p90": 8.66,
+        "perf_latency_p95": 8.87,
+        "perf_latency_p99": 9.252,
+        "perf_throughput": 247.904,
+        "perf_client_send_recv": 0.098,
+        "perf_client_response_wait": 7.972,
+        "perf_server_queue": 1.057,
+        "perf_server_compute_infer": 6.516,
+        "perf_server_compute_input": 0.041,
+        "perf_server_compute_output": 0.042,
+        "cpu_used_ram": 30.0,
+        "cpu_available_ram": 15354.0
+      }
+    },
+    {
+      "configuration": "mobilenet_config_7",
+      "parameters": {
+        "batch-size": 1,
+        "concurrency-range": 4,
+        "request-rate-range": null,
+        "periodic-concurrency-range": null,
+        "max-tokens": 0,
+        "request-period": null,
+        "text-input-length": 0
+      },
+      "command": "mobilenet_config_7 -m mobilenet -b 1 -i http -f mobilenet-results.csv --verbose-csv --measurement-interval=15000 --concurrency-range=4 --stability-percentage=10 --max-trials=20 --measurement-mode=count_windows --collect-metrics --metrics-url=http://localhost:8002/metrics --metrics-interval=1000",
+      "metrics": {
+        "perf_latency_avg": 10.769,
+        "perf_latency_p90": 11.361,
+        "perf_latency_p95": 12.137,
+        "perf_latency_p99": 14.1,
+        "perf_throughput": 371.533,
+        "perf_client_send_recv": 0.077,
+        "perf_client_response_wait": 10.687,
+        "perf_server_queue": 4.679,
+        "perf_server_compute_infer": 5.335,
+        "perf_server_compute_input": 0.083,
+        "perf_server_compute_output": 0.04,
+        "cpu_used_ram": 31.0,
+        "cpu_available_ram": 15346.0
+      }
+    },
+    {
+      "configuration": "mobilenet_config_7",
+      "parameters": {
+        "batch-size": 1,
+        "concurrency-range": 8,
+        "request-rate-range": null,
+        "periodic-concurrency-range": null,
+        "max-tokens": 0,
+        "request-period": null,
+        "text-input-length": 0
+      },
+      "command": "mobilenet_config_7 -m mobilenet -b 1 -i http -f mobilenet-results.csv --verbose-csv --measurement-interval=15000 --concurrency-range=8 --stability-percentage=10 --max-trials=20 --measurement-mode=count_windows --collect-metrics --metrics-url=http://localhost:8002/metrics --metrics-interval=1000",
+      "metrics": {
+        "perf_latency_avg": 24.221,
+        "perf_latency_p90": 25.158,
+        "perf_latency_p95": 25.882,
+        "perf_latency_p99": 31.06,
+        "perf_throughput": 329.198,
+        "perf_client_send_recv": 0.106,
+        "perf_client_response_wait": 24.107,
+        "perf_server_queue": 11.311,
+        "perf_server_compute_infer": 11.719,
+        "perf_server_compute_input": 0.214,
+        "perf_server_compute_output": 0.074,
+        "cpu_used_ram": 35.0,
+        "cpu_available_ram": 15339.0
+      }
+    },
+    {
+      "configuration": "mobilenet_config_7",
+      "parameters": {
+        "batch-size": 1,
+        "concurrency-range": 16,
+        "request-rate-range": null,
+        "periodic-concurrency-range": null,
+        "max-tokens": 0,
+        "request-period": null,
+        "text-input-length": 0
+      },
+      "command": "mobilenet_config_7 -m mobilenet -b 1 -i http -f mobilenet-results.csv --verbose-csv --measurement-interval=15000 --concurrency-range=16 --stability-percentage=10 --max-trials=20 --measurement-mode=count_windows --collect-metrics --metrics-url=http://localhost:8002/metrics --metrics-interval=1000",
+      "metrics": {
+        "perf_latency_avg": 49.667,
+        "perf_latency_p90": 50.822,
+        "perf_latency_p95": 53.151,
+        "perf_latency_p99": 78.932,
+        "perf_throughput": 322.547,
+        "perf_client_send_recv": 0.107,
+        "perf_client_response_wait": 49.552,
+        "perf_server_queue": 36.359,
+        "perf_server_compute_infer": 12.077,
+        "perf_server_compute_input": 0.18,
+        "perf_server_compute_output": 0.076,
+        "cpu_used_ram": 42.0,
+        "cpu_available_ram": 15324.0
+      }
+    },
+    {
+      "configuration": "mobilenet_config_8",
+      "parameters": {
+        "batch-size": 1,
+        "concurrency-range": 1,
+        "request-rate-range": null,
+        "periodic-concurrency-range": null,
+        "max-tokens": 0,
+        "request-period": null,
+        "text-input-length": 0
+      },
+      "command": "mobilenet_config_8 -m mobilenet -b 1 -i http -f mobilenet-results.csv --verbose-csv --measurement-interval=15000 --concurrency-range=1 --stability-percentage=10 --max-trials=20 --measurement-mode=count_windows --collect-metrics --metrics-url=http://localhost:8002/metrics --metrics-interval=1000",
+      "metrics": {
+        "perf_latency_avg": 4.453,
+        "perf_latency_p90": 4.569,
+        "perf_latency_p95": 4.638,
+        "perf_latency_p99": 4.962,
+        "perf_throughput": 224.265,
+        "perf_client_send_recv": 0.053,
+        "perf_client_response_wait": 4.397,
+        "perf_server_queue": 1.068,
+        "perf_server_compute_infer": 3.076,
+        "perf_server_compute_input": 0.017,
+        "perf_server_compute_output": 0.015,
+        "cpu_used_ram": 29.0,
+        "cpu_available_ram": 15354.0
+      }
+    },
+    {
+      "configuration": "mobilenet_config_8",
+      "parameters": {
+        "batch-size": 1,
+        "concurrency-range": 2,
+        "request-rate-range": null,
+        "periodic-concurrency-range": null,
+        "max-tokens": 0,
+        "request-period": null,
+        "text-input-length": 0
+      },
+      "command": "mobilenet_config_8 -m mobilenet -b 1 -i http -f mobilenet-results.csv --verbose-csv --measurement-interval=15000 --concurrency-range=2 --stability-percentage=10 --max-trials=20 --measurement-mode=count_windows --collect-metrics --metrics-url=http://localhost:8002/metrics --metrics-interval=1000",
+      "metrics": {
+        "perf_latency_avg": 7.32,
+        "perf_latency_p90": 7.731,
+        "perf_latency_p95": 7.838,
+        "perf_latency_p99": 8.275,
+        "perf_throughput": 272.579,
+        "perf_client_send_recv": 0.09,
+        "perf_client_response_wait": 7.226,
+        "perf_server_queue": 1.047,
+        "perf_server_compute_infer": 5.789,
+        "perf_server_compute_input": 0.043,
+        "perf_server_compute_output": 0.035,
+        "cpu_used_ram": 31.0,
+        "cpu_available_ram": 15353.0
+      }
+    },
+    {
+      "configuration": "mobilenet_config_8",
+      "parameters": {
+        "batch-size": 1,
+        "concurrency-range": 4,
+        "request-rate-range": null,
+        "periodic-concurrency-range": null,
+        "max-tokens": 0,
+        "request-period": null,
+        "text-input-length": 0
+      },
+      "command": "mobilenet_config_8 -m mobilenet -b 1 -i http -f mobilenet-results.csv --verbose-csv --measurement-interval=15000 --concurrency-range=4 --stability-percentage=10 --max-trials=20 --measurement-mode=count_windows --collect-metrics --metrics-url=http://localhost:8002/metrics --metrics-interval=1000",
+      "metrics": {
+        "perf_latency_avg": 13.232,
+        "perf_latency_p90": 13.661,
+        "perf_latency_p95": 13.78,
+        "perf_latency_p99": 15.189,
+        "perf_throughput": 301.214,
+        "perf_client_send_recv": 0.081,
+        "perf_client_response_wait": 13.144,
+        "perf_server_queue": 0.989,
+        "perf_server_compute_infer": 11.498,
+        "perf_server_compute_input": 0.086,
+        "perf_server_compute_output": 0.067,
+        "cpu_used_ram": 32.0,
+        "cpu_available_ram": 15354.0
+      }
+    },
+    {
+      "configuration": "mobilenet_config_8",
+      "parameters": {
+        "batch-size": 1,
+        "concurrency-range": 8,
+        "request-rate-range": null,
+        "periodic-concurrency-range": null,
+        "max-tokens": 0,
+        "request-period": null,
+        "text-input-length": 0
+      },
+      "command": "mobilenet_config_8 -m mobilenet -b 1 -i http -f mobilenet-results.csv --verbose-csv --measurement-interval=15000 --concurrency-range=8 --stability-percentage=10 --max-trials=20 --measurement-mode=count_windows --collect-metrics --metrics-url=http://localhost:8002/metrics --metrics-interval=1000",
+      "metrics": {
+        "perf_latency_avg": 20.332,
+        "perf_latency_p90": 24.065,
+        "perf_latency_p95": 24.715,
+        "perf_latency_p99": 27.124,
+        "perf_throughput": 392.823,
+        "perf_client_send_recv": 0.108,
+        "perf_client_response_wait": 20.216,
+        "perf_server_queue": 9.675,
+        "perf_server_compute_infer": 9.452,
+        "perf_server_compute_input": 0.195,
+        "perf_server_compute_output": 0.068,
+        "cpu_used_ram": 35.0,
+        "cpu_available_ram": 15348.0
+      }
+    },
+    {
+      "configuration": "mobilenet_config_8",
+      "parameters": {
+        "batch-size": 1,
+        "concurrency-range": 16,
+        "request-rate-range": null,
+        "periodic-concurrency-range": null,
+        "max-tokens": 0,
+        "request-period": null,
+        "text-input-length": 0
+      },
+      "command": "mobilenet_config_8 -m mobilenet -b 1 -i http -f mobilenet-results.csv --verbose-csv --measurement-interval=15000 --concurrency-range=16 --stability-percentage=10 --max-trials=20 --measurement-mode=count_windows --collect-metrics --metrics-url=http://localhost:8002/metrics --metrics-interval=1000",
+      "metrics": {
+        "perf_latency_avg": 44.672,
+        "perf_latency_p90": 56.327,
+        "perf_latency_p95": 59.359,
+        "perf_latency_p99": 63.798,
+        "perf_throughput": 353.921,
+        "perf_client_send_recv": 0.124,
+        "perf_client_response_wait": 44.54,
+        "perf_server_queue": 22.303,
+        "perf_server_compute_infer": 20.423,
+        "perf_server_compute_input": 0.457,
+        "perf_server_compute_output": 0.136,
+        "cpu_used_ram": 41.0,
+        "cpu_available_ram": 15317.0
+      }
+    },
+    {
+      "configuration": "mobilenet_config_9",
+      "parameters": {
+        "batch-size": 1,
+        "concurrency-range": 1,
+        "request-rate-range": null,
+        "periodic-concurrency-range": null,
+        "max-tokens": 0,
+        "request-period": null,
+        "text-input-length": 0
+      },
+      "command": "mobilenet_config_9 -m mobilenet -b 1 -i http -f mobilenet-results.csv --verbose-csv --measurement-interval=15000 --concurrency-range=1 --stability-percentage=10 --max-trials=20 --measurement-mode=count_windows --collect-metrics --metrics-url=http://localhost:8002/metrics --metrics-interval=1000",
+      "metrics": {
+        "perf_latency_avg": 3.901,
+        "perf_latency_p90": 4.055,
+        "perf_latency_p95": 4.127,
+        "perf_latency_p99": 4.45,
+        "perf_throughput": 256.252,
+        "perf_client_send_recv": 0.051,
+        "perf_client_response_wait": 3.847,
+        "perf_server_queue": 0.022,
+        "perf_server_compute_infer": 3.538,
+        "perf_server_compute_input": 0.023,
+        "perf_server_compute_output": 0.019,
+        "cpu_used_ram": 30.0,
+        "cpu_available_ram": 15176.0
+      }
+    },
+    {
+      "configuration": "mobilenet_config_9",
+      "parameters": {
+        "batch-size": 1,
+        "concurrency-range": 2,
+        "request-rate-range": null,
+        "periodic-concurrency-range": null,
+        "max-tokens": 0,
+        "request-period": null,
+        "text-input-length": 0
+      },
+      "command": "mobilenet_config_9 -m mobilenet -b 1 -i http -f mobilenet-results.csv --verbose-csv --measurement-interval=15000 --concurrency-range=2 --stability-percentage=10 --max-trials=20 --measurement-mode=count_windows --collect-metrics --metrics-url=http://localhost:8002/metrics --metrics-interval=1000",
+      "metrics": {
+        "perf_latency_avg": 4.728,
+        "perf_latency_p90": 5.764,
+        "perf_latency_p95": 5.919,
+        "perf_latency_p99": 6.231,
+        "perf_throughput": 422.452,
+        "perf_client_send_recv": 0.076,
+        "perf_client_response_wait": 4.647,
+        "perf_server_queue": 0.031,
+        "perf_server_compute_infer": 4.231,
+        "perf_server_compute_input": 0.027,
+        "perf_server_compute_output": 0.025,
+        "cpu_used_ram": 32.0,
+        "cpu_available_ram": 15172.0
+      }
+    },
+    {
+      "configuration": "mobilenet_config_9",
+      "parameters": {
+        "batch-size": 1,
+        "concurrency-range": 4,
+        "request-rate-range": null,
+        "periodic-concurrency-range": null,
+        "max-tokens": 0,
+        "request-period": null,
+        "text-input-length": 0
+      },
+      "command": "mobilenet_config_9 -m mobilenet -b 1 -i http -f mobilenet-results.csv --verbose-csv --measurement-interval=15000 --concurrency-range=4 --stability-percentage=10 --max-trials=20 --measurement-mode=count_windows --collect-metrics --metrics-url=http://localhost:8002/metrics --metrics-interval=1000",
+      "metrics": {
+        "perf_latency_avg": 8.861,
+        "perf_latency_p90": 9.803,
+        "perf_latency_p95": 10.207,
+        "perf_latency_p99": 11.06,
+        "perf_throughput": 450.718,
+        "perf_client_send_recv": 0.08,
+        "perf_client_response_wait": 8.774,
+        "perf_server_queue": 3.769,
+        "perf_server_compute_infer": 4.356,
+        "perf_server_compute_input": 0.035,
+        "perf_server_compute_output": 0.024,
+        "cpu_used_ram": 33.0,
+        "cpu_available_ram": 15166.0
+      }
+    },
+    {
+      "configuration": "mobilenet_config_9",
+      "parameters": {
+        "batch-size": 1,
+        "concurrency-range": 8,
+        "request-rate-range": null,
+        "periodic-concurrency-range": null,
+        "max-tokens": 0,
+        "request-period": null,
+        "text-input-length": 0
+      },
+      "command": "mobilenet_config_9 -m mobilenet -b 1 -i http -f mobilenet-results.csv --verbose-csv --measurement-interval=15000 --concurrency-range=8 --stability-percentage=10 --max-trials=20 --measurement-mode=count_windows --collect-metrics --metrics-url=http://localhost:8002/metrics --metrics-interval=1000",
+      "metrics": {
+        "perf_latency_avg": 17.694,
+        "perf_latency_p90": 19.346,
+        "perf_latency_p95": 20.326,
+        "perf_latency_p99": 27.04,
+        "perf_throughput": 450.815,
+        "perf_client_send_recv": 0.087,
+        "perf_client_response_wait": 17.599,
+        "perf_server_queue": 12.608,
+        "perf_server_compute_infer": 4.347,
+        "perf_server_compute_input": 0.039,
+        "perf_server_compute_output": 0.025,
+        "cpu_used_ram": 37.0,
+        "cpu_available_ram": 15166.0
+      }
+    },
+    {
+      "configuration": "mobilenet_config_9",
+      "parameters": {
+        "batch-size": 1,
+        "concurrency-range": 16,
+        "request-rate-range": null,
+        "periodic-concurrency-range": null,
+        "max-tokens": 0,
+        "request-period": null,
+        "text-input-length": 0
+      },
+      "command": "mobilenet_config_9 -m mobilenet -b 1 -i http -f mobilenet-results.csv --verbose-csv --measurement-interval=15000 --concurrency-range=16 --stability-percentage=10 --max-trials=20 --measurement-mode=count_windows --collect-metrics --metrics-url=http://localhost:8002/metrics --metrics-interval=1000",
+      "metrics": {
+        "perf_latency_avg": 35.151,
+        "perf_latency_p90": 37.673,
+        "perf_latency_p95": 38.441,
+        "perf_latency_p99": 39.842,
+        "perf_throughput": 452.426,
+        "perf_client_send_recv": 0.121,
+        "perf_client_response_wait": 35.023,
+        "perf_server_queue": 30.071,
+        "perf_server_compute_infer": 4.329,
+        "perf_server_compute_input": 0.04,
+        "perf_server_compute_output": 0.026,
+        "cpu_used_ram": 44.0,
+        "cpu_available_ram": 15172.0
+      }
+    },
+    {
+      "configuration": "mobilenet_config_10",
+      "parameters": {
+        "batch-size": 1,
+        "concurrency-range": 1,
+        "request-rate-range": null,
+        "periodic-concurrency-range": null,
+        "max-tokens": 0,
+        "request-period": null,
+        "text-input-length": 0
+      },
+      "command": "mobilenet_config_10 -m mobilenet -b 1 -i http -f mobilenet-results.csv --verbose-csv --measurement-interval=15000 --concurrency-range=1 --stability-percentage=10 --max-trials=20 --measurement-mode=count_windows --collect-metrics --metrics-url=http://localhost:8002/metrics --metrics-interval=1000",
+      "metrics": {
+        "perf_latency_avg": 5.073,
+        "perf_latency_p90": 5.234,
+        "perf_latency_p95": 5.312,
+        "perf_latency_p99": 5.427,
+        "perf_throughput": 197.27,
+        "perf_client_send_recv": 0.066,
+        "perf_client_response_wait": 5.004,
+        "perf_server_queue": 1.071,
+        "perf_server_compute_infer": 3.642,
+        "perf_server_compute_input": 0.021,
+        "perf_server_compute_output": 0.021,
+        "cpu_used_ram": 30.0,
+        "cpu_available_ram": 15175.0
+      }
+    },
+    {
+      "configuration": "mobilenet_config_10",
+      "parameters": {
+        "batch-size": 1,
+        "concurrency-range": 2,
+        "request-rate-range": null,
+        "periodic-concurrency-range": null,
+        "max-tokens": 0,
+        "request-period": null,
+        "text-input-length": 0
+      },
+      "command": "mobilenet_config_10 -m mobilenet -b 1 -i http -f mobilenet-results.csv --verbose-csv --measurement-interval=15000 --concurrency-range=2 --stability-percentage=10 --max-trials=20 --measurement-mode=count_windows --collect-metrics --metrics-url=http://localhost:8002/metrics --metrics-interval=1000",
+      "metrics": {
+        "perf_latency_avg": 8.652,
+        "perf_latency_p90": 8.882,
+        "perf_latency_p95": 9.091,
+        "perf_latency_p99": 12.558,
+        "perf_throughput": 230.588,
+        "perf_client_send_recv": 0.084,
+        "perf_client_response_wait": 8.563,
+        "perf_server_queue": 1.06,
+        "perf_server_compute_infer": 7.071,
+        "perf_server_compute_input": 0.052,
+        "perf_server_compute_output": 0.045,
+        "cpu_used_ram": 32.0,
+        "cpu_available_ram": 15169.0
+      }
+    },
+    {
+      "configuration": "mobilenet_config_10",
+      "parameters": {
+        "batch-size": 1,
+        "concurrency-range": 4,
+        "request-rate-range": null,
+        "periodic-concurrency-range": null,
+        "max-tokens": 0,
+        "request-period": null,
+        "text-input-length": 0
+      },
+      "command": "mobilenet_config_10 -m mobilenet -b 1 -i http -f mobilenet-results.csv --verbose-csv --measurement-interval=15000 --concurrency-range=4 --stability-percentage=10 --max-trials=20 --measurement-mode=count_windows --collect-metrics --metrics-url=http://localhost:8002/metrics --metrics-interval=1000",
+      "metrics": {
+        "perf_latency_avg": 13.331,
+        "perf_latency_p90": 13.792,
+        "perf_latency_p95": 14.021,
+        "perf_latency_p99": 14.443,
+        "perf_throughput": 299.802,
+        "perf_client_send_recv": 0.106,
+        "perf_client_response_wait": 13.218,
+        "perf_server_queue": 0.161,
+        "perf_server_compute_infer": 12.111,
+        "perf_server_compute_input": 0.106,
+        "perf_server_compute_output": 0.075,
+        "cpu_used_ram": 34.0,
+        "cpu_available_ram": 15164.0
+      }
+    },
+    {
+      "configuration": "mobilenet_config_10",
+      "parameters": {
+        "batch-size": 1,
+        "concurrency-range": 8,
+        "request-rate-range": null,
+        "periodic-concurrency-range": null,
+        "max-tokens": 0,
+        "request-period": null,
+        "text-input-length": 0
+      },
+      "command": "mobilenet_config_10 -m mobilenet -b 1 -i http -f mobilenet-results.csv --verbose-csv --measurement-interval=15000 --concurrency-range=8 --stability-percentage=10 --max-trials=20 --measurement-mode=count_windows --collect-metrics --metrics-url=http://localhost:8002/metrics --metrics-interval=1000",
+      "metrics": {
+        "perf_latency_avg": 15.586,
+        "perf_latency_p90": 19.39,
+        "perf_latency_p95": 20.051,
+        "perf_latency_p99": 21.425,
+        "perf_throughput": 510.853,
+        "perf_client_send_recv": 0.105,
+        "perf_client_response_wait": 15.472,
+        "perf_server_queue": 1.349,
+        "perf_server_compute_infer": 12.712,
+        "perf_server_compute_input": 0.115,
+        "perf_server_compute_output": 0.078,
+        "cpu_used_ram": 36.0,
+        "cpu_available_ram": 15135.0
+      }
+    },
+    {
+      "configuration": "mobilenet_config_10",
+      "parameters": {
+        "batch-size": 1,
+        "concurrency-range": 16,
+        "request-rate-range": null,
+        "periodic-concurrency-range": null,
+        "max-tokens": 0,
+        "request-period": null,
+        "text-input-length": 0
+      },
+      "command": "mobilenet_config_10 -m mobilenet -b 1 -i http -f mobilenet-results.csv --verbose-csv --measurement-interval=15000 --concurrency-range=16 --stability-percentage=10 --max-trials=20 --measurement-mode=count_windows --collect-metrics --metrics-url=http://localhost:8002/metrics --metrics-interval=1000",
+      "metrics": {
+        "perf_latency_avg": 29.503,
+        "perf_latency_p90": 34.786,
+        "perf_latency_p95": 36.1,
+        "perf_latency_p99": 40.621,
+        "perf_throughput": 539.875,
+        "perf_client_send_recv": 0.13,
+        "perf_client_response_wait": 29.365,
+        "perf_server_queue": 14.148,
+        "perf_server_compute_infer": 13.659,
+        "perf_server_compute_input": 0.171,
+        "perf_server_compute_output": 0.103,
+        "cpu_used_ram": 42.0,
+        "cpu_available_ram": 15107.0
+      }
+    },
+    {
+      "configuration": "mobilenet_config_11",
+      "parameters": {
+        "batch-size": 1,
+        "concurrency-range": 1,
+        "request-rate-range": null,
+        "periodic-concurrency-range": null,
+        "max-tokens": 0,
+        "request-period": null,
+        "text-input-length": 0
+      },
+      "command": "mobilenet_config_11 -m mobilenet -b 1 -i http -f mobilenet-results.csv --verbose-csv --measurement-interval=15000 --concurrency-range=1 --stability-percentage=10 --max-trials=20 --measurement-mode=count_windows --collect-metrics --metrics-url=http://localhost:8002/metrics --metrics-interval=1000",
+      "metrics": {
+        "perf_latency_avg": 5.073,
+        "perf_latency_p90": 5.254,
+        "perf_latency_p95": 5.325,
+        "perf_latency_p99": 5.465,
+        "perf_throughput": 196.943,
+        "perf_client_send_recv": 0.07,
+        "perf_client_response_wait": 4.999,
+        "perf_server_queue": 1.069,
+        "perf_server_compute_infer": 3.628,
+        "perf_server_compute_input": 0.026,
+        "perf_server_compute_output": 0.02,
+        "cpu_used_ram": 30.0,
+        "cpu_available_ram": 15171.0
+      }
+    },
+    {
+      "configuration": "mobilenet_config_11",
+      "parameters": {
+        "batch-size": 1,
+        "concurrency-range": 2,
+        "request-rate-range": null,
+        "periodic-concurrency-range": null,
+        "max-tokens": 0,
+        "request-period": null,
+        "text-input-length": 0
+      },
+      "command": "mobilenet_config_11 -m mobilenet -b 1 -i http -f mobilenet-results.csv --verbose-csv --measurement-interval=15000 --concurrency-range=2 --stability-percentage=10 --max-trials=20 --measurement-mode=count_windows --collect-metrics --metrics-url=http://localhost:8002/metrics --metrics-interval=1000",
+      "metrics": {
+        "perf_latency_avg": 8.018,
+        "perf_latency_p90": 8.347,
+        "perf_latency_p95": 8.427,
+        "perf_latency_p99": 9.167,
+        "perf_throughput": 249.247,
+        "perf_client_send_recv": 0.09,
+        "perf_client_response_wait": 7.923,
+        "perf_server_queue": 1.053,
+        "perf_server_compute_infer": 6.457,
+        "perf_server_compute_input": 0.048,
+        "perf_server_compute_output": 0.044,
+        "cpu_used_ram": 32.0,
+        "cpu_available_ram": 15167.0
+      }
+    },
+    {
+      "configuration": "mobilenet_config_11",
+      "parameters": {
+        "batch-size": 1,
+        "concurrency-range": 4,
+        "request-rate-range": null,
+        "periodic-concurrency-range": null,
+        "max-tokens": 0,
+        "request-period": null,
+        "text-input-length": 0
+      },
+      "command": "mobilenet_config_11 -m mobilenet -b 1 -i http -f mobilenet-results.csv --verbose-csv --measurement-interval=15000 --concurrency-range=4 --stability-percentage=10 --max-trials=20 --measurement-mode=count_windows --collect-metrics --metrics-url=http://localhost:8002/metrics --metrics-interval=1000",
+      "metrics": {
+        "perf_latency_avg": 13.271,
+        "perf_latency_p90": 13.954,
+        "perf_latency_p95": 14.107,
+        "perf_latency_p99": 15.467,
+        "perf_throughput": 300.505,
+        "perf_client_send_recv": 0.086,
+        "perf_client_response_wait": 13.177,
+        "perf_server_queue": 0.896,
+        "perf_server_compute_infer": 11.392,
+        "perf_server_compute_input": 0.113,
+        "perf_server_compute_output": 0.078,
+        "cpu_used_ram": 33.0,
+        "cpu_available_ram": 15160.0
+      }
+    },
+    {
+      "configuration": "mobilenet_config_11",
+      "parameters": {
+        "batch-size": 1,
+        "concurrency-range": 8,
+        "request-rate-range": null,
+        "periodic-concurrency-range": null,
+        "max-tokens": 0,
+        "request-period": null,
+        "text-input-length": 0
+      },
+      "command": "mobilenet_config_11 -m mobilenet -b 1 -i http -f mobilenet-results.csv --verbose-csv --measurement-interval=15000 --concurrency-range=8 --stability-percentage=10 --max-trials=20 --measurement-mode=count_windows --collect-metrics --metrics-url=http://localhost:8002/metrics --metrics-interval=1000",
+      "metrics": {
+        "perf_latency_avg": 16.898,
+        "perf_latency_p90": 24.643,
+        "perf_latency_p95": 26.176,
+        "perf_latency_p99": 26.959,
+        "perf_throughput": 471.414,
+        "perf_client_send_recv": 0.086,
+        "perf_client_response_wait": 16.803,
+        "perf_server_queue": 1.01,
+        "perf_server_compute_infer": 14.126,
+        "perf_server_compute_input": 0.147,
+        "perf_server_compute_output": 0.093,
+        "cpu_used_ram": 38.0,
+        "cpu_available_ram": 15132.0
+      }
+    },
+    {
+      "configuration": "mobilenet_config_11",
+      "parameters": {
+        "batch-size": 1,
+        "concurrency-range": 16,
+        "request-rate-range": null,
+        "periodic-concurrency-range": null,
+        "max-tokens": 0,
+        "request-period": null,
+        "text-input-length": 0
+      },
+      "command": "mobilenet_config_11 -m mobilenet -b 1 -i http -f mobilenet-results.csv --verbose-csv --measurement-interval=15000 --concurrency-range=16 --stability-percentage=10 --max-trials=20 --measurement-mode=count_windows --collect-metrics --metrics-url=http://localhost:8002/metrics --metrics-interval=1000",
+      "metrics": {
+        "perf_latency_avg": 25.109,
+        "perf_latency_p90": 36.525,
+        "perf_latency_p95": 38.697,
+        "perf_latency_p99": 43.274,
+        "perf_throughput": 635.478,
+        "perf_client_send_recv": 0.118,
+        "perf_client_response_wait": 24.982,
+        "perf_server_queue": 6.786,
+        "perf_server_compute_infer": 16.471,
+        "perf_server_compute_input": 0.261,
+        "perf_server_compute_output": 0.128,
+        "cpu_used_ram": 45.0,
+        "cpu_available_ram": 15051.0
+      }
+    }
+  ]
+}
