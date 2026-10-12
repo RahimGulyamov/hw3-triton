@@ -16,6 +16,12 @@ class TritonPythonModel:
         # Artifacts travel with each Model Analyzer config variant.
         self.model = torch.jit.load(str(Path(__file__).with_name("weights.pt")), map_location="cpu")
         self.model.eval()
+        # Warm TorchScript execution before Triton marks this instance ready.
+        # Initialization is separate from processing actual inference requests.
+        with torch.inference_mode():
+            warmup = torch.zeros((1, 3, 224, 224), dtype=torch.float32)
+            for _ in range(10):
+                self.model(warmup)
         labels = {
             "model": args["model_name"],
             "version": args["model_version"],

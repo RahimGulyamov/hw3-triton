@@ -13,10 +13,9 @@ client_protocol: http
 batch_sizes: [1]
 concurrency: [1, 2, 4, 8, 16]
 perf_analyzer_flags:
-  percentile: 99
-  measurement-interval: 5000
+  measurement-interval: 15000
   stability-percentage: 10
-  max-trials: 10
+  max-trials: 20
 triton_server_flags:
   allow_gpu_metrics: false
   strict_model_config: true
